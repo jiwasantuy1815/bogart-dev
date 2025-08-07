@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelectorAll(".gutenkit-video-scroller");e&&e.forEach(((e,o)=>{const r=e.querySelector(".gkit-block-video-wrap"),t=r.querySelector("video source");if(t){const o=t?.src,c=e?.dataset?.videoScroller,l=c?JSON.parse(c):{};if(!o)return;new ScrollyVideo({scrollyVideoContainer:r,src:o,...l})}}))}));

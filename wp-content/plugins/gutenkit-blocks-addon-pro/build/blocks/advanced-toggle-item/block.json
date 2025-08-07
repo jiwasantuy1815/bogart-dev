@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/advanced-toggle-item",
+  "parent": [
+    "gutenkit-pro/advanced-toggle"
+  ],
+  "version": "1.0.0",
+  "title": "Advanced Toggle Item",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit"
+  ],
+  "description": "Advanced Toggle Item for GutenKit Pro",
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "dummyBlockID": {
+      "type": "string"
+    }
+  },
+  "usesContext": [
+    "gutenkit/innerIndex"
+  ],
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js"
+}

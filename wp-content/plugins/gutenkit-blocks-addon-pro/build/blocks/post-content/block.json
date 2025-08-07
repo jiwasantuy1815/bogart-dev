@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/post-content",
+  "version": "1.0.0",
+  "title": "Post Content",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro"
+  ],
+  "description": "Post Content Block For Gutenkit Pro",
+  "ancestor": [
+    "gutenkit-pro/query-template",
+    "gutenkit-pro/advanced-search"
+  ],
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "QueryContentAlignmentDesktop": {
+      "type": "string",
+      "default": "left"
+    },
+    "QueryContentAlignmentTablet": {
+      "type": "string"
+    },
+    "QueryContentAlignmentMobile": {
+      "type": "string"
+    },
+    "QueryContentAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "QueryContentAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "QueryContentAlignmentLaptop": {
+      "type": "string"
+    },
+    "QueryContentAlignmentWideScreen": {
+      "type": "string"
+    },
+    "QueryContentColor": {
+      "type": "string"
+    },
+    "QueryContentTypography": {
+      "type": "object"
+    }
+  },
+  "usesContext": [
+    "postType",
+    "postId"
+  ],
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

@@ -1,0 +1,290 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/reading-progress-bar",
+  "version": "1.0.0",
+  "title": "Reading Progress Bar",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro"
+  ],
+  "description": "Reading Progress Bar Block For Gutenkit Pro.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "progressBarType": {
+      "type": "string",
+      "default": "horizontal"
+    },
+    "progressBarRelativeTo": {
+      "type": "string",
+      "default": "entire-page"
+    },
+    "progressBarDirection": {
+      "type": "string",
+      "default": "ltr"
+    },
+    "progressBarPercentagePosition": {
+      "type": "string",
+      "default": "ltr"
+    },
+    "progressBarPercentage": {
+      "type": "boolean",
+      "default": true
+    },
+    "progressBarColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#3B67FE"
+      }
+    },
+    "progressBarBorder": {
+      "type": "object"
+    },
+    "progressBarBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "progressBarBorderRadiusTablet": {
+      "type": "object"
+    },
+    "progressBarBorderRadiusMobile": {
+      "type": "object"
+    },
+    "progressBarBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "progressBarBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "progressBarBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "progressBarBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "progressTrackerBackgroundColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#eee"
+      }
+    },
+    "progressTrackerHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 15,
+        "unit": "px"
+      }
+    },
+    "progressTrackerHeightTablet": {
+      "type": "object"
+    },
+    "progressTrackerHeightMobile": {
+      "type": "object"
+    },
+    "progressTrackerHeightTabletLandscape": {
+      "type": "object"
+    },
+    "progressTrackerHeightMobileLandscape": {
+      "type": "object"
+    },
+    "progressTrackerHeightLaptop": {
+      "type": "object"
+    },
+    "progressTrackerHeightWideScreen": {
+      "type": "object"
+    },
+    "progressBarTrackerBorder": {
+      "type": "object"
+    },
+    "progressBarTrackerRadiusDesktop": {
+      "type": "object"
+    },
+    "progressBarTrackerRadiusTablet": {
+      "type": "object"
+    },
+    "progressBarTrackerRadiusMobile": {
+      "type": "object"
+    },
+    "progressBarTrackerRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "progressBarTrackerRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "progressBarTrackerRadiusLaptop": {
+      "type": "object"
+    },
+    "progressBarTrackerRadiusWideScreen": {
+      "type": "object"
+    },
+    "progressBarTrackerPaddingDesktop": {
+      "type": "object"
+    },
+    "progressBarTrackerPaddingTablet": {
+      "type": "object"
+    },
+    "progressBarTrackerPaddingMobile": {
+      "type": "object"
+    },
+    "progressBarTrackerPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "progressBarTrackerPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "progressBarTrackerPaddingLaptop": {
+      "type": "object"
+    },
+    "progressBarTrackerPaddingWideScreen": {
+      "type": "object"
+    },
+    "progressBarTrackerBoxShadow": {
+      "type": "object"
+    },
+    "circularProgressBarSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 100,
+        "unit": "px"
+      }
+    },
+    "circularProgressBarSizeTablet": {
+      "type": "object"
+    },
+    "circularProgressBarSizeMobile": {
+      "type": "object"
+    },
+    "circularProgressBarSizeTabletLandscape": {
+      "type": "object"
+    },
+    "circularProgressBarSizeMobileLandscape": {
+      "type": "object"
+    },
+    "circularProgressBarSizeLaptop": {
+      "type": "object"
+    },
+    "circularProgressBarSizeWideScreen": {
+      "type": "object"
+    },
+    "circularProgressBarWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 4,
+        "unit": "px"
+      }
+    },
+    "circularProgressBarWidthTablet": {
+      "type": "object"
+    },
+    "circularProgressBarWidthMobile": {
+      "type": "object"
+    },
+    "circularProgressBarWidthTabletLandscape": {
+      "type": "object"
+    },
+    "circularProgressBarWidthMobileLandscape": {
+      "type": "object"
+    },
+    "circularProgressBarWidthLaptop": {
+      "type": "object"
+    },
+    "circularProgressBarWidthWideScreen": {
+      "type": "object"
+    },
+    "circularProgressBarAlignDesktop": {
+      "type": "object",
+      "default": "center"
+    },
+    "circularProgressBarAlignTablet": {
+      "type": "object"
+    },
+    "circularProgressBarAlignMobile": {
+      "type": "object"
+    },
+    "circularProgressBarAlignTabletLandscape": {
+      "type": "object"
+    },
+    "circularProgressBarAlignMobileLandscape": {
+      "type": "object"
+    },
+    "circularProgressBarAlignLaptop": {
+      "type": "object"
+    },
+    "circularProgressBarAlignWideScreen": {
+      "type": "object"
+    },
+    "circularIndicatorColor": {
+      "type": "string",
+      "default": "#3B67FE"
+    },
+    "circularTrackerBackgroundColor": {
+      "type": "string",
+      "default": "#eee"
+    },
+    "circularProgressTrackerWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 4,
+        "unit": "px"
+      }
+    },
+    "circularProgressTrackerWidthTablet": {
+      "type": "object"
+    },
+    "circularProgressTrackerWidthMobile": {
+      "type": "object"
+    },
+    "circularProgressTrackerWidthTabletLandscape": {
+      "type": "object"
+    },
+    "circularProgressTrackerWidthMobileLandscape": {
+      "type": "object"
+    },
+    "circularProgressTrackerWidthLaptop": {
+      "type": "object"
+    },
+    "circularProgressTrackerWidthWideScreen": {
+      "type": "object"
+    },
+    "progressBarTextColor": {
+      "type": "string"
+    },
+    "progressBarTextTypography": {
+      "type": "string"
+    },
+    "progressBarTextShadow": {
+      "type": "string"
+    },
+    "progressBarSelector": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

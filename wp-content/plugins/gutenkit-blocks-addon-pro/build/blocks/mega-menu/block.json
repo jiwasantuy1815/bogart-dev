@@ -1,0 +1,139 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/mega-menu",
+  "version": "1.0.0",
+  "title": "Mega Menu",
+  "category": "gutenkit",
+  "allowedBlocks": [
+    "gutenkit/container"
+  ],
+  "keywords": [
+    "gkit",
+    "menu",
+    "megamenu",
+    "mega-menu",
+    "navigation",
+    "navigation-menu"
+  ],
+  "parent": [
+    "gutenkit/nav-menu-item"
+  ],
+  "description": "Mega menu block for gutenberg.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "megamenuPositionOrientation": {
+      "type": "string",
+      "default": "left"
+    },
+    "megamenuPositionFromLeftDesktop": {
+      "type": "object"
+    },
+    "megamenuPositionFromLeftTablet": {
+      "type": "object"
+    },
+    "megamenuPositionFromLeftMobile": {
+      "type": "object"
+    },
+    "megamenuPositionFromLeftTabletLandscape": {
+      "type": "object"
+    },
+    "megamenuPositionFromLeftMobileLandscape": {
+      "type": "object"
+    },
+    "megamenuPositionFromLeftLaptop": {
+      "type": "object"
+    },
+    "megamenuPositionFromLeftWideScreen": {
+      "type": "object"
+    },
+    "megamenuPositionFromRightDesktop": {
+      "type": "object"
+    },
+    "megamenuPositionFromRightTablet": {
+      "type": "object"
+    },
+    "megamenuPositionFromRightMobile": {
+      "type": "object"
+    },
+    "megamenuPositionFromRightTabletLandscape": {
+      "type": "object"
+    },
+    "megamenuPositionFromRightMobileLandscape": {
+      "type": "object"
+    },
+    "megamenuPositionFromRightLaptop": {
+      "type": "object"
+    },
+    "megamenuPositionFromRightWideScreen": {
+      "type": "object"
+    },
+    "megamenuWidthTypeDesktop": {
+      "type": "string",
+      "default": "full"
+    },
+    "megamenuWidthTypeTablet": {
+      "type": "string"
+    },
+    "megamenuWidthTypeMobile": {
+      "type": "string"
+    },
+    "megamenuWidthTypeTabletLandscape": {
+      "type": "string"
+    },
+    "megamenuWidthTypeMobileLandscape": {
+      "type": "string"
+    },
+    "megamenuWidthTypeLaptop": {
+      "type": "string"
+    },
+    "megamenuWidthTypeWideScreen": {
+      "type": "string"
+    },
+    "megamenuCustomWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 100,
+        "unit": "%"
+      }
+    },
+    "megamenuCustomWidthTablet": {
+      "type": "object"
+    },
+    "megamenuCustomWidthMobile": {
+      "type": "object"
+    },
+    "megamenuCustomWidthTabletLandscape": {
+      "type": "object"
+    },
+    "megamenuCustomWidthMobileLandscape": {
+      "type": "object"
+    },
+    "megamenuCustomWidthLaptop": {
+      "type": "object"
+    },
+    "megamenuCustomWidthWideScreen": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

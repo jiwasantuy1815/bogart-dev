@@ -1,0 +1,169 @@
+@import '@automattic/color-studio/dist/color-variables.scss';
+
+// Import Gutenberg variables
+@import '@wordpress/base-styles/_colors.scss';
+@import '@wordpress/base-styles/_variables.scss';
+@import '@wordpress/base-styles/_mixins.scss';
+@import '@wordpress/base-styles/_breakpoints.scss';
+@import '@wordpress/base-styles/_animations.scss';
+@import '@wordpress/base-styles/_z-index.scss';
+@import '@wordpress/base-styles/_default-custom-properties.scss';
+
+@import 'config/variables';
+@import 'config/mixins';
+
+.woocommerce-layout__header {
+	background: $studio-white;
+	box-sizing: border-box;
+	padding: 0;
+	width: 100%;
+
+	.woocommerce-layout__header-wrapper {
+		display: flex;
+		align-items: center;
+		min-height: $header-height;
+		padding-right: 20px;
+	}
+
+	@include breakpoint('<782px') {
+		flex-flow: row wrap;
+		top: $adminbar-height-mobile;
+		width: 100%;
+	}
+
+	.woocommerce-layout__header-breadcrumbs-wrapper {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	.woocommerce-layout__header-heading {
+		display: flex !important;
+		align-items: center;
+		padding: 0;
+		flex: 1 auto;
+		height: $header-height;
+		background: $studio-white;
+		font-weight: 600;
+		font-size: 14px;
+		margin: 0;
+	}
+
+	@include breakpoint('<600px') {
+		.links-area {
+			display: none;
+		}
+	}
+}
+html {
+  scroll-behavior: smooth;
+}
+#wpbody {
+	@include breakpoint('<600px') {
+		padding-top: 0;
+	}
+}
+
+.folded .woocommerce-layout__header {
+	width: calc(100% - 36px);
+
+	@include breakpoint('<782px') {
+		width: 100%;
+	}
+}
+
+.is-wp-toolbar-disabled .woocommerce-layout__header {
+	top: 0;
+}
+
+.has-woocommerce-navigation .woocommerce-layout__header {
+	left: 0;
+	width: 100%;
+}
+
+.woocommerce-page {
+
+	#contextual-help-link-wrap,
+	#screen-options-link-wrap {
+		margin-top: -1px;
+	}
+}
+
+.wp-responsive-open {
+	.woocommerce-layout__header {
+		margin-left: 2px;
+	}
+}
+
+.woocommerce-layout__header-heading {
+	margin: 0;
+	padding: 0;
+}
+
+body.toplevel_page_document_library_pro {
+	scroll-behavior: smooth;
+	#wpcontent {
+		padding-left: 0;
+	}
+
+	.woocommerce-layout__header,
+	.barn2-settings-api-content {
+		padding-left: 20px;
+	}
+
+	.nav-tab-wrapper {
+		margin-left: 20px;
+	}
+}
+
+.barn2-admin-notice {
+	margin-top: 20px !important;
+	margin-left: 16px !important;
+}
+
+.forminp-image_label {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 200px 200px 200px 200px;
+	margin-top: 25px;
+}
+
+@media (max-width: 820px) {
+    .form-table .forminp-image_label {
+        grid-template-columns: 200px 200px 200px;
+    }
+}
+@media (max-width: 1180px) {
+    .form-table .forminp-image_label {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 680px) {
+    .form-table .forminp-image_label {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 520px) {
+    .form-table .forminp-image_label {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+td:has(.barn2-color-size-field), td:has(.forminp-color) {
+	display: flex;
+	align-items: center;
+	.wp-color-result.button {
+		margin-bottom: 0!important;
+	}
+	.description {
+		margin-left: 10px;
+		margin-top: 0;
+
+		display: flex;
+		align-items: center;
+
+		img {
+			margin-right: 10px;
+		}
+	}
+}

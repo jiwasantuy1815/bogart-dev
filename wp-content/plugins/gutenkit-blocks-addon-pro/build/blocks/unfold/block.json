@@ -1,0 +1,403 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/unfold",
+  "version": "1.0.0",
+  "title": "Unfold",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro",
+    "unfold",
+    "fold"
+  ],
+  "description": "Unfold block for Gutenkit Pro.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "commonBackground": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#fff"
+      }
+    },
+    "gkitUnfoldContentTitle": {
+      "type": "string",
+      "default": "Add Your Title"
+    },
+    "gkitUnfoldContentExpandBtnText": {
+      "type": "string",
+      "default": "Read More"
+    },
+    "gkitUnfoldContentCollapseBtnText": {
+      "type": "string",
+      "default": "Read Less"
+    },
+    "gkitUnfoldContentExpandDirection": {
+      "type": "string",
+      "default": "below"
+    },
+    "gkitUnfoldContentWrapperWidthDesktop": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperWidthTablet": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperWidthMobile": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperWidthLaptop": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperWidthWideScreen": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperAlignment": {
+      "type": "string",
+      "default": "start"
+    },
+    "gkitUnfoldContentWrapperPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperPaddingTablet": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperPaddingMobile": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperMarginDesktop": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperMarginTablet": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperMarginMobile": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperMarginLaptop": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBorder": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBoxShadow": {
+      "type": "object"
+    },
+    "gkitUnfoldContentWrapperBackground": {
+      "type": "object"
+    },
+    "gkitUnfoldContentCollapseHeight": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 80
+      }
+    },
+    "gkitUnfoldContentTransitionDuration": {
+      "type": "string",
+      "default": "300"
+    },
+    "gkitUnfoldButtonAlignmentDesktop": {
+      "type": "string",
+      "default": "start"
+    },
+    "gkitUnfoldButtonAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitUnfoldButtonAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitUnfoldButtonAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "gkitUnfoldButtonAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "gkitUnfoldButtonAlignmentLaptop": {
+      "type": "string"
+    },
+    "gkitUnfoldButtonAlignmentWideScreen": {
+      "type": "string"
+    },
+    "gkitUnfoldWrapperOverlayColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "gradient",
+        "gradient": "linear-gradient(rgba(255, 255, 255, 0), white);"
+      }
+    },
+    "gkitUnfoldWrapperOverlayHeightDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "%",
+        "size": 100
+      }
+    },
+    "gkitUnfoldWrapperOverlayHeightTablet": {
+      "type": "object"
+    },
+    "gkitUnfoldWrapperOverlayHeightMobile": {
+      "type": "object"
+    },
+    "gkitUnfoldWrapperOverlayHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldWrapperOverlayHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldWrapperOverlayHeightLaptop": {
+      "type": "object"
+    },
+    "gkitUnfoldWrapperOverlayHeightWideScreen": {
+      "type": "object"
+    },
+    "gkitUnfoldTitleMarginDesktop": {
+      "type": "object"
+    },
+    "gkitUnfoldTitleMarginTablet": {
+      "type": "object"
+    },
+    "gkitUnfoldTitleMarginMobile": {
+      "type": "object"
+    },
+    "gkitUnfoldTitleMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldTitleMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldTitleMarginLaptop": {
+      "type": "object"
+    },
+    "gkitUnfoldTitleMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitUnfoldTitleAlignmentDesktop": {
+      "type": "string",
+      "default": "start"
+    },
+    "gkitUnfoldTitleAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitUnfoldTitleAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitUnfoldTitleAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "gkitUnfoldTitleAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "gkitUnfoldTitleAlignmentLaptop": {
+      "type": "string"
+    },
+    "gkitUnfoldTitleAlignmentWideScreen": {
+      "type": "string"
+    },
+    "gkitUnfoldTitleTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": {
+          "label": "Roboto",
+          "value": "Roboto"
+        },
+        "fontSize": {
+          "Desktop": {
+            "unit": "px",
+            "size": 23
+          }
+        },
+        "lineHeight": {
+          "Desktop": {
+            "unit": "px",
+            "size": 31
+          }
+        },
+        "fontWeight": {
+          "label": "500",
+          "value": 500
+        }
+      }
+    },
+    "gkitUnfoldTitleTextColor": {
+      "type": "string",
+      "default": "#101010"
+    },
+    "gkitUnfoldButtonPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonPaddingTablet": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonPaddingMobile": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": {
+          "label": "Roboto",
+          "value": "Roboto"
+        },
+        "fontWeight": {
+          "label": "500",
+          "value": 500
+        }
+      }
+    },
+    "gkitUnfoldTextShadow": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonNormalTextColor": {
+      "type": "string"
+    },
+    "gkitUnfoldButtonNormalBgColor": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonHoverTextColor": {
+      "type": "string"
+    },
+    "gkitUnfoldButtonHoverBgColor": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBorder": {
+      "type": "object",
+      "default": {
+        "bottom": {
+          "color": "#000000",
+          "style": "solid",
+          "width": "1px"
+        },
+        "left": {
+          "color": "#000000",
+          "style": "solid",
+          "width": "0px"
+        },
+        "right": {
+          "color": "#000000",
+          "style": "solid",
+          "width": "0px"
+        },
+        "top": {
+          "color": "#000000",
+          "style": "solid",
+          "width": "0px"
+        }
+      }
+    },
+    "gkitUnfoldButtonBorderHover": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBoxShadow": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitUnfoldButtonBorderRadiusWideScreen": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

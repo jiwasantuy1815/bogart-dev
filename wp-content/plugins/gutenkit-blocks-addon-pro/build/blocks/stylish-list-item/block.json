@@ -1,0 +1,130 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/stylish-list-item",
+  "version": "1.0.0",
+  "title": "Stylish List Item",
+  "category": "gutenkit",
+  "icon": "menu-alt3",
+  "keywords": [
+    "gkit",
+    "stylish",
+    "list",
+    "gutenkit"
+  ],
+  "description": "Stylish List Item for gutenkit.",
+  "parent": [
+    "gutenkit-pro/stylish-list"
+  ],
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "parentBlockAttributes": {
+      "type": "object"
+    },
+    "listItemTitle": {
+      "type": "string",
+      "default": "List Item"
+    },
+    "listItemDescription": {
+      "type": "string"
+    },
+    "listItemMediaType": {
+      "type": "string",
+      "default": "icon"
+    },
+    "listItemIcon": {
+      "type": "object",
+      "default": {
+        "title": "chevron-right",
+        "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>chevron-right</title>\n<path d=\"M8 32c-0.205 0-0.409-0.078-0.566-0.234-0.312-0.312-0.312-0.819 0-1.131l13.834-13.834-13.834-13.834c-0.312-0.312-0.312-0.819 0-1.131s0.819-0.312 1.131 0l14.4 14.4c0.312 0.312 0.312 0.819 0 1.131l-14.4 14.4c-0.156 0.156-0.361 0.234-0.566 0.234z\"></path>\n</svg>\n"
+      }
+    },
+    "listItemImage": {
+      "type": "object",
+      "default": {
+        "src": ""
+      }
+    },
+    "showBadge": {
+      "type": "boolean",
+      "default": false
+    },
+    "listBadgeText": {
+      "type": "string",
+      "default": "PRO"
+    },
+    "listItemBadge2nd": {
+      "type": "string",
+      "default": "NEW"
+    },
+    "listItemBadge3rd": {
+      "type": "string",
+      "default": "UPCOMING"
+    },
+    "listItemBadgeColor": {
+      "type": "string"
+    },
+    "listItemBadge2ndColor": {
+      "type": "string"
+    },
+    "listItemBadge3rdColor": {
+      "type": "string"
+    },
+    "listItemBadgeBgColor": {
+      "type": "object"
+    },
+    "listItemBadge2ndBgColor": {
+      "type": "object"
+    },
+    "listItemBadge3rdBgColor": {
+      "type": "object"
+    },
+    "listItemLink": {
+      "type": "object"
+    },
+    "addParticularStyle": {
+      "type": "boolean",
+      "default": false
+    },
+    "addParticulaBgColor": {
+      "type": "object"
+    },
+    "addParticularTextColor": {
+      "type": "string"
+    },
+    "addParticularBorderColor": {
+      "type": "string"
+    },
+    "addParticularIconBgColor": {
+      "type": "object"
+    }
+  },
+  "usesContext": [
+    "gutenkit-pro/isUseCounter",
+    "gutenkit-pro/isUseDivider",
+    "gutenkit-pro/gkitListType"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": [
+    "file:./index.css"
+  ]
+}

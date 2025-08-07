@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/post-excerpt",
+  "version": "1.0.0",
+  "title": "Post Excerpt",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro"
+  ],
+  "description": "Post Excerpt For Gutenkit Pro.",
+  "ancestor": [
+    "gutenkit-pro/query-template",
+    "gutenkit-pro/advanced-search"
+  ],
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "QueryExcerptLength": {
+      "type": "number",
+      "default": 100
+    },
+    "QueryExcerptBeforeText": {
+      "type": "string"
+    },
+    "QueryExcerptFallback": {
+      "type": "string",
+      "default": "No Excerpt Found"
+    },
+    "QueryExcerptAfterText": {
+      "type": "string"
+    },
+    "QueryExcerptAlignmentDesktop": {
+      "type": "string",
+      "default": "start"
+    },
+    "QueryExcerptAlignmentTablet": {
+      "type": "string"
+    },
+    "QueryExcerptAlignmentMobile": {
+      "type": "string"
+    },
+    "QueryExcerptAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "QueryExcerptAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "QueryExcerptAlignmentLaptop": {
+      "type": "string"
+    },
+    "QueryExcerptAlignmentWideScreen": {
+      "type": "string"
+    },
+    "QueryExcerptColor": {
+      "type": "string"
+    },
+    "QueryExcerptTypography": {
+      "type": "object"
+    }
+  },
+  "usesContext": [
+    "postType",
+    "postId",
+    "queryId"
+  ],
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

@@ -1,0 +1,3574 @@
+# Copyright (C) 2025 Barn2 Plugins
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Document Library Pro 2.1.0\n"
+"Report-Msgid-Bugs-To: https://barn2.com/support-center/\n"
+"Last-Translator: Barn2 Plugins <support@barn2.com>\n"
+"Language-Team: Barn2 Plugins <support@barn2.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-18T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: document-library-pro\n"
+
+#. Plugin Name of the plugin
+#: document-library-pro.php
+#: src/Admin/Page/Settings.php:72
+msgid "Document Library Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: document-library-pro.php
+msgid "https://barn2.com/wordpress-plugins/document-library-pro/"
+msgstr ""
+
+#. Description of the plugin
+#: document-library-pro.php
+msgid "Add documents and display them in a searchable document library with filters."
+msgstr ""
+
+#. Author of the plugin
+#: document-library-pro.php
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+#: document-library-pro.php
+msgid "https://barn2.com"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php:154
+msgid "[View page]"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php:615
+#: dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Custom_Settings_Fields.php:138
+#: src/Admin/Settings_Tab/Design.php:341
+#: src/Admin/Settings_Tab/Design.php:356
+#: src/Admin/Settings_Tab/Design.php:371
+#: src/Admin/Settings_Tab/Design.php:446
+#: src/Admin/Settings_Tab/Design.php:461
+#: src/Admin/Settings_Tab/Design.php:749
+#: src/Admin/Settings_Tab/Design.php:767
+#: src/Admin/Settings_Tab/Design.php:785
+msgid "Size"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_Util.php:70
+#: src/Admin/Page/Settings.php:103
+msgid "Documentation"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_Util.php:70
+#: src/Admin/Page/Settings.php:104
+msgid "Support"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:38
+#: src/Admin/Page/Settings.php:56
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: The plugin name
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:54
+#, php-format
+msgid "View %s documentation"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:55
+msgid "Docs"
+msgstr ""
+
+#. translators: 1: licence key link start, 2: license key link end
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Plugin_Updater.php:155
+#, php-format
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Plugin_Updater.php:210
+msgid "Auto-updates unavailable."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:59
+msgid "License key successfully activated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:59
+msgid "There was an error activating your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully deactivated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "The license key looks good!"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "There's a problem with your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:108
+#: src/Admin/Settings_Tab/General.php:103
+msgid "License key"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:110
+#: src/Admin/Wizard/Setup_Wizard.php:63
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:113
+msgid "License Key"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+#: dependencies/barn2/settings-api/src/Settings_Manager.php:248
+msgid "Check"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+#: dependencies/barn2/settings-api/src/Settings_Manager.php:248
+msgid "Activate"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+#: dependencies/barn2/settings-api/src/Settings_Manager.php:248
+msgid "Deactivate"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:140
+msgid "License key deactivated."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:84
+#, php-format
+msgid "Thank you for installing %1$s. To get started, please %2$s enter your license key%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:109
+#, php-format
+msgid "Your license key for %1$s has expired. %2$sClick here to renew for 20%% discount%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:134
+#, php-format
+msgid "You no longer have a valid license for %1$s. Please %2$spurchase a new license key%3$s to continue using the plugin."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:162
+#, php-format
+msgid "%1$s - your site has moved to a new domain. Please %2$sreactivate your license key%3$s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/EDD_Licensing.php:168
+msgid "An error has occurred, please try again."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:91
+msgid "Your license key is active."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:111
+msgid "Please enter your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:113
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:391
+msgid "Your license key is invalid."
+msgstr ""
+
+#. translators: 1: account page link start, 2: account page link end
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:335
+#, php-format
+msgid "Invalid license key - please check your order confirmation email or %1$sAccount%2$s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:341
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:344
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:347
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:351
+msgid "Your license key is not valid for this plugin."
+msgstr ""
+
+#. translators: %s: The number of sites the license is activated on
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:357
+#, php-format
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: The sites active description, e.g. '2 sites active'
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:360
+#, php-format
+msgid "Your license key has reached its activation limit (%s)."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:361
+#: dependencies/barn2/barn2-lib/src/Util.php:35
+#: src/Admin/Wizard/Steps/Filters.php:64
+#: src/Admin/Wizard/Steps/Layout.php:68
+#: src/Admin/Wizard/Steps/Table.php:48
+#: src/Util/Util.php:363
+msgid "Read more"
+msgstr ""
+
+#. translators: support for RTL, 1: the license error, 2: a link
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:363
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:381
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %s: The license expiry date
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:376
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:379
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:582
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:586
+msgid "Your license key has expired."
+msgstr ""
+
+#. translators: 1: purchase link start, 2: purchase link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:592
+#, php-format
+msgid "Your license key has been disabled. Please %1$spurchase a new license key%2$s to continue using the plugin."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: PHP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:103
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:112
+#, php-format
+msgid "%1$s requires PHP %2$s or greater. Please update the PHP version used by your web server."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:136
+#, php-format
+msgid "%1$s requires WordPress %2$s or greater. Please update your WordPress installation."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: Update Core <a> tag open. %3$s: <a> tag close. %4$s: WP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:146
+#, php-format
+msgid "%1$s requires WordPress %4$s or greater. Please %2$supdate%3$s your WordPress installation."
+msgstr ""
+
+#. translators: %1$s: Plugin name.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:169
+#, php-format
+msgid "%1$s requires WooCommerce to be installed and active."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce link. %3$s Install/Upgrade/Activate WooCommerce link.
+#. translators: %1$s: Plugin name. %2$s: EDD link. %3$s Install/Upgrade/Activate EDD link.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:175
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:224
+#, php-format
+msgid "%1$s requires %2$s to be installed and active.%3$s"
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:189
+#, php-format
+msgid "%1$s requires WooCommerce %2$s or greater. Please update your WooCommerce setup first."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce link. %3$s WooCommerce version required. %4$s Install/Upgrade/Activate WooCommerce link.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:195
+#, php-format
+msgid "%1$s requires %2$s %3$s or greater. Please %4$s your WooCommerce setup first."
+msgstr ""
+
+#. translators: %1$s: Plugin name.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:218
+#, php-format
+msgid "%1$s requires Easy Digital Downloads to be installed and active."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Simple_Plugin.php:102
+#, php-format
+msgid "%1$s could not complete its first activation because the following error occurred:<br>%2$s"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:102
+#, php-format
+msgid "%1$s database update required"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:102
+#, php-format
+msgid "<p>%1$s has been updated! To keep things running smoothly, we have to update your database to the newest version. The database update process runs in the background and may take a little while, so please be patient.</p>"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:102
+#, php-format
+msgid "%1$s database update done"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:102
+#, php-format
+msgid "<p>%1$s database update complete. Thank you for updating to the latest version!</p>"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:288
+#: src/Admin/Auto_Thumbnail_Handler.php:157
+msgid "You do not have sufficient permissions to perform this action."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:292
+msgid "An upgrade is already in progress. Please wait until it completes."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Util.php:552
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Util.php:580
+msgid "You don't have permission to activate the plugin."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Plugin_Promo.php:96
+#: dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Plugin_Promo.php:98
+#: dependencies/barn2/settings-api/src/Settings_Manager.php:248
+msgid "Save changes"
+msgstr ""
+
+#: dependencies/barn2/settings-api/src/Rest_Api.php:131
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: dependencies/barn2/settings-api/src/Rest_Api.php:154
+msgid "Something went wrong during validation. Please try again."
+msgstr ""
+
+#: dependencies/barn2/settings-api/src/Settings_Manager.php:248
+msgid "Page not found"
+msgstr ""
+
+#: dependencies/barn2/settings-api/src/Settings_Manager.php:248
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: dependencies/barn2/settings-api/src/Settings_Manager.php:248
+msgid "Go back"
+msgstr ""
+
+#: dependencies/barn2/settings-api/src/Settings_Manager.php:248
+msgid "Your settings have been saved."
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: dependencies/barn2/settings-api/src/Uninstall.php:48
+#, php-format
+msgid "Uninstalling %s"
+msgstr ""
+
+#: dependencies/barn2/settings-api/src/Uninstall.php:49
+msgid "Delete data on uninstall"
+msgstr ""
+
+#: dependencies/barn2/settings-api/src/Uninstall.php:49
+#, php-format
+msgid "Permanently delete all %s settings and data when uninstalling the plugin"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:151
+msgid "Could not find the appropriate step."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:196
+msgid "Please enter a license key."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:199
+msgid "Invalid action requested."
+msgstr ""
+
+#. translators: %s: The name of the plugin.
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:344
+#, php-format
+msgid "%s setup wizard"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:434
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:507
+#, php-format
+msgid "Warning: This will overwrite your existing settings for %s. Are you sure you want to continue?"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:484
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:492
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:541
+#: src/Admin/Page/Settings.php:108
+msgid "Setup wizard"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:487
+msgid "If you need to access the setup wizard again, please click on the button below."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:23
+#: src/Admin/Wizard/Steps/Upsell.php:22
+msgid "More"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:24
+#: src/Admin/Wizard/Steps/Upsell.php:24
+msgid "Extra features"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:25
+msgid "Enhance your site with these fantastic plugins from Barn2."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Ready.php:23
+#: src/Admin/Wizard/Steps/Completed.php:25
+msgid "Ready"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Ready.php:24
+#: src/Admin/Wizard/Steps/Completed.php:26
+msgid "Setup Complete"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Welcome.php:25
+#: dependencies/barn2/setup-wizard/src/Steps/Welcome_Free.php:24
+#: src/Admin/Wizard/Steps/License_Verification.php:24
+msgid "Welcome"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Util.php:28
+msgid "Select an option"
+msgstr ""
+
+#: src/Admin/Admin.php:110
+msgid "Select File"
+msgstr ""
+
+#: src/Admin/Admin.php:111
+#: src/Admin/Metabox/Document_Link.php:153
+#: src/Admin/Metabox/Document_Link.php:161
+#: src/Admin/Metabox/Document_Link.php:172
+msgid "Add File"
+msgstr ""
+
+#: src/Admin/Admin.php:112
+#: src/Admin/Metabox/Document_Link.php:157
+#: src/Admin/Metabox/Document_Link.php:165
+msgid "Replace File"
+msgstr ""
+
+#: src/Admin/Admin.php:113
+#: src/Admin/Metabox/Document_Link.php:169
+msgid "Add New File"
+msgstr ""
+
+#. translators: %s is the name of a file
+#: src/Admin/Admin.php:115
+#, php-format
+msgid "This will permanently remove the file from the Media Library. Are you sure you want to remove \"%s\"?"
+msgstr ""
+
+#: src/Admin/Admin.php:116
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: src/Admin/Admin.php:200
+#: src/Admin/Media_Library.php:55
+msgid "All types"
+msgstr ""
+
+#: src/Admin/Admin.php:201
+#: src/Admin/Media_Library.php:56
+#: src/Admin/Menu.php:42
+#: src/Admin/Menu.php:43
+#: src/Post_Type.php:83
+msgid "Documents"
+msgstr ""
+
+#: src/Admin/Ajax_Handler.php:45
+msgid "Insufficient privileges to import documents."
+msgstr ""
+
+#: src/Admin/Ajax_Handler.php:145
+#: src/Admin/Ajax_Handler.php:165
+#: src/Admin/Importer/DND_Controller.php:119
+msgid "Dismiss"
+msgstr ""
+
+#. translators: %s: Name of the file that failed to upload.
+#: src/Admin/Ajax_Handler.php:149
+#, php-format
+msgid "&#8220;%s&#8221; document has failed to be created."
+msgstr ""
+
+#. translators: %s: Name of the file that failed to upload.
+#. translators: %s: File name.
+#: src/Admin/Ajax_Handler.php:169
+#: src/Admin/Importer/DND_Controller.php:123
+#, php-format
+msgid "&#8220;%s&#8221; has failed to upload."
+msgstr ""
+
+#: src/Admin/Ajax_Handler.php:198
+msgctxt "media item"
+msgid "Edit"
+msgstr ""
+
+#: src/Admin/Ajax_Handler.php:200
+msgctxt "media item"
+msgid "Success"
+msgstr ""
+
+#: src/Admin/Auto_Thumbnail_Handler.php:92
+msgid "<strong>Document Library Pro</strong> supports automatic featured images for documents linked to image and PDF files. If you'd like to process existing documents, please run the batch migration."
+msgstr ""
+
+#: src/Admin/Auto_Thumbnail_Handler.php:94
+msgid "<strong>Document Library Pro</strong> supports automatic featured images for documents linked to image files. If you'd like to process existing documents, please run the batch migration."
+msgstr ""
+
+#: src/Admin/Auto_Thumbnail_Handler.php:97
+msgid "Run batch migration"
+msgstr ""
+
+#: src/Admin/Auto_Thumbnail_Handler.php:128
+msgid "The <strong>Document Library Pro</strong> batch automatic featured images process is in progress."
+msgstr ""
+
+#: src/Admin/Document_List.php:86
+msgid "Document Author"
+msgstr ""
+
+#. translators: %s: Taxonomy label
+#: src/Admin/Document_List.php:127
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: src/Admin/Document_List.php:178
+#: src/Integration/Posts_Table_Pro.php:271
+#: src/Util/Options.php:855
+msgid "Downloads"
+msgstr ""
+
+#: src/Admin/Document_List.php:242
+#: src/Admin/Document_List.php:259
+msgid "Expired"
+msgstr ""
+
+#. translators: 1: Post date, 2: Post time.
+#. translators: Publish box expiry date string. 1: Date, 2: Time. See https://www.php.net/manual/datetime.format.php
+#: src/Admin/Document_List.php:278
+#: src/Admin/Metabox/Document_Expiry.php:126
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. translators: Post date format. See https://www.php.net/manual/datetime.format.php
+#: src/Admin/Document_List.php:280
+msgid "Y/m/d"
+msgstr ""
+
+#. translators: Post time format. See https://www.php.net/manual/datetime.format.php
+#: src/Admin/Document_List.php:282
+msgid "g:i a"
+msgstr ""
+
+#. translators: %s: Number of expired documents.
+#: src/Admin/Document_List.php:298
+#, php-format
+msgctxt "documents"
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Importer/CSV_Controller.php:115
+msgid "Upload CSV file"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:120
+msgid "Column mapping"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:125
+#: src/Admin/Page/Import.php:43
+msgid "Import"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:130
+msgid "Done!"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:190
+msgid "Import Documents"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:292
+msgid "Import documents from a CSV file"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:293
+msgid "This tool allows you to import document data to your site from a CSV or TXT file."
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:301
+msgid "Choose a CSV file from your computer:"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:309
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr ""
+
+#. translators: %s: maximum upload size
+#: src/Admin/Importer/CSV_Controller.php:323
+#, php-format
+msgid "Maximum size: %s"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:335
+msgid "Alternatively, enter the path to a CSV file on your server:"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:344
+msgid "CSV Delimiter"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:348
+msgid "Use previous column mapping preferences?"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:370
+msgid "Hide advanced options"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:370
+msgid "Show advanced options"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:371
+msgid "Continue"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:409
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:414
+#: src/Admin/Importer/CSV_Controller.php:450
+#: src/Admin/Importer/CSV_Controller.php:567
+#: src/Admin/Importer/CSV_Importer.php:141
+msgid "Invalid file type. The importer supports CSV and TXT file formats."
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:457
+msgid "Please upload or provide the link to a valid CSV file."
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:477
+msgid "The file is empty or using a different encoding than UTF-8, please try again with a new file."
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:481
+msgid "Upload a new file"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:494
+msgid "Map CSV fields to documents"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Importer/CSV_Controller.php:499
+#, php-format
+msgid "Select fields from your CSV file to map against documents fields, or to ignore during import. %1$sRead more%2$s"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:511
+msgid "Column name"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:512
+msgid "Map to field"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:522
+msgid "Sample:"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:528
+msgid "Do not import"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:549
+msgid "Run the importer"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:573
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:609
+msgid "Importing"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:610
+msgid "Your documents are now being imported..."
+msgstr ""
+
+#. translators: %d: documents count
+#: src/Admin/Importer/CSV_Controller.php:641
+#, php-format
+msgid "%s document imported"
+msgid_plural "%s documents imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: documents count
+#: src/Admin/Importer/CSV_Controller.php:649
+#, php-format
+msgid "%s document was skipped"
+msgid_plural "%s documents were skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: documents count
+#: src/Admin/Importer/CSV_Controller.php:657
+#, php-format
+msgid "Failed to import %s document"
+msgid_plural "Failed to import %s documents"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Importer/CSV_Controller.php:663
+msgid "View import log"
+msgstr ""
+
+#. translators: %s: File name
+#: src/Admin/Importer/CSV_Controller.php:669
+#, php-format
+msgid "File uploaded: %s"
+msgstr ""
+
+#. translators: %d: import results
+#: src/Admin/Importer/CSV_Controller.php:675
+msgid "Import complete!"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:682
+#: src/Admin/Settings_Tab/Display.php:157
+#: src/Admin/Wizard/Steps/Table.php:54
+msgid "Document"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:683
+msgid "Reason for failure"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:716
+msgid "View documents"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:751
+#: src/Admin/Importer/CSV_Controller.php:865
+msgid "Name"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:752
+#: src/Admin/Importer/CSV_Controller.php:866
+msgid "Published"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:753
+#: src/Admin/Importer/CSV_Controller.php:867
+#: src/Admin/Settings_Tab/General.php:144
+#: src/Admin/Settings_Tab/Single_Document.php:162
+#: src/Submissions/Frontend_Form.php:157
+#: src/Util/Options.php:283
+msgid "Excerpt"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:754
+#: src/Admin/Importer/CSV_Controller.php:868
+#: src/Admin/Settings_Tab/General.php:140
+#: src/Posts_Table_Pro/Util/Columns_Util.php:42
+#: src/Submissions/Frontend_Form.php:151
+#: src/Util/Options.php:844
+msgid "Content"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:755
+#: src/Admin/Menu.php:65
+#: src/Admin/Menu.php:66
+#: src/Admin/Settings_Tab/Display.php:221
+#: src/Admin/Settings_Tab/Single_Document.php:125
+#: src/Admin/Wizard/Steps/Grid.php:78
+#: src/Integration/Posts_Table_Pro.php:247
+#: src/Posts_Table_Pro/Util/Columns_Util.php:62
+#: src/Taxonomies.php:58
+#: src/Util/Options.php:271
+#: src/Util/Options.php:850
+#: src/Util/Options.php:888
+msgid "Categories"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:756
+#: src/Admin/Menu.php:76
+#: src/Admin/Menu.php:77
+#: src/Admin/Settings_Tab/Single_Document.php:129
+#: src/Integration/Posts_Table_Pro.php:251
+#: src/Posts_Table_Pro/Util/Columns_Util.php:66
+#: src/Submissions/Frontend_Form.php:196
+#: src/Taxonomies.php:151
+#: src/Util/Options.php:272
+#: src/Util/Options.php:851
+#: src/Util/Options.php:889
+msgid "Tags"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:757
+#: src/Admin/Importer/CSV_Controller.php:872
+msgid "Document Authors"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:758
+#: src/Admin/Importer/CSV_Controller.php:873
+#: src/Admin/Metabox/Document_Link.php:82
+msgid "File URL"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:759
+#: src/Admin/Importer/CSV_Controller.php:874
+msgid "Direct URL"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:760
+#: src/Admin/Importer/CSV_Controller.php:875
+msgid "Featured Image URL"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:761
+#: src/Admin/Importer/CSV_Controller.php:876
+#: src/Admin/Metabox/File_Size.php:45
+#: src/Integration/Posts_Table_Pro.php:263
+#: src/Util/Options.php:848
+msgid "File Size"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:762
+#: src/Admin/Importer/CSV_Controller.php:878
+msgid "Expiry"
+msgstr ""
+
+#. translators: %s: Meta key
+#: src/Admin/Importer/CSV_Controller.php:774
+#, php-format
+msgid "Custom Field: %s"
+msgstr ""
+
+#. translators: %s: Taxonomy name
+#: src/Admin/Importer/CSV_Controller.php:776
+#, php-format
+msgid "Taxonomies: %s"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:869
+msgid "Categories (comma or pipe separated)"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:870
+msgid "Tags (comma or pipe separated)"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:871
+msgid "Tags (space separated)"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:877
+msgid "Position"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:884
+#, php-format
+msgid "Import as meta data (%s)"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:891
+#, php-format
+msgid "Import as taxonnomy (%s)"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:899
+#: src/Admin/Settings_Tab/Display.php:233
+#: src/Admin/Settings_Tab/General.php:156
+#: src/Admin/Settings_Tab/Single_Document.php:149
+#: src/Admin/Wizard/Steps/Grid.php:93
+#: src/Util/Options.php:277
+msgid "Custom fields"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:920
+#, php-format
+msgid "%s (comma or pipe separated)"
+msgstr ""
+
+#: src/Admin/Importer/CSV_Controller.php:924
+msgid "Taxonomies"
+msgstr ""
+
+#. translators: %d: product ID
+#: src/Admin/Importer/CSV_Importer.php:865
+#, php-format
+msgid "ID %d"
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:19
+msgid "Drag and drop file upload"
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:21
+msgid "Upload one or more files, and each one will automatically be added as a new document. The filename will be used as the document title."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:28
+msgid "Drop files to upload"
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:29
+msgid "or"
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:31
+msgid "Select Files"
+msgstr ""
+
+#. translators: %s: Maximum allowed file size.
+#: src/Admin/Importer/DND_Controller.php:40
+#, php-format
+msgid "Maximum upload file size: %s."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:97
+msgid "You have attempted to queue too many files."
+msgstr ""
+
+#. translators: %s: File name.
+#: src/Admin/Importer/DND_Controller.php:99
+#, php-format
+msgid "%s exceeds the maximum upload size for this site."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:100
+msgid "This file is empty. Please try another."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:101
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:102
+msgid "This file is not an image. Please try another."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:103
+msgid "Memory exceeded. Please try another smaller file."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:104
+msgid "This is larger than the maximum size. Please try another."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:105
+msgid "An error occurred in the upload. Please try again later."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:106
+msgid "There was a configuration error. Please contact the server administrator."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:107
+msgid "You may only upload 1 file."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:108
+msgid "Unexpected response from the server. The file may have been uploaded successfully. Check in the Media Library or reload the page."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:109
+msgid "Post-processing of the image failed likely because the server is busy or does not have enough resources. Uploading a smaller image may help. Suggested maximum size is 2500 pixels."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:110
+msgid "Upload failed."
+msgstr ""
+
+#. translators: 1: Opening link tag, 2: Closing link tag.
+#: src/Admin/Importer/DND_Controller.php:112
+#, php-format
+msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
+msgstr ""
+
+#. translators: %s: File name.
+#: src/Admin/Importer/DND_Controller.php:114
+#, php-format
+msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:115
+msgid "IO error."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:116
+msgid "Security error."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:117
+msgid "File canceled."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:118
+msgid "Upload stopped."
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:120
+msgid "Crunching&hellip;"
+msgstr ""
+
+#: src/Admin/Importer/DND_Controller.php:121
+msgid "moved to the Trash."
+msgstr ""
+
+#: src/Admin/Media_Library.php:68
+msgid "Add to document library"
+msgstr ""
+
+#. translators: %d: Created documents count
+#: src/Admin/Media_Library.php:147
+#, php-format
+msgid "%d document successfully created."
+msgid_plural "%d documents successfully created."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Documents wp-admin list url
+#: src/Admin/Media_Library.php:149
+#, php-format
+msgid " <a href=\"%s\">View documents</a>"
+msgstr ""
+
+#. translators: %d: Failed documents count
+#: src/Admin/Media_Library.php:169
+#, php-format
+msgid "%d document could not be created."
+msgid_plural "%d documents could not be created."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Menu.php:54
+#: src/Admin/Menu.php:55
+#: src/Post_Type.php:62
+msgid "Add New"
+msgstr ""
+
+#: src/Admin/Menu.php:91
+#: src/Admin/Menu.php:92
+#: src/Admin/Settings_Tab/Display.php:225
+#: src/Admin/Settings_Tab/General.php:160
+#: src/Submissions/Frontend_Form.php:204
+#: src/Taxonomies.php:105
+#: src/Util/Options.php:273
+msgid "Authors"
+msgstr ""
+
+#. translators: Publish box expiry date format, see https://www.php.net/manual/datetime.format.php
+#: src/Admin/Metabox/Document_Expiry.php:128
+msgctxt "publish box expiry date format"
+msgid "M j, Y"
+msgstr ""
+
+#. translators: Publish box expiry time format, see https://www.php.net/manual/datetime.format.php
+#: src/Admin/Metabox/Document_Expiry.php:130
+msgctxt "publish box expiry time format"
+msgid "H:i"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Expiry.php:142
+#: assets/js/admin/dlp-document-expiry.js:1
+msgid "Never expires"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Expiry.php:144
+msgid "Expired on:"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Expiry.php:146
+#: assets/js/admin/dlp-document-expiry.js:1
+msgid "Expires on:"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Expiry.php:158
+msgid "Edit"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: src/Admin/Metabox/Document_Expiry.php:162
+msgid "Edit expiry date and time"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: src/Admin/Metabox/Document_Expiry.php:171
+msgid "Expiry date and time"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: src/Admin/Metabox/Document_Expiry.php:230
+msgid "Day"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: src/Admin/Metabox/Document_Expiry.php:238
+msgid "Year"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: src/Admin/Metabox/Document_Expiry.php:246
+msgid "Hour"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: src/Admin/Metabox/Document_Expiry.php:254
+msgid "Month"
+msgstr ""
+
+#. translators: 1: Month number (01, 02, etc.), 2: Month abbreviation.
+#: src/Admin/Metabox/Document_Expiry.php:263
+#, php-format
+msgid "%1$s-%2$s"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: src/Admin/Metabox/Document_Expiry.php:271
+msgid "Minute"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Expiry.php:288
+#: src/Admin/Metabox/Document_Link.php:215
+#: templates/admin/html-version-history.php:144
+msgid "OK"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Expiry.php:289
+#: src/Admin/Metabox/Document_Link.php:216
+#: templates/admin/html-version-history.php:145
+msgid "Cancel"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Expiry.php:290
+msgid "Clear"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Link.php:50
+msgid "File"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Link.php:76
+msgid "Upload a file or add a URL where the document is located:"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Link.php:80
+#: src/Submissions/Frontend_Form.php:167
+msgid "None"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Link.php:81
+msgid "File upload"
+msgstr ""
+
+#. translators: %s: File name
+#: src/Admin/Metabox/Document_Link.php:94
+#, php-format
+msgid "Remove file: %s"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Link.php:212
+#: src/Admin/Metabox/Document_Link.php:221
+#: src/Admin/Metabox/Document_Link.php:232
+#: templates/admin/html-version-history.php:98
+#: templates/admin/html-version-history.php:130
+msgid "version"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Link.php:224
+#: src/Admin/Metabox/Document_Link.php:235
+#: templates/admin/html-version-history.php:104
+#: templates/admin/html-version-history.php:138
+msgid "size"
+msgstr ""
+
+#: src/Admin/Metabox/Document_Link.php:227
+#: src/Admin/Metabox/Document_Link.php:238
+#: templates/admin/html-version-history.php:122
+msgid "uploaded"
+msgstr ""
+
+#: src/Admin/Page/Import.php:42
+msgid "Document Library Importing"
+msgstr ""
+
+#: src/Admin/Page/Import.php:57
+msgid "Import documents"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Page/Import.php:63
+#, php-format
+msgid " The following options allow you to bulk import documents into the document library, either by uploading files directly or by importing a CSV file with additional information about your documents. %1$sRead documentation%2$s"
+msgstr ""
+
+#: src/Admin/Page/Import.php:76
+msgid "CSV upload"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Page/Import.php:82
+#, php-format
+msgid "Upload a CSV file in the correct format, and a new document will be created for each row. %1$sRead more%2$s"
+msgstr ""
+
+#: src/Admin/Page/Import.php:90
+#: src/Admin/Page/Import_CSV.php:80
+msgid "Import CSV"
+msgstr ""
+
+#: src/Admin/Page/Import_CSV.php:57
+msgid "Document Library Pro documents (CSV)"
+msgstr ""
+
+#: src/Admin/Page/Import_CSV.php:58
+msgid "Import documents to your site via a csv file."
+msgstr ""
+
+#: src/Admin/Page/Protect.php:57
+#: src/Admin/Page/Protect.php:58
+msgid "Protect"
+msgstr ""
+
+#: src/Admin/Page/Protect.php:72
+msgid "Create private document libraries with Password Protected Categories"
+msgstr ""
+
+#. translators: %1: Document Library Pro link start, %2: Document Library Pro link end
+#: src/Admin/Page/Protect.php:79
+#, php-format
+msgid "Do you need to control who can access your documents? You can easily do this with the %1$sPassword Protected Categories%2$s plugin"
+msgstr ""
+
+#: src/Admin/Page/Protect.php:82
+msgid "Password Protected Categories lets you restrict access to any or all of your document categories - either to specific users, roles, or to anyone with the password."
+msgstr ""
+
+#: src/Admin/Page/Settings.php:55
+msgid "Document Library Settings"
+msgstr ""
+
+#: src/Admin/Page_List.php:44
+msgid "Document Library Page"
+msgstr ""
+
+#: src/Admin/Page_List.php:48
+msgid "Document Search Results Page"
+msgstr ""
+
+#: src/Admin/Settings_Controller.php:116
+msgid "You need to select at least one option for grid content."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:58
+msgid "Advanced"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:76
+msgid "The following options allow you to configure advanced settings for your document libraries."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:81
+msgid "Content length"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:82
+msgid "Enter -1 to display the full content."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:92
+msgid "Shortcodes and media"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:98
+msgid "Allow shortcodes and media files in the document library content"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:103
+msgid "Text links"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:105
+msgid "Open text-based links in the document library and single document page in a new tab. This will not affect the behavior of Download buttons, which you can configure on the 'Display' page."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:109
+msgid "Open text links in a new tab"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:113
+msgid "Image lightbox"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:120
+msgid "Display images in a lightbox when opened"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:142
+msgid "Table options"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:147
+msgid "Image size"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:148
+msgid "Enter WxH in pixels (e.g. 80x80)."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:156
+#: src/Admin/Wizard/Steps/Table.php:65
+msgid "Lazy load"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:158
+msgid "Enable this if you have many documents or experience slow page load times."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:159
+msgid "Warning: Lazy load limits the searching and sorting features in the document library. Only use it if you definitely need it."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:164
+msgid "Load the documents table one page at a time"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:168
+msgid "Accent-insensitive search"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:170
+msgid "Enable this to make searches match accented characters with their non-accented counterparts. For example, searching for \"Zurich\" will also match \"Zürich\" in the table."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:183
+msgid "Make searches match accented and non-accented characters when lazy load is disabled"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:187
+msgid "Diacritics sorting"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:189
+msgid "Enable this to sort accented characters naturally. For example, \"árvíztűrő\" will be sorted with \"A\" words instead of after \"Z\"."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:202
+msgid "Improve sorting of accented characters when lazy load is disabled"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:206
+msgid "Caching"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:220
+msgid "Cache the documents table to improve load times"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:224
+msgid "Cache expires after"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:225
+msgid "Your table data will be refreshed after this length of time."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:246
+msgid "hours"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:251
+#: src/Admin/Settings_Tab/Advanced.php:272
+msgid "Clear cache"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:279
+msgid "Document limit"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:280
+msgid "The maximum number of documents to display in each table. Enter -1 to show all documents."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:291
+msgid "Responsive display"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:293
+msgid "How extra data is displayed when there are columns that are not visible in the main table."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:301
+msgid "Click a plus icon to display a hidden child row"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:305
+msgid "Expand the child row automatically"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:309
+msgid "Click a plus icon to open a modal"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:339
+msgid "Pagination"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:344
+msgid "Documents per page"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:345
+msgid "The number of documents per page of the document library. Enter -1 to display all documents on one page."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:355
+msgid "Document total"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:356
+msgid "The position of the document total, e.g. '25 documents'."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:365
+#: src/Admin/Settings_Tab/Advanced.php:427
+#: src/Admin/Settings_Tab/Advanced.php:456
+#: src/Admin/Settings_Tab/Display.php:712
+msgid "Above library"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:369
+#: src/Admin/Settings_Tab/Advanced.php:431
+#: src/Admin/Settings_Tab/Advanced.php:460
+#: src/Admin/Settings_Tab/Display.php:716
+msgid "Below library"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:373
+#: src/Admin/Settings_Tab/Advanced.php:435
+#: src/Admin/Settings_Tab/Advanced.php:464
+#: src/Admin/Settings_Tab/Display.php:720
+msgid "Above and below library"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:377
+#: src/Admin/Settings_Tab/Advanced.php:439
+#: src/Admin/Settings_Tab/Advanced.php:468
+msgid "Hidden"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:384
+msgid "Pagination style"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:394
+msgid "Numbers only"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:398
+msgid "Prev|Next"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:402
+msgid "Prev|Next + Numbers"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:406
+msgid "Prev|Next|First|Last"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:410
+msgid "Prev|Next|First|Last + Numbers"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:417
+msgid "Pagination position"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:418
+msgid "The position of the paging buttons which scroll between results."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:446
+msgid "Page length"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Advanced.php:447
+msgid "The position of the 'Show [x] entries' dropdown list."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:68
+#: src/Admin/Settings_Tab/Design.php:107
+#: src/Admin/Settings_Tab/Design.php:612
+#: src/Admin/Settings_Tab/Design.php:924
+msgid "Design"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:87
+msgid "Use the following options to customize the design of the document table and grid."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:102
+#: src/Admin/Settings_Tab/Display.php:106
+#: src/Admin/Settings_Tab/Display.php:131
+#: src/Admin/Wizard/Steps/Layout.php:50
+msgid "Table"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:117
+#: src/Admin/Settings_Tab/Design.php:154
+#: src/Admin/Settings_Tab/Design.php:622
+#: src/Admin/Settings_Tab/Design.php:645
+#: src/Admin/Settings_Tab/Design.php:862
+#: src/Admin/Settings_Tab/Design.php:934
+msgid "Default"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:121
+#: src/Admin/Settings_Tab/Design.php:626
+#: src/Admin/Settings_Tab/Design.php:938
+#: src/Admin/Settings_Tab/Display.php:806
+#: src/Admin/Settings_Tab/Display.php:813
+#: src/Admin/Settings_Tab/Search.php:103
+#: src/Admin/Wizard/Steps/Filters.php:61
+msgid "Custom"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:143
+msgid "Default table template"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:160
+#: src/Admin/Settings_Tab/Design.php:651
+msgid "Minimal"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:166
+#: src/Admin/Settings_Tab/Design.php:657
+msgid "Delicate"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:172
+#: src/Admin/Settings_Tab/Design.php:663
+msgid "Neutral"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:178
+#: src/Admin/Settings_Tab/Design.php:669
+msgid "Dark"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:184
+#: src/Admin/Settings_Tab/Design.php:681
+msgid "Blue"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:190
+#: src/Admin/Settings_Tab/Design.php:675
+msgid "Nature"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:199
+#: src/Admin/Settings_Tab/Design.php:799
+msgid "Borders"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:200
+msgid "External border icon"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:200
+msgid "External"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:203
+#: src/Admin/Settings_Tab/Design.php:217
+#: src/Admin/Settings_Tab/Design.php:231
+#: src/Admin/Settings_Tab/Design.php:245
+#: src/Admin/Settings_Tab/Design.php:259
+#: src/Admin/Settings_Tab/Design.php:498
+#: src/Admin/Settings_Tab/Design.php:803
+#: src/Admin/Settings_Tab/Design.php:820
+#: src/Admin/Settings_Tab/Design.php:837
+msgid "Width"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:214
+msgid "Header border icon"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:214
+#: src/Admin/Settings_Tab/Design.php:270
+#: src/Admin/Settings_Tab/Design.php:338
+msgid "Header"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:228
+msgid "Horizontal border icon"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:228
+msgid "Horizontal"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:242
+msgid "Vertical border icon"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:242
+msgid "Vertical"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:256
+msgid "Bottom border icon"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:256
+msgid "Bottom"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:269
+#: src/Admin/Settings_Tab/Design.php:691
+msgid "Background colors"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:283
+msgid "Main"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:294
+msgid "Alternative"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:305
+#: src/Admin/Settings_Tab/Design.php:368
+#: src/Admin/Settings_Tab/Design.php:714
+#: src/Admin/Settings_Tab/Design.php:782
+#: src/Admin/Settings_Tab/Design.php:817
+#: src/Admin/Settings_Tab/Display.php:524
+#: src/Admin/Settings_Tab/Display.php:630
+msgid "Button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:316
+#: src/Admin/Settings_Tab/Design.php:443
+msgid "Disabled button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:327
+#: src/Admin/Settings_Tab/Design.php:724
+msgid "Button hover"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:337
+#: src/Admin/Settings_Tab/Design.php:745
+msgid "Fonts"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:353
+#: src/Admin/Settings_Tab/Design.php:764
+msgid "Hyperlink"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:382
+msgid "Cell backgrounds"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:394
+msgid "No alternate"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:398
+msgid "Alternate rows"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:402
+msgid "Alternate columns"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:410
+#: src/Admin/Settings_Tab/Design.php:850
+msgid "Corner style"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:422
+#: src/Admin/Settings_Tab/Design.php:520
+msgid "Theme default"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:426
+#: src/Admin/Settings_Tab/Design.php:866
+msgid "Square corners"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:430
+#: src/Admin/Settings_Tab/Design.php:870
+msgid "Rounded corners"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:434
+msgid "Fully rounded corners"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:458
+#: src/Admin/Settings_Tab/Design.php:746
+msgid "Main text"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:472
+#: src/Admin/Settings_Tab/Design.php:800
+msgid "Dropdown"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:473
+msgid "Background"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:484
+msgid "Font"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:495
+msgid "Border"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:508
+msgid "Spacing"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:524
+msgid "Compact"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:528
+msgid "Normal"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:532
+msgid "Spacious"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:540
+#: src/Admin/Settings_Tab/Design.php:882
+msgid "Reset to the default"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:542
+#: src/Admin/Settings_Tab/Design.php:884
+msgid "This will reset the design settings to the default of the current template"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:549
+#: src/Admin/Settings_Tab/Design.php:891
+#: src/Folder_Tree.php:580
+#: src/Grid/Document_Grid_Html.php:402
+#: src/Posts_Table_Pro/Frontend_Scripts.php:124
+#: src/Util/SVG_Icon.php:81
+msgid "Reset"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:608
+#: src/Admin/Settings_Tab/Display.php:110
+#: src/Admin/Settings_Tab/Display.php:181
+#: src/Admin/Wizard/Steps/Grid.php:32
+#: src/Admin/Wizard/Steps/Layout.php:54
+msgid "Grid"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:634
+msgid "Default grid template"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:692
+msgid "Document image"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:703
+msgid "Category badge"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:735
+#: src/Admin/Settings_Tab/Design.php:834
+msgid "Grid card"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:874
+msgid "Fully rounded"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:955
+#: src/Admin/Settings_Tab/Display.php:744
+#: src/Admin/Wizard/Steps/Layout.php:60
+msgid "Folders"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:960
+msgid "Top-level Folder color"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:961
+msgid "Change the color of the top-level folder icons."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:970
+msgid "Sub-level folder color"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:971
+msgid "Change the color of the sub-level folder icons."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:980
+msgid "Closed folder icon"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Settings_Tab/Design.php:983
+#, php-format
+msgid "Input the SVG code of the icon you want to use for closed folders. %1$sRead more%2$s."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Design.php:997
+msgid "Open folder icon"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Settings_Tab/Design.php:1000
+#, php-format
+msgid "Input the SVG code of the icon you want to use for open folders. %1$sRead more%2$s."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:67
+#: src/Admin/Settings_Tab/Single_Document.php:91
+msgid "Display"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:90
+msgid "The following options control the contents and layout of your document lists."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:95
+#: src/Admin/Wizard/Steps/Layout.php:45
+msgid "Default layout"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:147
+#: src/Admin/Wizard/Steps/Table.php:47
+msgid "Columns"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:186
+msgid "Grid content"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:187
+msgid "Choose which information to display in the grid of documents."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:197
+#: src/Admin/Wizard/Steps/Grid.php:48
+#: src/Posts_Table_Pro/Util/Columns_Util.php:74
+#: src/Util/Options.php:846
+msgid "Image"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:201
+#: src/Admin/Settings_Tab/Display.php:382
+#: src/Admin/Wizard/Steps/Grid.php:53
+#: src/Posts_Table_Pro/Util/Columns_Util.php:38
+#: src/Submissions/Frontend_Form.php:144
+#: src/Util/Options.php:843
+msgid "Title"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:205
+#: src/Admin/Settings_Tab/Single_Document.php:145
+#: src/Admin/Wizard/Steps/Grid.php:58
+#: src/Integration/Posts_Table_Pro.php:259
+#: src/Util/Options.php:276
+#: src/Util/Options.php:847
+msgid "Filename"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:209
+#: src/Admin/Settings_Tab/Single_Document.php:141
+#: src/Admin/Wizard/Steps/Grid.php:63
+#: src/Util/Options.php:275
+msgid "File type"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:213
+#: src/Admin/Settings_Tab/Single_Document.php:137
+#: src/Admin/Wizard/Steps/Grid.php:68
+#: src/Util/Options.php:274
+msgid "File size"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:217
+#: src/Admin/Settings_Tab/Single_Document.php:153
+#: src/Admin/Wizard/Steps/Grid.php:73
+#: src/Util/Options.php:278
+msgid "Download count"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:229
+#: src/Admin/Wizard/Steps/Grid.php:88
+msgid "Excerpt/content"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:237
+#: src/Admin/Wizard/Steps/Grid.php:98
+#: src/Submissions/Frontend_Form.php:163
+msgid "Document link"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:244
+#: src/Admin/Wizard/Steps/Grid.php:103
+msgid "Clickable fields"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Settings_Tab/Display.php:247
+#: src/Admin/Wizard/Steps/Grid.php:106
+#, php-format
+msgid "Control which fields are clickable, in addition to the 'link' field. %1$sRead more%2$s."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:258
+msgid "Number of columns"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:269
+msgid "Auto-size"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:273
+msgid "1 column"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:277
+msgid "2 columns"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:281
+msgid "3 columns"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:285
+msgid "4 columns"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:292
+msgid "Document title"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:302
+#: src/Admin/Settings_Tab/Display.php:327
+#: src/Admin/Settings_Tab/Display.php:506
+msgid "Link to single document page"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:306
+#: src/Admin/Settings_Tab/Display.php:331
+#: src/Admin/Settings_Tab/Display.php:502
+msgid "Download file"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:310
+#: src/Admin/Settings_Tab/Display.php:335
+msgid "No link"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:317
+msgid "File name"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:361
+msgid "Sorting"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:366
+msgid "Sort by"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Settings_Tab/Display.php:369
+#, php-format
+msgid "The initial sort order of the document library. %1$sRead more%2$s."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:386
+#: src/Posts_Table_Pro/Util/Columns_Util.php:34
+#: src/Util/Options.php:842
+msgid "ID"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:390
+msgid "Date published"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:394
+msgid "Date modified"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:398
+msgid "Page order (menu order)"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:402
+msgid "Post slug"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:406
+#: src/Admin/Settings_Tab/Single_Document.php:133
+#: src/Admin/Wizard/Steps/Grid.php:83
+#: src/Integration/Posts_Table_Pro.php:255
+#: src/Integration/Posts_Table_Pro.php:381
+#: src/Posts_Table_Pro/Util/Columns_Util.php:58
+#: src/Util/Options.php:852
+#: src/Util/Options.php:890
+msgid "Author"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:410
+msgid "Number of comments"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:414
+msgid "Random"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:418
+msgid "Other"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:425
+msgid "Sort column"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:426
+msgid "Enter any column in your table. Note: only available for the table layout and when lazy load is disabled. Not used for the grid layout."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:443
+msgid "Sort direction"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:454
+msgid "Automatic"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:458
+msgid "Ascending (A to Z, oldest to newest)"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:462
+msgid "Descending (Z to A, newest to oldest)"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:486
+msgid "Download button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:491
+msgid "Button behavior"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:513
+#: src/Admin/Settings_Tab/Display.php:620
+msgid "Style"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:528
+msgid "File type button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:532
+#: src/Admin/Settings_Tab/Display.php:634
+msgid "Text link"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:539
+#: src/Admin/Settings_Tab/Display.php:641
+msgid "Button/link text"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:540
+#: src/Admin/Settings_Tab/Display.php:642
+msgid "The text displayed on the button or link."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:556
+#: src/Admin/Settings_Tab/Display.php:650
+msgid "Icon"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:571
+msgid "Display download icon"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:575
+msgid "New tab"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:582
+msgid "Open download in a new tab"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:605
+msgid "Preview button"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:610
+msgid "Enable preview?"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:616
+msgid "Show a preview button for supported file types"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:656
+msgid "Display preview icon"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:678
+#: src/Admin/Wizard/Steps/Table.php:59
+msgid "Multi-downloads"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:683
+msgid "Allow multiple downloads?"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:689
+#: src/Admin/Wizard/Steps/Table.php:60
+msgid "Allow documents to be downloaded in bulk"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:693
+msgid "Button text"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:694
+msgid "The text for the button to download all selected documents."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:702
+msgid "Button position"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:749
+msgid "Enable folders"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:755
+msgid "Group the document library into folders, one per category"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:759
+msgid "Sort folders by"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:769
+msgid "Category name"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:773
+msgid "Category slug"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:777
+msgid "Category order"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:781
+msgid "Number of documents in category"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:788
+msgid "Folder display"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:798
+msgid "Open"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:802
+msgid "Closed"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Display.php:814
+msgid "List the category IDs of folders you want opened when the document library is displayed."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:65
+msgid "General"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:84
+msgid "The following options control the Document Library Pro extension."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:89
+msgid "Document library page"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:90
+msgid "The page to display your documents."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:91
+msgid "You can also use the [doc_library] shortcode to list documents on other pages."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:97
+#: src/Admin/Settings_Tab/Search.php:151
+msgid "Page"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:119
+msgid "Document data"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Settings_Tab/General.php:122
+#, php-format
+msgid "Use the following options to manage the fields that are used to store information about your documents. You can add additional fields using a custom fields plugin and display them in the table layout. %1$sRead more%2$s."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:130
+msgid "Document fields"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:148
+#: src/Admin/Settings_Tab/Single_Document.php:117
+#: src/Util/Options.php:269
+msgid "Featured image"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:152
+#: src/Admin/Settings_Tab/Single_Document.php:121
+#: src/Util/Options.php:270
+msgid "Comments"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:168
+msgid "Document slug"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:169
+msgid "Change the permalink for your documents."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:193
+msgid "Version control"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Settings_Tab/General.php:196
+#, php-format
+msgid "The version control options allow you to decide how to keep track of the uploaded files. %1$sRead more%2$s."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:204
+msgid "Enable"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:212
+msgid "Enable version control"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:217
+msgid "Replacing files"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:236
+msgid "When replacing a file, keep the original in the Media Library"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:240
+msgid "When replacing a file, delete the old version from the Media Library"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:264
+msgid "Front end document submission"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Settings_Tab/General.php:267
+#, php-format
+msgid "Use the [dlp_submission_form] shortcode to allow people to add documents from the front end. %1$sRead more%2$s."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:275
+msgid "Enable admin email"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:282
+msgid "Email the site administrator when a new document is submitted"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:286
+msgid "Enable moderation"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:294
+msgid "Hold new documents for moderation by an administrator"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:63
+#: src/Search_Handler.php:69
+#: src/Shortcodes/Document_Search.php:52
+#: src/Widgets/Document_Search.php:58
+msgid "Search"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:79
+msgid "Use the following options to control the search box that appears above your document lists. You can also use the Document Library Pro: Search Box widget to add a search anywhere on your site."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:84
+#: src/Admin/Wizard/Steps/Filters.php:48
+msgid "Search filters"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:85
+msgid "Show dropdown menus to allow users to filter the documents."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:95
+#: src/Admin/Wizard/Steps/Filters.php:53
+msgid "Disabled"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:99
+msgid "Show based on data in library"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:110
+#: src/Admin/Wizard/Steps/Filters.php:68
+msgid "Custom filters"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:111
+#: src/Admin/Wizard/Steps/Filters.php:70
+msgid "Enter the filters as a comma-separated list."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:127
+msgid "Search box"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:133
+msgid "Display a search box above the list of documents"
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:137
+msgid "Search results"
+msgstr ""
+
+#. translators: %1: knowledge base link start, %2: knowledge base link end
+#: src/Admin/Settings_Tab/Search.php:140
+#, php-format
+msgid "When using the %1$sglobal search%2$s, this page will display your search results."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Search.php:144
+msgid "Use the widget or shortcode to perform a search from anywhere on your site."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Single_Document.php:59
+msgid "Single Document"
+msgstr ""
+
+#. translators: %1: display tab link start, %2: display tab link end %3: knowledge base link start, %4: knowledge base link end
+#: src/Admin/Settings_Tab/Single_Document.php:78
+#, php-format
+msgid "Document Library Pro creates an individual page for each document. Use the following options to choose what information to display on this page. Alternatively, you can disable the single document page using the link options on the %1$sDisplay tab%2$s. %3$sRead more%4$s."
+msgstr ""
+
+#: src/Admin/Wizard/Setup_Wizard.php:67
+msgid "Create a document"
+msgstr ""
+
+#: src/Admin/Wizard/Setup_Wizard.php:71
+msgid "Import documents by drag and drop or CSV"
+msgstr ""
+
+#: src/Admin/Wizard/Setup_Wizard.php:75
+msgid "Go to settings page"
+msgstr ""
+
+#: src/Admin/Wizard/Setup_Wizard.php:79
+msgid "Customize design"
+msgstr ""
+
+#. translators: %1: Add document link open, %2: Add document link close, %3: Import page link open, %4: Import page link close, %5: Document library link open, %6: Document library link close
+#: src/Admin/Wizard/Steps/Completed.php:45
+#, php-format
+msgid "Congratulations, you have finished setting up the plugin! The next step is to start %1$sadding%2$s or %3$simporting%4$s documents. Your documents will be listed on the %5$sdocument library page%6$s."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Filters.php:33
+msgid "Filters"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Filters.php:34
+#: src/Admin/Wizard/Steps/Grid.php:33
+#: src/Admin/Wizard/Steps/Table.php:34
+msgid "Now, choose which information will appear in the list of documents."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Filters.php:35
+msgid "Document filters"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Filters.php:57
+msgid "Show based on columns in table"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Filters.php:64
+msgid "Show dropdown menus to filter by doc_categories, doc_tags, or custom taxonomy."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Grid.php:34
+msgid "Document Grid"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Grid.php:47
+msgid "Library content"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Layout.php:32
+#: src/Admin/Wizard/Steps/Layout.php:34
+msgid "Layout"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Layout.php:33
+msgid "First, choose the layout for your document libraries."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Layout.php:61
+msgid "Display the document library in folders"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Layout.php:66
+msgid "Document preview"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Layout.php:67
+msgid "Allow users to preview documents in a lightbox"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Layout.php:68
+msgid "The preview option will appear for supported file types only."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:23
+msgid "Welcome to Document Library Pro"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:25
+msgid "Start displaying documents in no time."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:26
+msgid "Use this setup wizard to quickly configure the most popular options for your document libraries. You can change these options later on the plugin settings page or by relaunching the setup wizard. You can also override these options in the shortcode for individual libraries."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Table.php:33
+#: src/Admin/Wizard/Steps/Table.php:35
+msgid "Tables"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Table.php:48
+msgid "Enter the fields to include in your document tables."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Table.php:67
+msgid "Load the document table one page at a time"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Table.php:68
+msgid "Enable this if you will have lots of documents, otherwise leave it blank."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Upsell.php:23
+msgid "Enhance your store with these fantastic plugins from Barn2."
+msgstr ""
+
+#: src/Ajax_Handler.php:196
+#: src/Grid/Document_Grid_Html.php:130
+msgid "No matching documents"
+msgstr ""
+
+#: src/Document.php:113
+msgid "Document does not exist"
+msgstr ""
+
+#: src/Document.php:162
+msgid "Failed to create document."
+msgstr ""
+
+#. translators: %s is the document title
+#: src/Document_Expiry_Handler.php:42
+#, php-format
+msgid "Expired: %s"
+msgstr ""
+
+#: src/Folder_Tree.php:101
+msgid "No documents found."
+msgstr ""
+
+#: src/Folder_Tree.php:570
+#: src/Grid/Document_Grid_Html.php:388
+#: src/Posts_Table_Pro/Frontend_Scripts.php:106
+msgid "Search:"
+msgstr ""
+
+#: src/Frontend_Scripts.php:120
+msgid "Failed to create the zip file. Please reselect your documents and try again."
+msgstr ""
+
+#: src/Frontend_Scripts.php:131
+msgid "Sorry, your browser doesn't support embedded PDFs."
+msgstr ""
+
+#: src/Frontend_Scripts.php:132
+msgid "Sorry, your browser doesn't support embedded audio."
+msgstr ""
+
+#: src/Frontend_Scripts.php:133
+msgid "Sorry, your browser doesn't support embedded video."
+msgstr ""
+
+#. translators: %d: The total number of documents.
+#: src/Grid/Document_Grid_Html.php:265
+#, php-format
+msgid "%1$d %3$s (%2$d in total)"
+msgstr ""
+
+#. translators: %d: The total number of documents.
+#: src/Grid/Document_Grid_Html.php:268
+#, php-format
+msgid "%1$d %2$s"
+msgstr ""
+
+#: src/Grid/Document_Grid_Html.php:296
+msgid "All"
+msgstr ""
+
+#: src/Grid/Document_Grid_Html.php:302
+#: src/Posts_Table_Pro/Frontend_Scripts.php:105
+msgid "Show _MENU_ per page"
+msgstr ""
+
+#: src/Grid/Grid_Pagination.php:158
+#: src/Posts_Table_Pro/Frontend_Scripts.php:112
+msgid "Previous"
+msgstr ""
+
+#: src/Grid/Grid_Pagination.php:170
+#: src/Posts_Table_Pro/Frontend_Scripts.php:111
+msgid "Next"
+msgstr ""
+
+#: src/Grid/Grid_Pagination.php:181
+#: src/Posts_Table_Pro/Frontend_Scripts.php:109
+msgid "First"
+msgstr ""
+
+#: src/Grid/Grid_Pagination.php:192
+#: src/Posts_Table_Pro/Frontend_Scripts.php:110
+msgid "Last"
+msgstr ""
+
+#: src/Install.php:46
+msgctxt "Page slug"
+msgid "document-library"
+msgstr ""
+
+#: src/Install.php:47
+msgctxt "Page title"
+msgid "Document Library"
+msgstr ""
+
+#: src/Install.php:51
+msgctxt "Page slug"
+msgid "document-search"
+msgstr ""
+
+#: src/Install.php:52
+msgctxt "Page title"
+msgid "Document Search"
+msgstr ""
+
+#. translators: _POSTS_: the content type (e.g. "posts")
+#: src/Integration/FacetWP.php:103
+#: src/Posts_Table_Pro/Util/Util.php:530
+#: src/Posts_Table_Pro/Util/Util.php:532
+msgid "No matching _POSTS_."
+msgstr ""
+
+#: src/Integration/Posts_Table_Pro.php:267
+#: src/Util/Options.php:849
+#: src/Util/Options.php:887
+msgid "File Type"
+msgstr ""
+
+#: src/Integration/Posts_Table_Pro.php:275
+#: src/Util/Options.php:854
+#: src/Util/SVG_Icon.php:77
+msgid "Link"
+msgstr ""
+
+#: src/Integration/Posts_Table_Pro.php:353
+#: src/Submissions/Frontend_Form.php:188
+msgid "Category"
+msgstr ""
+
+#: src/Integration/Posts_Table_Pro.php:367
+msgid "Tag"
+msgstr ""
+
+#: src/Integration/SearchWP.php:190
+msgid "Document Library Pro: Document Downloads"
+msgstr ""
+
+#: src/Posts_Table_Pro/Config_Builder.php:72
+msgctxt "show all posts option"
+msgid "All"
+msgstr ""
+
+#: src/Posts_Table_Pro/Data/Post_Custom_Field.php:126
+msgid "True"
+msgstr ""
+
+#: src/Posts_Table_Pro/Data/Post_Custom_Field.php:126
+msgid "False"
+msgstr ""
+
+#: src/Posts_Table_Pro/Frontend_Scripts.php:104
+msgid "(_MAX_ in total)"
+msgstr ""
+
+#: src/Posts_Table_Pro/Frontend_Scripts.php:114
+msgctxt "thousands separator"
+msgid ","
+msgstr ""
+
+#: src/Posts_Table_Pro/Frontend_Scripts.php:115
+msgctxt "decimal mark"
+msgid "."
+msgstr ""
+
+#. translators: ARIA text for sorting column in ascending order
+#: src/Posts_Table_Pro/Frontend_Scripts.php:118
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#. translators: ARIA text for sorting column in descending order
+#: src/Posts_Table_Pro/Frontend_Scripts.php:120
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: src/Posts_Table_Pro/Frontend_Scripts.php:123
+#: assets/js/dlp-grid.js:1
+msgid "No results found"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Columns_Util.php:46
+#: src/Util/Options.php:845
+msgid "Summary"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Columns_Util.php:50
+#: src/Util/Options.php:857
+msgid "Date"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Columns_Util.php:54
+msgid "Last Modified"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Columns_Util.php:70
+#: src/Util/Options.php:856
+msgid "Status"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Util.php:499
+msgctxt "table results count (single)"
+msgid "result"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Util.php:500
+msgctxt "table results count (multiple)"
+msgid "results"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Util.php:512
+msgctxt "table attachment count (single)"
+msgid "file"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Util.php:513
+msgctxt "table attachment count (multiple)"
+msgid "files"
+msgstr ""
+
+#. translators: _TOTAL_: the total number of posts; _POSTS_: the content type (e.g. "posts")
+#: src/Posts_Table_Pro/Util/Util.php:526
+msgid "_TOTAL_ _POSTS_"
+msgstr ""
+
+#. translators: _POSTS_: the content type (e.g. "posts")
+#: src/Posts_Table_Pro/Util/Util.php:528
+msgid "0 _POSTS_"
+msgstr ""
+
+#: src/Posts_Table_Pro/Util/Util.php:563
+msgid "— Select —"
+msgstr ""
+
+#: src/Post_Type.php:53
+msgctxt "Post Type General Name"
+msgid "Documents"
+msgstr ""
+
+#: src/Post_Type.php:54
+msgctxt "Post Type Singular Name"
+msgid "Document"
+msgstr ""
+
+#: src/Post_Type.php:55
+msgctxt "Admin Menu text"
+msgid "Documents"
+msgstr ""
+
+#: src/Post_Type.php:56
+msgctxt "Add New on Toolbar"
+msgid "Document"
+msgstr ""
+
+#: src/Post_Type.php:57
+msgid "Documents Archives"
+msgstr ""
+
+#: src/Post_Type.php:58
+msgid "Documents Attributes"
+msgstr ""
+
+#: src/Post_Type.php:59
+msgid "Parent Documents:"
+msgstr ""
+
+#: src/Post_Type.php:60
+msgid "All Documents"
+msgstr ""
+
+#: src/Post_Type.php:61
+msgid "Add New Document"
+msgstr ""
+
+#: src/Post_Type.php:63
+msgid "New Document"
+msgstr ""
+
+#: src/Post_Type.php:64
+msgid "Edit Document"
+msgstr ""
+
+#: src/Post_Type.php:65
+msgid "Update Document"
+msgstr ""
+
+#: src/Post_Type.php:66
+msgid "View Document"
+msgstr ""
+
+#: src/Post_Type.php:67
+msgid "View Documents"
+msgstr ""
+
+#: src/Post_Type.php:68
+msgid "Search Documents"
+msgstr ""
+
+#: src/Post_Type.php:69
+msgid "Not found"
+msgstr ""
+
+#: src/Post_Type.php:70
+msgid "Not found in Trash"
+msgstr ""
+
+#: src/Post_Type.php:71
+msgid "Featured Image"
+msgstr ""
+
+#: src/Post_Type.php:72
+msgid "Set featured image"
+msgstr ""
+
+#: src/Post_Type.php:73
+msgid "Remove featured image"
+msgstr ""
+
+#: src/Post_Type.php:74
+msgid "Use as featured image"
+msgstr ""
+
+#: src/Post_Type.php:75
+msgid "Insert into Document"
+msgstr ""
+
+#: src/Post_Type.php:76
+msgid "Uploaded to this document"
+msgstr ""
+
+#: src/Post_Type.php:77
+msgid "Document list"
+msgstr ""
+
+#: src/Post_Type.php:78
+msgid "Documents list navigation"
+msgstr ""
+
+#: src/Post_Type.php:79
+msgid "Filter Documents list"
+msgstr ""
+
+#: src/Post_Type.php:84
+msgid "Document Library Pro documents."
+msgstr ""
+
+#: src/Rest/Routes/Cache.php:54
+msgid "Cache cleared successfully."
+msgstr ""
+
+#: src/Search_Handler.php:69
+#: src/Shortcodes/Document_Search.php:51
+#: src/Widgets/Document_Search.php:57
+msgid "Search documents..."
+msgstr ""
+
+#: src/Search_Handler.php:88
+msgid "No matching documents."
+msgstr ""
+
+#: src/Search_Handler.php:147
+msgid "Document Search"
+msgstr ""
+
+#: src/Single_Content.php:171
+msgid "Filename: "
+msgstr ""
+
+#: src/Single_Content.php:178
+msgid "File Type: "
+msgstr ""
+
+#: src/Single_Content.php:185
+msgid "File Size: "
+msgstr ""
+
+#: src/Single_Content.php:192
+msgid "Categories: "
+msgstr ""
+
+#: src/Single_Content.php:199
+msgid "Tags: "
+msgstr ""
+
+#: src/Single_Content.php:206
+msgid "Author: "
+msgstr ""
+
+#: src/Single_Content.php:222
+msgid "Downloads: "
+msgstr ""
+
+#: src/Submissions/Admin_Notification.php:49
+msgid "New document awaiting moderation"
+msgstr ""
+
+#: src/Submissions/Admin_Notification.php:51
+msgid "New document submitted"
+msgstr ""
+
+#: src/Submissions/Admin_Notification.php:73
+#, php-format
+msgid "A new document has been submitted to <a href=\"%1$s\">%1$s</a>. To approve or reject it, visit the following link and click either \"Publish\" or \"Move to Trash\" - <a href=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: src/Submissions/Admin_Notification.php:79
+#, php-format
+msgid "A new document has been submitted to <a href=\"%1$s\">%1$s</a>. You can see it at: <a href=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:147
+msgid "Add title"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:164
+msgid "Upload a file or add a URL where the document is located"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:168
+msgid "File Upload"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:169
+msgid "A custom URL"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:175
+msgid "Document url"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:182
+msgid "Document file"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:191
+msgid "Select one or more categories..."
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:198
+msgid "Select one or more tags..."
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:206
+msgid "Select one or more authors..."
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:305
+#, php-format
+msgid "Select one or more %s..."
+msgstr ""
+
+#. translators: Placeholder %s is the label for the required field.
+#: src/Submissions/Frontend_Form.php:604
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#. translators: Placeholder %s is the field label that is did not validate.
+#: src/Submissions/Frontend_Form.php:615
+#, php-format
+msgid "%s is invalid"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:639
+msgid "Invalid image path."
+msgstr ""
+
+#. translators: Placeholder %1$s is field label; %2$s is the file mime type; %3$s is the allowed mime-types.
+#. translators: %1$s is the file field label; %2$s is the file type; %3$s is the list of allowed file types.
+#: src/Submissions/Frontend_Form.php:648
+#: src/Submissions/Uploader.php:112
+#, php-format
+msgid "\"%1$s\" (filetype %2$s) needs to be one of the following file types: %3$s"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:657
+msgid "Invalid attachment provided."
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:694
+msgid "Failed honeypot validation."
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:704
+msgid "Please enter a valid document url."
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:706
+msgid "Please select the file you wish to upload."
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:799
+msgid "Submit document"
+msgstr ""
+
+#: src/Submissions/Frontend_Form.php:844
+msgid "Remove this option"
+msgstr ""
+
+#: src/Submissions/Rest_Api.php:94
+msgid "Invalid taxonomy."
+msgstr ""
+
+#. translators: %s is the list of allowed file types.
+#: src/Submissions/Uploader.php:115
+#, php-format
+msgid "Uploaded files need to be one of the following file types: %s"
+msgstr ""
+
+#: src/Taxonomies.php:56
+msgctxt "Taxonomy General Name"
+msgid "Document Categories"
+msgstr ""
+
+#: src/Taxonomies.php:57
+msgctxt "Taxonomy Singular Name"
+msgid "Document Category"
+msgstr ""
+
+#: src/Taxonomies.php:59
+msgid "All Categories"
+msgstr ""
+
+#: src/Taxonomies.php:60
+msgid "Parent Category"
+msgstr ""
+
+#: src/Taxonomies.php:61
+msgid "Parent Category:"
+msgstr ""
+
+#: src/Taxonomies.php:62
+msgid "New Category Name"
+msgstr ""
+
+#: src/Taxonomies.php:63
+msgid "Add New Category"
+msgstr ""
+
+#: src/Taxonomies.php:64
+msgid "Edit Category"
+msgstr ""
+
+#: src/Taxonomies.php:65
+msgid "Update Category"
+msgstr ""
+
+#: src/Taxonomies.php:66
+msgid "View Category"
+msgstr ""
+
+#: src/Taxonomies.php:67
+msgid "Separate categories with commas"
+msgstr ""
+
+#: src/Taxonomies.php:68
+msgid "Add or remove categories"
+msgstr ""
+
+#: src/Taxonomies.php:69
+#: src/Taxonomies.php:116
+#: src/Taxonomies.php:162
+#: src/Taxonomies.php:203
+#: src/Taxonomies.php:244
+msgid "Choose from the most used"
+msgstr ""
+
+#: src/Taxonomies.php:70
+msgid "Popular Categories"
+msgstr ""
+
+#: src/Taxonomies.php:71
+msgid "Search Categories"
+msgstr ""
+
+#: src/Taxonomies.php:72
+#: src/Taxonomies.php:119
+#: src/Taxonomies.php:165
+#: src/Taxonomies.php:206
+#: src/Taxonomies.php:247
+msgid "Not Found"
+msgstr ""
+
+#: src/Taxonomies.php:73
+msgid "No categories"
+msgstr ""
+
+#: src/Taxonomies.php:74
+msgid "Categories list"
+msgstr ""
+
+#: src/Taxonomies.php:75
+msgid "Categories list navigation"
+msgstr ""
+
+#: src/Taxonomies.php:103
+msgctxt "Taxonomy General Name"
+msgid "Document Authors"
+msgstr ""
+
+#: src/Taxonomies.php:104
+msgctxt "Taxonomy Singular Name"
+msgid "Document Author"
+msgstr ""
+
+#: src/Taxonomies.php:106
+msgid "All Authors"
+msgstr ""
+
+#: src/Taxonomies.php:107
+msgid "Parent Author"
+msgstr ""
+
+#: src/Taxonomies.php:108
+msgid "Parent Author:"
+msgstr ""
+
+#: src/Taxonomies.php:109
+msgid "New Author Name"
+msgstr ""
+
+#: src/Taxonomies.php:110
+msgid "Add New Author"
+msgstr ""
+
+#: src/Taxonomies.php:111
+msgid "Edit Author"
+msgstr ""
+
+#: src/Taxonomies.php:112
+msgid "Update Author"
+msgstr ""
+
+#: src/Taxonomies.php:113
+msgid "View Author"
+msgstr ""
+
+#: src/Taxonomies.php:114
+msgid "Separate authors with commas"
+msgstr ""
+
+#: src/Taxonomies.php:115
+msgid "Add or remove authors"
+msgstr ""
+
+#: src/Taxonomies.php:117
+msgid "Popular Authors"
+msgstr ""
+
+#: src/Taxonomies.php:118
+msgid "Search Authors"
+msgstr ""
+
+#: src/Taxonomies.php:120
+msgid "No authors"
+msgstr ""
+
+#: src/Taxonomies.php:121
+msgid "Authors list"
+msgstr ""
+
+#: src/Taxonomies.php:122
+msgid "Authors list navigation"
+msgstr ""
+
+#: src/Taxonomies.php:149
+msgctxt "Taxonomy General Name"
+msgid "Document Tags"
+msgstr ""
+
+#: src/Taxonomies.php:150
+msgctxt "Taxonomy Singular Name"
+msgid "Document Tag"
+msgstr ""
+
+#: src/Taxonomies.php:152
+msgid "All Tags"
+msgstr ""
+
+#: src/Taxonomies.php:153
+msgid "Parent Tag"
+msgstr ""
+
+#: src/Taxonomies.php:154
+msgid "Parent Tag:"
+msgstr ""
+
+#: src/Taxonomies.php:155
+msgid "New Tag Name"
+msgstr ""
+
+#: src/Taxonomies.php:156
+msgid "Add New Tag"
+msgstr ""
+
+#: src/Taxonomies.php:157
+msgid "Edit Tag"
+msgstr ""
+
+#: src/Taxonomies.php:158
+msgid "Update Tag"
+msgstr ""
+
+#: src/Taxonomies.php:159
+msgid "View Tag"
+msgstr ""
+
+#: src/Taxonomies.php:160
+msgid "Separate tags with commas"
+msgstr ""
+
+#: src/Taxonomies.php:161
+msgid "Add or remove tags"
+msgstr ""
+
+#: src/Taxonomies.php:163
+msgid "Popular Tags"
+msgstr ""
+
+#: src/Taxonomies.php:164
+msgid "Search Tags"
+msgstr ""
+
+#: src/Taxonomies.php:166
+msgid "No tags"
+msgstr ""
+
+#: src/Taxonomies.php:167
+msgid "Tags list"
+msgstr ""
+
+#: src/Taxonomies.php:168
+msgid "Tags list navigation"
+msgstr ""
+
+#: src/Taxonomies.php:190
+msgctxt "Taxonomy General Name"
+msgid "File Types"
+msgstr ""
+
+#: src/Taxonomies.php:191
+msgctxt "Taxonomy Singular Name"
+msgid "File Type"
+msgstr ""
+
+#: src/Taxonomies.php:192
+msgid "File Types"
+msgstr ""
+
+#: src/Taxonomies.php:193
+msgid "All File Types"
+msgstr ""
+
+#: src/Taxonomies.php:194
+msgid "Parent File Type"
+msgstr ""
+
+#: src/Taxonomies.php:195
+msgid "Parent File Type:"
+msgstr ""
+
+#: src/Taxonomies.php:196
+msgid "New File Type Name"
+msgstr ""
+
+#: src/Taxonomies.php:197
+msgid "Add New File Type"
+msgstr ""
+
+#: src/Taxonomies.php:198
+msgid "Edit File Type"
+msgstr ""
+
+#: src/Taxonomies.php:199
+msgid "Update File Type"
+msgstr ""
+
+#: src/Taxonomies.php:200
+msgid "View File Type"
+msgstr ""
+
+#: src/Taxonomies.php:201
+msgid "Separate file types with commas"
+msgstr ""
+
+#: src/Taxonomies.php:202
+msgid "Add or remove file types"
+msgstr ""
+
+#: src/Taxonomies.php:204
+msgid "Popular File Types"
+msgstr ""
+
+#: src/Taxonomies.php:205
+msgid "Search File Types"
+msgstr ""
+
+#: src/Taxonomies.php:207
+msgid "No file types"
+msgstr ""
+
+#: src/Taxonomies.php:208
+msgid "File types list"
+msgstr ""
+
+#: src/Taxonomies.php:209
+msgid "File types list navigation"
+msgstr ""
+
+#: src/Taxonomies.php:231
+msgctxt "Taxonomy General Name"
+msgid "Document Download"
+msgstr ""
+
+#: src/Taxonomies.php:232
+msgctxt "Taxonomy Singular Name"
+msgid "Document Download"
+msgstr ""
+
+#: src/Taxonomies.php:233
+msgid "Document Downloads"
+msgstr ""
+
+#: src/Taxonomies.php:234
+msgid "All Items"
+msgstr ""
+
+#: src/Taxonomies.php:235
+msgid "Parent Item"
+msgstr ""
+
+#: src/Taxonomies.php:236
+msgid "Parent Item:"
+msgstr ""
+
+#: src/Taxonomies.php:237
+msgid "New Item Name"
+msgstr ""
+
+#: src/Taxonomies.php:238
+msgid "Add New Item"
+msgstr ""
+
+#: src/Taxonomies.php:239
+msgid "Edit Item"
+msgstr ""
+
+#: src/Taxonomies.php:240
+msgid "Update Item"
+msgstr ""
+
+#: src/Taxonomies.php:241
+msgid "View Item"
+msgstr ""
+
+#: src/Taxonomies.php:242
+msgid "Separate items with commas"
+msgstr ""
+
+#: src/Taxonomies.php:243
+msgid "Add or remove items"
+msgstr ""
+
+#: src/Taxonomies.php:245
+msgid "Popular Items"
+msgstr ""
+
+#: src/Taxonomies.php:246
+msgid "Search Items"
+msgstr ""
+
+#: src/Taxonomies.php:248
+msgid "No items"
+msgstr ""
+
+#: src/Taxonomies.php:249
+msgid "Items list"
+msgstr ""
+
+#: src/Taxonomies.php:250
+msgid "Items list navigation"
+msgstr ""
+
+#. translators: %s: document URL
+#: src/Util/Media.php:87
+#, php-format
+msgid "Unable to use document \"%s\"."
+msgstr ""
+
+#. translators: %s: image URL
+#: src/Util/Media.php:107
+#, php-format
+msgid "Invalid URL %s."
+msgstr ""
+
+#. translators: %s: image URL
+#: src/Util/Media.php:149
+#, php-format
+msgid "Error getting remote document %s."
+msgstr ""
+
+#. translators: %s: error message
+#: src/Util/Media.php:151
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#. translators: %s: error message
+#: src/Util/Media.php:195
+#, php-format
+msgid "Invalid document: %s"
+msgstr ""
+
+#: src/Util/Options.php:590
+msgid "Download Selected Documents"
+msgstr ""
+
+#: src/Util/Options.php:597
+#: src/Util/SVG_Icon.php:78
+msgid "Download"
+msgstr ""
+
+#: src/Util/Options.php:853
+msgid "Custom Fields"
+msgstr ""
+
+#: src/Util/Options.php:858
+msgid "Last modified date"
+msgstr ""
+
+#: src/Util/Options.php:1169
+msgid "Custom field"
+msgstr ""
+
+#: src/Util/SVG_Icon.php:79
+msgid "Preview"
+msgstr ""
+
+#: src/Util/SVG_Icon.php:80
+msgid "Close"
+msgstr ""
+
+#: src/Widgets/Document_Search.php:21
+msgid "A global search box for your document library."
+msgstr ""
+
+#: src/Widgets/Document_Search.php:24
+msgid "Document Library Pro: Search Box"
+msgstr ""
+
+#: src/Widgets/Document_Search.php:56
+msgid "Document search"
+msgstr ""
+
+#: src/Widgets/Document_Search.php:62
+msgid "Title:"
+msgstr ""
+
+#: src/Widgets/Document_Search.php:66
+msgid "Placeholder:"
+msgstr ""
+
+#: src/Widgets/Document_Search.php:70
+msgid "Button Text:"
+msgstr ""
+
+#. translators: %s: File name
+#: templates/admin/html-version-history.php:84
+#, php-format
+msgid "Select file: %s"
+msgstr ""
+
+#: templates/admin/html-version-history.php:113
+msgid "last used"
+msgstr ""
+
+#: templates/admin/html-version-history.php:155
+msgid "Version history"
+msgstr ""
+
+#: templates/admin/html-version-history.php:155
+msgid "Version details"
+msgstr ""
+
+#: templates/photoswipe.php:47
+msgid "Close (Esc)"
+msgstr ""
+
+#: templates/photoswipe.php:49
+msgid "Share"
+msgstr ""
+
+#: templates/photoswipe.php:51
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: templates/photoswipe.php:53
+msgid "Zoom in/out"
+msgstr ""
+
+#: templates/photoswipe.php:70
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: templates/photoswipe.php:72
+msgid "Next (arrow right)"
+msgstr ""
+
+#: templates/submission-form.php:30
+msgid "Document successfully uploaded."
+msgstr ""
+
+#: assets/js/admin/dlp-document-expiry.js:1
+msgid "Changing the visibility from Private will reset the document expiry."
+msgstr ""
+
+#. translators: 1: Month, 2: Day, 3: Year, 4: Hour, 5: Minute.
+#: assets/js/admin/dlp-document-expiry.js:4
+#, js-format
+msgid "%1$s %2$s, %3$s at %4$s:%5$s"
+msgstr ""

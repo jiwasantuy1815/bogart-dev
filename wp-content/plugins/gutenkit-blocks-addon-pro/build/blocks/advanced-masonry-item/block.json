@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/advanced-masonry-item",
+  "version": "1.0.0",
+  "title": "Advanced Masonry Item",
+  "category": "gutenkit",
+  "description": "Advanced Masonry Item for gutenkit.",
+  "parent": [
+    "gutenkit-pro/advanced-masonry"
+  ],
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "categoryName": {
+      "type": "string",
+      "default": "Gutenkit"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js"
+}

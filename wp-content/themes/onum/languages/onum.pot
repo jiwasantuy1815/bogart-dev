@@ -1,0 +1,5115 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Onum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-25 10:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Domain: onum"
+
+#: inc/frontend/template-tags.php:59
+msgid " "
+msgstr ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:87
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:96
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:105
+#: inc/backend/elementor-widgets/testimonial-carousel.php:120
+#: inc/backend/elementor-widgets/testimonial-carousel.php:129
+#: inc/backend/elementor-widgets/testimonial-carousel.php:138
+msgid ""
+"\"I am so happy, my dear friend, so absorbed in the exquisite sense of mere "
+"tranquil existence, that I neglect my talents. I should be incapable of "
+"drawing a single stroke at the present moment.\""
+msgstr ""
+
+#: inc/frontend/template-tags.php:107
+msgid "% Comments"
+msgstr ""
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: inc/frontend/template-tags.php:63 inc/frontend/template-tags.php:101
+#: inc/frontend/template-tags.php:113 inc/frontend/template-tags.php:136
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:3590
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:3598
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#. number of items in the mini cart.
+#: inc/woocommerce/woocommerce.php:205
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/frontend/template-tags.php:261
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/frontend/template-tags.php:98
+msgid ", "
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:79
+msgid "0"
+msgstr ""
+
+#: inc/frontend/template-tags.php:107
+msgid "0 Comments"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:46
+#: inc/backend/elementor-widgets/circle-process.php:150
+#: inc/backend/elementor-widgets/process-box.php:139
+#: inc/backend/elementor-widgets/service-box.php:86
+msgid "01"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:155
+msgid "02"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:91
+#: inc/backend/elementor-widgets/portfolio-carousel.php:159
+#: inc/backend/elementor-widgets/post-carousel.php:183
+#: inc/backend/elementor-widgets/service-carousel.php:222
+#: inc/backend/elementor-widgets/service-carousel.php:237
+#: inc/backend/elementor-widgets/team-carousel.php:265
+msgid "1"
+msgstr ""
+
+#: inc/frontend/template-tags.php:107
+msgid "1 Comment"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:111
+msgid "104,457"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:116
+msgid "1990"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:92
+#: inc/backend/elementor-widgets/portfolio-carousel.php:146
+#: inc/backend/elementor-widgets/portfolio-carousel.php:160
+#: inc/backend/elementor-widgets/post-carousel.php:170
+#: inc/backend/elementor-widgets/post-carousel.php:184
+#: inc/backend/elementor-widgets/real-number.php:128
+#: inc/backend/elementor-widgets/service-carousel.php:223
+#: inc/backend/elementor-widgets/service-carousel.php:238
+#: inc/backend/elementor-widgets/team-carousel.php:251
+#: inc/backend/elementor-widgets/team-carousel.php:266
+msgid "2"
+msgstr ""
+
+#: inc/backend/customizer.php:1805 inc/backend/customizer.php:2218
+#: inc/backend/elementor-widgets/portfolio-filter.php:93
+#: inc/backend/elementor-widgets/post-grid.php:96
+msgid "2 Column"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:70
+msgid "2020-10-22 12:00"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:93
+#: inc/backend/elementor-widgets/portfolio-carousel.php:147
+#: inc/backend/elementor-widgets/portfolio-carousel.php:161
+#: inc/backend/elementor-widgets/post-carousel.php:171
+#: inc/backend/elementor-widgets/post-carousel.php:185
+#: inc/backend/elementor-widgets/real-number.php:129
+#: inc/backend/elementor-widgets/service-carousel.php:224
+#: inc/backend/elementor-widgets/service-carousel.php:239
+#: inc/backend/elementor-widgets/team-carousel.php:252
+#: inc/backend/elementor-widgets/team-carousel.php:267
+msgid "3"
+msgstr ""
+
+#: inc/backend/customizer.php:1806 inc/backend/customizer.php:2219
+#: inc/backend/elementor-widgets/portfolio-filter.php:94
+#: inc/backend/elementor-widgets/post-grid.php:97
+msgid "3 Column"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:94
+#: inc/backend/elementor-widgets/portfolio-carousel.php:148
+#: inc/backend/elementor-widgets/portfolio-carousel.php:162
+#: inc/backend/elementor-widgets/post-carousel.php:172
+#: inc/backend/elementor-widgets/post-carousel.php:186
+#: inc/backend/elementor-widgets/real-number.php:130
+#: inc/backend/elementor-widgets/service-carousel.php:225
+#: inc/backend/elementor-widgets/service-carousel.php:240
+#: inc/backend/elementor-widgets/team-carousel.php:253
+#: inc/backend/elementor-widgets/team-carousel.php:268
+msgid "4"
+msgstr ""
+
+#: inc/backend/customizer.php:1807 inc/backend/customizer.php:2220
+#: inc/backend/elementor-widgets/portfolio-filter.php:95
+#: inc/backend/elementor-widgets/post-grid.php:98
+msgid "4 Column"
+msgstr ""
+
+#: inc/backend/customizer.php:288 inc/frontend/breadcrumbs.php:99
+msgid "404"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:107
+msgid "411 University St, Seattle, USA"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:163
+#: inc/backend/elementor-widgets/post-carousel.php:187
+#: inc/backend/elementor-widgets/service-carousel.php:226
+#: inc/backend/elementor-widgets/service-carousel.php:241
+#: inc/backend/elementor-widgets/team-carousel.php:254
+#: inc/backend/elementor-widgets/team-carousel.php:269
+msgid "5"
+msgstr ""
+
+#: inc/backend/customizer.php:1808 inc/backend/customizer.php:2221
+#: inc/backend/elementor-widgets/portfolio-filter.php:96
+msgid "5 Column"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:83
+msgid "<sup>$</sup> 69.99"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:103
+msgid ""
+"<ul><li>Social Media Marketing</li><li>2.100 Keywords</li><li>One Way Link "
+"Building</li></ul>"
+msgstr ""
+
+#: inc/frontend/widgets/author-widget.php:14
+msgid "A Author Widget"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:72
+msgid "Accordion #1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:76
+msgid "Accordion #2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:57
+#: inc/backend/elementor-widgets/accordions.php:58
+msgid "Accordion Content"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:67
+msgid "Accordion Items"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:47
+#: inc/backend/elementor-widgets/accordions.php:48
+msgid "Accordion Title"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:36
+#: inc/backend/elementor-widgets/accordions.php:111
+msgid "Accordions"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2807
+msgid "Activate"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/libs/class-tgm-plugin-activation.php:2695
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:83
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/customizer.php:1940 inc/backend/customizer.php:1970
+#: inc/libs/class-tgm-plugin-activation.php:2402
+#: inc/backend/elementor-widgets/accordions.php:287
+#: inc/backend/elementor-widgets/tabs.php:211
+msgid "Active"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tab-titles.php:369
+msgid "Active/Hover"
+msgstr ""
+
+#: functions.php:118
+msgid "Add languages switcher widgets here."
+msgstr ""
+
+#: inc/backend/admin-functions.php:31 inc/backend/admin-functions.php:67
+msgid "Add New"
+msgstr ""
+
+#: inc/backend/admin-functions.php:68
+msgid "Add New Footer Builder"
+msgstr ""
+
+#: inc/backend/admin-functions.php:32
+msgid "Add New Header Builder"
+msgstr ""
+
+#: functions.php:108
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:53
+#: inc/backend/elementor-widgets/switchs.php:53
+#: inc/backend/elementor-widgets/switchs.php:150
+msgid "After"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:189
+msgid "After Active Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:178
+msgid "After DOT Box Shadow"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:167
+msgid "After DOT Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:123
+msgid "After Number"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:156
+msgid "After Text Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:185
+msgid "After WRAPPER Background Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:195
+msgid "After WRAPPER Border Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:43
+#: inc/backend/elementor-widgets/button.php:84
+#: inc/backend/elementor-widgets/countdown.php:42
+#: inc/backend/elementor-widgets/counter.php:79
+#: inc/backend/elementor-widgets/heading.php:149
+#: inc/backend/elementor-widgets/icon-box-grid.php:57
+#: inc/backend/elementor-widgets/icon-box.php:193
+#: inc/backend/elementor-widgets/portfolio-carousel.php:256
+#: inc/backend/elementor-widgets/portfolio-filter.php:224
+#: inc/backend/elementor-widgets/portfolio-filter.php:305
+#: inc/backend/elementor-widgets/post-grid.php:485
+#: inc/backend/elementor-widgets/process-box.php:56
+#: inc/backend/elementor-widgets/service-carousel.php:314
+#: inc/backend/elementor-widgets/service-carousel.php:476
+#: inc/backend/elementor-widgets/social-share.php:81
+#: inc/backend/elementor-widgets/tab-titles.php:158
+#: inc/backend/elementor-widgets/testimonial-carousel.php:192
+#: inc/backend/elementor/header/list-menu-item.php:131
+#: inc/backend/elementor/header/logo.php:42
+msgid "Alignment"
+msgstr ""
+
+#: archive-ot_portfolio.php:19
+msgid "All"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:61
+#: inc/backend/elementor-widgets/portfolio-filter.php:61
+#: inc/backend/elementor-widgets/post-carousel.php:48
+#: inc/backend/elementor-widgets/post-grid.php:48
+msgid "All Categories"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3591
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3599
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:64
+#: inc/backend/elementor-widgets/switchs.php:75
+msgid "All Pages"
+msgstr ""
+
+#. 1: dashboard link.
+#: inc/libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:86
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-filter.php:78
+msgid "All Text"
+msgstr ""
+
+#. 1: plugin name, 2: error message.
+#: inc/libs/class-tgm-plugin-activation.php:3582
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:236
+msgid "Angle"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:87
+msgid "Animation"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:55
+#: inc/backend/elementor-widgets/icon-box.php:37
+#: inc/backend/elementor-widgets/pricing-table.php:52
+msgid "Aqua Color"
+msgstr ""
+
+#: inc/backend/customizer.php:2192
+msgid "Archive page custom"
+msgstr ""
+
+#: inc/backend/customizer.php:2191
+msgid "Archive page default"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:251
+#: inc/backend/elementor-widgets/portfolio-carousel.php:540
+#: inc/backend/elementor-widgets/post-carousel.php:531
+#: inc/backend/elementor-widgets/process-box.php:167
+#: inc/backend/elementor-widgets/service-carousel.php:972
+#: inc/backend/elementor-widgets/team-carousel.php:534
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:368
+#: inc/backend/elementor-widgets/testimonial-carousel.php:648
+msgid "Arrow"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tab-titles.php:256
+#: inc/backend/elementor/header/menu-mobile.php:253
+#: inc/backend/elementor/header/menu.php:89
+msgid "Arrow Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1211
+msgid "Arrow Color for Dropdown Menu"
+msgstr ""
+
+#: inc/backend/elementor-widgets/process-box.php:238
+msgid "Arrow Position"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2563
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:178
+msgid "Audio"
+msgstr ""
+
+#: inc/backend/customizer.php:1865 inc/frontend/template-tags.php:354
+msgid "Author"
+msgstr ""
+
+#: inc/backend/customizer.php:2162
+msgid "Author Info Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:272
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:134
+msgid "Autoplay"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:284
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:146
+msgid "Autoplay Speed"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2591
+msgid "Available version:"
+msgstr ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:53
+#: inc/backend/elementor-widgets/testimonial-carousel.php:86
+msgid "Avatar"
+msgstr ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:228
+#: inc/backend/elementor-widgets/testimonial-carousel.php:451
+msgid "Avatars"
+msgstr ""
+
+#: inc/backend/elementor/header/menu-mobile.php:288
+msgid "Back Button Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1695
+msgid "Back To Top On/Off?"
+msgstr ""
+
+#: inc/backend/customizer.php:1702
+msgid "Back-To-Top Background Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1722
+msgid "Back-To-Top Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1742
+msgid "Back-To-Top Spacing"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:161
+#: inc/backend/elementor-widgets/accordions.php:262
+#: inc/backend/elementor-widgets/accordions.php:303
+#: inc/backend/elementor-widgets/button.php:380
+#: inc/backend/elementor-widgets/client-carousel.php:315
+#: inc/backend/elementor-widgets/client-carousel.php:413
+#: inc/backend/elementor-widgets/icon-box.php:311
+#: inc/backend/elementor-widgets/icon-box.php:335
+#: inc/backend/elementor-widgets/icon-box.php:358
+#: inc/backend/elementor-widgets/icon-box.php:399
+#: inc/backend/elementor-widgets/icon-box.php:423
+#: inc/backend/elementor-widgets/icon-box.php:446
+#: inc/backend/elementor-widgets/icon-box.php:575
+#: inc/backend/elementor-widgets/icon-box.php:624
+#: inc/backend/elementor-widgets/message-box.php:112
+#: inc/backend/elementor-widgets/message-box.php:169
+#: inc/backend/elementor-widgets/portfolio-carousel.php:377
+#: inc/backend/elementor-widgets/portfolio-carousel.php:604
+#: inc/backend/elementor-widgets/portfolio-carousel.php:701
+#: inc/backend/elementor-widgets/portfolio-filter.php:426
+#: inc/backend/elementor-widgets/post-carousel.php:595
+#: inc/backend/elementor-widgets/post-carousel.php:692
+#: inc/backend/elementor-widgets/pricing-table.php:193
+#: inc/backend/elementor-widgets/pricing-table.php:210
+#: inc/backend/elementor-widgets/process-box.php:198
+#: inc/backend/elementor-widgets/process-box.php:314
+#: inc/backend/elementor-widgets/real-number.php:268
+#: inc/backend/elementor-widgets/service-box-2.php:156
+#: inc/backend/elementor-widgets/service-box-2.php:183
+#: inc/backend/elementor-widgets/service-box.php:215
+#: inc/backend/elementor-widgets/service-box.php:242
+#: inc/backend/elementor-widgets/service-box.php:368
+#: inc/backend/elementor-widgets/service-box.php:398
+#: inc/backend/elementor-widgets/service-carousel.php:946
+#: inc/backend/elementor-widgets/service-carousel.php:1041
+#: inc/backend/elementor-widgets/tab-titles.php:231
+#: inc/backend/elementor-widgets/tab-titles.php:248
+#: inc/backend/elementor-widgets/tabs.php:186
+#: inc/backend/elementor-widgets/tabs.php:218
+#: inc/backend/elementor-widgets/tabs.php:271
+#: inc/backend/elementor-widgets/team-carousel.php:335
+#: inc/backend/elementor-widgets/team-carousel.php:598
+#: inc/backend/elementor-widgets/team-carousel.php:692
+#: inc/backend/elementor-widgets/team.php:107
+#: inc/backend/elementor-widgets/team.php:201
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:437
+#: inc/backend/elementor-widgets/testimonial-carousel.php:622
+#: inc/backend/elementor-widgets/testimonial-carousel.php:717
+#: inc/backend/elementor/header/menu-mobile.php:208
+#: inc/backend/elementor/header/side-panel.php:139
+msgid "Background"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:115
+msgid "Background 100%"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:177
+#: inc/backend/elementor-widgets/client-carousel.php:424
+#: inc/backend/elementor-widgets/portfolio-carousel.php:712
+#: inc/backend/elementor-widgets/post-carousel.php:703
+#: inc/backend/elementor-widgets/service-carousel.php:957
+#: inc/backend/elementor-widgets/team-carousel.php:703
+#: inc/backend/elementor-widgets/testimonial-carousel.php:633
+msgid "Background Active"
+msgstr ""
+
+#: inc/backend/customizer.php:1342
+msgid "Background Active Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tab-titles.php:239
+msgid "Background Active/Hover Box"
+msgstr ""
+
+#: inc/backend/customizer.php:2479
+msgid "Background Body"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:346
+#: inc/backend/elementor-widgets/icon-box.php:434
+#: inc/backend/elementor-widgets/pricing-table.php:201
+msgid "Background Bottom Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tab-titles.php:222
+msgid "Background Box"
+msgstr ""
+
+#: inc/backend/elementor/header/side-panel.php:150
+msgid "Background Close Button"
+msgstr ""
+
+#: inc/backend/customizer.php:1322 inc/backend/customizer.php:1504
+#: inc/backend/customizer.php:1902 inc/frontend/preloader.php:102
+#: inc/backend/elementor-widgets/button-video.php:187
+#: inc/backend/elementor-widgets/button-video.php:238
+#: inc/backend/elementor-widgets/button.php:186
+#: inc/backend/elementor-widgets/button.php:226
+#: inc/backend/elementor-widgets/circle-process.php:334
+#: inc/backend/elementor-widgets/counter.php:246
+#: inc/backend/elementor-widgets/icon-box.php:838
+#: inc/backend/elementor-widgets/pricing-table.php:238
+#: inc/backend/elementor-widgets/pricing-table.php:468
+#: inc/backend/elementor-widgets/service-box-2.php:339
+#: inc/backend/elementor-widgets/service-carousel.php:365
+#: inc/backend/elementor-widgets/testimonial-carousel.php:237
+#: inc/backend/elementor/header/menu-mobile.php:102
+#: inc/backend/elementor/header/menu.php:262
+#: inc/backend/elementor/header/search.php:130
+msgid "Background Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1147
+msgid "Background Color for Dropdown Menu"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:398
+msgid "Background Color Hover"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:302
+#: inc/backend/elementor-widgets/icon-box.php:390
+msgid "Background Gradient?"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:239
+msgid "Background Grid"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:354
+#: inc/backend/elementor-widgets/portfolio-carousel.php:397
+#: inc/backend/elementor-widgets/portfolio-carousel.php:643
+#: inc/backend/elementor-widgets/post-carousel.php:634
+#: inc/backend/elementor-widgets/service-carousel.php:1080
+#: inc/backend/elementor-widgets/team-carousel.php:637
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:476
+#: inc/backend/elementor-widgets/testimonial-carousel.php:756
+msgid "Background Hover"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:256
+msgid "Background Hover Box"
+msgstr ""
+
+#: inc/backend/customizer.php:1484
+msgid "Background Image"
+msgstr ""
+
+#: inc/backend/customizer.php:1894
+msgid "Background Image on Top Page"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:149
+msgid "Background Image Page Header"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:385
+msgid "Background Overlay Hover"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:156
+msgid "Background Overlay Page Header"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:45 inc/backend/meta-boxes.php:70
+msgid "Background Page Header"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:135
+msgid "Background Scroll"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:121
+msgid "Background Social 1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:162
+msgid "Background Social 2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:203
+msgid "Background Social 3"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:323
+#: inc/backend/elementor-widgets/icon-box.php:411
+#: inc/backend/elementor-widgets/pricing-table.php:184
+msgid "Background Top Box"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:196
+msgid "Background Video"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:275
+#: inc/backend/elementor-widgets/post-grid.php:203
+msgid "Backgroung Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:43
+msgid "Bar Style"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:44
+#: inc/backend/elementor-widgets/switchs.php:44
+#: inc/backend/elementor-widgets/switchs.php:93
+msgid "Before"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:178
+msgid "Before Active Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:120
+msgid "Before DOT Box Shadow"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:109
+msgid "Before DOT Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:99
+msgid "Before Text Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:127
+msgid "Before WRAPPER Background Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:137
+msgid "Before WRAPPER Border Color"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugin-requires.php:82
+#: inc/libs/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel.php:179
+#: inc/backend/elementor-widgets/testimonial-carousel.php:300
+msgid "Behind Block"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box.php:412
+msgid "Big Number"
+msgstr ""
+
+#: inc/backend/customizer.php:203
+msgid "Blog"
+msgstr ""
+
+#: inc/backend/customizer.php:1799
+msgid "Blog Column"
+msgstr ""
+
+#: inc/backend/customizer.php:1834
+msgid "Blog Excerpt?"
+msgstr ""
+
+#: inc/backend/customizer.php:1794
+msgid "Blog Grid"
+msgstr ""
+
+#: inc/backend/customizer.php:1774
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/backend/customizer.php:1793
+msgid "Blog List"
+msgstr ""
+
+#: inc/backend/customizer.php:264
+msgid "Blog Page"
+msgstr ""
+
+#: inc/backend/customizer.php:1787
+msgid "Blog Style"
+msgstr ""
+
+#: inc/backend/customizer.php:2320
+msgid "Body Font 1"
+msgstr ""
+
+#: inc/backend/customizer.php:2341
+msgid "Body Font 2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:585
+#: inc/backend/elementor-widgets/pricing-table.php:151
+msgid "Border"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:148
+msgid "Border Bottom Scroll"
+msgstr ""
+
+#: inc/backend/customizer.php:1402
+#: inc/backend/elementor-widgets/icon-box.php:633
+#: inc/backend/elementor-widgets/tabs.php:123
+#: inc/backend/elementor/header/menu-mobile.php:242
+#: inc/backend/elementor/header/menu.php:170
+msgid "Border Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1113
+msgid "Border Color Scroll"
+msgstr ""
+
+#: inc/backend/customizer.php:1039
+msgid "Border Color Static"
+msgstr ""
+
+#: inc/backend/elementor/header/search.php:152
+msgid "Border Input Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:142
+#: inc/backend/elementor-widgets/button.php:257
+#: inc/backend/elementor-widgets/button.php:428
+#: inc/backend/elementor-widgets/icon-box-grid.php:273
+#: inc/backend/elementor-widgets/icon-box.php:251
+#: inc/backend/elementor-widgets/icon-box.php:850
+#: inc/backend/elementor-widgets/message-box.php:123
+#: inc/backend/elementor-widgets/portfolio-carousel.php:236
+#: inc/backend/elementor-widgets/portfolio-carousel.php:365
+#: inc/backend/elementor-widgets/portfolio-filter.php:200
+#: inc/backend/elementor-widgets/portfolio-filter.php:414
+#: inc/backend/elementor-widgets/post-carousel.php:287
+#: inc/backend/elementor-widgets/post-grid.php:215
+#: inc/backend/elementor-widgets/pricing-table.php:158
+#: inc/backend/elementor-widgets/pricing-table.php:481
+#: inc/backend/elementor-widgets/process-box.php:209
+#: inc/backend/elementor-widgets/service-box-2.php:115
+#: inc/backend/elementor-widgets/service-box-2.php:352
+#: inc/backend/elementor-widgets/service-box.php:175
+#: inc/backend/elementor-widgets/service-carousel.php:445
+#: inc/backend/elementor-widgets/social-share.php:212
+#: inc/backend/elementor-widgets/tabs.php:307
+#: inc/backend/elementor-widgets/team-carousel.php:314
+#: inc/backend/elementor-widgets/team-carousel.php:373
+#: inc/backend/elementor-widgets/team.php:180
+#: inc/backend/elementor-widgets/team.php:239
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:273
+#: inc/backend/elementor-widgets/testimonial-carousel.php:280
+#: inc/backend/elementor-widgets/testimonial-carousel.php:322
+#: inc/backend/elementor-widgets/testimonial-carousel.php:495
+#: inc/backend/elementor/header/menu.php:273
+msgid "Border Radius"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:146
+msgid "Border Raidus"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:415
+msgid "Border Top Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:107
+msgid "Border Width"
+msgstr ""
+
+#: inc/backend/customizer.php:1752
+msgid "Bottom"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:166
+msgid "Bottom Button"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:87
+msgid "Bottom Image"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:240
+#: inc/backend/elementor-widgets/message-box.php:104
+#: inc/backend/elementor-widgets/process-box.php:191
+#: inc/backend/elementor-widgets/service-box-2.php:107
+#: inc/backend/elementor-widgets/service-box.php:167
+msgid "Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:723
+#: inc/backend/elementor-widgets/icon-box.php:793
+#: inc/backend/elementor-widgets/service-box-2.php:258
+#: inc/backend/elementor-widgets/service-box-2.php:297
+#: inc/backend/elementor-widgets/service-box.php:507
+#: inc/backend/elementor-widgets/service-box.php:546
+msgid "Box Hover Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/process-box.php:137
+#: inc/backend/elementor-widgets/service-box.php:84
+msgid "Box Number"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:200
+#: inc/backend/elementor-widgets/button-video.php:251
+#: inc/backend/elementor-widgets/circle-process.php:346
+#: inc/backend/elementor-widgets/client-carousel.php:327
+#: inc/backend/elementor-widgets/portfolio-carousel.php:409
+#: inc/backend/elementor-widgets/portfolio-carousel.php:616
+#: inc/backend/elementor-widgets/portfolio-filter.php:435
+#: inc/backend/elementor-widgets/post-carousel.php:607
+#: inc/backend/elementor-widgets/pricing-table.php:261
+#: inc/backend/elementor-widgets/pricing-table.php:494
+#: inc/backend/elementor-widgets/process-box.php:323
+#: inc/backend/elementor-widgets/service-box-2.php:365
+#: inc/backend/elementor-widgets/service-carousel.php:1053
+#: inc/backend/elementor-widgets/team-carousel.php:610
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:449
+#: inc/backend/elementor-widgets/testimonial-carousel.php:729
+#: inc/backend/elementor/header/menu.php:285
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:137
+msgid "Box Shadow for Dot"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:366
+#: inc/backend/elementor-widgets/portfolio-carousel.php:655
+#: inc/backend/elementor-widgets/post-carousel.php:646
+#: inc/backend/elementor-widgets/service-carousel.php:1092
+#: inc/backend/elementor-widgets/team-carousel.php:649
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:488
+#: inc/backend/elementor-widgets/testimonial-carousel.php:768
+msgid "Box Shadow Hover"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:162
+msgid "Box Shadow Scroll"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:125
+#: inc/backend/elementor-widgets/icon-box.php:69
+#: inc/backend/elementor-widgets/service-box.php:57
+msgid "Box Style"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:232
+#: inc/backend/elementor-widgets/real-number.php:228
+#: inc/backend/elementor-widgets/service-carousel.php:672
+#: inc/backend/elementor-widgets/tab-titles.php:198
+msgid "Boxes"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:100
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: inc/backend/customizer.php:1987
+msgid "Breadcrumb Arrow Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1964
+msgid "Breadcrumb Link Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1451 inc/backend/customizer.php:1957
+msgid "Breadcrumbs On/Off"
+msgstr ""
+
+#: inc/backend/customizer.php:1950
+msgid "Breadcrumbs Setting"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:51
+msgid "Buffer"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:36
+#: inc/backend/elementor-widgets/button-video.php:102
+#: inc/backend/elementor-widgets/button.php:66
+#: inc/backend/elementor-widgets/icon-box.php:814
+#: inc/backend/elementor-widgets/pricing-table.php:446
+#: inc/backend/elementor-widgets/service-box-2.php:85
+#: inc/backend/elementor-widgets/service-box-2.php:317
+#: inc/backend/elementor-widgets/tabs.php:152
+msgid "Button"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:472
+#: inc/backend/elementor-widgets/post-grid.php:400
+msgid "Button Read More"
+msgstr ""
+
+#: inc/backend/elementor/header/menu-mobile.php:166
+msgid "Button Size"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:44
+msgid "Button With Icon"
+msgstr ""
+
+#: inc/backend/customizer.php:233
+msgid "Call To Action"
+msgstr ""
+
+#: inc/backend/customizer.php:725
+msgid "Call To Action Button On/Off"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:79
+#: inc/backend/elementor-widgets/button-video.php:283
+msgid "Caption"
+msgstr ""
+
+#: inc/backend/customizer.php:697
+msgid "Cart Button On/Off"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:475
+#: inc/backend/elementor-widgets/portfolio-filter.php:497
+msgid "Category"
+msgstr ""
+
+#: inc/backend/customizer.php:1470
+#: inc/backend/elementor-widgets/button-video.php:51
+#: inc/backend/elementor-widgets/button.php:92
+#: inc/backend/elementor-widgets/countdown.php:50
+#: inc/backend/elementor-widgets/counter.php:87
+#: inc/backend/elementor-widgets/heading.php:157
+#: inc/backend/elementor-widgets/icon-box-grid.php:65
+#: inc/backend/elementor-widgets/icon-box.php:201
+#: inc/backend/elementor-widgets/portfolio-carousel.php:264
+#: inc/backend/elementor-widgets/portfolio-filter.php:232
+#: inc/backend/elementor-widgets/portfolio-filter.php:313
+#: inc/backend/elementor-widgets/post-grid.php:493
+#: inc/backend/elementor-widgets/process-box.php:64
+#: inc/backend/elementor-widgets/service-carousel.php:322
+#: inc/backend/elementor-widgets/service-carousel.php:484
+#: inc/backend/elementor-widgets/social-share.php:89
+#: inc/backend/elementor-widgets/tab-titles.php:166
+#: inc/backend/elementor-widgets/testimonial-carousel.php:200
+#: inc/backend/elementor/header/list-menu-item.php:139
+#: inc/backend/elementor/header/logo.php:50
+msgid "Center"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:66
+#: inc/backend/elementor-widgets/team-carousel.php:224
+#: inc/backend/elementor-widgets/team-carousel.php:228
+#: inc/backend/elementor-widgets/team-carousel.php:232
+#: inc/backend/elementor-widgets/team-carousel.php:236
+msgid "CEO of Company"
+msgstr ""
+
+#: inc/backend/customizer.php:2255
+msgid "Change Posts Per Page for Portfolio Archive Page, Taxonomy Page."
+msgstr ""
+
+#. Name of the template
+#: page-templates/shop-page.php:2
+msgid "Checkout & Cart Page"
+msgstr ""
+
+#: inc/backend/customizer.php:2198
+msgid "Choose a custom page for archive portfolio page."
+msgstr ""
+
+#: inc/backend/customizer.php:2310
+msgid "Choose a custom page for page 404."
+msgstr ""
+
+#: inc/backend/customizer.php:1679
+msgid "Choose a footer for all site here."
+msgstr ""
+
+#: inc/backend/customizer.php:469
+msgid "Choose a menu to show on topbar here."
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:363
+msgid "Choose Logo Image"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:112
+msgid "Choose Plane"
+msgstr ""
+
+#: inc/backend/customizer.php:327
+msgid "Choose the header display on desktop."
+msgstr ""
+
+#: inc/backend/customizer.php:337
+msgid "Choose the header display on mobile."
+msgstr ""
+
+#: inc/backend/customizer.php:354
+msgid "Choose the side panel on header."
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:73
+msgid "Circle"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:200
+msgid "Circle Border Width"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:207
+#: inc/backend/elementor-widgets/button-video.php:258
+msgid "Circle Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:355
+msgid "Circle Logo"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:177
+msgid "Circle Width/Height"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:190
+#: inc/backend/elementor-widgets/icon-box-grid.php:197
+#: inc/backend/elementor-widgets/icon-box-grid.php:204
+msgid "class"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:111
+msgid "Click here"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:110
+msgid "Click here <i class=\"flaticon-right-arrow-1\"></i>"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:35
+msgid "Client Carousel"
+msgstr ""
+
+#: inc/backend/customizer.php:1938 inc/backend/customizer.php:1968
+#: inc/backend/elementor-widgets/accordions.php:204
+#: inc/backend/elementor-widgets/accordions.php:273
+#: inc/backend/elementor-widgets/accordions.php:314
+#: inc/backend/elementor-widgets/accordions.php:341
+#: inc/backend/elementor-widgets/button-video.php:176
+#: inc/backend/elementor-widgets/button-video.php:227
+#: inc/backend/elementor-widgets/button-video.php:291
+#: inc/backend/elementor-widgets/button.php:369
+#: inc/backend/elementor-widgets/client-carousel.php:303
+#: inc/backend/elementor-widgets/contact-info.php:157
+#: inc/backend/elementor-widgets/contact-info.php:232
+#: inc/backend/elementor-widgets/contact-info.php:260
+#: inc/backend/elementor-widgets/countdown.php:191
+#: inc/backend/elementor-widgets/countdown.php:236
+#: inc/backend/elementor-widgets/countdown.php:264
+#: inc/backend/elementor-widgets/counter.php:177
+#: inc/backend/elementor-widgets/counter.php:234
+#: inc/backend/elementor-widgets/counter.php:306
+#: inc/backend/elementor-widgets/heading.php:196
+#: inc/backend/elementor-widgets/heading.php:241
+#: inc/backend/elementor-widgets/heading.php:288
+#: inc/backend/elementor-widgets/icon-box-grid.php:322
+#: inc/backend/elementor-widgets/icon-box-grid.php:407
+#: inc/backend/elementor-widgets/icon-box-grid.php:435
+#: inc/backend/elementor-widgets/icon-box.php:561
+#: inc/backend/elementor-widgets/icon-box.php:610
+#: inc/backend/elementor-widgets/icon-box.php:712
+#: inc/backend/elementor-widgets/icon-box.php:782
+#: inc/backend/elementor-widgets/message-box.php:180
+#: inc/backend/elementor-widgets/message-box.php:261
+#: inc/backend/elementor-widgets/message-box.php:289
+#: inc/backend/elementor-widgets/portfolio-carousel.php:445
+#: inc/backend/elementor-widgets/portfolio-carousel.php:513
+#: inc/backend/elementor-widgets/portfolio-carousel.php:592
+#: inc/backend/elementor-widgets/portfolio-filter.php:468
+#: inc/backend/elementor-widgets/portfolio-filter.php:535
+#: inc/backend/elementor-widgets/post-carousel.php:335
+#: inc/backend/elementor-widgets/post-carousel.php:391
+#: inc/backend/elementor-widgets/post-carousel.php:450
+#: inc/backend/elementor-widgets/post-carousel.php:583
+#: inc/backend/elementor-widgets/post-grid.php:263
+#: inc/backend/elementor-widgets/post-grid.php:319
+#: inc/backend/elementor-widgets/post-grid.php:378
+#: inc/backend/elementor-widgets/pricing-table.php:249
+#: inc/backend/elementor-widgets/pricing-table.php:327
+#: inc/backend/elementor-widgets/pricing-table.php:355
+#: inc/backend/elementor-widgets/pricing-table.php:426
+#: inc/backend/elementor-widgets/process-box.php:302
+#: inc/backend/elementor-widgets/process-box.php:356
+#: inc/backend/elementor-widgets/process-box.php:428
+#: inc/backend/elementor-widgets/process-box.php:456
+#: inc/backend/elementor-widgets/progress-bars.php:93
+#: inc/backend/elementor-widgets/progress-bars.php:211
+#: inc/backend/elementor-widgets/progress-bars.php:239
+#: inc/backend/elementor-widgets/real-number.php:332
+#: inc/backend/elementor-widgets/service-box-2.php:247
+#: inc/backend/elementor-widgets/service-box-2.php:286
+#: inc/backend/elementor-widgets/service-box.php:326
+#: inc/backend/elementor-widgets/service-box.php:423
+#: inc/backend/elementor-widgets/service-box.php:496
+#: inc/backend/elementor-widgets/service-box.php:535
+#: inc/backend/elementor-widgets/service-carousel.php:512
+#: inc/backend/elementor-widgets/service-carousel.php:565
+#: inc/backend/elementor-widgets/service-carousel.php:621
+#: inc/backend/elementor-widgets/service-carousel.php:1029
+#: inc/backend/elementor-widgets/social-share.php:118
+#: inc/backend/elementor-widgets/tabs.php:197
+#: inc/backend/elementor-widgets/tabs.php:230
+#: inc/backend/elementor-widgets/tabs.php:282
+#: inc/backend/elementor-widgets/team-carousel.php:412
+#: inc/backend/elementor-widgets/team-carousel.php:442
+#: inc/backend/elementor-widgets/team-carousel.php:507
+#: inc/backend/elementor-widgets/team-carousel.php:586
+#: inc/backend/elementor-widgets/team.php:278
+#: inc/backend/elementor-widgets/team.php:308
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:425
+#: inc/backend/elementor-widgets/testimonial-carousel.php:370
+#: inc/backend/elementor-widgets/testimonial-carousel.php:414
+#: inc/backend/elementor-widgets/testimonial-carousel.php:705
+#: inc/backend/elementor/header/list-menu-item.php:182
+#: inc/backend/elementor/header/menu-mobile.php:91
+msgid "Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:104
+msgid "Color 2(Gradient)"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:215
+msgid "Color Active"
+msgstr ""
+
+#: inc/backend/elementor/header/side-panel.php:161
+msgid "Color Close Button"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:343
+#: inc/backend/elementor-widgets/portfolio-carousel.php:632
+#: inc/backend/elementor-widgets/post-carousel.php:346
+#: inc/backend/elementor-widgets/post-carousel.php:623
+#: inc/backend/elementor-widgets/post-grid.php:274
+#: inc/backend/elementor-widgets/service-carousel.php:1069
+#: inc/backend/elementor-widgets/team-carousel.php:626
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:465
+#: inc/backend/elementor-widgets/testimonial-carousel.php:745
+msgid "Color Hover"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:94
+msgid "Color Number"
+msgstr ""
+
+#: inc/backend/customizer.php:309
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:87
+#: inc/backend/elementor-widgets/portfolio-filter.php:89
+#: inc/backend/elementor-widgets/real-number.php:124
+msgid "Columns"
+msgstr ""
+
+#: comments.php:29
+msgid "Comment (1)"
+msgstr ""
+
+#: comments.php:54
+msgid "Comment*"
+msgstr ""
+
+#: inc/backend/customizer.php:1867
+msgid "Comments"
+msgstr ""
+
+#: comments.php:29
+msgid "Comments (%)"
+msgstr ""
+
+#: comments.php:29
+msgid "Comments (0)"
+msgstr ""
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/backend/plugin-requires.php:34
+#: inc/backend/elementor-widgets/contact-form-7.php:44
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-form-7.php:52
+msgid ""
+"Contact form 7 - plugin must be installed and there must be some contact "
+"forms made with the contact form 7"
+msgstr ""
+
+#: inc/backend/customizer.php:515 inc/backend/customizer.php:532
+msgid "Contact Info"
+msgstr ""
+
+#: inc/backend/customizer.php:551
+msgid "Contact info content"
+msgstr ""
+
+#: inc/backend/customizer.php:539
+msgid "Contact info name"
+msgstr ""
+
+#: inc/backend/customizer.php:501
+msgid "Contact Info On/Off"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:56
+#: inc/backend/elementor-widgets/accordions.php:333
+#: inc/backend/elementor-widgets/circle-process.php:35
+#: inc/backend/elementor-widgets/circle-process.php:62
+#: inc/backend/elementor-widgets/contact-info.php:36
+#: inc/backend/elementor-widgets/heading.php:50
+#: inc/backend/elementor-widgets/icon-box-grid.php:374
+#: inc/backend/elementor-widgets/icon-box.php:659
+#: inc/backend/elementor-widgets/message-box.php:228
+#: inc/backend/elementor-widgets/post-grid.php:36
+#: inc/backend/elementor-widgets/pricing-table.php:221
+#: inc/backend/elementor-widgets/process-box.php:340
+#: inc/backend/elementor-widgets/progress-bars.php:36
+#: inc/backend/elementor-widgets/real-number.php:35
+#: inc/backend/elementor-widgets/service-box-2.php:214
+#: inc/backend/elementor-widgets/service-box.php:463
+#: inc/backend/elementor-widgets/service-carousel.php:149
+#: inc/backend/elementor-widgets/social-share.php:34
+#: inc/backend/elementor-widgets/tab-titles.php:282
+#: inc/backend/elementor-widgets/tabs.php:56
+#: inc/backend/elementor-widgets/tabs.php:263
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:43
+#: inc/backend/elementor-widgets/testimonial-carousel.php:76
+msgid "Content"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:72
+msgid "Content Align"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:348
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:187
+#: inc/backend/elementor-widgets/testimonial-carousel.php:229
+msgid "Content Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:160
+#: inc/backend/elementor-widgets/icon-box-grid.php:192
+#: inc/backend/elementor-widgets/icon-box-grid.php:199
+#: inc/backend/elementor-widgets/icon-box-grid.php:206
+#: inc/backend/elementor-widgets/icon-box.php:140
+#: inc/backend/elementor-widgets/service-box-2.php:59
+#: inc/backend/elementor-widgets/service-box.php:136
+msgid "Content Marketing"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:667
+msgid "Content Spacing"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:104
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/backend/elementor/header/cart.php:135
+msgid "Count Background"
+msgstr ""
+
+#: inc/backend/elementor/header/cart.php:124
+msgid "Count Color"
+msgstr ""
+
+#: inc/backend/elementor/header/cart.php:163
+msgid "Count Left"
+msgstr ""
+
+#: inc/backend/elementor/header/cart.php:146
+msgid "Count Top"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:35
+msgid "CountDown"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:49
+msgid "Counter"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:187
+#: inc/backend/elementor-widgets/service-carousel.php:196
+#: inc/backend/elementor-widgets/service-carousel.php:205
+msgid "Create and manage top-performing social campaigns and start."
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:121
+#: inc/backend/elementor-widgets/portfolio-filter.php:187
+#: inc/backend/elementor-widgets/post-carousel.php:71
+#: inc/backend/elementor-widgets/post-grid.php:71
+msgid ""
+"Crop the original image size to any custom size. Set custom width or height "
+"to keep the original size ratio."
+msgstr ""
+
+#: inc/backend/customizer.php:777
+msgid "CTA Button Background Color"
+msgstr ""
+
+#: inc/backend/customizer.php:827
+msgid "CTA Button box-shadow color"
+msgstr ""
+
+#: inc/backend/customizer.php:758
+msgid "CTA Button Link"
+msgstr ""
+
+#: inc/backend/customizer.php:739
+msgid "CTA Button Text"
+msgstr ""
+
+#: inc/backend/customizer.php:802
+msgid "CTA Button Text Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:112
+#: inc/backend/elementor-widgets/portfolio-filter.php:178
+#: inc/backend/elementor-widgets/post-carousel.php:62
+#: inc/backend/elementor-widgets/post-grid.php:62
+#: inc/backend/elementor-widgets/social-share.php:123
+msgid "Custom"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:85
+#: inc/backend/elementor-widgets/icon-box-grid.php:146
+#: inc/backend/elementor-widgets/icon-box.php:126
+#: inc/backend/elementor-widgets/message-box.php:70
+#: inc/backend/elementor-widgets/process-box.php:125
+#: inc/backend/elementor-widgets/service-box.php:122
+#: inc/backend/elementor-widgets/tab-titles.php:100
+msgid "Custom Class"
+msgstr ""
+
+#: inc/backend/customizer.php:1841
+msgid "Custom Excerpt Length"
+msgstr ""
+
+#: inc/backend/customizer.php:1843
+msgid "Custom Excerpt Length for Archive, Category, Tags, Search page."
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:49
+#: inc/backend/elementor-widgets/icon-box-grid.php:110
+#: inc/backend/elementor-widgets/icon-box.php:90
+#: inc/backend/elementor-widgets/message-box.php:47
+#: inc/backend/elementor-widgets/process-box.php:89
+#: inc/backend/elementor-widgets/service-box.php:77
+#: inc/backend/elementor-widgets/tab-titles.php:64
+msgid "Custom Icon"
+msgstr ""
+
+#: inc/backend/customizer.php:1866
+msgid "Date"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:94
+#: inc/backend/elementor-widgets/countdown.php:96
+msgid "Day"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:135
+#: inc/backend/elementor-widgets/countdown.php:137
+msgid "Days"
+msgstr ""
+
+#: inc/backend/customizer.php:1826 inc/backend/customizer.php:2244
+#: inc/backend/elementor-widgets/client-carousel.php:96
+#: inc/backend/elementor-widgets/client-carousel.php:109
+#: inc/backend/elementor-widgets/switchs.php:209
+msgid "Default"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:58
+#: inc/backend/elementor-widgets/post-grid.php:58
+msgid "Default - 750 x 500"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-filter.php:174
+msgid "Default - 760 x 760"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:107
+msgid "Default - 800 x 557"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:108
+msgid "Default 2 - 600 x 680"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:86
+msgid "Default Active"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:252
+#: inc/backend/elementor-widgets/icon-box-grid.php:427
+#: inc/backend/elementor-widgets/icon-box.php:758
+#: inc/backend/elementor-widgets/message-box.php:281
+#: inc/backend/elementor-widgets/process-box.php:448
+#: inc/backend/elementor-widgets/service-box-2.php:278
+#: inc/backend/elementor-widgets/service-box.php:527
+msgid "Description"
+msgstr ""
+
+#: inc/frontend/widgets/author-widget.php:107
+msgid "Description:"
+msgstr ""
+
+#: inc/backend/customizer.php:1549 inc/backend/customizer.php:1593
+#: inc/backend/customizer.php:1637 inc/backend/customizer.php:2012
+#: inc/backend/customizer.php:2049 inc/backend/customizer.php:2086
+msgid "Desktop"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:375
+msgid "Details"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:52
+msgid "Digg"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:194
+msgid "Display Zikzag"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:38
+#: inc/backend/elementor-widgets/heading.php:38
+#: inc/backend/elementor-widgets/icon-box-grid.php:38
+#: inc/backend/elementor-widgets/icon-box.php:50
+#: inc/backend/elementor-widgets/portfolio-carousel.php:38
+#: inc/backend/elementor-widgets/portfolio-filter.php:38
+#: inc/backend/elementor-widgets/process-box.php:38
+#: inc/backend/elementor-widgets/service-box-2.php:38
+#: inc/backend/elementor-widgets/service-box.php:38
+#: inc/backend/elementor-widgets/service-carousel.php:38
+#: inc/backend/elementor-widgets/tab-titles.php:38
+msgid "div"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:266
+msgid "Dot"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:124
+msgid "Dot & Number Color"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:373
+#: inc/backend/elementor/elementor-functions.php:456
+#: inc/backend/elementor/elementor-functions.php:539
+msgid "Dot Color"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:290
+msgid "Dot Left Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:381
+#: inc/backend/elementor-widgets/portfolio-carousel.php:670
+#: inc/backend/elementor-widgets/post-carousel.php:661
+#: inc/backend/elementor-widgets/service-carousel.php:914
+#: inc/backend/elementor-widgets/team-carousel.php:664
+#: inc/backend/elementor-widgets/testimonial-carousel.php:590
+msgid "Dots"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:130
+#: inc/backend/elementor-widgets/portfolio-carousel.php:182
+#: inc/backend/elementor-widgets/post-carousel.php:206
+#: inc/backend/elementor-widgets/service-carousel.php:260
+#: inc/backend/elementor-widgets/team-carousel.php:288
+#: inc/backend/elementor-widgets/testimonial-carousel.php:167
+msgid "Dots Slider"
+msgstr ""
+
+#: inc/backend/elementor/header/menu.php:187
+msgid "Dropdown Menus"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:131
+msgid "Duration"
+msgstr ""
+
+#: inc/backend/admin-functions.php:33 inc/backend/admin-functions.php:69
+msgid "Edit"
+msgstr ""
+
+#: inc/backend/admin-functions.php:70
+msgid "Edit Footer Builder"
+msgstr ""
+
+#: inc/backend/admin-functions.php:34
+msgid "Edit Header Builder"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:24
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:57
+msgid "Email"
+msgstr ""
+
+#: comments.php:61
+msgid "Email *"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:67
+#: inc/backend/elementor-widgets/service-carousel.php:69
+msgid "Enter your subtitle"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:79
+#: inc/backend/elementor-widgets/service-carousel.php:83
+msgid "Enter your title"
+msgstr ""
+
+#: inc/backend/customizer.php:2155
+msgid "Entry Footer"
+msgstr ""
+
+#: inc/backend/customizer.php:1861
+#: inc/backend/elementor-widgets/post-carousel.php:309
+#: inc/backend/elementor-widgets/post-grid.php:237
+msgid "Entry Meta"
+msgstr ""
+
+#: inc/backend/customizer.php:1934
+msgid "Entry Meta Link Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:424
+#: inc/backend/elementor-widgets/post-grid.php:352
+msgid "Excerpt"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2376
+msgid "External Source"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:64
+#: inc/backend/elementor-widgets/team-carousel.php:433
+#: inc/backend/elementor-widgets/team.php:63
+#: inc/backend/elementor-widgets/team.php:299
+msgid "Extra/Job"
+msgstr ""
+
+#: inc/backend/customizer.php:2143
+#: inc/backend/elementor-widgets/social-share.php:46
+#: inc/backend/elementor-widgets/team.php:133
+msgid "Facebook"
+msgstr ""
+
+#: inc/frontend/template-tags.php:311
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:160
+msgid "Fade Effect"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-filter.php:214
+msgid "Filter"
+msgstr ""
+
+#: inc/backend/elementor-widgets/message-box.php:72
+msgid "flaticon-info"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:87
+#: inc/backend/elementor-widgets/icon-box-grid.php:148
+#: inc/backend/elementor-widgets/icon-box-grid.php:191
+#: inc/backend/elementor-widgets/icon-box-grid.php:198
+#: inc/backend/elementor-widgets/icon-box-grid.php:205
+#: inc/backend/elementor-widgets/icon-box.php:128
+#: inc/backend/elementor-widgets/process-box.php:127
+#: inc/backend/elementor-widgets/service-box.php:124
+#: inc/backend/elementor-widgets/tab-titles.php:102
+msgid "flaticon-world"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:47
+#: inc/backend/elementor-widgets/icon-box-grid.php:108
+#: inc/backend/elementor-widgets/icon-box.php:88
+#: inc/backend/elementor-widgets/message-box.php:46
+#: inc/backend/elementor-widgets/process-box.php:87
+#: inc/backend/elementor-widgets/service-box.php:75
+#: inc/backend/elementor-widgets/tab-titles.php:62
+msgid "Font Icon"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:473
+#: inc/backend/elementor-widgets/team.php:339
+msgid "Font Size"
+msgstr ""
+
+#: inc/backend/customizer.php:295
+msgid "Footer"
+msgstr ""
+
+#: inc/backend/admin-functions.php:66
+msgid "Footer Builder"
+msgstr ""
+
+#: inc/backend/admin-functions.php:65
+msgid "Footer Builders"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:123
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:110
+msgid "For Header"
+msgstr ""
+
+#: inc/backend/elementor/header/search.php:123
+msgid "Form"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:142
+msgid "Format Details"
+msgstr ""
+
+#: inc/backend/customizer.php:1829 inc/backend/customizer.php:2247
+#: inc/backend/elementor-widgets/portfolio-carousel.php:111
+#: inc/backend/elementor-widgets/portfolio-filter.php:177
+#: inc/backend/elementor-widgets/post-carousel.php:61
+#: inc/backend/elementor-widgets/post-grid.php:61
+msgid "Full"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:171
+msgid "Gallery"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:216
+#: inc/backend/elementor-widgets/portfolio-filter.php:114
+#: inc/backend/elementor-widgets/post-carousel.php:230
+#: inc/backend/elementor-widgets/service-carousel.php:298
+msgid "Gap Width"
+msgstr ""
+
+#: inc/backend/customizer.php:195 inc/backend/customizer.php:212
+#: inc/backend/elementor-widgets/button.php:156
+#: inc/backend/elementor-widgets/portfolio-filter.php:50
+#: inc/backend/elementor-widgets/testimonial-carousel.php:221
+msgid "General"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:57
+#: inc/backend/elementor-widgets/team-carousel.php:223
+#: inc/backend/elementor-widgets/team-carousel.php:227
+#: inc/backend/elementor-widgets/team-carousel.php:231
+#: inc/backend/elementor-widgets/team-carousel.php:235
+msgid "Gina Bruno"
+msgstr ""
+
+#: inc/frontend/template-tags.php:319
+msgid "Github Profile"
+msgstr ""
+
+#: inc/frontend/template-tags.php:316
+msgid "Google +"
+msgstr ""
+
+#: inc/backend/customizer.php:2515
+msgid "Google Analytics Code"
+msgstr ""
+
+#: inc/backend/customizer.php:316
+msgid "Google Analytics(Script Code)"
+msgstr ""
+
+#: inc/backend/customizer.php:2146
+#: inc/backend/elementor-widgets/social-share.php:48
+msgid "Google Plus"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:220
+msgid "Gradient Color 1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:228
+msgid "Gradient Color 2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-grid.php:92
+msgid "Grid Column"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:206
+msgid "Grid Lines"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:213
+msgid "Grid Lines On/Off"
+msgstr ""
+
+#: inc/backend/customizer.php:2233 inc/backend/customizer.php:2295
+msgid "Grid Masonry"
+msgstr ""
+
+#: inc/backend/customizer.php:2232 inc/backend/customizer.php:2294
+msgid "Grid Normal"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:32
+#: inc/backend/elementor-widgets/heading.php:32
+#: inc/backend/elementor-widgets/icon-box-grid.php:32
+#: inc/backend/elementor-widgets/icon-box.php:44
+#: inc/backend/elementor-widgets/portfolio-carousel.php:32
+#: inc/backend/elementor-widgets/portfolio-filter.php:32
+#: inc/backend/elementor-widgets/process-box.php:32
+#: inc/backend/elementor-widgets/service-box-2.php:32
+#: inc/backend/elementor-widgets/service-box.php:32
+#: inc/backend/elementor-widgets/service-carousel.php:32
+#: inc/backend/elementor-widgets/tab-titles.php:32
+msgid "H1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:33
+#: inc/backend/elementor-widgets/heading.php:33
+#: inc/backend/elementor-widgets/icon-box-grid.php:33
+#: inc/backend/elementor-widgets/icon-box.php:45
+#: inc/backend/elementor-widgets/portfolio-carousel.php:33
+#: inc/backend/elementor-widgets/portfolio-filter.php:33
+#: inc/backend/elementor-widgets/process-box.php:33
+#: inc/backend/elementor-widgets/service-box-2.php:33
+#: inc/backend/elementor-widgets/service-box.php:33
+#: inc/backend/elementor-widgets/service-carousel.php:33
+#: inc/backend/elementor-widgets/tab-titles.php:33
+msgid "H2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:34
+#: inc/backend/elementor-widgets/heading.php:34
+#: inc/backend/elementor-widgets/icon-box-grid.php:34
+#: inc/backend/elementor-widgets/icon-box.php:46
+#: inc/backend/elementor-widgets/portfolio-carousel.php:34
+#: inc/backend/elementor-widgets/portfolio-filter.php:34
+#: inc/backend/elementor-widgets/process-box.php:34
+#: inc/backend/elementor-widgets/service-box-2.php:34
+#: inc/backend/elementor-widgets/service-box.php:34
+#: inc/backend/elementor-widgets/service-carousel.php:34
+#: inc/backend/elementor-widgets/tab-titles.php:34
+msgid "H3"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:35
+#: inc/backend/elementor-widgets/heading.php:35
+#: inc/backend/elementor-widgets/icon-box-grid.php:35
+#: inc/backend/elementor-widgets/icon-box.php:47
+#: inc/backend/elementor-widgets/portfolio-carousel.php:35
+#: inc/backend/elementor-widgets/portfolio-filter.php:35
+#: inc/backend/elementor-widgets/process-box.php:35
+#: inc/backend/elementor-widgets/service-box-2.php:35
+#: inc/backend/elementor-widgets/service-box.php:35
+#: inc/backend/elementor-widgets/service-carousel.php:35
+#: inc/backend/elementor-widgets/tab-titles.php:35
+msgid "H4"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:36
+#: inc/backend/elementor-widgets/heading.php:36
+#: inc/backend/elementor-widgets/icon-box-grid.php:36
+#: inc/backend/elementor-widgets/icon-box.php:48
+#: inc/backend/elementor-widgets/portfolio-carousel.php:36
+#: inc/backend/elementor-widgets/portfolio-filter.php:36
+#: inc/backend/elementor-widgets/process-box.php:36
+#: inc/backend/elementor-widgets/service-box-2.php:36
+#: inc/backend/elementor-widgets/service-box.php:36
+#: inc/backend/elementor-widgets/service-carousel.php:36
+#: inc/backend/elementor-widgets/tab-titles.php:36
+msgid "H5"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:37
+#: inc/backend/elementor-widgets/heading.php:37
+#: inc/backend/elementor-widgets/icon-box-grid.php:37
+#: inc/backend/elementor-widgets/icon-box.php:49
+#: inc/backend/elementor-widgets/portfolio-carousel.php:37
+#: inc/backend/elementor-widgets/portfolio-filter.php:37
+#: inc/backend/elementor-widgets/process-box.php:37
+#: inc/backend/elementor-widgets/service-box-2.php:37
+#: inc/backend/elementor-widgets/service-box.php:37
+#: inc/backend/elementor-widgets/service-carousel.php:37
+#: inc/backend/elementor-widgets/tab-titles.php:37
+msgid "H6"
+msgstr ""
+
+#: inc/backend/customizer.php:198
+msgid "Header"
+msgstr ""
+
+#: inc/backend/admin-functions.php:30
+msgid "Header Builder"
+msgstr ""
+
+#: inc/backend/admin-functions.php:29
+msgid "Header Builders"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:86
+msgid "Header Layout"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:100
+msgid "Header Mobile Layout"
+msgstr ""
+
+#: inc/backend/customizer.php:410
+msgid "Header Padding (ex: 10px)"
+msgstr ""
+
+#: inc/backend/customizer.php:389
+msgid "Header Transparent for all site?"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:114
+msgid "Header Transparent On/Off"
+msgstr ""
+
+#: inc/backend/customizer.php:396
+msgid "Header Width: Wide/Boxes"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:79
+msgid "Header/Footer Settings"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:179
+#: inc/backend/elementor-widgets/service-carousel.php:466
+#: inc/backend/elementor-widgets/testimonial-carousel.php:350
+msgid "Heading"
+msgstr ""
+
+#: inc/backend/customizer.php:2351
+msgid "Heading 1"
+msgstr ""
+
+#: inc/backend/customizer.php:2372
+msgid "Heading 2"
+msgstr ""
+
+#: inc/backend/customizer.php:2393
+msgid "Heading 3"
+msgstr ""
+
+#: inc/backend/customizer.php:2414
+msgid "Heading 4"
+msgstr ""
+
+#: inc/backend/customizer.php:2435
+msgid "Heading 5"
+msgstr ""
+
+#: inc/backend/customizer.php:2456
+msgid "Heading 6"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:127
+msgid "Height"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:95
+#: inc/backend/elementor-widgets/post-carousel.php:117
+#: inc/backend/elementor-widgets/post-carousel.php:128
+#: inc/backend/elementor-widgets/post-carousel.php:139
+#: inc/backend/elementor-widgets/post-grid.php:108
+#: inc/backend/elementor-widgets/post-grid.php:130
+#: inc/backend/elementor-widgets/post-grid.php:141
+#: inc/backend/elementor-widgets/post-grid.php:152
+#: inc/backend/elementor-widgets/post-grid.php:163
+msgid "Hidden"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:208
+#: inc/backend/elementor-widgets/portfolio-carousel.php:486
+#: inc/backend/elementor-widgets/portfolio-filter.php:70
+#: inc/backend/elementor-widgets/portfolio-filter.php:106
+#: inc/backend/elementor-widgets/portfolio-filter.php:508
+#: inc/backend/elementor-widgets/post-carousel.php:222
+#: inc/backend/elementor-widgets/service-carousel.php:58
+#: inc/backend/elementor-widgets/team-carousel.php:85
+#: inc/backend/elementor-widgets/testimonial-carousel.php:44
+#: inc/backend/elementor/header/list-menu-item.php:266
+#: inc/backend/elementor/header/menu.php:162
+msgid "Hide"
+msgstr ""
+
+#: inc/frontend/breadcrumbs.php:16 inc/frontend/breadcrumbs.php:18
+msgid "Home"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:102
+#: inc/backend/elementor-widgets/countdown.php:104
+msgid "Hour"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:143
+#: inc/backend/elementor-widgets/countdown.php:145
+msgid "Hours"
+msgstr ""
+
+#: inc/backend/customizer.php:1939 inc/backend/customizer.php:1969
+#: inc/backend/elementor-widgets/button-video.php:220
+#: inc/backend/elementor-widgets/button.php:207
+#: inc/backend/elementor-widgets/button.php:394
+#: inc/backend/elementor-widgets/client-carousel.php:212
+#: inc/backend/elementor-widgets/client-carousel.php:337
+#: inc/backend/elementor-widgets/icon-box.php:372
+#: inc/backend/elementor-widgets/icon-box.php:603
+#: inc/backend/elementor-widgets/portfolio-carousel.php:626
+#: inc/backend/elementor-widgets/post-carousel.php:617
+#: inc/backend/elementor-widgets/process-box.php:273
+#: inc/backend/elementor-widgets/service-box-2.php:175
+#: inc/backend/elementor-widgets/service-box.php:234
+#: inc/backend/elementor-widgets/service-box.php:379
+#: inc/backend/elementor-widgets/service-carousel.php:391
+#: inc/backend/elementor-widgets/service-carousel.php:1063
+#: inc/backend/elementor-widgets/team-carousel.php:620
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:459
+#: inc/backend/elementor-widgets/testimonial-carousel.php:739
+#: inc/backend/elementor/header/list-menu-item.php:195
+#: inc/backend/elementor/header/list-menu-item.php:250
+msgid "Hover"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:269
+#: inc/backend/elementor-widgets/button.php:245
+#: inc/backend/elementor-widgets/service-box-2.php:199
+#: inc/backend/elementor-widgets/service-box.php:258
+msgid "Hover Animation"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:412
+msgid "Hover Background"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:401
+#: inc/backend/elementor-widgets/icon-box.php:734
+#: inc/backend/elementor-widgets/post-carousel.php:402
+#: inc/backend/elementor-widgets/post-grid.php:330
+#: inc/backend/elementor-widgets/service-box.php:437
+#: inc/backend/elementor-widgets/team-carousel.php:519
+msgid "Hover Color"
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:263
+msgid "Hover With Line"
+msgstr ""
+
+#: inc/backend/customizer.php:633
+msgid "HTML a target Attribute for Socials."
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://oceanthemes.net/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://wpdemo2.oceanthemes.net/onum"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:112
+#: inc/backend/elementor-widgets/service-carousel.php:96
+#: inc/backend/elementor-widgets/team-carousel.php:75
+#: inc/backend/elementor-widgets/team.php:97
+#: inc/backend/elementor-widgets/team.php:160
+msgid "https://"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:153
+msgid "https://facebook.com/"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:194
+msgid "https://pinterest.com/"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:112
+msgid "https://twitter.com/"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team.php:134
+msgid "https://www.facebook.com/"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team.php:143
+msgid "https://www.pinterest.com/"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team.php:125
+msgid "https://www.twitter.com/"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:120
+#: inc/backend/elementor-widgets/icon-box-grid.php:178
+#: inc/backend/elementor-widgets/icon-box.php:159
+#: inc/backend/elementor-widgets/pricing-table.php:121
+#: inc/backend/elementor-widgets/service-box-2.php:78
+#: inc/backend/elementor/header/list-menu-item.php:68
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:235
+#: inc/backend/elementor-widgets/accordions.php:253
+#: inc/backend/elementor-widgets/accordions.php:294
+#: inc/backend/elementor-widgets/button.php:140
+#: inc/backend/elementor-widgets/button.php:292
+#: inc/backend/elementor-widgets/contact-info.php:56
+#: inc/backend/elementor-widgets/contact-info.php:149
+#: inc/backend/elementor-widgets/icon-box-grid.php:117
+#: inc/backend/elementor-widgets/icon-box-grid.php:314
+#: inc/backend/elementor-widgets/icon-box.php:97
+#: inc/backend/elementor-widgets/icon-box.php:464
+#: inc/backend/elementor-widgets/message-box.php:54
+#: inc/backend/elementor-widgets/message-box.php:161
+#: inc/backend/elementor-widgets/process-box.php:96
+#: inc/backend/elementor-widgets/service-box.php:93
+#: inc/backend/elementor-widgets/service-carousel.php:133
+#: inc/backend/elementor-widgets/service-carousel.php:712
+#: inc/backend/elementor-widgets/social-share.php:111
+#: inc/backend/elementor-widgets/tab-titles.php:71
+#: inc/backend/elementor-widgets/tab-titles.php:291
+#: inc/backend/elementor-widgets/team.php:82
+#: inc/backend/elementor/header/cart.php:35
+#: inc/backend/elementor/header/list-menu-item.php:54
+#: inc/backend/elementor/header/list-menu-item.php:158
+#: inc/backend/elementor/header/menu-mobile.php:72
+#: inc/backend/elementor/header/search.php:36
+#: inc/backend/elementor/header/side-panel.php:36
+#: inc/backend/elementor/header/side-panel.php:43
+msgid "Icon"
+msgstr ""
+
+#: inc/backend/elementor/header/cart.php:85
+#: inc/backend/elementor/header/search.php:86
+#: inc/backend/elementor/header/side-panel.php:68
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/backend/elementor/header/cart.php:107
+#: inc/backend/elementor/header/search.php:109
+msgid "Icon Background Color Scroll"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:50
+#: inc/backend/elementor-widgets/icon-box.php:62
+msgid "Icon Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:130
+msgid "Icon Center"
+msgstr ""
+
+#: inc/backend/customizer.php:545 inc/backend/customizer.php:619
+msgid "Icon class name"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tab-titles.php:343
+#: inc/backend/elementor-widgets/tab-titles.php:376
+#: inc/backend/elementor/header/cart.php:74
+#: inc/backend/elementor/header/search.php:75
+#: inc/backend/elementor/header/side-panel.php:56
+msgid "Icon Color"
+msgstr ""
+
+#: inc/backend/elementor/header/cart.php:96
+#: inc/backend/elementor/header/search.php:98
+msgid "Icon Color Scroll"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:129
+msgid "Icon Left"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:303
+#: inc/backend/elementor/header/cart.php:42
+#: inc/backend/elementor/header/menu-mobile.php:150
+#: inc/backend/elementor/header/search.php:43
+#: inc/backend/elementor/header/side-panel.php:79
+msgid "Icon Size"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:95
+msgid "Icon Social 1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:135
+msgid "Icon Social 2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:176
+msgid "Icon Social 3"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:43
+#: inc/backend/elementor-widgets/icon-box-grid.php:104
+#: inc/backend/elementor-widgets/icon-box.php:84
+#: inc/backend/elementor-widgets/message-box.php:42
+#: inc/backend/elementor-widgets/process-box.php:83
+#: inc/backend/elementor-widgets/service-box.php:70
+#: inc/backend/elementor-widgets/tab-titles.php:58
+msgid "Icon Type"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:331
+#: inc/backend/elementor/header/cart.php:58
+#: inc/backend/elementor/header/search.php:59
+msgid "Icon Width"
+msgstr ""
+
+#: inc/backend/elementor-widgets/process-box.php:349
+msgid "Icon/Image"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:163
+#: inc/backend/elementor-widgets/client-carousel.php:51
+#: inc/backend/elementor-widgets/client-carousel.php:146
+#: inc/backend/elementor-widgets/pricing-table.php:277
+msgid "Image"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:119
+#: inc/backend/elementor-widgets/portfolio-filter.php:185
+#: inc/backend/elementor-widgets/post-carousel.php:69
+#: inc/backend/elementor-widgets/post-grid.php:69
+msgid "Image Dimension"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:48
+#: inc/backend/elementor-widgets/icon-box-grid.php:109
+#: inc/backend/elementor-widgets/icon-box.php:89
+#: inc/backend/elementor-widgets/process-box.php:88
+#: inc/backend/elementor-widgets/service-box.php:76
+#: inc/backend/elementor-widgets/tab-titles.php:63
+msgid "Image Icon"
+msgstr ""
+
+#: inc/backend/customizer.php:1820 inc/backend/customizer.php:2238
+#: inc/backend/elementor-widgets/portfolio-carousel.php:103
+#: inc/backend/elementor-widgets/portfolio-filter.php:170
+msgid "Image Size"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:154
+msgid "Image Spacing"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:328
+#: inc/backend/elementor-widgets/team.php:194
+msgid "Infomation"
+msgstr ""
+
+#: inc/backend/elementor-widgets/message-box.php:84
+msgid "Information Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:257
+#: inc/backend/elementor-widgets/post-grid.php:185
+msgid "Inner post"
+msgstr ""
+
+#: inc/frontend/template-tags.php:318
+msgid "Instagram"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2798
+msgid "Install"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/libs/class-tgm-plugin-activation.php:2684
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:71
+#: inc/libs/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:70
+#: inc/libs/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#. 1: install status, 2: update status
+#: inc/libs/class-tgm-plugin-activation.php:2423
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2400
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2571
+msgid "Installed version:"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/class-tgm-plugin-activation.php:3593
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/class-tgm-plugin-activation.php:3601
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/backend/plugin-requires.php:72
+#: inc/libs/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:94
+msgid "Item Active"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:152
+#: inc/backend/elementor-widgets/circle-process.php:157
+msgid "Item content. Click the edit button to change this text."
+msgstr ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:73
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:337
+#: inc/backend/elementor-widgets/testimonial-carousel.php:106
+#: inc/backend/elementor-widgets/testimonial-carousel.php:559
+msgid "Job"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team.php:56
+msgid "Jonathan Morgan"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:73
+#: inc/backend/elementor-widgets/icon-box.php:209
+#: inc/backend/elementor-widgets/portfolio-carousel.php:272
+#: inc/backend/elementor-widgets/portfolio-filter.php:321
+#: inc/backend/elementor-widgets/service-carousel.php:330
+msgid "Justified"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:58
+msgid "Keyword Research"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:19
+msgid "Kirki Customizer Framework"
+msgstr ""
+
+#: inc/backend/customizer.php:1828 inc/backend/customizer.php:2246
+#: inc/backend/elementor-widgets/portfolio-carousel.php:110
+#: inc/backend/elementor-widgets/portfolio-filter.php:176
+msgid "Large - 1024 x 1024"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-grid.php:60
+msgid "Large 1024 x 1024"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:60
+msgid "Large 1024x1024"
+msgstr ""
+
+#: inc/frontend/widgets/recent-posts.php:27
+msgid "Latest News"
+msgstr ""
+
+#: inc/backend/customizer.php:1875
+msgid "Layout"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:168
+msgid "Learn More"
+msgstr ""
+
+#: comments.php:53
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/backend/customizer.php:1471 inc/backend/customizer.php:1753
+#: inc/backend/elementor-widgets/button-video.php:47
+#: inc/backend/elementor-widgets/button.php:88
+#: inc/backend/elementor-widgets/countdown.php:46
+#: inc/backend/elementor-widgets/counter.php:83
+#: inc/backend/elementor-widgets/heading.php:153
+#: inc/backend/elementor-widgets/icon-box-grid.php:61
+#: inc/backend/elementor-widgets/icon-box.php:197
+#: inc/backend/elementor-widgets/portfolio-carousel.php:260
+#: inc/backend/elementor-widgets/portfolio-filter.php:228
+#: inc/backend/elementor-widgets/portfolio-filter.php:309
+#: inc/backend/elementor-widgets/post-grid.php:489
+#: inc/backend/elementor-widgets/process-box.php:60
+#: inc/backend/elementor-widgets/service-carousel.php:318
+#: inc/backend/elementor-widgets/service-carousel.php:480
+#: inc/backend/elementor-widgets/social-share.php:85
+#: inc/backend/elementor-widgets/tab-titles.php:162
+#: inc/backend/elementor-widgets/testimonial-carousel.php:196
+#: inc/backend/elementor/header/list-menu-item.php:135
+#: inc/backend/elementor/header/logo.php:46
+msgid "Left"
+msgstr ""
+
+#: inc/backend/post-like.php:13 inc/backend/post-like.php:206
+#: inc/backend/post-like.php:329
+msgid "Like"
+msgstr ""
+
+#: inc/backend/customizer.php:2125
+msgid "Like post On/Off"
+msgstr ""
+
+#: inc/backend/customizer.php:2118
+msgid "Like Post Setting"
+msgstr ""
+
+#: inc/backend/post-like.php:330
+msgid "Likes"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:860
+msgid "Line"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:305
+msgid "Line Center Left"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:388
+msgid "Line Center Right"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:252
+#: inc/backend/elementor/elementor-functions.php:335
+#: inc/backend/elementor/elementor-functions.php:418
+#: inc/backend/elementor/elementor-functions.php:501
+#: inc/backend/elementor-widgets/service-carousel.php:887
+msgid "Line Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:899
+msgid "Line Color Hover"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:127
+#: inc/backend/elementor-widgets/icon-box.php:512
+#: inc/backend/elementor/header/menu-mobile.php:182
+msgid "Line Height"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:222
+msgid "Line Left"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:471
+msgid "Line Right"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:203 inc/backend/elementor-widgets/button.php:118
+#: inc/backend/elementor-widgets/client-carousel.php:61
+#: inc/backend/elementor-widgets/icon-box-grid.php:176
+#: inc/backend/elementor-widgets/icon-box.php:157
+#: inc/backend/elementor-widgets/pricing-table.php:119
+#: inc/backend/elementor-widgets/service-box-2.php:76
+#: inc/backend/elementor-widgets/team.php:95
+#: inc/backend/elementor/header/list-menu-item.php:65
+msgid "Link"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:110
+msgid "Link Social 1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:151
+msgid "Link Social 2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:192
+msgid "Link Social 3"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:73
+#: inc/backend/elementor-widgets/team.php:158
+msgid "Link To Details"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tab-titles.php:120
+msgid "Link to ID Content"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:110
+#: inc/backend/elementor-widgets/service-carousel.php:94
+msgid "Link To Title"
+msgstr ""
+
+#: inc/backend/customizer.php:625
+msgid "Link url"
+msgstr ""
+
+#: inc/frontend/template-tags.php:315
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/backend/customizer.php:2145
+#: inc/backend/elementor-widgets/social-share.php:50
+msgid "Linkedin"
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:107
+msgid "List"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:64
+msgid "List Content"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/frontend/template-tags.php:133
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/frontend/template-tags.php:110
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:34
+msgid "List Menu"
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:46
+#: inc/backend/elementor/header/list-menu-item.php:47
+msgid "List Menu Item"
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:80
+msgid "List Menu Item #1"
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:86
+msgid "List Menu Item #2"
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:92
+msgid "List Menu Item #3"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:55
+msgid "List Title"
+msgstr ""
+
+#: inc/backend/elementor/header/logo.php:35
+#: inc/backend/elementor/header/logo.php:67
+msgid "Logo"
+msgstr ""
+
+#: inc/frontend/preloader.php:69
+msgid "Logo Height"
+msgstr ""
+
+#: inc/backend/customizer.php:897
+msgid "Logo Margin (ex: 10px)"
+msgstr ""
+
+#: inc/frontend/preloader.php:36
+msgid "Logo Preload"
+msgstr ""
+
+#: inc/backend/elementor/header/logo.php:78
+msgid "Logo Scroll (Use in header sticky)"
+msgstr ""
+
+#: inc/frontend/preloader.php:50
+msgid "Logo Width"
+msgstr ""
+
+#: inc/backend/customizer.php:876 inc/backend/customizer.php:1301
+msgid "Logo Width(px)"
+msgstr ""
+
+#: inc/backend/customizer.php:226
+msgid "Logos"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:29
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: inc/backend/customizer.php:1073
+msgid "Main Navigation Background Color Scroll"
+msgstr ""
+
+#: inc/backend/customizer.php:999
+msgid "Main Navigation Background Color Static"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:311
+#: inc/backend/elementor-widgets/service-carousel.php:644
+#: inc/backend/elementor-widgets/service-carousel.php:697
+msgid "Margin"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:399
+msgid "Margin Top"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-grid.php:59
+msgid "Medimum Large 768 x 0"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:59
+msgid "Medimum Large 768x0"
+msgstr ""
+
+#: inc/backend/customizer.php:1827 inc/backend/customizer.php:2245
+#: inc/backend/elementor-widgets/portfolio-carousel.php:109
+#: inc/backend/elementor-widgets/portfolio-filter.php:175
+msgid "Medium Large - 768 x 0"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team.php:36
+msgid "Member Team"
+msgstr ""
+
+#: inc/backend/elementor/header/menu-mobile.php:35
+#: inc/backend/elementor/header/menu-mobile.php:201
+#: inc/backend/elementor/header/menu.php:35
+msgid "Menu"
+msgstr ""
+
+#: inc/backend/customizer.php:1258
+msgid "Menu Dropdown Font"
+msgstr ""
+
+#: inc/backend/customizer.php:1093
+msgid "Menu Item Color Scroll"
+msgstr ""
+
+#: inc/backend/customizer.php:1019
+msgid "Menu Item Color Static"
+msgstr ""
+
+#: inc/backend/customizer.php:1231
+msgid "Menu Parent Font"
+msgstr ""
+
+#: inc/backend/elementor-widgets/message-box.php:35
+msgid "Message Box"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:14
+msgid "Meta Box"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2579
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:110
+#: inc/backend/elementor-widgets/countdown.php:112
+msgid "Minute"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:151
+#: inc/backend/elementor-widgets/countdown.php:153
+msgid "Minutes"
+msgstr ""
+
+#: inc/backend/customizer.php:1551 inc/backend/customizer.php:1595
+#: inc/backend/customizer.php:1639 inc/backend/customizer.php:2014
+#: inc/backend/customizer.php:2051 inc/backend/customizer.php:2088
+msgid "Mobile"
+msgstr ""
+
+#: inc/backend/customizer.php:1287
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/backend/customizer.php:247
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:93
+msgid "Monthly Package"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:129
+msgid "Multi"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:43
+#: inc/backend/elementor-widgets/team-carousel.php:55
+#: inc/backend/elementor-widgets/team.php:54
+#: inc/backend/elementor-widgets/team.php:73
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:64
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:288
+#: inc/backend/elementor-widgets/testimonial-carousel.php:97
+#: inc/backend/elementor-widgets/testimonial-carousel.php:510
+msgid "Name"
+msgstr ""
+
+#: comments.php:59
+msgid "Name *"
+msgstr ""
+
+#: inc/frontend/widgets/author-widget.php:103
+msgid "Name:"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:117
+#: inc/backend/elementor-widgets/portfolio-carousel.php:170
+#: inc/backend/elementor-widgets/post-carousel.php:194
+#: inc/backend/elementor-widgets/service-carousel.php:248
+#: inc/backend/elementor-widgets/team-carousel.php:276
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:122
+#: inc/backend/elementor-widgets/testimonial-carousel.php:155
+msgid "Nav Slider"
+msgstr ""
+
+#: inc/backend/admin-functions.php:71
+msgid "New Footer Builder"
+msgstr ""
+
+#: inc/backend/admin-functions.php:35
+msgid "New Header Builder"
+msgstr ""
+
+#: inc/backend/customizer.php:652
+msgid "New Window"
+msgstr ""
+
+#: single-ot_portfolio.php:32 inc/frontend/template-tags.php:167
+msgid "Next"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:90
+#: inc/backend/elementor-widgets/client-carousel.php:122
+#: inc/backend/elementor-widgets/client-carousel.php:135
+#: inc/backend/elementor-widgets/contact-info.php:116
+#: inc/backend/elementor-widgets/heading.php:140
+#: inc/backend/elementor-widgets/portfolio-carousel.php:175
+#: inc/backend/elementor-widgets/portfolio-carousel.php:187
+#: inc/backend/elementor-widgets/post-carousel.php:199
+#: inc/backend/elementor-widgets/post-carousel.php:211
+#: inc/backend/elementor-widgets/service-carousel.php:253
+#: inc/backend/elementor-widgets/service-carousel.php:265
+#: inc/backend/elementor-widgets/service-carousel.php:277
+#: inc/backend/elementor-widgets/team-carousel.php:281
+#: inc/backend/elementor-widgets/team-carousel.php:293
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:127
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:139
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:165
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:175
+#: inc/backend/elementor-widgets/testimonial-carousel.php:160
+#: inc/backend/elementor-widgets/testimonial-carousel.php:172
+#: inc/backend/elementor-widgets/testimonial-carousel.php:184
+msgid "No"
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-form-7.php:98
+msgid "No contect From 7 form found"
+msgstr ""
+
+#: inc/backend/admin-functions.php:75
+msgid "No Footer Builders found"
+msgstr ""
+
+#: inc/backend/admin-functions.php:76
+msgid "No Footer Builders found in Trash"
+msgstr ""
+
+#: inc/backend/admin-functions.php:39
+msgid "No Header Builders found"
+msgstr ""
+
+#: inc/backend/admin-functions.php:40
+msgid "No Header Builders found in Trash"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-form-7.php:115
+msgid "No Pages Found!"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3015
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2881
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2883
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2614
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2989
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2838
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2840
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:246
+#: inc/backend/elementor-widgets/button-video.php:169
+#: inc/backend/elementor-widgets/button.php:167
+#: inc/backend/elementor-widgets/button.php:362
+#: inc/backend/elementor-widgets/client-carousel.php:178
+#: inc/backend/elementor-widgets/client-carousel.php:297
+#: inc/backend/elementor-widgets/icon-box.php:283
+#: inc/backend/elementor-widgets/icon-box.php:554
+#: inc/backend/elementor-widgets/portfolio-carousel.php:586
+#: inc/backend/elementor-widgets/post-carousel.php:577
+#: inc/backend/elementor-widgets/process-box.php:256
+#: inc/backend/elementor-widgets/service-box-2.php:148
+#: inc/backend/elementor-widgets/service-box.php:207
+#: inc/backend/elementor-widgets/service-box.php:360
+#: inc/backend/elementor-widgets/service-carousel.php:358
+#: inc/backend/elementor-widgets/service-carousel.php:1023
+#: inc/backend/elementor-widgets/tab-titles.php:336
+#: inc/backend/elementor-widgets/tabs.php:179
+#: inc/backend/elementor-widgets/team-carousel.php:580
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:419
+#: inc/backend/elementor-widgets/testimonial-carousel.php:699
+#: inc/backend/elementor/header/menu-mobile.php:84
+#: inc/backend/elementor/header/menu.php:71
+msgid "Normal"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:43
+msgid "Normal Button"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2396
+msgid "Not Installed"
+msgstr ""
+
+#: inc/backend/post-like.php:28
+msgid "Not permitted"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:44
+#: inc/backend/elementor-widgets/circle-process.php:304
+#: inc/backend/elementor-widgets/countdown.php:183
+#: inc/backend/elementor-widgets/counter.php:169
+#: inc/backend/elementor-widgets/process-box.php:295
+#: inc/backend/elementor-widgets/real-number.php:291
+#: inc/backend/elementor-widgets/service-box.php:74
+#: inc/backend/elementor-widgets/service-carousel.php:158
+#: inc/backend/elementor-widgets/service-carousel.php:820
+msgid "Number"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:69
+msgid "Number After"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:61
+msgid "Number Before"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:61
+msgid "Number Bottom"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box.php:386
+msgid "Number Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:103
+#: inc/backend/elementor-widgets/post-grid.php:116
+msgid "Number Excerpt Length"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:166
+msgid "Number Hover Color"
+msgstr ""
+
+#: inc/frontend/widgets/recent-posts.php:141
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:68
+msgid "Number Stroke"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:60
+msgid "Number Top"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box.php:274
+msgid "Number/Icon"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box.php:282
+msgid "Number/Icon Left"
+msgstr ""
+
+#. Author of the theme
+msgid "OceanThemes"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:41 inc/backend/meta-boxes.php:66
+#: inc/backend/meta-boxes.php:119 inc/backend/elementor-widgets/counter.php:71
+#: inc/backend/elementor-widgets/heading.php:90
+#: inc/backend/elementor-widgets/portfolio-carousel.php:197
+#: inc/backend/elementor-widgets/service-carousel.php:108
+#: inc/backend/elementor-widgets/service-carousel.php:675
+#: inc/backend/elementor-widgets/service-carousel.php:686
+msgid "Off"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:122
+msgid "Official Color"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:40 inc/backend/meta-boxes.php:65
+#: inc/backend/meta-boxes.php:118 inc/backend/elementor-widgets/counter.php:70
+#: inc/backend/elementor-widgets/heading.php:89
+#: inc/backend/elementor-widgets/portfolio-carousel.php:196
+#: inc/backend/elementor-widgets/service-carousel.php:107
+#: inc/backend/elementor-widgets/service-carousel.php:674
+#: inc/backend/elementor-widgets/service-carousel.php:685
+msgid "On"
+msgstr ""
+
+#: inc/backend/elementor/header/menu-mobile.php:60
+msgid "On Left"
+msgstr ""
+
+#: inc/backend/elementor/header/menu-mobile.php:61
+msgid "On Right"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:88
+msgid "One"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:21
+msgid "ONUM"
+msgstr ""
+
+#. Name of the theme
+msgid "Onum"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:17
+msgid "Onum Accordions"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:17
+msgid "Onum Button"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:17
+msgid "Onum Chart Number"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:17
+msgid "Onum Circle Process"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:17
+msgid "Onum Client Carousel"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:17
+msgid "Onum Contact Info"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:17
+msgid "Onum CountDown"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:17
+msgid "Onum Counter"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:29
+msgid "ONUM Header"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:17
+msgid "Onum Heading"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:17
+msgid "Onum Icon Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:17
+msgid "Onum Icon Box Grid"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Onum is a business WordPress theme designed specifically for SEO &amp; "
+"Digital Marketing companies and those that offer SEO services. The theme "
+"comes pre-packed with a drag and drop page builder (Elementor) to ensure you "
+"can easily design your website just how you like it."
+msgstr ""
+
+#: inc/backend/elementor-widgets/message-box.php:17
+msgid "Onum Message Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:17
+msgid "Onum Portfolio Carousel"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-filter.php:17
+msgid "Onum Portfolio Filter"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:17
+msgid "Onum Post Carousel"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-grid.php:17
+msgid "Onum Post Grid"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:17
+msgid "Onum Pricing Table"
+msgstr ""
+
+#: inc/backend/elementor-widgets/process-box.php:17
+msgid "Onum Process Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:17
+msgid "Onum Progress Bars"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box.php:17
+msgid "Onum Service Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box-2.php:17
+msgid "Onum Service Box 2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:17
+msgid "Onum Service Slider"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:17
+msgid "Onum Social Share"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:17
+msgid "Onum Switchs"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tab-titles.php:17
+msgid "Onum Tab Titles"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:17
+msgid "Onum Tabs"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team.php:17
+msgid "Onum Team"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:17
+msgid "Onum Team Carousel"
+msgstr ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel.php:17
+msgid "Onum Testimonial Slider"
+msgstr ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:17
+msgid "Onum Testimonial Slider 2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:17
+msgid "ONUM Video Popup"
+msgstr ""
+
+#: inc/frontend/builder.php:117
+msgid ""
+"Oops! The page you are looking for does not exist. Please return to the site "
+"is homepage."
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:185
+#: inc/backend/elementor-widgets/client-carousel.php:219
+msgid "Opacity"
+msgstr ""
+
+#: inc/backend/elementor/header/cart.php:17
+msgid "OT Header Cart"
+msgstr ""
+
+#: inc/backend/elementor/header/logo.php:17
+msgid "OT Header Logo"
+msgstr ""
+
+#: inc/backend/elementor/header/search.php:17
+msgid "OT Header Search"
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:17
+msgid "OT List Menu"
+msgstr ""
+
+#: inc/backend/elementor/header/menu-mobile.php:17
+msgid "OT Menu Mobile"
+msgstr ""
+
+#: inc/backend/elementor/header/menu.php:17
+msgid "OT Nav Menu"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:56
+msgid "OT One Click Demo Content"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:39
+msgid "OT Portfolio"
+msgstr ""
+
+#. Widget name will appear in UI
+#: inc/frontend/widgets/recent-posts.php:12
+#: inc/frontend/widgets/recent-posts.php:15
+msgid "OT Recent Posts"
+msgstr ""
+
+#: inc/backend/elementor/header/side-panel.php:17
+msgid "OT Side Panel"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:98
+msgid "Our Address:"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:66
+msgid "OUR SERVICE"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:683
+msgid "Out Side"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:249
+#: inc/backend/elementor-widgets/portfolio-filter.php:298
+msgid "Overlay Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:88
+#: inc/backend/elementor-widgets/portfolio-filter.php:155
+msgid "Overlay Style"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:40
+#: inc/backend/elementor-widgets/heading.php:40
+#: inc/backend/elementor-widgets/icon-box-grid.php:40
+#: inc/backend/elementor-widgets/icon-box.php:52
+#: inc/backend/elementor-widgets/portfolio-carousel.php:40
+#: inc/backend/elementor-widgets/portfolio-filter.php:40
+#: inc/backend/elementor-widgets/process-box.php:40
+#: inc/backend/elementor-widgets/service-box-2.php:40
+#: inc/backend/elementor-widgets/service-box.php:40
+#: inc/backend/elementor-widgets/service-carousel.php:40
+#: inc/backend/elementor-widgets/tab-titles.php:40
+msgid "p"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:359
+#: inc/backend/elementor-widgets/button.php:270
+#: inc/backend/elementor-widgets/counter.php:223
+#: inc/backend/elementor-widgets/icon-box.php:870
+#: inc/backend/elementor-widgets/portfolio-carousel.php:349
+#: inc/backend/elementor-widgets/portfolio-filter.php:398
+#: inc/backend/elementor-widgets/post-carousel.php:264
+#: inc/backend/elementor-widgets/post-grid.php:192
+#: inc/backend/elementor-widgets/pricing-table.php:502
+#: inc/backend/elementor-widgets/service-box-2.php:373
+#: inc/backend/elementor-widgets/service-carousel.php:434
+#: inc/backend/elementor-widgets/social-share.php:174
+#: inc/backend/elementor-widgets/tabs.php:318
+#: inc/backend/elementor-widgets/team-carousel.php:362
+#: inc/backend/elementor-widgets/team.php:228
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:213
+#: inc/backend/elementor-widgets/testimonial-carousel.php:269
+#: inc/backend/elementor/header/menu.php:210
+msgid "Padding"
+msgstr ""
+
+#: inc/backend/customizer.php:1588 inc/backend/customizer.php:2044
+msgid "Padding Bottom (Ex: 100px)"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:291
+#: inc/backend/elementor-widgets/icon-box.php:267
+#: inc/backend/elementor-widgets/message-box.php:139
+#: inc/backend/elementor-widgets/pricing-table.php:139
+#: inc/backend/elementor-widgets/process-box.php:225
+#: inc/backend/elementor-widgets/real-number.php:278
+#: inc/backend/elementor-widgets/service-box-2.php:131
+#: inc/backend/elementor-widgets/service-box.php:191
+#: inc/backend/elementor-widgets/tab-titles.php:267
+msgid "Padding Box"
+msgstr ""
+
+#: inc/backend/customizer.php:419
+msgid "Padding Left"
+msgstr ""
+
+#: inc/backend/customizer.php:420
+msgid "Padding Right"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:383
+msgid "Padding Top"
+msgstr ""
+
+#: inc/backend/customizer.php:1544 inc/backend/customizer.php:2007
+msgid "Padding Top (Ex: 100px)"
+msgstr ""
+
+#: inc/backend/customizer.php:256 inc/backend/customizer.php:1887
+msgid "Page Header"
+msgstr ""
+
+#: inc/backend/customizer.php:1444 inc/backend/meta-boxes.php:36
+#: inc/backend/meta-boxes.php:61
+msgid "Page Header On/Off"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:18 inc/backend/meta-boxes.php:54
+msgid "Page Header Settings"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:26
+msgid "Page Layout"
+msgstr ""
+
+#: inc/backend/customizer.php:1524 inc/backend/customizer.php:1915
+msgid "Page Title Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1632 inc/backend/customizer.php:2081
+msgid "Page Title Size (Ex: 20px)"
+msgstr ""
+
+#: template-parts/content-page.php:17 template-parts/content-single.php:115
+msgid "Pages:"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-grid.php:459
+msgid "Pagination"
+msgstr ""
+
+#: inc/backend/admin-functions.php:77
+msgid "Parent Footer Builder"
+msgstr ""
+
+#: inc/backend/admin-functions.php:41
+msgid "Parent Header Builder"
+msgstr ""
+
+#: inc/backend/elementor/header/menu.php:59
+msgid "Parent Menus"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:176
+#: inc/backend/elementor/elementor-functions.php:561
+msgid "Particles"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:192
+#: inc/backend/elementor/elementor-functions.php:577
+msgid "Particles Colors"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:183
+#: inc/backend/elementor/elementor-functions.php:568
+msgid "Particles On/Off"
+msgstr ""
+
+#: inc/frontend/preloader.php:116
+msgid "Percent Preload Font"
+msgstr ""
+
+#: inc/frontend/preloader.php:88
+msgid "Percent Text Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:231
+msgid "Percentage"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:147
+msgid "Person After"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:137
+msgid "Person Before"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:72
+#: inc/backend/elementor-widgets/icon-box-grid.php:133
+#: inc/backend/elementor-widgets/icon-box.php:113
+#: inc/backend/elementor-widgets/process-box.php:112
+#: inc/backend/elementor-widgets/service-box.php:109
+#: inc/backend/elementor-widgets/tab-titles.php:87
+#: inc/backend/elementor-widgets/team-carousel.php:44
+#: inc/backend/elementor-widgets/team-carousel.php:304
+#: inc/backend/elementor-widgets/team.php:43
+#: inc/backend/elementor-widgets/team.php:170
+msgid "Photo"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:53
+#: inc/backend/elementor-widgets/icon-box.php:35
+#: inc/backend/elementor-widgets/pricing-table.php:50
+msgid "Pink Color"
+msgstr ""
+
+#: inc/backend/customizer.php:2144 inc/frontend/template-tags.php:317
+#: inc/backend/elementor-widgets/social-share.php:49
+#: inc/backend/elementor-widgets/team.php:142
+msgid "Pinterest"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1015
+#: inc/libs/class-tgm-plugin-activation.php:1018
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2628
+msgid "Plugin"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1202
+#: inc/libs/class-tgm-plugin-activation.php:3029
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:85
+#: inc/libs/class-tgm-plugin-activation.php:394
+#: inc/libs/class-tgm-plugin-activation.php:3240
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3239
+msgid "Plugin activation failed."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/libs/class-tgm-plugin-activation.php:2469
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/customizer.php:2185
+msgid "Portfolio Archive"
+msgstr ""
+
+#: inc/backend/customizer.php:2212
+msgid "Portfolio Column"
+msgstr ""
+
+#: inc/backend/customizer.php:2226
+#: inc/backend/elementor-widgets/portfolio-carousel.php:75
+#: inc/backend/elementor-widgets/portfolio-filter.php:142
+msgid "Portfolio Style"
+msgstr ""
+
+#: inc/backend/customizer.php:280
+msgid "Portfolios"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:86
+#: inc/backend/elementor-widgets/heading.php:300
+#: inc/backend/elementor-widgets/service-carousel.php:633
+#: inc/backend/elementor/header/menu-mobile.php:56
+msgid "Position"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:285
+#: inc/backend/elementor-widgets/portfolio-filter.php:334
+msgid "Position Bottom"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:305
+#: inc/backend/elementor-widgets/portfolio-filter.php:354
+msgid "Position Bottom Hover"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:266
+#: inc/backend/elementor/elementor-functions.php:349
+#: inc/backend/elementor/elementor-functions.php:432
+#: inc/backend/elementor/elementor-functions.php:515
+msgid "Position Dot"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:397
+msgid "Position Left"
+msgstr ""
+
+#: inc/backend/elementor/elementor-functions.php:233
+#: inc/backend/elementor/elementor-functions.php:316
+#: inc/backend/elementor/elementor-functions.php:399
+#: inc/backend/elementor/elementor-functions.php:482
+msgid "Position Line"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:374
+msgid "Position Top"
+msgstr ""
+
+#. %s: post author.
+#: inc/frontend/template-tags.php:45 inc/frontend/template-tags.php:94
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. %s: post author.
+#: inc/frontend/template-tags.php:106
+#, php-format
+msgctxt "post comment"
+msgid "%s"
+msgstr ""
+
+#. %s: post date.
+#: inc/frontend/template-tags.php:28 inc/frontend/template-tags.php:88
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:54
+#: inc/backend/elementor-widgets/post-grid.php:54
+msgid "Post Image Size"
+msgstr ""
+
+#: inc/backend/customizer.php:2169
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/backend/customizer.php:2254
+msgid "Posts per page"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:36
+msgid "Posts Settings"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2379
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/frontend/preloader.php:18 inc/frontend/preloader.php:29
+msgid "Preloader"
+msgstr ""
+
+#: single-ot_portfolio.php:30 inc/frontend/template-tags.php:165
+msgid "Previous"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:81
+#: inc/backend/elementor-widgets/pricing-table.php:303
+msgid "Price"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:60
+msgid "Pricing Image"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:36
+msgid "Pricing Table"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: inc/backend/customizer.php:2492 inc/backend/elementor-widgets/button.php:50
+#: inc/backend/elementor-widgets/icon-box.php:32
+#: inc/backend/elementor-widgets/pricing-table.php:49
+#: inc/backend/elementor-widgets/social-share.php:130
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:106
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:58
+msgid "Print"
+msgstr ""
+
+#: inc/backend/elementor-widgets/process-box.php:49
+msgid "Process"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:145
+msgid "Process List"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:86
+msgid "Progress Bar"
+msgstr ""
+
+#: inc/backend/elementor-widgets/process-box.php:149
+msgid "Project Introduction"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:50
+msgid "Projects"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:107
+msgid "Projects Done"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:54
+#: inc/backend/elementor-widgets/icon-box.php:36
+#: inc/backend/elementor-widgets/pricing-table.php:51
+msgid "Purple Color"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:219
+msgid "Quote"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:225
+msgid "Quote Name"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2357
+msgid "Recommended"
+msgstr ""
+
+#: inc/backend/customizer.php:2148
+#: inc/backend/elementor-widgets/social-share.php:53
+msgid "Reddit"
+msgstr ""
+
+#: inc/backend/customizer.php:2176 inc/frontend/template-tags.php:413
+msgid "Related Posts"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:363
+msgid "Related Product On/Off?"
+msgstr ""
+
+#: single-ot_portfolio.php:45
+msgid "Related Projects"
+msgstr ""
+
+#: inc/backend/customizer.php:2267
+msgid "Related Projects On/Off?"
+msgstr ""
+
+#: inc/backend/customizer.php:2288
+msgid "Related Projects Style"
+msgstr ""
+
+#: inc/backend/customizer.php:2274
+msgid "Related Projects Text"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2354
+msgid "Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2408
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2411
+msgid "Requires Update"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:84
+#: inc/libs/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:393
+#: inc/libs/class-tgm-plugin-activation.php:908
+#: inc/libs/class-tgm-plugin-activation.php:2614
+#: inc/libs/class-tgm-plugin-activation.php:3661
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:45
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/backend/customizer.php:1472 inc/backend/customizer.php:1754
+#: inc/backend/elementor-widgets/button-video.php:55
+#: inc/backend/elementor-widgets/button.php:96
+#: inc/backend/elementor-widgets/countdown.php:54
+#: inc/backend/elementor-widgets/counter.php:91
+#: inc/backend/elementor-widgets/heading.php:161
+#: inc/backend/elementor-widgets/icon-box-grid.php:69
+#: inc/backend/elementor-widgets/icon-box.php:205
+#: inc/backend/elementor-widgets/portfolio-carousel.php:268
+#: inc/backend/elementor-widgets/portfolio-filter.php:236
+#: inc/backend/elementor-widgets/portfolio-filter.php:317
+#: inc/backend/elementor-widgets/post-grid.php:497
+#: inc/backend/elementor-widgets/process-box.php:68
+#: inc/backend/elementor-widgets/service-carousel.php:326
+#: inc/backend/elementor-widgets/service-carousel.php:488
+#: inc/backend/elementor-widgets/social-share.php:93
+#: inc/backend/elementor-widgets/tab-titles.php:170
+#: inc/backend/elementor-widgets/testimonial-carousel.php:204
+#: inc/backend/elementor/header/list-menu-item.php:143
+#: inc/backend/elementor/header/logo.php:54
+#: inc/backend/elementor/header/search.php:195
+msgid "Right"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:71
+msgid "Rounded"
+msgstr ""
+
+#: inc/backend/customizer.php:651
+msgid "Same Frame"
+msgstr ""
+
+#: inc/backend/elementor/header/menu.php:121
+msgid "Scroll Arrow Color"
+msgstr ""
+
+#: inc/backend/elementor/header/menu-mobile.php:134
+msgid "Scroll Background Color"
+msgstr ""
+
+#: inc/backend/elementor/header/menu-mobile.php:123
+msgid "Scroll Color"
+msgstr ""
+
+#: inc/backend/elementor/header/menu.php:110
+msgid "Scroll Text Color"
+msgstr ""
+
+#: inc/frontend/breadcrumbs.php:95
+msgid "Search"
+msgstr ""
+
+#: inc/backend/customizer.php:683
+msgid "Search Button On/Off"
+msgstr ""
+
+#: inc/backend/admin-functions.php:74
+msgid "Search Footer Builders"
+msgstr ""
+
+#: inc/backend/admin-functions.php:38
+msgid "Search Header Builders"
+msgstr ""
+
+#: woocommerce/product-searchform.php:24
+msgid "Search products&hellip;"
+msgstr ""
+
+#: inc/frontend/page-header.php:34
+msgid "Search Results for: "
+msgstr ""
+
+#: inc/frontend/template-tags.php:284
+msgid "Search&hellip;"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:118
+#: inc/backend/elementor-widgets/countdown.php:120
+msgid "Second"
+msgstr ""
+
+#: inc/backend/customizer.php:2499 inc/backend/elementor-widgets/button.php:51
+#: inc/backend/elementor-widgets/icon-box.php:33
+#: inc/backend/elementor-widgets/pricing-table.php:47
+msgid "Second Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:144
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:159
+#: inc/backend/elementor-widgets/countdown.php:161
+msgid "Seconds"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:70
+msgid "Select a After Page"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:59
+msgid "Select a Before Page"
+msgstr ""
+
+#: inc/backend/customizer.php:1683 inc/backend/meta-boxes.php:128
+msgid "Select a footer"
+msgstr ""
+
+#: inc/backend/customizer.php:331 inc/backend/customizer.php:341
+#: inc/backend/meta-boxes.php:91
+msgid "Select a header"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:105
+msgid "Select a header mobile"
+msgstr ""
+
+#: inc/backend/customizer.php:480
+msgid "Select a menu"
+msgstr ""
+
+#: inc/backend/customizer.php:2311
+msgid "Select a page 404"
+msgstr ""
+
+#: inc/backend/customizer.php:358
+msgid "Select a panel"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:56
+#: inc/backend/elementor-widgets/portfolio-filter.php:56
+#: inc/backend/elementor-widgets/post-carousel.php:43
+#: inc/backend/elementor-widgets/post-grid.php:43
+msgid "Select Categories"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-form-7.php:51
+msgid "Select Contact Form"
+msgstr ""
+
+#: inc/backend/customizer.php:659
+msgid "Select CTA Style"
+msgstr ""
+
+#: inc/backend/customizer.php:1803
+msgid "Select default column for the blog page."
+msgstr ""
+
+#: inc/backend/customizer.php:2216
+msgid "Select default column for the portfolio page."
+msgstr ""
+
+#: inc/backend/customizer.php:2242
+msgid "Select default image size for the portfolio archive page."
+msgstr ""
+
+#: inc/backend/customizer.php:1824
+msgid "Select default image size for the post."
+msgstr ""
+
+#: inc/backend/customizer.php:1778
+msgid "Select default sidebar for the blog page."
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:333
+msgid "Select default sidebar for the shop page."
+msgstr ""
+
+#: inc/backend/customizer.php:1791
+msgid "Select default style for the blog page."
+msgstr ""
+
+#: inc/backend/customizer.php:2230
+msgid "Select default style for the portfolio page."
+msgstr ""
+
+#: inc/backend/customizer.php:2292
+msgid "Select default style for the related projects."
+msgstr ""
+
+#: inc/backend/customizer.php:1678
+msgid "Select Footer"
+msgstr ""
+
+#: inc/backend/customizer.php:326
+msgid "Select Header Desktop"
+msgstr ""
+
+#: inc/backend/customizer.php:336
+msgid "Select Header Mobile"
+msgstr ""
+
+#: inc/backend/customizer.php:468
+#: inc/backend/elementor/header/menu-mobile.php:43
+#: inc/backend/elementor/header/menu.php:43
+msgid "Select Menu"
+msgstr ""
+
+#: inc/backend/customizer.php:2197 inc/backend/customizer.php:2309
+msgid "Select Page"
+msgstr ""
+
+#: inc/backend/customizer.php:2189
+msgid "Select page default for the portfolio archive page."
+msgstr ""
+
+#: inc/backend/customizer.php:353
+msgid "Select Side Panel"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:256
+msgid "Seperator"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box-2.php:50
+#: inc/backend/elementor-widgets/service-box.php:50
+msgid "Service Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:49
+msgid "Services"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:67
+msgid "Shape"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:329
+msgid "Shop Layout"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:292
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:207
+#: inc/backend/elementor-widgets/portfolio-carousel.php:485
+#: inc/backend/elementor-widgets/portfolio-filter.php:69
+#: inc/backend/elementor-widgets/portfolio-filter.php:105
+#: inc/backend/elementor-widgets/portfolio-filter.php:507
+#: inc/backend/elementor-widgets/post-carousel.php:94
+#: inc/backend/elementor-widgets/post-carousel.php:116
+#: inc/backend/elementor-widgets/post-carousel.php:127
+#: inc/backend/elementor-widgets/post-carousel.php:138
+#: inc/backend/elementor-widgets/post-carousel.php:221
+#: inc/backend/elementor-widgets/post-grid.php:107
+#: inc/backend/elementor-widgets/post-grid.php:129
+#: inc/backend/elementor-widgets/post-grid.php:140
+#: inc/backend/elementor-widgets/post-grid.php:151
+#: inc/backend/elementor-widgets/post-grid.php:162
+#: inc/backend/elementor-widgets/service-carousel.php:57
+#: inc/backend/elementor-widgets/team-carousel.php:84
+#: inc/backend/elementor-widgets/testimonial-carousel.php:43
+#: inc/backend/elementor/header/list-menu-item.php:265
+#: inc/backend/elementor/header/menu.php:161
+msgid "Show"
+msgstr ""
+
+#: inc/backend/elementor/header/menu.php:159
+msgid "Show Border Menu Item"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:483
+#: inc/backend/elementor-widgets/portfolio-filter.php:505
+#: inc/backend/elementor-widgets/post-carousel.php:114
+#: inc/backend/elementor-widgets/post-grid.php:127
+msgid "Show Category"
+msgstr ""
+
+#: inc/frontend/widgets/recent-posts.php:150
+msgid "Show date time"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:125
+msgid "Show Entry Meta (Author/Date)"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-grid.php:138
+msgid "Show Entry Meta(Author/Date)"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:92
+#: inc/backend/elementor-widgets/post-grid.php:105
+msgid "Show Excerpt?"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-filter.php:67
+msgid "Show Filter"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:205
+#: inc/backend/elementor-widgets/portfolio-filter.php:103
+#: inc/backend/elementor-widgets/post-carousel.php:219
+msgid "Show Gap"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:84
+#: inc/backend/elementor-widgets/post-grid.php:84
+msgid "Show Number Posts"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:67
+#: inc/backend/elementor-widgets/portfolio-filter.php:134
+msgid "Show Number Projects"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-grid.php:149
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:75
+msgid "Show Percentage"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:136
+#: inc/backend/elementor-widgets/post-grid.php:160
+msgid "Show read-more button"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:55
+#: inc/backend/elementor-widgets/testimonial-carousel.php:41
+msgid "Show Title"
+msgstr ""
+
+#: inc/backend/elementor/header/side-panel.php:115
+msgid "Side Panel"
+msgstr ""
+
+#: inc/backend/customizer.php:346
+msgid "Side Panel for all site?"
+msgstr ""
+
+#: inc/backend/customizer.php:370
+msgid "Side Panel On Left?"
+msgstr ""
+
+#: inc/backend/customizer.php:271
+msgid "Single Post"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:317
+msgid "Single Product"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:344
+msgid "Single Product Layout"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:143
+#: inc/backend/elementor-widgets/client-carousel.php:261
+#: inc/backend/elementor-widgets/contact-info.php:169
+#: inc/backend/elementor-widgets/counter.php:290
+#: inc/backend/elementor-widgets/icon-box-grid.php:334
+#: inc/backend/elementor-widgets/icon-box.php:472
+#: inc/backend/elementor-widgets/message-box.php:192
+#: inc/backend/elementor-widgets/portfolio-carousel.php:550
+#: inc/backend/elementor-widgets/post-carousel.php:541
+#: inc/backend/elementor-widgets/process-box.php:368
+#: inc/backend/elementor-widgets/service-box.php:290
+#: inc/backend/elementor-widgets/service-carousel.php:738
+#: inc/backend/elementor-widgets/service-carousel.php:982
+#: inc/backend/elementor-widgets/social-share.php:158
+#: inc/backend/elementor-widgets/tab-titles.php:299
+#: inc/backend/elementor-widgets/team-carousel.php:544
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:254
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:378
+#: inc/backend/elementor-widgets/testimonial-carousel.php:477
+#: inc/backend/elementor-widgets/testimonial-carousel.php:658
+#: inc/backend/elementor/header/list-menu-item.php:208
+msgid "Size"
+msgstr ""
+
+#: inc/frontend/template-tags.php:312
+msgid "Skype Username"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:134
+#: inc/backend/elementor-widgets/post-carousel.php:158
+msgid "Slider"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:665
+msgid "Slider Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:105
+#: inc/backend/elementor-widgets/portfolio-carousel.php:155
+#: inc/backend/elementor-widgets/post-carousel.php:179
+#: inc/backend/elementor-widgets/service-carousel.php:233
+#: inc/backend/elementor-widgets/team-carousel.php:261
+msgid "Slides to Scroll"
+msgstr ""
+
+#: inc/backend/elementor-widgets/client-carousel.php:93
+msgid "Slides To Show"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:142
+#: inc/backend/elementor-widgets/post-carousel.php:166
+#: inc/backend/elementor-widgets/service-carousel.php:218
+#: inc/backend/elementor-widgets/team-carousel.php:247
+msgid "Slides to Show"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team.php:75
+msgid "Social"
+msgstr ""
+
+#: inc/backend/customizer.php:606
+msgid "social"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:465
+#: inc/backend/elementor-widgets/team.php:331
+msgid "Social Icon"
+msgstr ""
+
+#: inc/backend/customizer.php:613
+msgid "Social network name"
+msgstr ""
+
+#: inc/backend/customizer.php:575
+msgid "Social Network On/Off"
+msgstr ""
+
+#: inc/backend/customizer.php:2132
+msgid "Social Share"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:42
+msgid "Social Share Buttons"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:82
+#: inc/backend/elementor-widgets/team.php:119
+msgid "Socials"
+msgstr ""
+
+#: inc/backend/customizer.php:589
+msgid "Socials Network"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:73
+#: inc/libs/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/frontend/builder.php:115
+msgid "Sorry! Page Not Found!"
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/backend/plugin-requires.php:79
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugin-requires.php:76
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugin-requires.php:81
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2629
+msgid "Source"
+msgstr ""
+
+#: inc/backend/elementor/header/list-menu-item.php:115
+msgid "Space Between"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:119
+#: inc/backend/elementor-widgets/button-video.php:309
+#: inc/backend/elementor-widgets/client-carousel.php:278
+#: inc/backend/elementor-widgets/client-carousel.php:392
+#: inc/backend/elementor-widgets/contact-info.php:190
+#: inc/backend/elementor-widgets/contact-info.php:216
+#: inc/backend/elementor-widgets/countdown.php:209
+#: inc/backend/elementor-widgets/counter.php:206
+#: inc/backend/elementor-widgets/counter.php:274
+#: inc/backend/elementor-widgets/heading.php:215
+#: inc/backend/elementor-widgets/heading.php:259
+#: inc/backend/elementor-widgets/icon-box-grid.php:355
+#: inc/backend/elementor-widgets/icon-box-grid.php:391
+#: inc/backend/elementor-widgets/icon-box.php:531
+#: inc/backend/elementor-widgets/icon-box.php:696
+#: inc/backend/elementor-widgets/icon-box.php:766
+#: inc/backend/elementor-widgets/message-box.php:209
+#: inc/backend/elementor-widgets/message-box.php:245
+#: inc/backend/elementor-widgets/portfolio-carousel.php:429
+#: inc/backend/elementor-widgets/portfolio-carousel.php:494
+#: inc/backend/elementor-widgets/portfolio-carousel.php:567
+#: inc/backend/elementor-widgets/portfolio-carousel.php:680
+#: inc/backend/elementor-widgets/portfolio-filter.php:249
+#: inc/backend/elementor-widgets/portfolio-filter.php:452
+#: inc/backend/elementor-widgets/portfolio-filter.php:516
+#: inc/backend/elementor-widgets/post-carousel.php:319
+#: inc/backend/elementor-widgets/post-carousel.php:375
+#: inc/backend/elementor-widgets/post-carousel.php:434
+#: inc/backend/elementor-widgets/post-carousel.php:482
+#: inc/backend/elementor-widgets/post-carousel.php:558
+#: inc/backend/elementor-widgets/post-carousel.php:671
+#: inc/backend/elementor-widgets/post-grid.php:247
+#: inc/backend/elementor-widgets/post-grid.php:303
+#: inc/backend/elementor-widgets/post-grid.php:362
+#: inc/backend/elementor-widgets/post-grid.php:410
+#: inc/backend/elementor-widgets/post-grid.php:469
+#: inc/backend/elementor-widgets/pricing-table.php:285
+#: inc/backend/elementor-widgets/pricing-table.php:311
+#: inc/backend/elementor-widgets/process-box.php:386
+#: inc/backend/elementor-widgets/process-box.php:412
+#: inc/backend/elementor-widgets/progress-bars.php:194
+#: inc/backend/elementor-widgets/real-number.php:208
+#: inc/backend/elementor-widgets/real-number.php:299
+#: inc/backend/elementor-widgets/service-box-2.php:231
+#: inc/backend/elementor-widgets/service-box.php:310
+#: inc/backend/elementor-widgets/service-box.php:480
+#: inc/backend/elementor-widgets/service-carousel.php:530
+#: inc/backend/elementor-widgets/service-carousel.php:584
+#: inc/backend/elementor-widgets/service-carousel.php:720
+#: inc/backend/elementor-widgets/service-carousel.php:799
+#: inc/backend/elementor-widgets/service-carousel.php:925
+#: inc/backend/elementor-widgets/service-carousel.php:1000
+#: inc/backend/elementor-widgets/social-share.php:190
+#: inc/backend/elementor-widgets/switchs.php:236
+#: inc/backend/elementor-widgets/tab-titles.php:205
+#: inc/backend/elementor-widgets/tab-titles.php:316
+#: inc/backend/elementor-widgets/tabs.php:134
+#: inc/backend/elementor-widgets/tabs.php:160
+#: inc/backend/elementor-widgets/team-carousel.php:346
+#: inc/backend/elementor-widgets/team-carousel.php:490
+#: inc/backend/elementor-widgets/team-carousel.php:561
+#: inc/backend/elementor-widgets/team-carousel.php:671
+#: inc/backend/elementor-widgets/team.php:212
+#: inc/backend/elementor-widgets/team.php:356
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:236
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:316
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:395
+#: inc/backend/elementor-widgets/testimonial-carousel.php:388
+#: inc/backend/elementor-widgets/testimonial-carousel.php:432
+#: inc/backend/elementor-widgets/testimonial-carousel.php:459
+#: inc/backend/elementor-widgets/testimonial-carousel.php:538
+#: inc/backend/elementor-widgets/testimonial-carousel.php:601
+#: inc/backend/elementor-widgets/testimonial-carousel.php:675
+#: inc/backend/elementor/header/list-menu-item.php:166
+#: inc/backend/elementor/header/logo.php:105
+#: inc/backend/elementor/header/menu-mobile.php:264
+msgid "Spacing"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:99
+msgid "Spacing between content and number"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:252
+msgid "Spacing Bottom"
+msgstr ""
+
+#: inc/backend/elementor-widgets/real-number.php:235
+msgid "Spacing Right"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:395
+#: inc/backend/elementor-widgets/team.php:261
+msgid "Spacing(px)"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:39
+#: inc/backend/elementor-widgets/heading.php:39
+#: inc/backend/elementor-widgets/icon-box-grid.php:39
+#: inc/backend/elementor-widgets/icon-box.php:51
+#: inc/backend/elementor-widgets/portfolio-carousel.php:39
+#: inc/backend/elementor-widgets/portfolio-filter.php:39
+#: inc/backend/elementor-widgets/process-box.php:39
+#: inc/backend/elementor-widgets/service-box-2.php:39
+#: inc/backend/elementor-widgets/service-box.php:39
+#: inc/backend/elementor-widgets/service-carousel.php:39
+#: inc/backend/elementor-widgets/tab-titles.php:39
+msgid "span"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:72
+msgid "Square"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:73
+msgid "Standard"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box-2.php:87
+msgid "Start Now"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2635
+msgid "Status"
+msgstr ""
+
+#: inc/backend/customizer.php:443
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:140
+#: inc/backend/elementor-widgets/countdown.php:174
+#: inc/backend/elementor-widgets/counter.php:56
+#: inc/backend/elementor-widgets/counter.php:160
+msgid "Style"
+msgstr ""
+
+#: inc/backend/customizer.php:665
+#: inc/backend/elementor-widgets/portfolio-carousel.php:79
+#: inc/backend/elementor-widgets/portfolio-carousel.php:92
+#: inc/backend/elementor-widgets/portfolio-filter.php:146
+#: inc/backend/elementor-widgets/portfolio-filter.php:159
+msgid "Style 1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box.php:61
+msgid "Style 1: Gradient Number"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:73
+msgid "Style 1: Icon Left"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:47
+msgid "Style 1: Line"
+msgstr ""
+
+#: inc/backend/customizer.php:666
+#: inc/backend/elementor-widgets/portfolio-carousel.php:80
+#: inc/backend/elementor-widgets/portfolio-carousel.php:93
+#: inc/backend/elementor-widgets/portfolio-filter.php:147
+#: inc/backend/elementor-widgets/portfolio-filter.php:160
+msgid "Style 2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/progress-bars.php:48
+msgid "Style 2: Circle"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-box.php:62
+msgid "Style 2: Has Shape"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:74
+msgid "Style 2: Icon Center"
+msgstr ""
+
+#: inc/backend/elementor-widgets/portfolio-carousel.php:81
+#: inc/backend/elementor-widgets/portfolio-filter.php:148
+msgid "Style 3"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:75
+msgid "Style 3: Icon Center With Shadow"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box.php:76
+msgid "Style 4: Icon Right"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:169
+msgid "Style Circle"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:73
+#: inc/backend/elementor-widgets/icon-box.php:178
+msgid "Style Color"
+msgstr ""
+
+#: inc/backend/customizer.php:240
+msgid "Styling"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:557
+#: inc/backend/elementor-widgets/testimonial-carousel.php:63
+#: inc/backend/elementor-widgets/testimonial-carousel.php:406
+msgid "Sub Title"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:277
+msgid "SubTitle"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:188
+msgid "Subtitle"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:57
+msgid "Subtitle & Title"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:72
+msgid "Tab #1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:76
+msgid "Tab #2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:57
+#: inc/backend/elementor-widgets/tabs.php:58
+msgid "Tab Content"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:47
+#: inc/backend/elementor-widgets/tabs.php:48
+msgid "Tab Title"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:131
+msgid "Table Box"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:43
+msgid "Table Style"
+msgstr ""
+
+#: inc/backend/customizer.php:1550 inc/backend/customizer.php:1594
+#: inc/backend/customizer.php:1638 inc/backend/customizer.php:2013
+#: inc/backend/customizer.php:2050 inc/backend/customizer.php:2087
+msgid "Tablet"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:36
+#: inc/backend/elementor-widgets/tabs.php:90
+#: inc/backend/elementor-widgets/tabs.php:99
+msgid "Tabs"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:67
+msgid "Tabs Items"
+msgstr ""
+
+#: inc/frontend/builder.php:119
+msgid "Take Me Home"
+msgstr ""
+
+#: inc/backend/elementor-widgets/team-carousel.php:36
+#: inc/backend/elementor-widgets/team-carousel.php:218
+msgid "Team"
+msgstr ""
+
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:35
+#: inc/backend/elementor-widgets/testimonial-carousel.php:35
+msgid "Testimonials"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:108
+#: inc/backend/elementor-widgets/progress-bars.php:178
+#: inc/backend/elementor/header/list-menu-item.php:43
+#: inc/backend/elementor/header/list-menu-item.php:230
+msgid "Text"
+msgstr ""
+
+#: inc/backend/customizer.php:1465
+msgid "Text Align"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:78
+msgid "Text Center"
+msgstr ""
+
+#: inc/backend/customizer.php:1362 inc/backend/elementor-widgets/button.php:174
+#: inc/backend/elementor-widgets/button.php:214
+#: inc/backend/elementor-widgets/circle-process.php:256
+#: inc/backend/elementor-widgets/circle-process.php:284
+#: inc/backend/elementor-widgets/icon-box.php:826
+#: inc/backend/elementor-widgets/portfolio-filter.php:265
+#: inc/backend/elementor-widgets/post-carousel.php:498
+#: inc/backend/elementor-widgets/post-grid.php:426
+#: inc/backend/elementor-widgets/pricing-table.php:455
+#: inc/backend/elementor-widgets/real-number.php:168
+#: inc/backend/elementor-widgets/service-box-2.php:326
+#: inc/backend/elementor-widgets/service-carousel.php:377
+#: inc/backend/elementor-widgets/service-carousel.php:828
+#: inc/backend/elementor-widgets/switchs.php:219
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:194
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:296
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:345
+#: inc/backend/elementor-widgets/testimonial-carousel.php:249
+#: inc/backend/elementor-widgets/testimonial-carousel.php:518
+#: inc/backend/elementor-widgets/testimonial-carousel.php:567
+#: inc/backend/elementor/header/list-menu-item.php:238
+#: inc/backend/elementor/header/menu-mobile.php:219
+#: inc/backend/elementor/header/menu.php:78
+#: inc/backend/elementor/header/menu.php:239
+#: inc/backend/elementor/header/search.php:141
+msgid "Text Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1167
+msgid "Text Color for Dropdown Menu Item"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:509
+#: inc/backend/elementor-widgets/post-grid.php:437
+#: inc/backend/elementor-widgets/service-carousel.php:410
+#: inc/backend/elementor-widgets/service-carousel.php:840
+#: inc/backend/elementor/header/menu-mobile.php:230
+msgid "Text Color Hover"
+msgstr ""
+
+#: inc/backend/customizer.php:1382
+#: inc/backend/elementor-widgets/portfolio-filter.php:276
+#: inc/backend/elementor/header/menu.php:250
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/backend/customizer.php:1187
+msgid "Text Hover Color for Dropdown Menu Item"
+msgstr ""
+
+#: inc/backend/elementor/header/menu.php:137
+msgid "Text Hover/Active Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:76
+msgid "Text Left"
+msgstr ""
+
+#: inc/backend/elementor-widgets/contact-info.php:113
+msgid "Text Light"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:137
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:172
+msgid "Text light"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:211
+msgid "Text Link"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:77
+msgid "Text Right"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:98
+#: inc/backend/elementor-widgets/heading.php:278
+#: inc/backend/elementor-widgets/service-carousel.php:119
+#: inc/backend/elementor-widgets/service-carousel.php:611
+msgid "Text Stroke"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:91
+msgid "Text Under Price"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:227
+msgid "Texts"
+msgstr ""
+
+#. %s: version number
+#: inc/libs/class-tgm-plugin-activation.php:2063
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:80
+#: inc/libs/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:395
+#: inc/libs/class-tgm-plugin-activation.php:3033
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/backend/plugin-requires.php:78
+#: inc/libs/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugin-requires.php:77
+#: inc/libs/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3588
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:3584
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3596
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1018
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1015
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:718
+msgid "The tgmpa_admin_menu_use_add_theme_page filter is deprecated."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/customizer.php:2506 inc/backend/elementor-widgets/button.php:52
+#: inc/backend/elementor-widgets/icon-box.php:34
+#: inc/backend/elementor-widgets/pricing-table.php:48
+msgid "Third Color"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/backend/plugin-requires.php:75
+#: inc/libs/class-tgm-plugin-activation.php:347
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/plugin-requires.php:74
+#: inc/libs/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/customizer.php:552
+msgid "This will be the contact info content"
+msgstr ""
+
+#: inc/backend/customizer.php:546
+msgid ""
+"This will be the contact info icon: https://fontawesome.com/icons?d=gallery ,"
+" ex: fas fa-phone"
+msgstr ""
+
+#: inc/backend/customizer.php:540
+msgid "This will be the contact info name"
+msgstr ""
+
+#: inc/backend/customizer.php:620
+msgid ""
+"This will be the social icon: https://fontawesome.com/icons?d=gallery , ex: "
+"fab fa-facebook"
+msgstr ""
+
+#: inc/backend/customizer.php:626
+msgid "This will be the social link"
+msgstr ""
+
+#: inc/backend/customizer.php:614
+msgid "This will be the social network name"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:197
+#: inc/backend/elementor-widgets/circle-process.php:53
+#: inc/backend/elementor-widgets/circle-process.php:249
+#: inc/backend/elementor-widgets/contact-info.php:96
+#: inc/backend/elementor-widgets/contact-info.php:208
+#: inc/backend/elementor-widgets/counter.php:105
+#: inc/backend/elementor-widgets/counter.php:198
+#: inc/backend/elementor-widgets/heading.php:233
+#: inc/backend/elementor-widgets/icon-box-grid.php:158
+#: inc/backend/elementor-widgets/icon-box-grid.php:383
+#: inc/backend/elementor-widgets/icon-box.php:138
+#: inc/backend/elementor-widgets/icon-box.php:689
+#: inc/backend/elementor-widgets/message-box.php:82
+#: inc/backend/elementor-widgets/message-box.php:237
+#: inc/backend/elementor-widgets/portfolio-carousel.php:421
+#: inc/backend/elementor-widgets/portfolio-filter.php:444
+#: inc/backend/elementor-widgets/post-carousel.php:368
+#: inc/backend/elementor-widgets/post-grid.php:296
+#: inc/backend/elementor-widgets/pricing-table.php:71
+#: inc/backend/elementor-widgets/pricing-table.php:230
+#: inc/backend/elementor-widgets/process-box.php:147
+#: inc/backend/elementor-widgets/process-box.php:404
+#: inc/backend/elementor-widgets/progress-bars.php:187
+#: inc/backend/elementor-widgets/real-number.php:78
+#: inc/backend/elementor-widgets/real-number.php:324
+#: inc/backend/elementor-widgets/service-box-2.php:57
+#: inc/backend/elementor-widgets/service-box-2.php:223
+#: inc/backend/elementor-widgets/service-box.php:134
+#: inc/backend/elementor-widgets/service-box.php:472
+#: inc/backend/elementor-widgets/service-carousel.php:141
+#: inc/backend/elementor-widgets/service-carousel.php:504
+#: inc/backend/elementor-widgets/service-carousel.php:759
+#: inc/backend/elementor-widgets/tab-titles.php:112
+#: inc/backend/elementor-widgets/tab-titles.php:405
+#: inc/backend/elementor-widgets/team-carousel.php:386
+#: inc/backend/elementor-widgets/team.php:252
+#: inc/backend/elementor-widgets/testimonial-carousel.php:52
+#: inc/backend/elementor-widgets/testimonial-carousel.php:362
+msgid "Title"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:151
+msgid "Title #1"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:156
+msgid "Title #2"
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:45
+msgid "Title & Content"
+msgstr ""
+
+#: inc/backend/elementor-widgets/tabs.php:45
+msgid "Title & Description"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:767
+#: inc/backend/elementor-widgets/tab-titles.php:355
+#: inc/backend/elementor-widgets/tab-titles.php:388
+msgid "Title Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/service-carousel.php:779
+msgid "Title Color Hover"
+msgstr ""
+
+#: inc/backend/elementor-widgets/counter.php:149
+#: inc/backend/elementor-widgets/heading.php:118
+#: inc/backend/elementor-widgets/icon-box-grid.php:219
+#: inc/backend/elementor-widgets/icon-box.php:227
+#: inc/backend/elementor-widgets/portfolio-carousel.php:464
+#: inc/backend/elementor-widgets/portfolio-filter.php:486
+#: inc/backend/elementor-widgets/process-box.php:178
+#: inc/backend/elementor-widgets/service-box-2.php:94
+#: inc/backend/elementor-widgets/service-box.php:154
+#: inc/backend/elementor-widgets/service-carousel.php:546
+#: inc/backend/elementor-widgets/tab-titles.php:185
+msgid "Title HTML Tag"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:356
+msgid "Title Page Header"
+msgstr ""
+
+#: inc/frontend/widgets/recent-posts.php:135
+msgid "Title:"
+msgstr ""
+
+#: inc/backend/elementor-widgets/switchs.php:35
+#: inc/backend/elementor-widgets/tab-titles.php:49
+msgid "Titles"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/libs/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: inc/libs/class-tgm-plugin-activation.php:2473
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/elementor-widgets/real-number.php:161
+#: inc/backend/elementor-widgets/switchs.php:84
+msgid "Toggle"
+msgstr ""
+
+#: inc/backend/customizer.php:1422 inc/backend/elementor-widgets/team.php:373
+msgid "Toggle Button Color"
+msgstr ""
+
+#: inc/backend/elementor/header/menu.php:222
+#: inc/backend/elementor/header/search.php:179
+msgid "Top"
+msgstr ""
+
+#: inc/backend/customizer.php:219
+msgid "Top Bar"
+msgstr ""
+
+#: inc/backend/customizer.php:925
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: inc/backend/customizer.php:965
+msgid "Top Bar Border Bottom Color"
+msgstr ""
+
+#: inc/backend/customizer.php:452
+msgid "Top Bar On/Off"
+msgstr ""
+
+#: inc/backend/customizer.php:945
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: functions.php:116
+msgid "Topbar Widget"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:54
+msgid "Tumbleupon"
+msgstr ""
+
+#: inc/backend/customizer.php:2147
+#: inc/backend/elementor-widgets/social-share.php:55
+msgid "Tumblr"
+msgstr ""
+
+#: inc/backend/customizer.php:2142
+#: inc/backend/elementor-widgets/social-share.php:47
+#: inc/backend/elementor-widgets/team.php:124
+msgid "Twitter"
+msgstr ""
+
+#: inc/frontend/template-tags.php:313
+msgid "Twitter Handle"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2630
+#: inc/backend/elementor-widgets/button.php:129
+msgid "Type"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:101
+#: inc/backend/elementor-widgets/service-carousel.php:122
+msgid "Type your text here"
+msgstr ""
+
+#: inc/backend/customizer.php:301
+#: inc/backend/elementor-widgets/team-carousel.php:424
+#: inc/backend/elementor-widgets/team-carousel.php:454
+#: inc/backend/elementor-widgets/team.php:290
+#: inc/backend/elementor-widgets/team.php:320
+msgid "Typography"
+msgstr ""
+
+#: inc/backend/elementor-widgets/pricing-table.php:347
+msgid "Under Price"
+msgstr ""
+
+#: inc/backend/post-like.php:14 inc/backend/post-like.php:202
+msgid "Unlike"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2804
+msgid "Update"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/libs/class-tgm-plugin-activation.php:2689
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/libs/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2414
+msgid "Update recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/class-tgm-plugin-activation.php:3579
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2765
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/backend/customizer.php:1895
+msgid "Upload the default background image for the single post."
+msgstr ""
+
+#: inc/backend/customizer.php:862
+msgid "Upload Your Logo Image on Header Scroll (.jpg, .png, .svg)"
+msgstr ""
+
+#: inc/backend/customizer.php:848
+msgid "Upload Your Static Logo Image on Header Static (.jpg, .png, .svg)"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:87
+#: inc/backend/elementor-widgets/service-carousel.php:105
+msgid "Use Text Stroke?"
+msgstr ""
+
+#: inc/backend/elementor-widgets/countdown.php:77
+msgid "UTC Timezone Offset"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2634
+msgid "Version"
+msgstr ""
+
+#: inc/backend/meta-boxes.php:187
+msgid "Video"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:70
+msgid "Video Link"
+msgstr ""
+
+#: inc/backend/admin-functions.php:36 inc/backend/admin-functions.php:72
+msgid "View"
+msgstr ""
+
+#: inc/backend/elementor-widgets/post-carousel.php:149
+#: inc/backend/elementor-widgets/post-grid.php:173
+msgid "View details <i class=\"flaticon-arrow-pointing-to-right\"></i>"
+msgstr ""
+
+#: inc/backend/admin-functions.php:73
+msgid "View Footer Builder"
+msgstr ""
+
+#: inc/backend/admin-functions.php:37
+msgid "View Header Builder"
+msgstr ""
+
+#: inc/frontend/header-default.php:105 inc/frontend/header-mobile.php:13
+#: inc/woocommerce/woocommerce.php:200
+#: inc/backend/elementor/header/cart.php:193
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/backend/customizer.php:2149
+msgid "VK"
+msgstr ""
+
+#: inc/backend/elementor-widgets/social-share.php:56
+msgid "Vk"
+msgstr ""
+
+#: inc/backend/elementor-widgets/process-box.php:160
+msgid ""
+"We are a team of non-cynics who truly care for our work and for each other."
+msgstr ""
+
+#: inc/backend/elementor-widgets/accordions.php:73
+#: inc/backend/elementor-widgets/accordions.php:77
+#: inc/backend/elementor-widgets/tabs.php:73
+#: inc/backend/elementor-widgets/tabs.php:77
+msgid ""
+"We help ambitious businesses like yours generate more profits by building "
+"awareness, driving web traffic, connecting with customers, and growing "
+"overall sales. Give us a call."
+msgstr ""
+
+#: inc/backend/elementor-widgets/message-box.php:94
+msgid "We help ambitious businesses like yours generate."
+msgstr ""
+
+#: inc/backend/elementor-widgets/team.php:65
+msgid "WEB Designer"
+msgstr ""
+
+#: comments.php:57
+msgid "Website"
+msgstr ""
+
+#: inc/backend/elementor-widgets/heading.php:78
+msgid "What we do"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button.php:56
+#: inc/backend/elementor-widgets/icon-box.php:38
+msgid "White Color"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:111
+#: inc/backend/elementor-widgets/icon-box.php:490
+#: inc/backend/elementor-widgets/portfolio-carousel.php:324
+#: inc/backend/elementor-widgets/portfolio-filter.php:373
+#: inc/backend/elementor-widgets/service-carousel.php:869
+#: inc/backend/elementor/header/logo.php:89
+#: inc/backend/elementor/header/menu.php:194
+#: inc/backend/elementor/header/search.php:163
+#: inc/backend/elementor/header/side-panel.php:96
+#: inc/backend/elementor/header/side-panel.php:122
+msgid "Width"
+msgstr ""
+
+#: inc/backend/elementor-widgets/circle-process.php:311
+msgid "Width/Height"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2373
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/backend/elementor-widgets/button-video.php:89
+#: inc/backend/elementor-widgets/client-carousel.php:121
+#: inc/backend/elementor-widgets/client-carousel.php:134
+#: inc/backend/elementor-widgets/contact-info.php:115
+#: inc/backend/elementor-widgets/heading.php:139
+#: inc/backend/elementor-widgets/portfolio-carousel.php:174
+#: inc/backend/elementor-widgets/portfolio-carousel.php:186
+#: inc/backend/elementor-widgets/post-carousel.php:198
+#: inc/backend/elementor-widgets/post-carousel.php:210
+#: inc/backend/elementor-widgets/service-carousel.php:252
+#: inc/backend/elementor-widgets/service-carousel.php:264
+#: inc/backend/elementor-widgets/service-carousel.php:276
+#: inc/backend/elementor-widgets/team-carousel.php:280
+#: inc/backend/elementor-widgets/team-carousel.php:292
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:126
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:138
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:164
+#: inc/backend/elementor-widgets/testimonial-carousel-2.php:174
+#: inc/backend/elementor-widgets/testimonial-carousel.php:159
+#: inc/backend/elementor-widgets/testimonial-carousel.php:171
+#: inc/backend/elementor-widgets/testimonial-carousel.php:183
+msgid "Yes"
+msgstr ""
+
+#: inc/backend/elementor-widgets/icon-box-grid.php:169
+#: inc/backend/elementor-widgets/icon-box-grid.php:193
+#: inc/backend/elementor-widgets/icon-box-grid.php:200
+#: inc/backend/elementor-widgets/icon-box-grid.php:207
+#: inc/backend/elementor-widgets/icon-box.php:150
+#: inc/backend/elementor-widgets/service-box-2.php:70
+#: inc/backend/elementor-widgets/service-box.php:147
+msgid ""
+"You can provide the answers that your potential customers are trying to find,"
+" so you can become the industry."
+msgstr ""
+
+#: inc/backend/post-like.php:372
+msgid "You do not like anything yet."
+msgstr ""
+
+#: inc/backend/post-like.php:346
+msgid "You Like:"
+msgstr ""
+
+#: inc/frontend/template-tags.php:267
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/frontend/template-tags.php:314
+msgid "Youtube Channel"
+msgstr ""

@@ -1,0 +1,454 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/post-info",
+  "version": "1.0.0",
+  "title": "Post Info",
+  "category": "gutenkit",
+  "description": "Post info block for gutenberg.",
+  "ancestor": [
+    "gutenkit-pro/query-template",
+    "gutenkit-pro/advanced-search"
+  ],
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "gkitPostInfoLayout": {
+      "type": "string",
+      "default": "row"
+    },
+    "gkitPostInfoItems": {
+      "type": "array",
+      "default": [
+        {
+          "gkitPostInfoSettings": {
+            "gkitPostInfoType": "Author",
+            "gkitPostInfoDateFormat": "default",
+            "gkitPostInfoTimeFormat": "default",
+            "gkitPostInfoEnableLink": true,
+            "gkitPostInfoShowAvatar": false,
+            "avatarSize": {
+              "size": 16
+            }
+          },
+          "gkitPostInfoIconSettings": {
+            "gkitPostInfoIconStyle": "Default"
+          }
+        },
+        {
+          "gkitPostInfoSettings": {
+            "gkitPostInfoType": "Date",
+            "gkitPostInfoDateFormat": "default",
+            "gkitPostInfoTimeFormat": "default",
+            "gkitPostInfoEnableLink": true,
+            "gkitPostInfoShowAvatar": false,
+            "avatarSize": {
+              "size": 16
+            }
+          },
+          "gkitPostInfoIconSettings": {
+            "gkitPostInfoIconStyle": "Default"
+          }
+        },
+        {
+          "gkitPostInfoSettings": {
+            "gkitPostInfoType": "Time",
+            "gkitPostInfoDateFormat": "default",
+            "gkitPostInfoTimeFormat": "default",
+            "gkitPostInfoEnableLink": true,
+            "gkitPostInfoShowAvatar": false,
+            "avatarSize": {
+              "size": 16
+            }
+          },
+          "gkitPostInfoIconSettings": {
+            "gkitPostInfoIconStyle": "Default"
+          }
+        },
+        {
+          "gkitPostInfoSettings": {
+            "gkitPostInfoType": "Comments",
+            "gkitPostInfoDateFormat": "default",
+            "gkitPostInfoTimeFormat": "default",
+            "gkitPostInfoEnableLink": true,
+            "gkitPostInfoShowAvatar": false,
+            "avatarSize": {
+              "size": 16
+            }
+          },
+          "gkitPostInfoIconSettings": {
+            "gkitPostInfoIconStyle": "Default"
+          }
+        }
+      ],
+      "excludeCopy": true
+    },
+    "listSpaceBetweenDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 10
+      }
+    },
+    "listSpaceBetweenTablet": {
+      "type": "object"
+    },
+    "listSpaceBetweenMobile": {
+      "type": "object"
+    },
+    "listSpaceBetweenTabletLandscape": {
+      "type": "object"
+    },
+    "listSpaceBetweenMobileLandscape": {
+      "type": "object"
+    },
+    "listSpaceBetweenLaptop": {
+      "type": "object"
+    },
+    "listSpaceBetweenWideScreen": {
+      "type": "object"
+    },
+    "listPaddingDesktop": {
+      "type": "object"
+    },
+    "listPaddingTablet": {
+      "type": "object"
+    },
+    "listPaddingMobile": {
+      "type": "object"
+    },
+    "listPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "listPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "listPaddingLaptop": {
+      "type": "object"
+    },
+    "listPaddingWideScreen": {
+      "type": "object"
+    },
+    "listBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "listBorderRadiusTablet": {
+      "type": "object"
+    },
+    "listBorderRadiusMobile": {
+      "type": "object"
+    },
+    "listBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "listBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "listBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "listBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "listBorder": {
+      "type": "object"
+    },
+    "listBoxShadow": {
+      "type": "object"
+    },
+    "listBackgroundNormal": {
+      "type": "object"
+    },
+    "listBackgroundHover": {
+      "type": "object"
+    },
+    "listAlignmentDesktop": {
+      "type": "string"
+    },
+    "listAlignmentTablet": {
+      "type": "string"
+    },
+    "listAlignmentMobile": {
+      "type": "string"
+    },
+    "listAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "listAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "listAlignmentLaptop": {
+      "type": "string"
+    },
+    "listAlignmentWideScreen": {
+      "type": "string"
+    },
+    "listAvatarPaddingDesktop": {
+      "type": "object"
+    },
+    "listAvatarPaddingTablet": {
+      "type": "object"
+    },
+    "listAvatarPaddingMobile": {
+      "type": "object"
+    },
+    "listAvatarPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "listAvatarPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "listAvatarPaddingLaptop": {
+      "type": "object"
+    },
+    "listAvatarPaddingWideScreen": {
+      "type": "object"
+    },
+    "listAvatarBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "listAvatarBorderRadiusTablet": {
+      "type": "object"
+    },
+    "listAvatarBorderRadiusMobile": {
+      "type": "object"
+    },
+    "listAvatarBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "listAvatarBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "listAvatarBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "listAvatarBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "listAvatarBorder": {
+      "type": "object"
+    },
+    "showDivider": {
+      "type": "boolean",
+      "default": false
+    },
+    "dividerStyle": {
+      "type": "string",
+      "default": "solid"
+    },
+    "dividerWeightDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 1
+      }
+    },
+    "dividerWeightTablet": {
+      "type": "object"
+    },
+    "dividerWeightMobile": {
+      "type": "object"
+    },
+    "dividerWeightTabletLandscape": {
+      "type": "object"
+    },
+    "dividerWeightMobileLandscape": {
+      "type": "object"
+    },
+    "dividerWeightLaptop": {
+      "type": "object"
+    },
+    "dividerWeightWideScreen": {
+      "type": "object"
+    },
+    "dividerWidthDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "%",
+        "size": 100
+      }
+    },
+    "dividerWidthTablet": {
+      "type": "object"
+    },
+    "dividerWidthMobile": {
+      "type": "object"
+    },
+    "dividerWidthTabletLandscape": {
+      "type": "object"
+    },
+    "dividerWidthMobileLandscape": {
+      "type": "object"
+    },
+    "dividerWidthLaptop": {
+      "type": "object"
+    },
+    "dividerWidthWideScreen": {
+      "type": "object"
+    },
+    "dividerHeightDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "%",
+        "size": 100
+      }
+    },
+    "dividerHeightTablet": {
+      "type": "object"
+    },
+    "dividerHeightMobile": {
+      "type": "object"
+    },
+    "dividerHeightTabletLandscape": {
+      "type": "object"
+    },
+    "dividerHeightMobileLandscape": {
+      "type": "object"
+    },
+    "dividerHeightLaptop": {
+      "type": "object"
+    },
+    "dividerHeightWideScreen": {
+      "type": "object"
+    },
+    "dividerSpacingDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 6
+      }
+    },
+    "dividerSpacingTablet": {
+      "type": "object"
+    },
+    "dividerSpacingMobile": {
+      "type": "object"
+    },
+    "dividerSpacingTabletLandscape": {
+      "type": "object"
+    },
+    "dividerSpacingMobileLandscape": {
+      "type": "object"
+    },
+    "dividerSpacingLaptop": {
+      "type": "object"
+    },
+    "dividerSpacingWideScreen": {
+      "type": "object"
+    },
+    "dividerColor": {
+      "type": "string",
+      "default": "#ddd"
+    },
+    "iconColor": {
+      "type": "string"
+    },
+    "iconSizeDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 16
+      }
+    },
+    "iconSizeTablet": {
+      "type": "object"
+    },
+    "iconSizeMobile": {
+      "type": "object"
+    },
+    "iconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "iconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "iconSizeLaptop": {
+      "type": "object"
+    },
+    "iconSizeWideScreen": {
+      "type": "object"
+    },
+    "iconPositionDesktop": {
+      "type": "string",
+      "default": "row"
+    },
+    "iconPositionTablet": {
+      "type": "string"
+    },
+    "iconPositionMobile": {
+      "type": "string"
+    },
+    "iconPositionTabletLandscape": {
+      "type": "string"
+    },
+    "iconPositionMobileLandscape": {
+      "type": "string"
+    },
+    "iconPositionLaptop": {
+      "type": "string"
+    },
+    "iconPositionWideScreen": {
+      "type": "string"
+    },
+    "iconTextSpacingDesktop": {
+      "type": "object"
+    },
+    "iconTextSpacingTablet": {
+      "type": "object"
+    },
+    "iconTextSpacingMobile": {
+      "type": "object"
+    },
+    "iconTextSpacingTabletLandscape": {
+      "type": "object"
+    },
+    "iconTextSpacingMobileLandscape": {
+      "type": "object"
+    },
+    "iconTextSpacingLaptop": {
+      "type": "object"
+    },
+    "iconTextSpacingWideScreen": {
+      "type": "object"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "textColorHover": {
+      "type": "string"
+    },
+    "textTypography": {
+      "type": "object"
+    }
+  },
+  "usesContext": [
+    "postType",
+    "postId"
+  ],
+  "supports": {
+    "reusable": false,
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

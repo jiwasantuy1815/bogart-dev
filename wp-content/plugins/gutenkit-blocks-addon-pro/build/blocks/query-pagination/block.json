@@ -1,0 +1,402 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/query-pagination",
+  "version": "1.0.0",
+  "title": "Query Pagination",
+  "category": "gutenkit",
+  "parent": [
+    "gutenkit-pro/query-builder"
+  ],
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "pagination",
+    "loop pagination",
+    "loop builder pagination",
+    "query builder pagination",
+    "post loop pagination"
+  ],
+  "description": "Query Pagination for GutenKit.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "paginationType": {
+      "type": "object",
+      "default": {
+        "label": "Number + Previous/Next",
+        "value": "number-previous-next"
+      }
+    },
+    "paginationNextPrevType": {
+      "type": "object",
+      "default": {
+        "label": "Icon",
+        "value": "icon"
+      }
+    },
+    "truncatePaginationNumbers": {
+      "type": "boolean",
+      "default": false
+    },
+    "PaginationNumberAmountBothSides": {
+      "type": "object",
+      "default": {
+        "size": 2
+      }
+    },
+    "paginationPreviousText": {
+      "type": "string",
+      "default": "Previous"
+    },
+    "paginationNextText": {
+      "type": "string",
+      "default": "Next"
+    },
+    "paginationAlignmentDesktop": {
+      "type": "string",
+      "default": "center"
+    },
+    "paginationAlignmentTablet": {
+      "type": "string"
+    },
+    "paginationAlignmentMobile": {
+      "type": "string"
+    },
+    "paginationAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "paginationAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "paginationAlignmentLaptop": {
+      "type": "string"
+    },
+    "paginationAlignmentWideScreen": {
+      "type": "string"
+    },
+    "paginationGapDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 10
+      }
+    },
+    "paginationGapTablet": {
+      "type": "object"
+    },
+    "paginationGapMobile": {
+      "type": "object"
+    },
+    "paginationGapTabletLandscape": {
+      "type": "object"
+    },
+    "paginationGapMobileLandscape": {
+      "type": "object"
+    },
+    "paginationGapLaptop": {
+      "type": "object"
+    },
+    "paginationGapWideScreen": {
+      "type": "object"
+    },
+    "paginationHeightDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 35
+      }
+    },
+    "paginationHeightTablet": {
+      "type": "object"
+    },
+    "paginationHeightMobile": {
+      "type": "object"
+    },
+    "paginationHeightTabletLandscape": {
+      "type": "object"
+    },
+    "paginationHeightMobileLandscape": {
+      "type": "object"
+    },
+    "paginationHeightLaptop": {
+      "type": "object"
+    },
+    "paginationHeightWideScreen": {
+      "type": "object"
+    },
+    "paginationWidthDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 35
+      }
+    },
+    "paginationWidthTablet": {
+      "type": "object"
+    },
+    "paginationWidthMobile": {
+      "type": "object"
+    },
+    "paginationWidthTabletLandscape": {
+      "type": "object"
+    },
+    "paginationWidthMobileLandscape": {
+      "type": "object"
+    },
+    "paginationWidthLaptop": {
+      "type": "object"
+    },
+    "paginationWidthWideScreen": {
+      "type": "object"
+    },
+    "paginationCustomHeightAndWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "paginationTypography": {
+      "type": "object"
+    },
+    "paginationTextColorNormal": {
+      "type": "string",
+      "default": "#191822"
+    },
+    "paginationBgColorNormal": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#f9f9f9"
+      }
+    },
+    "paginationTextColorHover": {
+      "type": "string",
+      "default": "#191822"
+    },
+    "paginationBgColorHover": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#F4F4F7"
+      }
+    },
+    "paginationTextColorActive": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "paginationBgColorActive": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#5148EA"
+      }
+    },
+    "paginationSpaceBetweenDesktop": {
+      "type": "object"
+    },
+    "paginationSpaceBetweenTablet": {
+      "type": "object"
+    },
+    "paginationSpaceBetweenMobile": {
+      "type": "object"
+    },
+    "paginationSpaceBetweenTabletLandscape": {
+      "type": "object"
+    },
+    "paginationSpaceBetweenMobileLandscape": {
+      "type": "object"
+    },
+    "paginationSpaceBetweenLaptop": {
+      "type": "object"
+    },
+    "paginationSpaceBetweenWideScreen": {
+      "type": "object"
+    },
+    "paginationBorder": {
+      "type": "object"
+    },
+    "paginationHoverBorder": {
+      "type": "object"
+    },
+    "paginationActiveBorder": {
+      "type": "object"
+    },
+    "paginationPaddingDesktop": {
+      "type": "object"
+    },
+    "paginationPaddingTablet": {
+      "type": "object"
+    },
+    "paginationPaddingMobile": {
+      "type": "object"
+    },
+    "paginationPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "paginationPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "paginationPaddingLaptop": {
+      "type": "object"
+    },
+    "paginationPaddingWideScreen": {
+      "type": "object"
+    },
+    "paginationMarginDesktop": {
+      "type": "object"
+    },
+    "paginationMarginTablet": {
+      "type": "object"
+    },
+    "paginationMarginMobile": {
+      "type": "object"
+    },
+    "paginationMarginTabletLandscape": {
+      "type": "object"
+    },
+    "paginationMarginMobileLandscape": {
+      "type": "object"
+    },
+    "paginationMarginLaptop": {
+      "type": "object"
+    },
+    "paginationMarginWideScreen": {
+      "type": "object"
+    },
+    "paginationRadiusDesktop": {
+      "type": "object",
+      "default": {
+        "top": "4px",
+        "right": "4px",
+        "bottom": "4px",
+        "left": "4px"
+      }
+    },
+    "paginationRadiusTablet": {
+      "type": "object"
+    },
+    "paginationRadiusMobile": {
+      "type": "object"
+    },
+    "paginationRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "paginationRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "paginationRadiusLaptop": {
+      "type": "object"
+    },
+    "paginationRadiusWideScreen": {
+      "type": "object"
+    },
+    "prevIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-left",
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 512\"><path d=\"M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z\"></svg>"
+      },
+      "excludeCopy": true
+    },
+    "nextIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-right",
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 512\"><path d=\"M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z\"></svg>"
+      },
+      "excludeCopy": true
+    },
+    "PaginationIconSizeDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 10
+      }
+    },
+    "PaginationIconSizeTablet": {
+      "type": "object"
+    },
+    "PaginationIconSizeMobile": {
+      "type": "object"
+    },
+    "PaginationIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "PaginationIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "PaginationIconSizeLaptop": {
+      "type": "object"
+    },
+    "PaginationIconSizeWideScreen": {
+      "type": "object"
+    },
+    "PaginationIconVerticalAlignDesktop": {
+      "type": "object"
+    },
+    "PaginationIconVerticalAlignTablet": {
+      "type": "object"
+    },
+    "PaginationIconVerticalAlignMobile": {
+      "type": "object"
+    },
+    "PaginationIconVerticalAlignTabletLandscape": {
+      "type": "object"
+    },
+    "PaginationIconVerticalAlignMobileLandscape": {
+      "type": "object"
+    },
+    "PaginationIconVerticalAlignLaptop": {
+      "type": "object"
+    },
+    "PaginationIconVerticalAlignWideScreen": {
+      "type": "object"
+    },
+    "PaginationIconHvColor": {
+      "type": "string"
+    },
+    "paginationTextNormalBg": {
+      "type": "object"
+    },
+    "paginationTextNormalColor": {
+      "type": "string",
+      "default": "#191822"
+    },
+    "paginationTextHoverBg": {
+      "type": "object"
+    },
+    "paginationTextHoverColor": {
+      "type": "string"
+    }
+  },
+  "usesContext": [
+    "queryType",
+    "query"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false,
+    "interactivity": true,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./frontend.js"
+}

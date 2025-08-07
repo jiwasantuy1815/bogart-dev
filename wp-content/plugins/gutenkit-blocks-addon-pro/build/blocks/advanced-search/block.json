@@ -1,0 +1,2491 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/advanced-search",
+  "version": "1.0.0",
+  "title": "Advanced Search",
+  "category": "gutenkit",
+  "icon": "menu-alt3",
+  "keywords": [
+    "gkit",
+    "header",
+    "search",
+    "search box",
+    "advanced search"
+  ],
+  "description": "Advanced Search Block For Gutenkit",
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "gkitShowSearchCategory": {
+      "type": "boolean",
+      "default": true
+    },
+    "gkitShowSearchButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "gkitShowInputIcon": {
+      "type": "boolean",
+      "default": true
+    },
+    "gkitEnableSearchResult": {
+      "type": "boolean",
+      "default": true
+    },
+    "gkitInputIcon": {
+      "type": "object",
+      "default": {
+        "title": "search",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22'><path stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M9.889 18.778A8.889 8.889 0 1 0 9.889 1a8.889 8.889 0 0 0 0 17.778ZM21 21l-4.833-4.833'/><svg>"
+      },
+      "excludeCopy": true
+    },
+    "searchBoxStyle": {
+      "type": "string",
+      "default": "group-style"
+    },
+    "gkitLoadMoreButton": {
+      "type": "string",
+      "default": "View All Results"
+    },
+    "gkitResultPerPage": {
+      "type": "number",
+      "default": 10
+    },
+    "gkitSearchPlaceHolder": {
+      "type": "string",
+      "default": "Search.."
+    },
+    "gkitBtnAppearance": {
+      "type": "string",
+      "default": "icon-only"
+    },
+    "gkitSearchIcon": {
+      "type": "object",
+      "default": {
+        "title": "search",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22'><path stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M9.889 18.778A8.889 8.889 0 1 0 9.889 1a8.889 8.889 0 0 0 0 17.778ZM21 21l-4.833-4.833'/><svg>"
+      },
+      "excludeCopy": true
+    },
+    "gkitClickBtnSearchIcon": {
+      "type": "object",
+      "default": {
+        "title": "search",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22'><path stroke='#fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M9.889 18.778A8.889 8.889 0 1 0 9.889 1a8.889 8.889 0 0 0 0 17.778ZM21 21l-4.833-4.833'/><svg>"
+      },
+      "excludeCopy": true
+    },
+    "gkitSearchBtnText": {
+      "type": "string",
+      "default": "Search"
+    },
+    "gkitCloseIcon": {
+      "type": "object",
+      "default": {
+        "title": "cancel",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 12 12'><path stroke='#17171E' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M11 1 1 11M1 1l10 10'/></svg>"
+      },
+      "excludeCopy": true
+    },
+    "gkitClickBtnCloseIcon": {
+      "type": "object",
+      "default": {
+        "title": "cancel",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 12 12'><path stroke='#17171E' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M11 1 1 11M1 1l10 10'/></svg>"
+      },
+      "excludeCopy": true
+    },
+    "gkitSearchIconSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 20,
+        "unit": "px"
+      }
+    },
+    "gkitSearchIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitSearchIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitSearchIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchIconSizeLaptop": {
+      "type": "object"
+    },
+    "gkitSearchIconSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchInputIconSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 15,
+        "unit": "px"
+      }
+    },
+    "gkitSearchInputIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitSearchInputIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitSearchInputIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchInputIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchInputIconSizeLaptop": {
+      "type": "object"
+    },
+    "gkitSearchInputIconSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchHeaderColor": {
+      "type": "string"
+    },
+    "gkitSearchHeaderHoverColor": {
+      "type": "string"
+    },
+    "gkitSearchHeaderBgColor": {
+      "type": "object"
+    },
+    "gkitSearchHeaderBgHoverColor": {
+      "type": "object"
+    },
+    "gkitHeaderBorder": {
+      "type": "object"
+    },
+    "gkitHeaderBoxShadow": {
+      "type": "object"
+    },
+    "gkitHeaderBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitHeaderBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitHeaderBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitHeaderBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitHeaderBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitHeaderMarginDesktop": {
+      "type": "object"
+    },
+    "gkitHeaderMarginTablet": {
+      "type": "object"
+    },
+    "gkitHeaderMarginMobile": {
+      "type": "object"
+    },
+    "gkitHeaderMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderMarginLaptop": {
+      "type": "object"
+    },
+    "gkitHeaderMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitHeaderPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitHeaderPaddingTablet": {
+      "type": "object"
+    },
+    "gkitHeaderPaddingMobile": {
+      "type": "object"
+    },
+    "gkitHeaderPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitHeaderPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitIsUseHeightWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "gkitHeaderWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 40,
+        "unit": "px"
+      }
+    },
+    "gkitHeaderWidthTablet": {
+      "type": "object"
+    },
+    "gkitHeaderWidthMobile": {
+      "type": "object"
+    },
+    "gkitHeaderWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderWidthLaptop": {
+      "type": "object"
+    },
+    "gkitHeaderWidthWideScreen": {
+      "type": "object"
+    },
+    "gkitHeaderHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 40,
+        "unit": "px"
+      }
+    },
+    "gkitHeaderHeightTablet": {
+      "type": "object"
+    },
+    "gkitHeaderHeightMobile": {
+      "type": "object"
+    },
+    "gkitHeaderHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderHeightLaptop": {
+      "type": "object"
+    },
+    "gkitHeaderHeightWideScreen": {
+      "type": "object"
+    },
+    "gkitHeaderLineHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 40,
+        "unit": "px"
+      }
+    },
+    "gkitHeaderLineHeightTablet": {
+      "type": "object"
+    },
+    "gkitHeaderLineHeightMobile": {
+      "type": "object"
+    },
+    "gkitHeaderLineHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderLineHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHeaderLineHeightLaptop": {
+      "type": "object"
+    },
+    "gkitHeaderLineHeightWideScreen": {
+      "type": "object"
+    },
+    "gkitHeaderAlignDesktop": {
+      "type": "string",
+      "default": "left"
+    },
+    "gkitHeaderAlignTablet": {
+      "type": "string"
+    },
+    "gkitHeaderAlignMobile": {
+      "type": "string"
+    },
+    "gkitHeaderAlignTabletLandscape": {
+      "type": "string"
+    },
+    "gkitHeaderAlignMobileLandscape": {
+      "type": "string"
+    },
+    "gkitHeaderAlignLaptop": {
+      "type": "string"
+    },
+    "gkitHeaderAlignWideScreen": {
+      "type": "string"
+    },
+    "gkitSearcResultHoverBgColor": {
+      "type": "object"
+    },
+    "gkitSearchContainerColor": {
+      "type": "string"
+    },
+    "gkitPlaceHolderColor": {
+      "type": "string"
+    },
+    "gkitSearchBorder": {
+      "type": "object"
+    },
+    "gkitSearchBorderRadius": {
+      "type": "object"
+    },
+    "gkitSearchHeightDesktop": {
+      "type": "object"
+    },
+    "gkitSearchHeightTablet": {
+      "type": "object"
+    },
+    "gkitSearchHeightMobile": {
+      "type": "object"
+    },
+    "gkitSearchHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchHeightLaptop": {
+      "type": "object"
+    },
+    "gkitSearchHeightWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchWidthDesktop": {
+      "type": "object"
+    },
+    "gkitSearchWidthTablet": {
+      "type": "object"
+    },
+    "gkitSearchWidthMobile": {
+      "type": "object"
+    },
+    "gkitSearchWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchWidthLaptop": {
+      "type": "object"
+    },
+    "gkitSearchWidthWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchIconLeftDesktop": {
+      "type": "object"
+    },
+    "gkitSearchIconLeftTablet": {
+      "type": "object"
+    },
+    "gkitSearchIconLeftMobile": {
+      "type": "object"
+    },
+    "gkitSearchIconLeftTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchIconLeftMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchIconLeftLaptop": {
+      "type": "object"
+    },
+    "gkitSearchIconLeftWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchOverlayColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#000000b3"
+      }
+    },
+    "gkitSearchAlignDesktop": {
+      "type": "object"
+    },
+    "gkitSearchAlignTablet": {
+      "type": "object"
+    },
+    "gkitSearchAlignMobile": {
+      "type": "object"
+    },
+    "gkitSearchAlignTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchAlignMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchAlignLaptop": {
+      "type": "object"
+    },
+    "gkitSearchAlignWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitSearchPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitCategoryDropdownIcon": {
+      "type": "object",
+      "default": {
+        "title": "down-arrow",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' width='12' height='7' viewBox='0 0 12 7' fill='none'><path d='M1 1L6 6L11 1' stroke='#17171E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+      },
+      "excludeCopy": true
+    },
+    "gkiSearchBtnColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "gkitSearchBtnHoverColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "gkitClickBtnActiveColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "gkiSearchBtnBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#5656ff"
+      }
+    },
+    "gkitSearchBtnBgHoverColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#3434e5"
+      }
+    },
+    "gkitSearchBtnBorder": {
+      "type": "object",
+      "default": {
+        "width": "0px",
+        "style": "solid",
+        "color": "#5656ff"
+      }
+    },
+    "gkitSearchBtnHoverBorder": {
+      "type": "object"
+    },
+    "gkitSearchBtnRadiusDesktop": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "5px",
+        "bottom": "5px",
+        "left": "0px"
+      }
+    },
+    "gkitSearchBtnRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchBtnRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchBtnRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchBtnRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchBtnRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchBtnRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchBtnMarginDesktop": {
+      "type": "object"
+    },
+    "gkitSearchBtnMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchBtnMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchBtnMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchBtnMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchBtnMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchBtnMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchBtnPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "20px",
+        "bottom": "0px",
+        "left": "20px"
+      }
+    },
+    "gkitSearchBtnPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchBtnPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchBtnPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchBtnPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchBtnPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchBtnPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchGapBetweenDesktop": {
+      "type": "object",
+      "default": {
+        "size": 5,
+        "unit": "px"
+      }
+    },
+    "gkitSearchGapBetweenTablet": {
+      "type": "object"
+    },
+    "gkitSearchGapBetweenMobile": {
+      "type": "object"
+    },
+    "gkitSearchGapBetweenTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchGapBetweenMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchGapBetweenLaptop": {
+      "type": "object"
+    },
+    "gkitSearchGapBetweenWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchIconPosition": {
+      "type": "string",
+      "default": "row"
+    },
+    "gkitSearchBtnFont": {
+      "type": "object"
+    },
+    "gkitSearchResultNormalColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "gkitSearchResultBorder": {
+      "type": "object",
+      "default": {
+        "width": "1px",
+        "style": "solid",
+        "color": "#ededf0"
+      }
+    },
+    "gkitSearchResultHoverColor": {
+      "type": "string"
+    },
+    "gkitSearchResultRadiusDesktop": {
+      "type": "object",
+      "default": {
+        "top": "4px",
+        "right": "4px",
+        "bottom": "4px",
+        "left": "4px"
+      }
+    },
+    "gkitSearchResultRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchResultRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchResultRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchResultRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchResultBoxShadow": {
+      "type": "object",
+      "default": {
+        "horizontal": {
+          "size": 0
+        },
+        "vertical": {
+          "size": 6
+        },
+        "blur": {
+          "size": 14
+        },
+        "spread": {
+          "size": -6
+        },
+        "color": "#17171e00",
+        "hasValue": true
+      }
+    },
+    "gkitSearchResultNormalBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#fff"
+      }
+    },
+    "gkitSearchResultPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
+    },
+    "gkitSearchResultPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchResultPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchResultPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchResultPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchResultMarginDesktop": {
+      "type": "object"
+    },
+    "gkitSearchResultMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchResultMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchResultMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchResultMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchContentTextColor": {
+      "type": "string"
+    },
+    "gkitSearchContentBgHoverColor": {
+      "type": "object"
+    },
+    "gkitSearchContentHeadingHoverColor": {
+      "type": "string"
+    },
+    "gkitSearchContentTextHoverColor": {
+      "type": "string"
+    },
+    "gkitSearchCardPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "10px",
+        "right": "10px",
+        "bottom": "10px",
+        "left": "10px"
+      }
+    },
+    "gkitSearchCardPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchCardPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchCardPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCardPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCardPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCardPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCardMarginDesktop": {
+      "type": "object",
+      "default": {
+        "top": "10px",
+        "right": "10px",
+        "bottom": "10px",
+        "left": "10px"
+      }
+    },
+    "gkitSearchCardMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchCardMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchCardMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCardMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCardMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCardMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchResultHeadingAlignDesktop": {
+      "type": "string",
+      "default": "start"
+    },
+    "gkitSearchResultHeadingAlignTablet": {
+      "type": "string"
+    },
+    "gkitSearchResultHeadingAlignMobile": {
+      "type": "string"
+    },
+    "gkitSearchResultHeadingAlignTabletLandscape": {
+      "type": "string"
+    },
+    "gkitSearchResultHeadingAlignMobileLandscape": {
+      "type": "string"
+    },
+    "gkitSearchResultHeadingAlignLaptop": {
+      "type": "string"
+    },
+    "gkitSearchResultHeadingAlignWideScreen": {
+      "type": "string"
+    },
+    "gkitSearchTextAlignDesktop": {
+      "type": "string",
+      "default": "start"
+    },
+    "gkitSearchTextAlignTablet": {
+      "type": "string"
+    },
+    "gkitSearchTextAlignMobile": {
+      "type": "string"
+    },
+    "gkitSearchTextAlignTabletLandscape": {
+      "type": "string"
+    },
+    "gkitSearchTextAlignMobileLandscape": {
+      "type": "string"
+    },
+    "gkitSearchTextAlignLaptop": {
+      "type": "string"
+    },
+    "gkitSearchTextAlignWideScreen": {
+      "type": "string"
+    },
+    "gkitSearchResultHeadingTypography": {
+      "type": "object"
+    },
+    "gkitSearchTextTypography": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnColor": {
+      "type": "string",
+      "default": "#555557"
+    },
+    "gkitLoadMoreBtnBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#EEEEF0"
+      }
+    },
+    "gkitLoadMoreBtnBorder": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnHoverColor": {
+      "type": "string",
+      "default": "#17171E"
+    },
+    "gkitLoadMoreBtnBgHoverColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#E3E2E6"
+      }
+    },
+    "gkitLoadMoreBtnHoverBorder": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnRadiusDesktop": {
+      "type": "object",
+      "default": {
+        "top": "3px",
+        "right": "3px",
+        "bottom": "3px",
+        "left": "3px"
+      }
+    },
+    "gkitLoadMoreBtnRadiusTablet": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnRadiusMobile": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "10px",
+        "right": "10px",
+        "bottom": "10px",
+        "left": "10px"
+      }
+    },
+    "gkitLoadMoreBtnPaddingTablet": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnPaddingMobile": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnMarginDesktop": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      }
+    },
+    "gkitLoadMoreBtnMarginTablet": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnMarginMobile": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnMarginLaptop": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnBoxShadow": {
+      "type": "object"
+    },
+    "gkitLoadMoreBtnTypography": {
+      "type": "object"
+    },
+    "gkitSearchCategoryNormalColor": {
+      "type": "string",
+      "default": "#17171e"
+    },
+    "gkitSearchCategoryNormalBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#eeeef0"
+      }
+    },
+    "gkitSearchCategoryNormalBorder": {
+      "type": "object",
+      "default": {
+        "style": "solid",
+        "width": "1px",
+        "color": "#dcdce0"
+      }
+    },
+    "gkitSearchCategoryNormalBoxShadow": {
+      "type": "object"
+    },
+    "gkitSearchCategoryHoverColor": {
+      "type": "string",
+      "default": "#17171e"
+    },
+    "gkitSearchCategoryNormalHoverBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#e3e2e6"
+      }
+    },
+    "gkitSearchCategoryHoverBorder": {
+      "type": "object"
+    },
+    "gkitSearchCategoryHoverBoxShadow": {
+      "type": "object"
+    },
+    "gkitSearchCategoryActiveColor": {
+      "type": "string",
+      "default": "#17171e"
+    },
+    "gkitSearchCategoryActiveBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#eeeef0"
+      }
+    },
+    "gkitSearchCategoryActiveBorder": {
+      "type": "object"
+    },
+    "gkitSearchCategoryActiveBoxShadow": {
+      "type": "object",
+      "default": {
+        "horizontal": {
+          "size": 0
+        },
+        "vertical": {
+          "size": 0
+        },
+        "blur": {
+          "size": 0
+        },
+        "spread": {
+          "size": 3
+        },
+        "color": "#dcdce04d",
+        "hasValue": true
+      }
+    },
+    "gkitSearchCategoryItemColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "gkitSearchCategoryItemBgColor": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemBorder": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemHoverColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "gkitSearchCategoryItemBgHoverColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#e8e8e8"
+      }
+    },
+    "gkitSearchCategoryItemHoverBorder": {
+      "type": "object"
+    },
+    "gkitSearchCategoryRadiusDesktop": {
+      "type": "object",
+      "default": {
+        "top": "6px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "6px"
+      }
+    },
+    "gkitSearchCategoryRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "5px",
+        "right": "10px",
+        "bottom": "5px",
+        "left": "10px"
+      }
+    },
+    "gkitSearchCategoryItemPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryMarginDesktop": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      }
+    },
+    "gkitSearchCategoryMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemMarginDesktop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 160,
+        "unit": "px"
+      }
+    },
+    "gkitSearchCategoryWidthTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryWidthMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryWidthLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryWidthWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 50,
+        "unit": "px"
+      }
+    },
+    "gkitSearchCategoryHeightTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryHeightMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryHeightLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryHeightWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryGapBetweenDesktop": {
+      "type": "object",
+      "default": {
+        "size": 14,
+        "unit": "px"
+      }
+    },
+    "gkitSearchCategoryGapBetweenTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryGapBetweenMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryGapBetweenTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryGapBetweenMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryGapBetweenLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryGapBetweenWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryBoxShadow": {
+      "type": "object"
+    },
+    "gkitSearchCategoryTypography": {
+      "type": "object"
+    },
+    "gkitSearchCategoryItemTypography": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 160,
+        "unit": "px"
+      }
+    },
+    "gkitSearchCategoryOptionsWidthTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsWidthMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsWidthLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsWidthWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 200,
+        "unit": "px"
+      }
+    },
+    "gkitSearchCategoryOptionsHeightTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsHeightMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsHeightLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsHeightWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsMarginDesktop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "10px",
+        "right": "10px",
+        "bottom": "10px",
+        "left": "10px"
+      }
+    },
+    "gkitSearchCategoryOptionsPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsBorder": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchCategoryOptionsBoxShadow": {
+      "type": "object",
+      "default": {
+        "horizontal": {
+          "size": 0
+        },
+        "vertical": {
+          "size": 6
+        },
+        "blur": {
+          "size": 14
+        },
+        "spread": {
+          "size": -6
+        },
+        "color": "#18181f33",
+        "position": "",
+        "hasValue": true
+      }
+    },
+    "gkitSearchCategoryOptionsNormalBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#fff"
+      }
+    },
+    "gkitSearchCategoryOptionsHoverBgColor": {
+      "type": "object"
+    },
+    "gkitSearchInputTypography": {
+      "type": "object"
+    },
+    "gkiSearchInputNormalColor": {
+      "type": "string",
+      "default": "#919196"
+    },
+    "gkiSearchInputNormalBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#f4f4f7"
+      }
+    },
+    "gkitSearchInputNormalBorder": {
+      "type": "object",
+      "default": {
+        "width": "1px",
+        "style": "solid",
+        "color": "#dcdce0"
+      }
+    },
+    "gkiSearchInputHoverColor": {
+      "type": "string"
+    },
+    "gkiSearchInputHoverBgColor": {
+      "type": "object"
+    },
+    "gkitSearchInputHoverBorder": {
+      "type": "object"
+    },
+    "gkiSearchInputActiveColor": {
+      "type": "string"
+    },
+    "gkiSearchInputActiveBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#fff"
+      }
+    },
+    "gkitSearchInputActiveBorder": {
+      "type": "object",
+      "default": {
+        "width": "1.5px",
+        "style": "solid",
+        "color": "#5656ff"
+      }
+    },
+    "gkitSearchInputBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitSearchInputBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchInputBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchInputBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchInputBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchInputBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchInputBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchInputMarginDesktop": {
+      "type": "object"
+    },
+    "gkitSearchInputMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchInputMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchInputMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchInputMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchInputMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchInputMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchInputPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitSearchInputPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchInputPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchInputPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchInputPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchInputPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchInputPaddingWideScreen": {
+      "type": "object"
+    },
+    "btnLoading": {
+      "type": "boolean",
+      "default": false
+    },
+    "loading": {
+      "type": "boolean",
+      "default": false
+    },
+    "searchQueryResult": {
+      "type": "object",
+      "default": {
+        "inherit": false,
+        "posts": {}
+      }
+    },
+    "show": {
+      "type": "boolean",
+      "default": false
+    },
+    "openExpandedButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "showMoreItem": {
+      "type": "number",
+      "default": 1
+    },
+    "inputValue": {
+      "type": "string",
+      "default": ""
+    },
+    "showSearchCategory": {
+      "type": "boolean",
+      "default": false
+    },
+    "selectedCategoryItem": {
+      "type": "object",
+      "default": {
+        "term_id": 0,
+        "name": "All Categories",
+        "term_taxonomy_id": 0,
+        "taxonomy": "category",
+        "slug": "all",
+        "value": "all"
+      }
+    },
+    "showOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "hideOverlayInput": {
+      "type": "boolean",
+      "default": false
+    },
+    "showSearchBar": {
+      "type": "boolean",
+      "default": false
+    },
+    "searchQuery": {
+      "type": "array",
+      "default": []
+    },
+    "selectTexonomies": {
+      "type": "object",
+      "default": {
+        "description": "",
+        "hierarchical": true,
+        "label": "Category",
+        "name": "Category",
+        "rest_base": "categories",
+        "rest_namespace": "wp/v2",
+        "slug": "category",
+        "types": [
+          "post"
+        ],
+        "value": "category",
+        "parent": "post"
+      }
+    },
+    "placeHolderImage": {
+      "type": "object",
+      "default": {
+        "url": "placeholder"
+      },
+      "excludeCopy": true
+    },
+    "searchQueryLength": {
+      "type": "number",
+      "default": 0
+    },
+    "gkitLoadMoreBtnAlignmentDesktop": {
+      "type": "string",
+      "default": "left"
+    },
+    "gkitLoadMoreBtnAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitLoadMoreBtnAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitLoadMoreBtnAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "gkitLoadMoreBtnAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "gkitLoadMoreBtnAlignmentLaptop": {
+      "type": "string"
+    },
+    "gkitLoadMoreBtnAlignmentWideScreen": {
+      "type": "string"
+    },
+    "gkitSearchResultHeightDesktop": {
+      "type": "object"
+    },
+    "gkitSearchResultHeightTablet": {
+      "type": "object"
+    },
+    "gkitSearchResultHeightMobile": {
+      "type": "object"
+    },
+    "gkitSearchResultHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultHeightLaptop": {
+      "type": "object"
+    },
+    "gkitSearchResultHeightWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchResultMaxHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 500,
+        "unit": "px"
+      }
+    },
+    "gkitSearchResultMaxHeightTablet": {
+      "type": "object"
+    },
+    "gkitSearchResultMaxHeightMobile": {
+      "type": "object"
+    },
+    "gkitSearchResultMaxHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultMaxHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchResultMaxHeightLaptop": {
+      "type": "object"
+    },
+    "gkitSearchResultMaxHeightWideScreen": {
+      "type": "object"
+    },
+    "enableSearchBoxOrdering": {
+      "type": "boolean",
+      "default": false
+    },
+    "searchItemOrder": {
+      "type": "array",
+      "default": [
+        {
+          "id": 1,
+          "class": "gkit-select-category-menu",
+          "name": "Category"
+        },
+        {
+          "id": 2,
+          "class": "gkit-search-box",
+          "name": "Search Box"
+        },
+        {
+          "id": 3,
+          "class": "gkit_search-button",
+          "name": "Search Button"
+        }
+      ]
+    },
+    "gkitClickBtnRadiusDesktop": {
+      "type": "object",
+      "default": {
+        "top": "3px",
+        "right": "3px",
+        "bottom": "3px",
+        "left": "3px"
+      }
+    },
+    "gkitClickBtnRadiusTablet": {
+      "type": "object"
+    },
+    "gkitClickBtnRadiusMobile": {
+      "type": "object"
+    },
+    "gkitClickBtnRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitClickBtnRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitClickBtnRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitClickBtnRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitClickBtnPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "15px",
+        "right": "15px",
+        "bottom": "15px",
+        "left": "15px"
+      }
+    },
+    "gkitClickBtnPaddingTablet": {
+      "type": "object"
+    },
+    "gkitClickBtnPaddingMobile": {
+      "type": "object"
+    },
+    "gkitClickBtnPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitClickBtnPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitClickBtnPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitClickBtnPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitClickBtnIconSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 20,
+        "unit": "px"
+      }
+    },
+    "gkitClickBtnIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitClickBtnIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitClickBtnIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitClickBtnIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitClickBtnIconSizeLaptop": {
+      "type": "object"
+    },
+    "gkitClickBtnIconSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitClickBtnNormalBoxShadow": {
+      "type": "object"
+    },
+    "gkitClickBtnHoverBoxShadow": {
+      "type": "object"
+    },
+    "gkitClickBtnActiveBoxShadow": {
+      "type": "object",
+      "default": {
+        "horizontal": {
+          "size": 0,
+          "unit": "px"
+        },
+        "vertical": {
+          "size": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "size": 3,
+          "unit": "px"
+        },
+        "spread": {
+          "size": 3,
+          "unit": "px"
+        },
+        "color": "#ec1a7333",
+        "hasValue": true
+      }
+    },
+    "gkitClickBtnColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "gkitClickBtnBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#fb3b8c"
+      }
+    },
+    "gkitClickBtnBorder": {
+      "type": "object",
+      "default": {
+        "width": "1px",
+        "style": "solid",
+        "color": "#fb3b8c"
+      }
+    },
+    "gkitClickBtnHoverColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "gkitClickBtnHoverBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#ec1a73"
+      }
+    },
+    "gkitClickBtnHoverBorder": {
+      "type": "object"
+    },
+    "gkitClickBtnBgActiveColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#ec1a73"
+      }
+    },
+    "gkitClickBtnActiveBorder": {
+      "type": "object"
+    },
+    "gkitOverlayBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#17171e4d"
+      }
+    },
+    "gridLayoutType": {
+      "type": "string",
+      "default": "manual"
+    },
+    "gridAutoMinimumColumnWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 12,
+        "unit": "rem"
+      }
+    },
+    "gridAutoMinimumColumnWidthTablet": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnWidthMobile": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnWidthLaptop": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnWidthWideScreen": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 6,
+        "unit": "rem"
+      }
+    },
+    "gridAutoMinimumColumnHeightTablet": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnHeightMobile": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnHeightTabletLandscape": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnHeightMobileLandscape": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnHeightLaptop": {
+      "type": "object"
+    },
+    "gridAutoMinimumColumnHeightWideScreen": {
+      "type": "object"
+    },
+    "gridManualColumnsDesktop": {
+      "type": "number",
+      "default": 1
+    },
+    "gridManualColumnsTablet": {
+      "type": "number",
+      "default": 1
+    },
+    "gridManualColumnsMobile": {
+      "type": "number",
+      "default": 1
+    },
+    "gridManualColumnsTabletLandscape": {
+      "type": "number"
+    },
+    "gridManualColumnsMobileLandscape": {
+      "type": "number"
+    },
+    "gridManualColumnsLaptop": {
+      "type": "number"
+    },
+    "gridManualColumnsWideScreen": {
+      "type": "number"
+    },
+    "gkitSearchGridRowGapDesktop": {
+      "type": "object",
+      "default": {
+        "size": 0,
+        "unit": "px"
+      }
+    },
+    "gkitSearchGridRowGapTablet": {
+      "type": "object"
+    },
+    "gkitSearchGridRowGapMobile": {
+      "type": "object"
+    },
+    "gkitSearchGridRowGapTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchGridRowGapMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchGridRowGapLaptop": {
+      "type": "object"
+    },
+    "gkitSearchGridRowGapWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchGridColumnGapDesktop": {
+      "type": "object",
+      "default": {
+        "size": 0,
+        "unit": "px"
+      }
+    },
+    "gkitSearchGridColumnGapTablet": {
+      "type": "object"
+    },
+    "gkitSearchGridColumnGapMobile": {
+      "type": "object"
+    },
+    "gkitSearchGridColumnGapTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchGridColumnGapMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchGridColumnGapLaptop": {
+      "type": "object"
+    },
+    "gkitSearchGridColumnGapWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchFlexDirectionDesktop": {
+      "type": "string",
+      "default": "row"
+    },
+    "gkitSearchFlexDirectionTablet": {
+      "type": "string"
+    },
+    "gkitSearchFlexDirectionMobile": {
+      "type": "string"
+    },
+    "gkitSearchFlexDirectionTabletLandscape": {
+      "type": "string"
+    },
+    "gkitSearchFlexDirectionMobileLandscape": {
+      "type": "string"
+    },
+    "gkitSearchFlexDirectionLaptop": {
+      "type": "string"
+    },
+    "gkitSearchFlexDirectionWideScreen": {
+      "type": "string"
+    },
+    "gkitSearchFlexWrapDesktop": {
+      "type": "string",
+      "default": "wrap"
+    },
+    "gkitSearchFlexWrapTablet": {
+      "type": "string"
+    },
+    "gkitSearchFlexWrapMobile": {
+      "type": "string"
+    },
+    "gkitSearchFlexWrapTabletLandscape": {
+      "type": "string",
+      "default": "wrap"
+    },
+    "gkitSearchFlexWrapMobileLandscape": {
+      "type": "string"
+    },
+    "gkitSearchFlexWrapLaptop": {
+      "type": "string"
+    },
+    "gkitSearchFlexWrapWideScreen": {
+      "type": "string"
+    },
+    "gkitSearchFlexAlignDesktop": {
+      "type": "string",
+      "default": "flex-start"
+    },
+    "gkitSearchFlexAlignTablet": {
+      "type": "string"
+    },
+    "gkitSearchFlexAlignMobile": {
+      "type": "string"
+    },
+    "gkitSearchFlexAlignTabletLandscape": {
+      "type": "string"
+    },
+    "gkitSearchFlexAlignMobileLandscape": {
+      "type": "string"
+    },
+    "gkitSearchFlexAlignLaptop": {
+      "type": "string"
+    },
+    "gkitSearchFlexAlignWideScreen": {
+      "type": "string"
+    },
+    "gkitSearchFlexJustifyDesktop": {
+      "type": "string",
+      "default": "flex-start"
+    },
+    "gkitSearchFlexJustifyTablet": {
+      "type": "string"
+    },
+    "gkitSearchFlexJustifyMobile": {
+      "type": "string"
+    },
+    "gkitSearchFlexJustifyTabletLandscape": {
+      "type": "string"
+    },
+    "gkitSearchFlexJustifyMobileLandscape": {
+      "type": "string"
+    },
+    "gkitSearchFlexJustifyLaptop": {
+      "type": "string"
+    },
+    "gkitSearchFlexJustifyWideScreen": {
+      "type": "string"
+    },
+    "gkitSearchFlexRowGapDesktop": {
+      "type": "object",
+      "default": {
+        "size": 20,
+        "unit": "px"
+      }
+    },
+    "gkitSearchFlexRowGapTablet": {
+      "type": "object",
+      "default": {
+        "size": 15,
+        "unit": "px"
+      }
+    },
+    "gkitSearchFlexRowGapMobile": {
+      "type": "object"
+    },
+    "gkitSearchFlexRowGapTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchFlexRowGapMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchFlexRowGapLaptop": {
+      "type": "object"
+    },
+    "gkitSearchFlexRowGapWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchFlexColumnGapDesktop": {
+      "type": "object",
+      "default": {
+        "size": 20,
+        "unit": "px"
+      }
+    },
+    "gkitSearchFlexColumnGapTablet": {
+      "type": "object",
+      "default": {
+        "size": 15,
+        "unit": "px"
+      }
+    },
+    "gkitSearchFlexColumnGapMobile": {
+      "type": "object"
+    },
+    "gkitSearchFlexColumnGapTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchFlexColumnGapMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchFlexColumnGapLaptop": {
+      "type": "object"
+    },
+    "gkitSearchFlexColumnGapWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchInputNormalBoxShadow": {
+      "type": "object"
+    },
+    "gkitSearchInputHoverBoxShadow": {
+      "type": "object"
+    },
+    "gkitSearchInputActiveBoxShadow": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputTypography": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputIconSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 16,
+        "unit": "px"
+      }
+    },
+    "gkitSearchTriggerInputIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputIconSizeLaptop": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputIconSizeWideScreen": {
+      "type": "object"
+    },
+    "gkiSearchTriggerInputNormalColor": {
+      "type": "string",
+      "default": "#919196"
+    },
+    "gkiSearchTriggerInputNormalBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#f4f4f7"
+      }
+    },
+    "gkitSearchTriggerInputNormalBorder": {
+      "type": "object",
+      "default": {
+        "width": "1px",
+        "style": "solid",
+        "color": "#dcdce0"
+      }
+    },
+    "gkiSearchTriggerInputHoverColor": {
+      "type": "string"
+    },
+    "gkiSearchTriggerInputHoverBgColor": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputHoverBorder": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputMarginDesktop": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchTriggerInputBoxShadow": {
+      "type": "object"
+    },
+    "searchInputPosition": {
+      "type": "object"
+    },
+    "gkitToggleButtonPosition": {
+      "type": "object"
+    },
+    "gkitSearchContainerBgColor": {
+      "type": "object"
+    },
+    "gkitSearchContainerHoverBgColor": {
+      "type": "object"
+    },
+    "gkitSearchContainerMarginDesktop": {
+      "type": "object"
+    },
+    "gkitSearchContainerMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchContainerMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchContainerMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchContainerMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchContainerMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchContainerMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchContainerPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitSearchContainerPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchContainerPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchContainerPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchContainerPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchContainerPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchContainerPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchContainerBorder": {
+      "type": "object"
+    },
+    "gkitSearchContainerBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitSearchContainerBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchContainerBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchContainerBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchContainerBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchContainerBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchContainerBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchContainerBoxShadow": {
+      "type": "object"
+    },
+    "gkitSearchCategoryIconSizeDesktop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitSearchCategoryIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitSearchCategoryIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchCategoryIconSizeLaptop": {
+      "type": "object"
+    },
+    "gkitSearchCategoryIconSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultPaddingTablet": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultPaddingMobile": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultMarginDesktop": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "10px",
+        "left": "0px"
+      }
+    },
+    "gkitSearchTotalResultMarginTablet": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultMarginMobile": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultMarginLaptop": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultRadiusMobile": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitSearchTotalResultBorder": {
+      "type": "object"
+    }
+  },
+  "providesContext": {
+    "queryType": "searchQuery",
+    "query": "searchQueryResult"
+  },
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./frontend.js"
+}

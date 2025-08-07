@@ -1,0 +1,246 @@
+Version 1.2.16.9 – 22/10/2024
+- Updated: Revolution Slider latest version 6.7.20
+- Updated: Theme compatible with WooCommerce 9.3.3
+- Files Updated: plugin-requires.php, add-to-cart.php, pagination.php, style.css
+
+Version 1.2.16.7 – 12/09/2024
+- Updated: Revolution Slider latest version 6.7.18
+- Files Updated: plugin-requires.php, style.css
+
+Version 1.2.16.6 – 31/07/2024
+- Updated: Theme compatible with WordPress 6.6.x
+- Updated: Theme compatible with WooCommerce 9.x
+- Updated: Revolution Slider latest version 6.7.15
+- Files Updated: plugin-requires.php, add-to-cart.php, style.css
+
+Version 1.2.16.5 – 14/06/2024
+- Updated: Revolution Slider latest version 6.7.13
+- Updated: Update the CSS RTL
+- Files Updated: plugin-requires.php, rtl.css, style.css
+
+Version 1.2.16.4 – 26/04/2024
+- Updated: Revolution Slider latest version 6.7.8
+- Updated: Theme compatible with Elementor 3.21.x
+- Updated: Theme compatible with WordPress 6.5.x
+- Updated: Theme compatible with WooCommerce 8.8.x
+- Updated: Update the language onum.pot file
+- Files Updated: plugin-requires.php, archive-product.php, onum.pot, style.css
+
+Version 1.2.16.3 – 04/03/2024
+- New Added: Typography option for Button in Onum Button, Onum Pricing Table, Onum Icon Box, Onum Service Box 2.
+- Files Updated: button.php, service-box-2.php, pricing-table.php, icon-box.php, style.css
+
+Version 1.2.16.2 – 12/01/2024
+- Updated: Revolution Slider latest version 6.6.20
+- Updated: Theme compatible with Elementor 3.18.x
+- Updated: Enables default language and translation management for 'ot_header_builders', 'ot_footer_builders' in Polylang
+- Improved: Improved mobile responsiveness for subscription form.
+- Files Updated: plugin-requires.php, elementor-functions.php, style.css
+
+Version 1.2.16.1 – 30/11/2023
+- Improved: Improved mobile responsiveness for subscription form.
+- Files Updated: style.css
+
+Version 1.2.16 – 06/11/2023
+- Updated: Revolution Slider latest version 6.6.18
+- Files Updated: plugin-requires.php, style.css
+
+Version 1.2.14 – 11/08/2023
+- New added: Add the option on/off "Like" button in the Customize -> Blog -> Single Post .
+- Files Updated: functions.php, template-parts/single.php, customizer.php, style.css
+
+Version 1.2.13 – 04/08/2023
+- Updated: Revolution Slider latest version 6.6.15
+- Updated: Theme compatible with Elementor 3.15.1
+- Updated: Update the CSS RTL.
+- Updated: Update the language file
+- Files Updated: plugin-requires.php, onum.pot, rtl.css, style.css
+
+Version 1.2.11 – 13/06/2023
+- Updated: Revolution Slider latest version 6.6.14
+- Updated: Header builder and Footer builder compatible with the WPML plugin
+- Updated: CSS code for RTL language
+- Improved: Improve some CSS for mobile
+- Fixed: PHP warning error in "Onum Progress Bars" 
+- Files Updated: plugin-requires.php, builder.php, progress-bars.php, rtl.css, style.css
+
+17/04/2023 – Version 1.2.10
+- Updated: Revolution Slider latest version 6.6.12
+- Added: New option to disable the side panel for the site.
+- Files Updated: style.css, plugin-requires.php, customizer.php, content-header.php
+
+17/01/2023 – Version 1.2.9
+- Updated: Theme compatible with Elementor 3.10.0
+- Added: Add a new option to change the item active default for Onum Accordions widget element.
+- Files Updated: style.css, elementor.js, elementor.php, elementor-widgets/*.php, elementor-widgets/header/*.php
+
+Version: 1.2.8.6 – 27/12/2022
+- Updated: The Slider Revolution version 6.6.8
+- Newly added: In the "Onum Tab Titles" widget with options (Dots, Arrow, Show)
+- Fixed: Fix the PHP error in the "Onum Progress Bars" widget
+- Update files: plugin-requires.php, progress-bars.php, tab-titles.php, elementor.js, style.css
+
+Version: 1.2.8.5 – 16/12/2022
+- Fixed: Fix the styling CSS code for Contact Form 7
+- Added: Add the HTML tag option for the Page title in the theme option.
+- Update files: customizer.php, page-header.php, style.css
+
+Version: 1.2.8.4 – 21/11/2022
+- Updated: Slider Revolution 6.6.7
+- Updated: Theme compatible with Elementor 3.8.1
+- Updated: Template product search form to version 7.0.1
+- Updated: Icon of Alignment setting for Logo widget and List menu item widget
+- Fixed: Widget testimonial Slider 2 js error makes Elementor editor not working
+- Update files: style.css, plugin-requires.php, logo.php, list-menu-item.php, product-searchform.php, elementor.js
+
+Version: 1.2.8.3 – 08/06/2022
+- Updated: Theme compatible with WordPress 6.0
+- Updated: Slider Revolution 6.5.24
+- Updated: Theme compatible with Elementor 3.6.5
+- Update files: style.css, plugin-requires.php
+
+Version: 1.2.8.2 – 09/03/2022
+- Updated: Theme compatible WordPress 5.9.x
+- Updated: Slider Revolution version 6.5.17
+- Updated: Theme-compatible Elementor 3.5.6
+- Updated: Theme compatible Kirki plugin latest version.
+- Updated: Option select Header builder and Footer builder in Customizer compatible width WPML
+- Fixed: Error when uploading image in author-widget
+- Update files: plugin-requires.php, functions.php, color.php, builder.php, upload_media_widget.js, style.css
+
+Version 1.2.8 – 28/12/2021
+- Updated: Revolution Slider version 6.5.12
+- Fixed: Fix Onum Tab Titles Widget content not active on mobile
+- Added: Add option to change color hover menu item for OT Menu Mobile widget
+- Files Updated: menu-mobile.php, plugin-requires.php, elementor.js, style.css
+
+Version 1.2.7 - 29/10/2021
+- Updated: Revolution Slider version 6.5.8
+- Compatible: Theme compatible with WordPress 5.8.1
+- Compatible: Theme compatible with WooCommerce 5.8.0
+- Removed: protected function _content_template() {} in all elementor widget files.
+- Files Updated: plugin-requires.php, style.css
+
+Version 1.2.6 - 14/07/2021
+- Updated: Revolution Slider version 6.5.4
+- Fixed: Header default responsive
+- Files Updated: plugin-requires.php, style.css
+
+Version 1.2.5 - 2/07/2021
+- Updated: Revolution Slider version 6.5.2
+- Fixed: Fix member link in Onum Team Carousel widget
+- Files Updated: plugin-requires.php, team-carousel.php, style.css
+
+Version 1.2.4 - 25/05/2021
+- Updated: Revolution Slider version 6.4.11
+- Added: "Onum Client Carousel" widget
+- Files Updated: plugin-requires.php, ot-widgets.php, elementor.js, style.css
+
+Version 1.2.3 - 14/04/2021
+- Updated: Revolution Slider version 6.4.6
+- Fixed: CSS styling code for back-to-top, image animation
+- Files Updated: plugin-requires.php, style.css
+
+Version 1.2.2 - 18/03/2021
+- Improved: Improving some elements
+- Removed: Remove post of the Header Builders & Footer Builders showing on search result page
+- Fixed: Fix category is empty
+- Files Updated: admin-functions.php, content-ot_portfolio.php, style.css
+
+Version 1.2.1 - 09/03/2021
+- Updated: Revolution Slider version 6.4.3
+- Updated: JQuery CountDown Clock 1.0.2
+- Improved: Bulleted list not appears backend classic editor
+- Fixed: Fixed unchanged color error in widgets using array_values ($repeater-> get_controls ())
+- Widgets Edited: OT List Menu, Onum Testimonial Slider, Onum Testimonial Slider 2, Onum Team, Onum Team Carousel, Onum Tabs, Onum Tab Titles,
+Onum Service Slider, Onum Chart Number, Onum Icon Box Grid, Onum Circle Process, Onum Accordions
+- Files Updated: plugin-requires.php, jquery.countdown.min.js, editor-style.css, style.css
+
+Version 1.2.0.11 - 04/01/2021
+- New: Added autoplay option for "Onum Service Slider" widget
+- New: Added option change heading type of the “Onum Tab Titles” widget 
+- Updated: Revolution Slider version 6.3.3
+- Files Updated: service-carousel.php, tab-titles.php, plugin-requires.php, style.css
+
+Version 1.2.0.10 - 04/12/2020
+- Updated: Update breadcrumb in portfolio taxonomy page.
+- Fixed: Fix post per page for portfolio taxonomy page.
+- Fixed: Fix portfolio items not show on portfolio category page.
+- Fixed: Fix Mega Menu work on Multisite.
+- Files Updated: taxonomy-portfolio_cat.php, breadcrumbs.php, customizer.php, style.css
+
+Version 1.2.0.8 - 05/11/2020
+- New: Add option padding, border-radius to some widgets.
+- Updated: Update demo content files
+- Fixed: Fix the single product page layout when missing product tabs.
+- Files Updated: icon-box.php, button.php, service-box-2.php, pricing-table.php, woocommerce.css, style.css
+
+Version 1.2.0.7 - 29/10/2020
+- New: Added option color for button in Onum Icon Box
+- New: Add header__clone class in a div after header tag.
+- Fixed: Broken layout on product single page.
+- Fixed: Button widget error line 366
+- Fixed: Box Shadow when change main color in customize.
+- Files Updated: color.php, icon-box.php, button.php, header-mobile.js, style.css
+
+Version 1.2.0.6 - 22/10/2020
+- Fixed: Header static for Header default
+- Files Updated: customizer.php, style.css
+
+Version 1.2.0.5 - 21/10/2020
+- New: Add option color hover for number in Onum Service Slider widget.
+- New: Add option for blog excerpt in Customize -> Blog -> Blog Page and Onum Post Carousel, Onum Post Grid widget
+- Fixed: Fix the logo is cut, logo get full size now.
+- Fixed: Page scroll horizontal on mobile version.
+- Files Updated: customizer.php, content.php, content-search.php, service-carousel.php, logo.php, post-carousel.php, post-grid.php, style.css
+
+Version 1.2.0.3 - 16/10/2020
+- New: Add option Side Panel on Left or Right Side.
+- New: Add option color, spacing for Page Header on Single Blog Post in Appearance -> Customize -> Blog -> Single Post
+- Files Updated: customizer.php, color.php, content-header.php, style.css
+
+Version 1.2.0.2 - 15/10/2020
+- Fixed: Sticky Header for Header default
+- Fixed: Header Logo scroll for Header Solid and Header Transparent
+- Removed: Option Top bar on mobile
+- Files Updated: customizer.php, header-default.php, header-mobile.js, style.css
+
+Version 1.2.0 - 14/10/2020
+- New: Improving Typography
+- New: Header Builder & Mega Menu
+- New: Option the header transperant for a specific page or for all site.
+- New: Typography option for all class css use font family "Red Had Display" & "Red Had Text"
+- New: Add option text stroke in "Onum Counter" widget element
+- New: Add option text stroke in "Onum Heading" widget element
+- New: Add option image size for "Onum Post Grid" widget element
+- New: Add category link in breadcrumbs on single post
+- Add: Style for Button element
+- Add: Style for Pricing Table element
+- Fix: jQuery Migrate Helper in admin-script.js
+- Changed: Change portfolio filter from use category slug to use category id. help filter feature work on all languages.
+- Removed: Remove onum-blog-list-post-thumbnail function and "featured image" display full size on both single post, blog list.
+- Removed: Remove Instagram feed script code in scripts.js file
+- Removed: Option height for Page Header. Use Padding Top and Bottom.
+- Removed: Option header transparent for homepage only. choose header transparent in metaxbox for a specific page or in customize for all site.
+- Removed: fab class in field social in team widget and team-carousel widget.
+- Removed: href attribute in icon-box widget 
+Files Updated: admin-functions.php, content-single.php, template-functions.php, counter.php, script.js, elementor.js, style.css
+
+Version 1.1.8:
+- New added: CSS code in rtl.css
+- Add html code in <?php if ( is_rtl() ) { echo'dir="rtl"'; } ?>: content.php, content-single.php, post-grid.php, post-carousel.php, tab-titles.php, portfolio-carousel.php, team-carousel.php, testimonial-carousel.php
+- Add javascript code rtl: script.js, elementor.js
+- New added: put the wp_body_open() function after the body tag
+- New added: Option link for title, option heading tags for Onum Heading 
+- New added: Option link to title, image for Team Carousel   
+- New added: Option for Related Projects: title, style, etc...
+- New added: Option for display breadcrumbs on single post
+- New added: Option select title html tag for some widget elements
+- Updated: Update .POT language file
+- Improved: Upload icon svg work fine in some widget elements
+- Improved: Preloader Logo
+- Improved: Submenu when hover
+Files Updated: single-ot_portfolio.php, customizer.php, single.php, team-carousel.php, heading.php, icon-box-grid.php, contact-info.php, process-box.php, icon-box.php, message-box.php, 
+tab-titles.php, service-box.php, service-box-2.php, functions.php, preloader.php, style.css.
+
+

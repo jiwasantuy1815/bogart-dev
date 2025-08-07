@@ -1,0 +1,430 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/google-map",
+  "version": "1.0.0",
+  "title": "Google Map",
+  "category": "gutenkit",
+  "icon": "menu-alt3",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro",
+    "google",
+    "map",
+    "embed",
+    "location"
+  ],
+  "description": "Google Map block for Gutenkit Pro",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "mapType": {
+      "type": "string",
+      "default": "basic"
+    },
+    "mapAddressType": {
+      "type": "string",
+      "default": "coordinates",
+      "excludeCopy": true
+    },
+    "mapLatLng": {
+      "type": "string",
+      "default": "23.758491088161577, 90.36332266952309",
+      "excludeCopy": true
+    },
+    "mapAddress": {
+      "type": "string",
+      "default": "Amigo 14 Square, House No :59/C-61/C Suite No : B-2, Level-2, Asad Ave, Dhaka 1207",
+      "excludeCopy": true
+    },
+    "mapBasicMarkerTitle": {
+      "type": "string",
+      "default": "Google Map Title",
+      "excludeCopy": true
+    },
+    "mapBasicMarkerIconEnable": {
+      "type": "boolean",
+      "default": false,
+      "excludeCopy": true
+    },
+    "mapBasicMarkerIcon": {
+      "type": "object",
+      "excludeCopy": true
+    },
+    "mapBasicMarkerIconWidth": {
+      "type": "number",
+      "default": 32,
+      "excludeCopy": true
+    },
+    "mapBasicMarkerIconHeight": {
+      "type": "number",
+      "default": 32,
+      "excludeCopy": true
+    },
+    "mapZoom": {
+      "type": "number",
+      "default": 12,
+      "excludeCopy": true
+    },
+    "mapMarkerContent": {
+      "type": "string",
+      "default": "Marker Content. You can put html here.",
+      "excludeCopy": true
+    },
+    "mapStaticWidth": {
+      "type": "number",
+      "default": 610,
+      "excludeCopy": true
+    },
+    "mapStaticHeight": {
+      "type": "string",
+      "default": 300,
+      "excludeCopy": true
+    },
+    "mapStrokeColor": {
+      "type": "string",
+      "default": "#e23a47",
+      "excludeCopy": true
+    },
+    "mapStrokeOpacity": {
+      "type": "number",
+      "default": 0.8,
+      "excludeCopy": true
+    },
+    "mapStrokeWeight": {
+      "type": "number",
+      "default": 4,
+      "excludeCopy": true
+    },
+    "mapStrokeFillColor": {
+      "type": "string",
+      "default": "#e23a47",
+      "excludeCopy": true
+    },
+    "mapStrokeFillOpacity": {
+      "type": "string",
+      "default": 0.4,
+      "excludeCopy": true
+    },
+    "mapOverlayContent": {
+      "type": "string",
+      "default": "Your content will goes here",
+      "excludeCopy": true
+    },
+    "mapRoutesOriginLatLng": {
+      "type": "string",
+      "default": "23.758481268575064, 90.36317246582338",
+      "excludeCopy": true
+    },
+    "mapRoutesDestLatLng": {
+      "type": "string",
+      "default": "23.746013548605603, 90.37698457818213",
+      "excludeCopy": true
+    },
+    "mapRoutesTravelMode": {
+      "type": "string",
+      "default": "DRIVING",
+      "excludeCopy": true
+    },
+    "mapThemeType": {
+      "type": "string",
+      "default": "google",
+      "excludeCopy": true
+    },
+    "googleTheme": {
+      "type": "string",
+      "default": "standard",
+      "excludeCopy": true
+    },
+    "snazzyTheme": {
+      "type": "string",
+      "default": "greyscale",
+      "excludeCopy": true
+    },
+    "mapMarkers": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "mapPolylines": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "streeviewControl": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "typeControl": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "zoomControl": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "fullscreenControl": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "scrollZoom": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "markerItems": {
+      "type": "array",
+      "default": [
+        {
+          "title": "XpeedStudio",
+          "latLng": "23.758491088161577, 90.36332266952309",
+          "enableCustomIcon": false,
+          "icon": {},
+          "iconWidth": 32,
+          "iconHeight": 32
+        },
+        {
+          "title": "Jamia Rahmania Arabia",
+          "latLng": "23.75782461738903, 90.35859818846237",
+          "enableCustomIcon": false,
+          "icon": {},
+          "iconWidth": 32,
+          "iconHeight": 32
+        },
+        {
+          "title": "Al-Manar Hospital",
+          "latLng": "23.756086530138663, 90.3632223166457",
+          "enableCustomIcon": false,
+          "icon": {},
+          "iconWidth": 32,
+          "iconHeight": 32
+        }
+      ],
+      "excludeCopy": true
+    },
+    "polyItems": {
+      "type": "array",
+      "default": [
+        {
+          "latLng": "23.758491088161577, 90.36332266952309"
+        },
+        {
+          "latLng": "23.75782461738903, 90.35859818846237"
+        },
+        {
+          "latLng": "23.756086530138663, 90.3632223166457"
+        }
+      ],
+      "excludeCopy": true
+    },
+    "strokeColor": {
+      "type": "string",
+      "default": "#FF0000"
+    },
+    "strokeOpacity": {
+      "type": "number",
+      "default": 0.8
+    },
+    "strokeWeight": {
+      "type": "number",
+      "default": 2
+    },
+    "fillColor": {
+      "type": "string",
+      "default": "#FF0000"
+    },
+    "fillOpacity": {
+      "type": "number",
+      "default": 0.35
+    },
+    "overlayWidthDesktop": {
+      "type": "object"
+    },
+    "overlayWidthTablet": {
+      "type": "object"
+    },
+    "overlayWidthMobile": {
+      "type": "object"
+    },
+    "overlayWidthTabletLandscape": {
+      "type": "object"
+    },
+    "overlayWidthMobileLandscape": {
+      "type": "object"
+    },
+    "overlayWidthLaptop": {
+      "type": "object"
+    },
+    "overlayWidthWideScreen": {
+      "type": "object"
+    },
+    "overlayBackground": {
+      "type": "object"
+    },
+    "overlayPaddingDesktop": {
+      "type": "object"
+    },
+    "overlayPaddingTablet": {
+      "type": "object"
+    },
+    "overlayPaddingMobile": {
+      "type": "object"
+    },
+    "overlayPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "overlayPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "overlayPaddingLaptop": {
+      "type": "object"
+    },
+    "overlayPaddingWideScreen": {
+      "type": "object"
+    },
+    "overlayMarginDesktop": {
+      "type": "object"
+    },
+    "overlayMarginTablet": {
+      "type": "object"
+    },
+    "overlayMarginMobile": {
+      "type": "object"
+    },
+    "overlayMarginTabletLandscape": {
+      "type": "object"
+    },
+    "overlayMarginMobileLandscape": {
+      "type": "object"
+    },
+    "overlayMarginLaptop": {
+      "type": "object"
+    },
+    "overlayMarginWideScreen": {
+      "type": "object"
+    },
+    "overlayBorder": {
+      "type": "object"
+    },
+    "overlayBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "overlayBorderRadiusTablet": {
+      "type": "object"
+    },
+    "overlayBorderRadiusMobile": {
+      "type": "object"
+    },
+    "overlayBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "overlayBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "overlayBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "overlayBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "overlayShadow": {
+      "type": "object"
+    },
+    "overlayTypography": {
+      "type": "object"
+    },
+    "widthDesktop": {
+      "type": "object"
+    },
+    "widthTablet": {
+      "type": "object"
+    },
+    "widthMobile": {
+      "type": "object"
+    },
+    "widthTabletLandscape": {
+      "type": "object"
+    },
+    "widthMobileLandscape": {
+      "type": "object"
+    },
+    "widthLaptop": {
+      "type": "object"
+    },
+    "widthWideScreen": {
+      "type": "object"
+    },
+    "heightDesktop": {
+      "type": "object"
+    },
+    "heightTablet": {
+      "type": "object"
+    },
+    "heightMobile": {
+      "type": "object"
+    },
+    "heightTabletLandscape": {
+      "type": "object"
+    },
+    "heightMobileLandscape": {
+      "type": "object"
+    },
+    "heightLaptop": {
+      "type": "object"
+    },
+    "heightWideScreen": {
+      "type": "object"
+    },
+    "alignmentDesktop": {
+      "type": "object"
+    },
+    "alignmentTablet": {
+      "type": "object"
+    },
+    "alignmentMobile": {
+      "type": "object"
+    },
+    "alignmentTabletLandscape": {
+      "type": "object"
+    },
+    "alignmentMobileLandscape": {
+      "type": "object"
+    },
+    "alignmentLaptop": {
+      "type": "object"
+    },
+    "alignmentWideScreen": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "script": [
+    "gutenkit-google-map-api",
+    "file:./api.js"
+  ]
+}

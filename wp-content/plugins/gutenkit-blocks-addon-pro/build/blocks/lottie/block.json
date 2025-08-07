@@ -1,0 +1,144 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/lottie",
+  "version": "1.0.0",
+  "title": "Lottie",
+  "category": "gutenkit",
+  "keywords": [
+    "lottie",
+    "animation",
+    "creative"
+  ],
+  "description": "Lottie block for gutenberg.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "lottieType": {
+      "type": "string",
+      "default": "file"
+    },
+    "lottieFile": {
+      "type": "object"
+    },
+    "lottieUrl": {
+      "type": "object"
+    },
+    "lottieEnableLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "lottieLink": {
+      "type": "object",
+      "default": "#"
+    },
+    "lottieCaptionType": {
+      "type": "string",
+      "default": "title"
+    },
+    "lottieCaption": {
+      "type": "string",
+      "default": "Gutenkit Lottie Animation",
+      "excludeCopy": true
+    },
+    "lottieReverse": {
+      "type": "boolean",
+      "default": false
+    },
+    "lottieAutoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "lottieOnScroll": {
+      "type": "boolean",
+      "default": false
+    },
+    "lottieLoop": {
+      "type": "boolean",
+      "default": false
+    },
+    "lottieSpeed": {
+      "type": "object",
+      "default": {
+        "size": 1
+      }
+    },
+    "lottieLoopCount": {
+      "type": "object",
+      "default": {
+        "size": 1
+      }
+    },
+    "lottieRenderer": {
+      "type": "string",
+      "default": "svg"
+    },
+    "lottieAction": {
+      "type": "string",
+      "default": "pause"
+    },
+    "lottieOpacity": {
+      "type": "object"
+    },
+    "lottieHoverOpacity": {
+      "type": "object"
+    },
+    "lottieFilters": {
+      "type": "object"
+    },
+    "lottieHoverFilters": {
+      "type": "object"
+    },
+    "titleTypography": {
+      "type": "object"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "lottieTitleAlignmentDesktop": {
+      "type": "string"
+    },
+    "lottieTitleAlignmentTablet": {
+      "type": "string"
+    },
+    "lottieTitleAlignmentMobile": {
+      "type": "string"
+    },
+    "lottieTitleAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "lottieTitleAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "lottieTitleAlignmentLaptop": {
+      "type": "string"
+    },
+    "lottieTitleAlignmentWideScreen": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js",
+  "script": [
+    "lottie-animation"
+  ]
+}

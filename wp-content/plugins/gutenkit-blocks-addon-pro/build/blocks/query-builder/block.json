@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/query-builder",
+  "version": "1.0.0",
+  "title": "Query Builder",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "loop",
+    "loop builder",
+    "query builder",
+    "post loop"
+  ],
+  "description": "Query Builder for GutenKit.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "variationType": {
+      "type": "string"
+    },
+    "variationSeleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "queryId": {
+      "type": "number"
+    },
+    "queryType": {
+      "type": "object",
+      "default": {
+        "label": "Post",
+        "value": "post"
+      }
+    },
+    "query": {
+      "type": "object",
+      "default": {
+        "inherit": false,
+        "posts": {}
+      }
+    }
+  },
+  "providesContext": {
+    "queryType": "queryType",
+    "query": "query"
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false,
+    "interactivity": true,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

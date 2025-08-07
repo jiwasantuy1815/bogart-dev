@@ -1,0 +1,629 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/hotspot",
+  "version": "1.0.0",
+  "title": "Hotspot ",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro"
+  ],
+  "description": "Hotspot Block For Gutenkit.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "gkitHotSpotCard": {
+      "type": "array",
+      "default": [
+        {
+          "gkitHotSpotCardActive": false,
+          "gkitHotSpotCardTitle": "South Carolina Data Center",
+          "gkitHotSpotCardContent": "Item content. Click the edit button to change this text.",
+          "gkitHotSpotPosition": "leftAndTop",
+          "gkitHotSpotContentLeftPosition": {
+            "size": 18,
+            "unit": "%"
+          },
+          "gkitHotSpotContentTopPosition": {
+            "size": 29,
+            "unit": "%"
+          },
+          "gkitHotSpotContentRightPosition": {
+            "size": 82,
+            "unit": "%"
+          },
+          "gkitHotSpotContentBottomPosition": {
+            "size": 61,
+            "unit": "%"
+          },
+          "gkitHotSpotLineDirection": "top gkit-static-line-style"
+        },
+        {
+          "gkitHotSpotCardActive": false,
+          "gkitHotSpotCardTitle": "South Carolina Data Center",
+          "gkitHotSpotCardContent": "Item content. Click the edit button to change this text.",
+          "gkitHotSpotPosition": "leftAndTop",
+          "gkitHotSpotContentLeftPosition": {
+            "size": 49,
+            "unit": "%"
+          },
+          "gkitHotSpotContentTopPosition": {
+            "size": 30,
+            "unit": "%"
+          },
+          "gkitHotSpotContentRightPosition": {
+            "size": 51,
+            "unit": "%"
+          },
+          "gkitHotSpotContentBottomPosition": {
+            "size": 60,
+            "unit": "%"
+          },
+          "gkitHotSpotLineDirection": "top gkit-static-line-style"
+        },
+        {
+          "gkitHotSpotCardActive": false,
+          "gkitHotSpotCardTitle": "South Carolina Data Center",
+          "gkitHotSpotCardContent": "Item content. Click the edit button to change this text.",
+          "gkitHotSpotPosition": "leftAndTop",
+          "gkitHotSpotContentLeftPosition": {
+            "size": 36,
+            "unit": "%"
+          },
+          "gkitHotSpotContentTopPosition": {
+            "size": 4,
+            "unit": "%"
+          },
+          "gkitHotSpotContentRightPosition": {
+            "size": 64,
+            "unit": "%"
+          },
+          "gkitHotSpotContentBottomPosition": {
+            "size": 8,
+            "unit": "%"
+          },
+          "gkitHotSpotLineDirection": "top gkit-static-line-style"
+        },
+        {
+          "gkitHotSpotCardActive": false,
+          "gkitHotSpotCardTitle": "South Carolina Data Center",
+          "gkitHotSpotCardContent": "Item content. Click the edit button to change this text.",
+          "gkitHotSpotPosition": "leftAndTop",
+          "gkitHotSpotContentLeftPosition": {
+            "size": 55,
+            "unit": "%"
+          },
+          "gkitHotSpotContentTopPosition": {
+            "size": 40,
+            "unit": "%"
+          },
+          "gkitHotSpotContentRightPosition": {
+            "size": 45,
+            "unit": "%"
+          },
+          "gkitHotSpotContentBottomPosition": {
+            "size": 90,
+            "unit": "%"
+          },
+          "gkitHotSpotLineDirection": "top gkit-static-line-style"
+        }
+      ]
+    },
+    "gkitHotSpotStyle": {
+      "type": "string",
+      "default": "pointerWithGlow"
+    },
+    "gkitHotSpotBackgroundImage": {
+      "type": "object",
+      "default": {
+        "url": "placeholder"
+      }
+    },
+    "gkitPointerIcon": {
+      "type": "object",
+      "default": {
+        "title": "map-icon",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' className='gkit-icon' viewBox='0 0 384 512'><path d='M215.7 499.2C267 435 384 279.4 384 192 384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2 12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z'/></svg>"
+      }
+    },
+    "enableHotSpotGlow": {
+      "type": "boolean",
+      "default": true
+    },
+    "gkitClickOrHover": {
+      "type": "string",
+      "default": "hover"
+    },
+    "gkitHotSpotPointerStatus": {
+      "type": "boolean",
+      "default": false
+    },
+    "gkitHotSpotContentAlignmentDesktop": {
+      "type": "string",
+      "default": "center"
+    },
+    "gkitHotSpotContentAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitHotSpotContentAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitHotSpotContentAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "gkitHotSpotContentAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "gkitHotSpotContentAlignmentLaptop": {
+      "type": "string"
+    },
+    "gkitHotSpotContentAlignmentWideScreen": {
+      "type": "string"
+    },
+    "gkitHotSpotContentWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 350,
+        "unit": "px"
+      }
+    },
+    "gkitHotSpotContentWidthTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotContentWidthMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotContentWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotContentWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotContentWidthLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotContentWidthWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotContentBackground": {
+      "type": "object"
+    },
+    "gkitHotSpotContentPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotContentPaddingTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotContentPaddingMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotContentPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotContentPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotContentPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotContentPaddingWideScreen": {
+      "type": "object"
+    },
+    "enableHotSpotCaret": {
+      "type": "boolean",
+      "default": true
+    },
+    "gkitHotSpotCaretSizeDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretSizeTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretSizeMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretSizeLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionXDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionXTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionXMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionXTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionXMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionXLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionXWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionYDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionYTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionYMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionYTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionYMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionYLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretPositionYWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotCaretColor": {
+      "type": "string"
+    },
+    "gkitHotSpotLineColor": {
+      "type": "string"
+    },
+    "gkitHotStopPointerSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 35,
+        "unit": "px"
+      }
+    },
+    "gkitHotStopPointerSizeTablet": {
+      "type": "object"
+    },
+    "gkitHotStopPointerSizeMobile": {
+      "type": "object"
+    },
+    "gkitHotStopPointerSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotStopPointerSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotStopPointerSizeLaptop": {
+      "type": "object"
+    },
+    "gkitHotStopPointerSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitHotStopPointerIconSizeDesktop": {
+      "type": "object"
+    },
+    "gkitHotStopPointerIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitHotStopPointerIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitHotStopPointerIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotStopPointerIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotStopPointerIconSizeLaptop": {
+      "type": "object"
+    },
+    "gkitHotStopPointerIconSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerBgColor": {
+      "type": "object",
+      "default": {
+        "backgroundType": "classic",
+        "backgroundColor": "#fff"
+      }
+    },
+    "gkitHotSpotPointerIconColor": {
+      "type": "string",
+      "default": "#1a2b6333"
+    },
+    "gkitHotSpotGlowColor": {
+      "type": "string",
+      "default": "#1a2b6333"
+    },
+    "gkitHotSpotPointerBgHoverColor": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerIconHoverColor": {
+      "type": "string"
+    },
+    "gkitHotSpotGlowHoverColor": {
+      "type": "string"
+    },
+    "gkitHotSpotPointerBorder": {
+      "type": "object",
+      "default": {
+        "width": "1px",
+        "style": "solid",
+        "color": "#eee"
+      }
+    },
+    "gkitHotSpotPointerBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotPointerBoxShadow": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleTypo": {
+      "type": "object"
+    },
+    "gkitHotSpotTitlePaddingDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotTitlePaddingTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotTitlePaddingMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotTitlePaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotTitlePaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotTitlePaddingLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotTitlePaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleMarginDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleMarginTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleMarginMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleMarginLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotTitleColorNormal": {
+      "type": "string"
+    },
+    "gkitHotSpotTitleColorHover": {
+      "type": "string"
+    },
+    "gkitHotSpotDescriptionTypo": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionPaddingTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionPaddingMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionMarginDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionMarginTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionMarginMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionMarginLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotDescriptionColorNormal": {
+      "type": "string"
+    },
+    "gkitHotSpotDescriptionColorHover": {
+      "type": "string"
+    },
+    "gkitHotSpotImageWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 30,
+        "unit": "%"
+      }
+    },
+    "gkitHotSpotImageWidthTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotImageWidthMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotImageWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotImageWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotImageWidthLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotImageWidthWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotImagePositionDesktop": {
+      "type": "string",
+      "default": "column"
+    },
+    "gkitHotSpotImagePositionTablet": {
+      "type": "string"
+    },
+    "gkitHotSpotImagePositionMobile": {
+      "type": "string"
+    },
+    "gkitHotSpotImagePositionTabletLandscape": {
+      "type": "string"
+    },
+    "gkitHotSpotImagePositionMobileLandscape": {
+      "type": "string"
+    },
+    "gkitHotSpotImagePositionLaptop": {
+      "type": "string"
+    },
+    "gkitHotSpotImagePositionWideScreen": {
+      "type": "string"
+    },
+    "gkitHotSpotImagePaddingDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotImagePaddingTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotImagePaddingMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotImagePaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotImagePaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotImagePaddingLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotImagePaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotImageMarginDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotImageMarginTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotImageMarginMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotImageMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotImageMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotImageMarginLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotImageMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBorder": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBoxShadow": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitHotSpotImageBorderRadiusWideScreen": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

@@ -1,0 +1,1116 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/facebook-feed",
+  "version": "1.0.0",
+  "title": "Facebook Feed",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro",
+    "facebook",
+    "feed"
+  ],
+  "description": "Facebook Feed block for Gutenkit Pro.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "shareButtonIcon": {
+      "type": "object",
+      "default": {
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' class='gkit-icon'><path d='M31.989 15.991l-14.584-15.991v9.579h-1.694c-4.197 0-8.142 1.634-11.11 4.602s-4.602 6.913-4.602 11.11v6.709l2.799-3.067c3.744-4.102 9.058-6.475 14.607-6.529v9.578zM1.875 27.179v-1.888c0-3.696 1.439-7.171 4.053-9.784s6.088-4.053 9.784-4.053h3.569v-6.615l10.171 11.152-10.171 11.153v-6.615h-1.682c-5.919 0-11.611 2.416-15.723 6.65z'></path></svg>"
+      }
+    },
+    "facebookBtnIcon": {
+      "type": "object",
+      "default": {
+        "src": "<svg viewBox='0 0 32 32' version='1.1' xmlns='http://www.w3.org/2000/svg'><g id='SVGRepo_bgCarrier' strokeWidth='0'></g><g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round'></g><g id='SVGRepo_iconCarrier'> <title>facebook</title> <path d='M30.996 16.091c-0.001-8.281-6.714-14.994-14.996-14.994s-14.996 6.714-14.996 14.996c0 7.455 5.44 13.639 12.566 14.8l0.086 0.012v-10.478h-3.808v-4.336h3.808v-3.302c-0.019-0.167-0.029-0.361-0.029-0.557 0-2.923 2.37-5.293 5.293-5.293 0.141 0 0.281 0.006 0.42 0.016l-0.018-0.001c1.199 0.017 2.359 0.123 3.491 0.312l-0.134-0.019v3.69h-1.892c-0.086-0.012-0.185-0.019-0.285-0.019-1.197 0-2.168 0.97-2.168 2.168 0 0.068 0.003 0.135 0.009 0.202l-0.001-0.009v2.812h4.159l-0.665 4.336h-3.494v10.478c7.213-1.174 12.653-7.359 12.654-14.814v-0z'></path> </g></svg>"
+      }
+    },
+    "twitterBtnIcon": {
+      "type": "object",
+      "default": {
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' xml:space='preserve'  viewBox='-143 145 512 512'><path d='M113 145c-141.4 0-256 114.6-256 256s114.6 256 256 256 256-114.6 256-256-114.6-256-256-256zm102.2 216.2c.1 2.2.1 4.5.1 6.8 0 69.5-52.9 149.7-149.7 149.7-29.7 0-57.4-8.7-80.6-23.6 4.1.5 8.3.7 12.6.7 24.6 0 47.3-8.4 65.3-22.5-23-.4-42.5-15.6-49.1-36.5 3.2.6 6.5.9 9.9.9 4.8 0 9.5-.6 13.9-1.9-24.1-4.8-42.2-26.1-42.2-51.6v-.6c7.1 3.9 15.2 6.3 23.8 6.6-14.1-9.4-23.4-25.6-23.4-43.8 0-9.6 2.6-18.7 7.1-26.5 26 31.9 64.7 52.8 108.4 55-.9-3.8-1.4-7.8-1.4-12 0-29 23.6-52.6 52.6-52.6 15.1 0 28.8 6.4 38.4 16.6 12-2.4 23.2-6.7 33.4-12.8-3.9 12.3-12.3 22.6-23.1 29.1 10.6-1.3 20.8-4.1 30.2-8.3-7 10.6-15.9 19.8-26.2 27.3z'/></svg>"
+      }
+    },
+    "pinterestBtnIcon": {
+      "type": "object",
+      "default": {
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' ><path fillRule='evenodd' d='M24.001 0C10.748 0 0 10.745 0 24.001c0 9.825 5.91 18.27 14.369 21.981-.068-1.674-.012-3.689.415-5.512.462-1.948 3.087-13.076 3.087-13.076s-.765-1.533-.765-3.799c0-3.556 2.064-6.212 4.629-6.212 2.182 0 3.237 1.64 3.237 3.604 0 2.193-1.4 5.476-2.12 8.515-.6 2.549 1.276 4.623 3.788 4.623 4.547 0 7.61-5.84 7.61-12.76 0-5.258-3.543-9.195-9.986-9.195-7.279 0-11.815 5.427-11.815 11.49 0 2.094.616 3.567 1.581 4.708.446.527.505.736.344 1.34-.113.438-.378 1.505-.488 1.925-.16.607-.652.827-1.2.601-3.355-1.369-4.916-5.04-4.916-9.17 0-6.816 5.75-14.995 17.152-14.995 9.164 0 15.195 6.636 15.195 13.75 0 9.416-5.233 16.45-12.952 16.45-2.588 0-5.026-1.4-5.862-2.99 0 0-1.394 5.53-1.688 6.596-.508 1.85-1.504 3.7-2.415 5.14 2.159.638 4.44.985 6.801.985C37.255 48 48 37.255 48 24.001 48 10.745 37.255 0 24.001 0'/></svg>"
+      }
+    },
+    "swiperSettings": {
+      "type": "object",
+      "default": {
+        "spaceBetweenDesktop": {
+          "size": 10
+        },
+        "spaceBetweenTablet": {
+          "size": 10
+        },
+        "spaceBetweenMobile": {
+          "size": 10
+        },
+        "slidesPerGroupDesktop": {
+          "size": 1
+        },
+        "slidesPerGroupTablet": {
+          "size": 1
+        },
+        "slidesPerGroupMobile": {
+          "size": 1
+        },
+        "slidesPerViewDesktop": {
+          "size": 1
+        },
+        "slidesPerViewTablet": {
+          "size": 1
+        },
+        "slidesPerViewMobile": {
+          "size": 1
+        },
+        "speed": 1000,
+        "autoplay": false,
+        "loop": false,
+        "delay": 3000,
+        "pauseOnMouseEnter": false
+      }
+    },
+    "leftArrowIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-left",
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 512\" className=\"gkit-icon\" aria-hidden=\"true\" focusable=\"false\"><path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z\"></path></svg>"
+      }
+    },
+    "rightArrowIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-right",
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 512\" className=\"gkit-icon\" aria-hidden=\"true\" focusable=\"false\"><path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z\"></path></svg>"
+      }
+    },
+    "downArrowIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-down",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' class='gkit-icon'><path d='M0 9.6c0-0.205 0.078-0.409 0.234-0.566 0.312-0.312 0.819-0.312 1.131 0l13.834 13.834 13.834-13.834c0.312-0.312 0.819-0.312 1.131 0s0.312 0.819 0 1.131l-14.4 14.4c-0.312 0.312-0.819 0.312-1.131 0l-14.4-14.4c-0.156-0.156-0.234-0.361-0.234-0.566z'></path></svg>"
+      }
+    },
+    "threeDotIcons": {
+      "type": "object",
+      "default": {
+        "title": "three-dots",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' class='gkit-icon'><path d='M4.227 11.774c-2.331 0-4.227 1.896-4.227 4.226s1.896 4.226 4.227 4.226c2.33 0 4.226-1.895 4.226-4.226s-1.897-4.226-4.226-4.226z'></path><path d='M16.207 11.774c-2.331 0-4.227 1.896-4.227 4.226s1.896 4.226 4.227 4.226c2.331 0 4.227-1.895 4.227-4.226s-1.896-4.226-4.227-4.226z'></path><path d='M27.774 11.774c-2.33 0-4.227 1.896-4.227 4.226s1.896 4.226 4.227 4.226c2.33 0 4.226-1.895 4.226-4.226s-1.896-4.226-4.226-4.226z'></path></svg>"
+      }
+    },
+    "commentIcon": {
+      "type": "object",
+      "default": {
+        "title": "comments",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' stroke='#000' viewBox='0 0 32 32'><path fill='#000000' fill-rule='evenodd' stroke='none' d='M16 26c-1.168 0-2.296-.136-3.38-.367l-4.708 2.83.063-4.639C4.366 21.654 2 18.066 2 14 2 7.373 8.268 2 16 2s14 5.373 14 12c0 6.628-6.268 12-14 12Zm0-26C7.164 0 0 6.269 0 14c0 4.419 2.345 8.354 6 10.919V32l7.009-4.253c.97.16 1.968.253 2.991.253 8.836 0 16-6.268 16-14 0-7.731-7.164-14-16-14Z'/></svg>"
+      }
+    },
+    "likeIcon": {
+      "type": "object",
+      "default": {
+        "title": "Like",
+        "src": "<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path fillRule='evenodd' clipRule='evenodd' d='M21.4761 14.1703C21.4761 13.7812 21.3683 13.4203 21.1854 13.1109C21.6776 12.7312 21.9964 12.1359 21.9964 11.4656C21.9964 10.3172 21.0683 9.38906 19.9198 9.38906H16.3995C16.7886 8.46562 17.0886 7.32188 17.1261 6.27656C17.1542 5.52188 17.0511 4.72031 16.6433 4.08281C16.2073 3.39844 15.4854 3 14.5292 3C13.5729 3 12.5604 3.92344 12.5604 4.99219C12.5604 6.06094 12.1948 6.49219 11.4354 7.12969L9.29326 8.925C8.84795 9.3 8.44014 9.72188 8.08857 10.1813H6.90264C6.67764 9.81563 6.27451 9.57188 5.81045 9.57188H3.2792C2.57139 9.57188 1.99951 10.1437 1.99951 10.8516V20.2266C1.99951 20.9344 2.57139 21.5062 3.2792 21.5062H5.81045C6.26982 21.5062 6.67295 21.2625 6.90264 20.8969H8.14014L8.76357 21.1922C9.45732 21.5203 10.2167 21.6891 10.9808 21.6937L17.9745 21.7266C19.1229 21.7266 20.0511 20.7984 20.0511 19.65C20.0511 19.0664 19.9883 19.043 19.8495 18.7594C20.5386 18.4219 21.012 17.7141 21.012 16.8937C21.012 16.0734 20.8948 16.1062 20.6933 15.7828C21.1667 15.4031 21.4714 14.8172 21.4714 14.1609L21.4761 14.1703ZM5.69326 20.1141H3.40107V10.9828H5.69326V20.1141ZM19.9198 12.1406H19.7558C19.4042 12.1406 19.1042 12.4031 19.062 12.75C19.0151 13.0969 19.2354 13.4297 19.5776 13.5187C19.8683 13.5937 20.0792 13.8609 20.0792 14.1703C20.0792 14.4797 19.7792 14.8453 19.4042 14.8453H19.1886C18.8276 14.8453 18.5229 15.1219 18.4901 15.4828C18.4573 15.8437 18.7058 16.1719 19.0667 16.2328C19.3808 16.2891 19.6198 16.5656 19.6198 16.8984C19.6198 17.2312 19.3198 17.5734 18.9448 17.5734H17.8714C17.7214 17.5734 17.5761 17.6203 17.4542 17.7094H17.4495C17.2058 17.8922 17.1073 18.2109 17.2011 18.4969C17.2948 18.7828 17.562 18.9797 17.8667 18.9797H17.9839C18.3589 18.9797 18.6589 19.2797 18.6589 19.6547C18.6589 20.0297 18.3589 20.3297 17.9839 20.3297L10.9948 20.2969C10.4323 20.2969 9.8792 20.1703 9.36826 19.9312L8.59951 19.5703C8.50576 19.5281 8.40264 19.5047 8.29951 19.5047H7.1042V11.5875H8.44951C8.6792 11.5875 8.89482 11.475 9.02607 11.2875C9.35889 10.8094 9.75732 10.3781 10.2026 10.0031L12.3448 8.20781C13.3292 7.38281 13.9714 6.39375 13.9714 4.99219C13.9714 4.40156 14.2386 4.40156 14.5339 4.40156C15.0589 4.40156 15.312 4.58906 15.4667 4.83281C15.6542 5.12344 15.7526 5.59688 15.7292 6.225C15.6823 7.47656 15.162 8.94844 14.6651 9.70781C14.5245 9.92344 14.5151 10.2 14.637 10.425C14.7589 10.65 14.9979 10.7906 15.2558 10.7906H19.9292C20.2995 10.7906 20.6042 11.0906 20.6042 11.4609C20.6042 11.8313 20.3042 12.1359 19.9292 12.1359L19.9198 12.1406Z' fill='black'/></svg>"
+      }
+    },
+    "facebookGridStyle": {
+      "type": "string",
+      "default": "list"
+    },
+    "gridColumnCountDesktop": {
+      "type": "number",
+      "default": 2
+    },
+    "gridColumnCountTablet": {
+      "type": "number"
+    },
+    "gridColumnCountMobile": {
+      "type": "number"
+    },
+    "gridColumnCountTabletLandscape": {
+      "type": "number"
+    },
+    "gridColumnCountMobileLandscape": {
+      "type": "number"
+    },
+    "gridColumnCountLaptop": {
+      "type": "number"
+    },
+    "gridColumnCountWideScreen": {
+      "type": "number"
+    },
+    "facebookFeedStyle": {
+      "type": "string",
+      "default": "classic"
+    },
+    "numberOfShowPost": {
+      "type": "number",
+      "default": 10
+    },
+    "showAuthor": {
+      "type": "boolean",
+      "default": true
+    },
+    "authorSettings": {
+      "type": "string",
+      "default": "both"
+    },
+    "authorStyle": {
+      "type": "string",
+      "default": "circle"
+    },
+    "showPostDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "showHeaderMenu": {
+      "type": "boolean",
+      "default": true
+    },
+    "headerMenuStyle": {
+      "type": "string",
+      "default": "arrow"
+    },
+    "showAuthorImageOutline": {
+      "type": "boolean",
+      "default": true
+    },
+    "authorImageSize": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 50
+      }
+    },
+    "imagePosition": {
+      "type": "string",
+      "default": "center"
+    },
+    "showReaction": {
+      "type": "boolean",
+      "default": true
+    },
+    "showComments": {
+      "type": "boolean",
+      "default": true
+    },
+    "showShareButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "gridColumnCountColumnGapDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 10
+      }
+    },
+    "gridColumnCountColumnGapTablet": {
+      "type": "number"
+    },
+    "gridColumnCountColumnGapMobile": {
+      "type": "number"
+    },
+    "gridColumnCountColumnGapTabletLandscape": {
+      "type": "number"
+    },
+    "gridColumnCountColumnGapMobileLandscape": {
+      "type": "number"
+    },
+    "gridColumnCountColumnGapLaptop": {
+      "type": "number"
+    },
+    "gridColumnCountColumnGapWideScreen": {
+      "type": "number"
+    },
+    "containerBgColor": {
+      "type": "object"
+    },
+    "containerBorder": {
+      "type": "object",
+      "default": {
+        "width": "1px",
+        "style": "solid",
+        "color": "#dfdfdf"
+      }
+    },
+    "containerBgColorHover": {
+      "type": "object"
+    },
+    "containerBorderHover": {
+      "type": "object"
+    },
+    "containerBorderRadiusDesktop": {
+      "type": "object",
+      "default": {
+        "top": "4px",
+        "right": "4px",
+        "bottom": "4px",
+        "left": "4px"
+      }
+    },
+    "containerBorderRadiusTablet": {
+      "type": "object"
+    },
+    "containerBorderRadiusMobile": {
+      "type": "object"
+    },
+    "containerBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "containerBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "containerBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "containerBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "containerShadow": {
+      "type": "object"
+    },
+    "containerShadowHover": {
+      "type": "object"
+    },
+    "containerMarginDesktop": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "20px",
+        "left": "0px"
+      }
+    },
+    "containerMarginTablet": {
+      "type": "object"
+    },
+    "containerMarginMobile": {
+      "type": "object"
+    },
+    "containerMarginTabletLandscape": {
+      "type": "object"
+    },
+    "containerMarginMobileLandscape": {
+      "type": "object"
+    },
+    "containerMarginLaptop": {
+      "type": "object"
+    },
+    "containerMarginWideScreen": {
+      "type": "object"
+    },
+    "containerPaddingDesktop": {
+      "type": "object"
+    },
+    "containerPaddingTablet": {
+      "type": "object"
+    },
+    "containerPaddingMobile": {
+      "type": "object"
+    },
+    "containerPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "containerPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "containerPaddingLaptop": {
+      "type": "object"
+    },
+    "containerPaddingWideScreen": {
+      "type": "object"
+    },
+    "headerAuthorMarginDesktop": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "10px",
+        "left": "0px"
+      }
+    },
+    "headerAuthorMarginTablet": {
+      "type": "object"
+    },
+    "headerAuthorMarginMobile": {
+      "type": "object"
+    },
+    "headerAuthorMarginTabletLandscape": {
+      "type": "object"
+    },
+    "headerAuthorMarginMobileLandscape": {
+      "type": "object"
+    },
+    "headerAuthorMarginLaptop": {
+      "type": "object"
+    },
+    "headerAuthorMarginWideScreen": {
+      "type": "object"
+    },
+    "headerAuthorPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "0px",
+        "left": "20px"
+      }
+    },
+    "headerAuthorPaddingTablet": {
+      "type": "object"
+    },
+    "headerAuthorPaddingMobile": {
+      "type": "object"
+    },
+    "headerAuthorPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "headerAuthorPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "headerAuthorPaddingLaptop": {
+      "type": "object"
+    },
+    "headerAuthorPaddingWideScreen": {
+      "type": "object"
+    },
+    "headerAuthorOutline": {
+      "type": "object",
+      "default": {
+        "width": "1px",
+        "style": "solid",
+        "color": "#1261eb"
+      }
+    },
+    "headerAuthorOutlineHover": {
+      "type": "object"
+    },
+    "authorTypography": {
+      "type": "object"
+    },
+    "postDateTypography": {
+      "type": "object"
+    },
+    "authorNameColor": {
+      "type": "string"
+    },
+    "postDateColor": {
+      "type": "string"
+    },
+    "authorNameColorHover": {
+      "type": "string"
+    },
+    "postDateColorHover": {
+      "type": "string"
+    },
+    "headerMenuTypography": {
+      "type": "object"
+    },
+    "headerMenuIconColor": {
+      "type": "string"
+    },
+    "headerMenuCardColor": {
+      "type": "string"
+    },
+    "headerMenuCardBgColor": {
+      "type": "object"
+    },
+    "headerMenuCardBorder": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusTablet": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusMobile": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "headerMenuCardBoxShadow": {
+      "type": "object"
+    },
+    "headerMenuIconColorHover": {
+      "type": "string"
+    },
+    "headerMenuCardColorHover": {
+      "type": "string"
+    },
+    "headerMenuCardBgColorHover": {
+      "type": "object"
+    },
+    "headerMenuCardBorderHover": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusHoverDesktop": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusHoverTablet": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusHoverMobile": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusHoverTabletLandscape": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusHoverMobileLandscape": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusHoverLaptop": {
+      "type": "object"
+    },
+    "headerMenuCardBorderRadiusHoverWideScreen": {
+      "type": "object"
+    },
+    "headerMenuCardBoxShadowHover": {
+      "type": "object"
+    },
+    "statusTypography": {
+      "type": "object"
+    },
+    "statusColor": {
+      "type": "string"
+    },
+    "statusColorHover": {
+      "type": "string"
+    },
+    "statusSeeMoreColor": {
+      "type": "string"
+    },
+    "statusSeeMoreColorHover": {
+      "type": "string"
+    },
+    "statusMarginDesktop": {
+      "type": "object"
+    },
+    "statusMarginTablet": {
+      "type": "object"
+    },
+    "statusMarginMobile": {
+      "type": "object"
+    },
+    "statusMarginTabletLandscape": {
+      "type": "object"
+    },
+    "statusMarginMobileLandscape": {
+      "type": "object"
+    },
+    "statusMarginLaptop": {
+      "type": "object"
+    },
+    "statusMarginWideScreen": {
+      "type": "object"
+    },
+    "statusPaddingDesktop": {
+      "type": "object"
+    },
+    "statusPaddingTablet": {
+      "type": "object"
+    },
+    "statusPaddingMobile": {
+      "type": "object"
+    },
+    "statusPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "statusPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "statusPaddingLaptop": {
+      "type": "object"
+    },
+    "statusPaddingWideScreen": {
+      "type": "object"
+    },
+    "feedMediaWidthDesktop": {
+      "type": "object"
+    },
+    "feedMediaWidthTablet": {
+      "type": "object"
+    },
+    "feedMediaWidthMobile": {
+      "type": "object"
+    },
+    "feedMediaWidthTabletLandscape": {
+      "type": "object"
+    },
+    "feedMediaWidthMobileLandscape": {
+      "type": "object"
+    },
+    "feedMediaWidthLaptop": {
+      "type": "object"
+    },
+    "feedMediaWidthWideScreen": {
+      "type": "object"
+    },
+    "feedMediaHeightDesktop": {
+      "type": "object"
+    },
+    "feedMediaHeightTablet": {
+      "type": "object"
+    },
+    "feedMediaHeightMobile": {
+      "type": "object"
+    },
+    "feedMediaHeightTabletLandscape": {
+      "type": "object"
+    },
+    "feedMediaHeightMobileLandscape": {
+      "type": "object"
+    },
+    "feedMediaHeightLaptop": {
+      "type": "object"
+    },
+    "feedMediaHeightWideScreen": {
+      "type": "object"
+    },
+    "feedMediaPaddingDesktop": {
+      "type": "object"
+    },
+    "feedMediaPaddingTablet": {
+      "type": "object"
+    },
+    "feedMediaPaddingMobile": {
+      "type": "object"
+    },
+    "feedMediaPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "feedMediaPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "feedMediaPaddingLaptop": {
+      "type": "object"
+    },
+    "feedMediaPaddingWideScreen": {
+      "type": "object"
+    },
+    "footerIconSizeDesktop": {
+      "type": "object"
+    },
+    "footerIconSizeTablet": {
+      "type": "object"
+    },
+    "footerIconSizeMobile": {
+      "type": "object"
+    },
+    "footerIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "footerIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "footerIconSizeLaptop": {
+      "type": "object"
+    },
+    "footerIconSizeWideScreen": {
+      "type": "object"
+    },
+    "footerGapBetweenDesktop": {
+      "type": "object"
+    },
+    "footerGapBetweenTablet": {
+      "type": "object"
+    },
+    "footerGapBetweenMobile": {
+      "type": "object"
+    },
+    "footerGapBetweenTabletLandscape": {
+      "type": "object"
+    },
+    "footerGapBetweenMobileLandscape": {
+      "type": "object"
+    },
+    "footerGapBetweenLaptop": {
+      "type": "object"
+    },
+    "footerGapBetweenWideScreen": {
+      "type": "object"
+    },
+    "footerMarginDesktop": {
+      "type": "object"
+    },
+    "footerMarginTablet": {
+      "type": "object"
+    },
+    "footerMarginMobile": {
+      "type": "object"
+    },
+    "footerMarginTabletLandscape": {
+      "type": "object"
+    },
+    "footerMarginMobileLandscape": {
+      "type": "object"
+    },
+    "footerMarginLaptop": {
+      "type": "object"
+    },
+    "footerMarginWideScreen": {
+      "type": "object"
+    },
+    "footerPaddingDesktop": {
+      "type": "object"
+    },
+    "footerPaddingTablet": {
+      "type": "object"
+    },
+    "footerPaddingMobile": {
+      "type": "object"
+    },
+    "footerPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "footerPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "footerPaddingLaptop": {
+      "type": "object"
+    },
+    "footerPaddingWideScreen": {
+      "type": "object"
+    },
+    "shareCardTypography": {
+      "type": "object"
+    },
+    "shareCardWidthDesktop": {
+      "type": "object"
+    },
+    "shareCardWidthTablet": {
+      "type": "object"
+    },
+    "shareCardWidthMobile": {
+      "type": "object"
+    },
+    "shareCardWidthTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardWidthMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardWidthLaptop": {
+      "type": "object"
+    },
+    "shareCardWidthWideScreen": {
+      "type": "object"
+    },
+    "shareCardHeightDesktop": {
+      "type": "object"
+    },
+    "shareCardHeightTablet": {
+      "type": "object"
+    },
+    "shareCardHeightMobile": {
+      "type": "object"
+    },
+    "shareCardHeightTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardHeightMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardHeightLaptop": {
+      "type": "object"
+    },
+    "shareCardHeightWideScreen": {
+      "type": "object"
+    },
+    "shareCardPositionXDesktop": {
+      "type": "object"
+    },
+    "shareCardPositionXTablet": {
+      "type": "object"
+    },
+    "shareCardPositionXMobile": {
+      "type": "object"
+    },
+    "shareCardPositionXTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardPositionXMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardPositionXLaptop": {
+      "type": "object"
+    },
+    "shareCardPositionXWideScreen": {
+      "type": "object"
+    },
+    "shareCardPositionYDesktop": {
+      "type": "object"
+    },
+    "shareCardPositionYTablet": {
+      "type": "object"
+    },
+    "shareCardPositionYMobile": {
+      "type": "object"
+    },
+    "shareCardPositionYTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardPositionYMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardPositionYLaptop": {
+      "type": "object"
+    },
+    "shareCardPositionYWideScreen": {
+      "type": "object"
+    },
+    "shareCardBgColor": {
+      "type": "object"
+    },
+    "shareCardBgColorHover": {
+      "type": "object"
+    },
+    "shareCardPaddingDesktop": {
+      "type": "object"
+    },
+    "shareCardPaddingTablet": {
+      "type": "object"
+    },
+    "shareCardPaddingMobile": {
+      "type": "object"
+    },
+    "shareCardPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardPaddingLaptop": {
+      "type": "object"
+    },
+    "shareCardPaddingWideScreen": {
+      "type": "object"
+    },
+    "shareCardMarginDesktop": {
+      "type": "object"
+    },
+    "shareCardMarginTablet": {
+      "type": "object"
+    },
+    "shareCardMarginMobile": {
+      "type": "object"
+    },
+    "shareCardMarginTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardMarginMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardMarginLaptop": {
+      "type": "object"
+    },
+    "shareCardMarginWideScreen": {
+      "type": "object"
+    },
+    "shareCardBorder": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusTablet": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusMobile": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "shareCardBoxShadow": {
+      "type": "object"
+    },
+    "shareCardBorderHover": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusHoverDesktop": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusHoverTablet": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusHoverMobile": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusHoverTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusHoverMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusHoverLaptop": {
+      "type": "object"
+    },
+    "shareCardBorderRadiusHoverWideScreen": {
+      "type": "object"
+    },
+    "shareCardBoxShadowHover": {
+      "type": "object"
+    },
+    "shareCardGapBetweenItemDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 5
+      }
+    },
+    "shareCardGapBetweenItemTablet": {
+      "type": "object"
+    },
+    "shareCardGapBetweenItemMobile": {
+      "type": "object"
+    },
+    "shareCardGapBetweenItemTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardGapBetweenItemMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardGapBetweenItemLaptop": {
+      "type": "object"
+    },
+    "shareCardGapBetweenItemWideScreen": {
+      "type": "object"
+    },
+    "shareCardGapBetweenContentDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 5
+      }
+    },
+    "shareCardGapBetweenContentTablet": {
+      "type": "object"
+    },
+    "shareCardGapBetweenContentMobile": {
+      "type": "object"
+    },
+    "shareCardGapBetweenContentTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardGapBetweenContentMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardGapBetweenContentLaptop": {
+      "type": "object"
+    },
+    "shareCardGapBetweenContentWideScreen": {
+      "type": "object"
+    },
+    "shareCardIconSizeDesktop": {
+      "type": "object"
+    },
+    "shareCardIconSizeTablet": {
+      "type": "object"
+    },
+    "shareCardIconSizeMobile": {
+      "type": "object"
+    },
+    "shareCardIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "shareCardIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "shareCardIconSizeLaptop": {
+      "type": "object"
+    },
+    "shareCardIconSizeWideScreen": {
+      "type": "object"
+    },
+    "footerTypography": {
+      "type": "object",
+      "default": {
+        "fontSize": {
+          "Desktop": {
+            "size": 14,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "footerBgColor": {
+      "type": "object"
+    },
+    "footerContentColor": {
+      "type": "string"
+    },
+    "footerBgColorHover": {
+      "type": "object"
+    },
+    "footerContentColorHover": {
+      "type": "string"
+    },
+    "reactionAndCommentTypography": {
+      "type": "object",
+      "default": {
+        "fontSize": {
+          "Desktop": {
+            "size": 14,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "showReactionAndCommentCounts": {
+      "type": "boolean",
+      "default": true
+    },
+    "reactionAndCommentMarginDesktop": {
+      "type": "object",
+      "default": {
+        "top": "5px",
+        "right": "10px",
+        "bottom": "5px",
+        "left": "10px"
+      }
+    },
+    "reactionAndCommentMarginTablet": {
+      "type": "object"
+    },
+    "reactionAndCommentMarginMobile": {
+      "type": "object"
+    },
+    "reactionAndCommentMarginTabletLandscape": {
+      "type": "object"
+    },
+    "reactionAndCommentMarginMobileLandscape": {
+      "type": "object"
+    },
+    "reactionAndCommentMarginLaptop": {
+      "type": "object"
+    },
+    "reactionAndCommentMarginWideScreen": {
+      "type": "object"
+    },
+    "reactionAndCommentPaddingDesktop": {
+      "type": "object"
+    },
+    "reactionAndCommentPaddingTablet": {
+      "type": "object"
+    },
+    "reactionAndCommentPaddingMobile": {
+      "type": "object"
+    },
+    "reactionAndCommentPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "reactionAndCommentPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "reactionAndCommentPaddingLaptop": {
+      "type": "object"
+    },
+    "reactionAndCommentPaddingWideScreen": {
+      "type": "object"
+    },
+    "reactionAndCommentBgColor": {
+      "type": "object"
+    },
+    "reactionAndCommentBgColorHover": {
+      "type": "object"
+    },
+    "reactionAndCommentColor": {
+      "type": "string"
+    },
+    "reactionAndCommentColorHover": {
+      "type": "string"
+    },
+    "facebookNormalColor": {
+      "type": "string",
+      "default": "#2B3582"
+    },
+    "twitterNormalColor": {
+      "type": "string",
+      "default": "#1DA1F2"
+    },
+    "pinterestNormalColor": {
+      "type": "string",
+      "default": "#CC2127"
+    },
+    "facebookHoverColor": {
+      "type": "string"
+    },
+    "twitterHoverColor": {
+      "type": "string"
+    },
+    "pinterestHoverColor": {
+      "type": "string"
+    },
+    "imagePositionBackgroundStyle": {
+      "type": "string",
+      "default": "style-1"
+    },
+    "containerOverlayColor": {
+      "type": "object"
+    },
+    "containerOverlayColorHover": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": [
+    "file:./style-index.css",
+    "swiper",
+    "fancybox"
+  ],
+  "script": [
+    "swiper",
+    "fancybox"
+  ],
+  "render": "file:./render.php",
+  "viewScript": "file:./frontend.js"
+}

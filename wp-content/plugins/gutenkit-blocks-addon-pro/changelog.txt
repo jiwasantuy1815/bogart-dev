@@ -1,0 +1,193 @@
+== Changelog ==
+
+= Version: 2.3.0 (2025-05-12) =
+* Added: Facebook feed block
+* Added: Hotspot block
+* Added: Scroll spy module
+* Added: Video scroller module
+* Added: Stable release of advanced search block
+* Improved: Added horizontal alignment control for content caption in image hover effect block
+
+= Version: 2.2.2 (2025-03-10) =
+* Fixed: Flipbox block border theme color support issue
+* Fixed: Stylish list block divider margin issue
+* Fixed: Advance toggle block border radius issue
+* Fixed: Timeline block border issue
+
+= Version: 2.2.1 (2025-02-16) =
+* Fixed: WhatsApp block line height
+* Fixed: RichText inline tag issues in the timeline block
+* Improved: Modules editor component for improved readability and performance
+
+= Version: 2.2.0 (2025-01-20) =
+* Fixed: Custom ordering in the image hover effect block
+* Fixed: Nested block issues in frontend preview for the unfold block
+* Fixed: Selection and deselection issues in timeline block info alignment control
+* Fixed: Deprecated issues in the image hover effect block
+* Improved: Content condition and position controls in the image hover effect block
+* Improved: Toggle controls to show content in the image hover effect block
+* Improved: Hover border-radius control and color issue in the creative button block
+* Improved: Horizontal direction controls for slide items in the client logo block
+* Improved: Wrapper padding and height/width controls in the client logo block
+* Improved: Performance and controls in the style list block
+* Improved: Performance and style controls in the advanced search block
+
+= Version: 2.1.8 (2024-12-29) =
+* Added: Animated particle background module
+* Added: Beta version of the advanced search block
+* Fixed: Hover reverse issue with lottie block
+
+= Version: 2.1.7 (2024-12-09) =
+* Fixed: Incorrect post `URL` display in the post title block for the query builder
+* Fixed: CSS transform not working
+* Fixed: Issue with the dynamic content popover not opening
+* Fixed: Removed the unused `JSON` handler class for unfiltered file uploads
+* Fixed: Resolved markup condition for custom caption types in the lottie block
+* Improved: Added text input field controls to the flip box block
+* Improved: Enhanced responsive compatibility for various blocks
+* Improved: Enhanced sticky module features, including top, bottom, and show-on-scroll-up behavior
+
+= Version: 2.1.6 (2024-11-24) =
+* Fixed: Responsiveness for WhatsApp block settings and styles
+* Fixed: Opacity control issue on logo hover in the price menu block
+* Improved: Hover style controls for dots in the client logo block
+* Improved: Content line and hover style controls for dots in the price menu block
+
+= Version: 2.1.5 (2024-11-13) =
+* Fixed: Smooth scroll module editor styles
+* Improved: Add default values for border properties and improve transition effects
+
+= Version: 2.1.4 (2024-11-11) =
+* Fixed: Arrow width and height issue in the client logo block
+* Improved: Added content alignment control for the timeline block
+* Improved: Enhanced editor loading performance
+* Improved: Optimized block controls performance
+* Improved: Updated dynamic content module
+
+= Version: 2.1.3 (2024-10-27) =
+* Added: Choose from predefined template preset popup
+* Fixed: Multiple CSS transform effect not working
+* Fixed: Style broken when switch in timeline block
+* Improved: Site editor experience
+* Improved: Dynamic content module
+* Improved: Query builder block performance
+
+= Version: 2.1.2 (2024-10-17) =
+* Added: Input and position options in the advanced slider
+* Fixed: Dot position in the advanced slider
+* Fixed: Navigation button border color control issue in the price menu block
+* Fixed: Navigation button border color control issue in the client logo block
+* Fixed: Navigation button style issues in the query builder block
+* Improved: Query builder block
+* Improved: Dynamic content module
+
+= Version: 2.1.1 (2024-10-08) =
+* Added: Mailchimp integration block
+* Fixed: Styling issue with post info's `before text` in the query builder
+* Fixed: Responsive issues with spacing, `slides to show,` and `slides to scroll` controls in the client logo, price menu, and query template blocks
+* Fixed: Post title block truncation issue
+* Fixed: Typography issues in the timeline block (date & address) and post info block
+* Improved: Faster editor loading time
+
+= Version: 2.1.0 (2024-09-30) =
+* Added: RTL support
+* Added: Padding, gradient background, and box shadow control in the advanced toggle
+* Added: Dynamic content support for post custom field HTML
+* Added: Plugin information button
+* Added: Choose starter template button in the query builder block placeholder
+* Fixed: Dynamic content issue in the query builder block
+* Fixed: Custom post types archive not working in site editor with query builder block
+* Fixed: Inability to use the container block in the query template
+* Fixed: Post info terms block not recognizing custom taxonomies
+* Fixed: Block settings now exclude video and image options
+* Fixed: Dot alignment issue in the client logo block
+* Fixed: Arrow style error in the client logo block
+* Fixed: Dot spacing (top to bottom) not working in the client logo block
+* Fixed: Border hover color issue in the advanced masonry block
+* Fixed: OS detection issue in the display conditions module
+* Fixed: Alignment issue with fancy animated text
+* Fixed: Pagination not working in the query builder for posts
+* Fixed: Lottie caption alignment issue
+* Fixed: Color and deprecation issues in chart blocks
+* Fixed: Color and deprecation issues in the reading progress bar block
+
+= Version: 2.0.2 (2024-09-12) =
+* Fixed: Chart blocks variable color issue
+* Fixed: Chart blocks deprecation issue
+* Fixed: Dynamic tag not working inside query builder block
+* Improved: Query builder block
+* Improved: Slider range control
+
+= Version: 2.0.1 (2024-09-05) =
+* Added: Table builder block
+* Fixed: Element disappears after adding mouse enter (hide element) and mouse leave (show element) triggers
+* Improved: Modules breakpoint supports
+* Improved: Display conditions modules controls and UI
+* Improved: Interactions modules controls and UI
+
+= Version: 2.0.0 (2024-09-04) =
+* Added: Display conditions module
+* Added: Smooth scroll module
+* Added: Interactions module
+* Added: Popup builder module
+* Added: Advanced toggle block
+* Fixed: Fix typo in label for unfold content expand direction
+* Fixed: Update textdomain in block.json
+* Fixed: Sticky position not stay in same place
+* Fixed: Image hover effect block
+* Fixed: Chart blocks pointstyle issue
+* Fixed: WhatsAapp blocks variable color supports
+* Fixed: Advanced masonry blocks editor border issue
+* Fixed: Chart blocks editor on load issue
+* Fixed: Responsive breakpoints compatibility
+* Fixed: Masking module issue
+* Improved: Chart blocks variable color support
+* Improved: Slider range control
+* Improved: Fancy animation text block
+* Improved: Advanced masonry block
+* Improved: Timeline block
+
+= Version: 1.5.0 (2024-08-11) =
+* Fixed: Minor bugs and improvements
+* Improved: Editor loading performance
+
+= Version: 1.4.1 (2024-07-27) =
+* Fixed: Unfold block gradient, margin, padding control
+* Fixed: Pattern support for blocks
+* Fixed: Editor update button focus without edit anything
+* Fixed: Showing duplicate posts when query from query editor
+* Fixed: Number of terms doesn't work on frontend
+
+= Version: 1.4.0 (2024-07-08) =
+* Added: Custom CSS module
+* Improved: Query builder block query popup UI
+* Fixed: Fancy animated block control label issue
+
+= Version: 1.3.1 (2024-07-01) =
+* Fixed: Text encoding issue in dynamic content module
+
+= Version: 1.3.0 (2024-07-01) =
+* Added: Chart block new layout
+* Added: New control for unfold block wrapper
+* Improved: Dynamic content module
+* Fixed: Chart block legend margin and point style issue
+* Fixed: Attribute type string to object in creative button block
+* Fixed: Icon color control in stylish list block
+
+= Version: 1.2.0 (2024-06-23) =
+* Fixed: Flip box firefox browser issue
+* Fixed: Lottie block console error
+* Improved: Dynamic content module
+* Improved: Client logo block
+* Improved: Translation support
+
+= Version: 1.0.1 (2024-06-09) =
+* Added: Inner block support for stylish list block
+* Added: One page scroll navigation dots and tooltip controls
+* Fixed: One page scroll not working when navigation dots are disabled
+* Fixed: Advanced masonry block category title not changing
+* Fixed: Showing empty space in stylish list block badge
+* Fixed: Client logo block image width issues
+
+= Version: 1.0.0 (2024-05-29) =
+* Initial release

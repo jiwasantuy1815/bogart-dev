@@ -1,0 +1,10 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">dlp_document</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">doc_categories</taxonomy>
+		<taxonomy translate="1">doc_tags</taxonomy>
+		<taxonomy translate="1">doc_author</taxonomy>
+	</taxonomies>
+</wpml-config>

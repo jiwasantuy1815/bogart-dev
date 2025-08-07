@@ -1,0 +1,366 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/fancy-animated-text",
+  "version": "1.0.0",
+  "title": "Fancy Animated Text",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro",
+    "fancy",
+    "animated",
+    "text",
+    "heading",
+    "title"
+  ],
+  "description": "Fancy animated text for gutenberg.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "gkitFancyAnimationStyle": {
+      "type": "string",
+      "default": "text"
+    },
+    "gkitFancyAnimatedStyleType": {
+      "type": "string",
+      "default": "slide"
+    },
+    "gkitFancyAnimationDelay": {
+      "type": "number",
+      "default": 2000
+    },
+    "gkitFancyLoadingBarDelay": {
+      "type": "number",
+      "default": 3000
+    },
+    "gkitFancyLettersDelay": {
+      "type": "number",
+      "default": 50
+    },
+    "gkitFancyLettersDelayBar": {
+      "type": "number",
+      "default": 300
+    },
+    "gkitFancyTypeLettersDelay": {
+      "type": "number",
+      "default": 150
+    },
+    "gkitFancySelectionDuration": {
+      "type": "number",
+      "default": 500
+    },
+    "gkitFancyRevealDuration": {
+      "type": "number",
+      "default": 600
+    },
+    "gkitFancyRevealAnimationDelay": {
+      "type": "number",
+      "default": 1500
+    },
+    "gkitFancyHighlightedType": {
+      "type": "string",
+      "default": "circle-01"
+    },
+    "gkitFancyHighlightedAnimationDelay": {
+      "type": "number",
+      "default": 2
+    },
+    "gkitFancyHighlightedDuration": {
+      "type": "number",
+      "default": 5
+    },
+    "gkitFancyHighlightedLoop": {
+      "type": "boolean",
+      "default": true
+    },
+    "gkitFancyPrefixText": {
+      "type": "string",
+      "default": "GutenKit is"
+    },
+    "gkitFancyTextLists": {
+      "type": "array",
+      "default": [
+        {
+          "gkit_fancy_text": "Fantastic",
+          "gkit_fancy_text_color": "",
+          "gkit_fancy_text_background_color": ""
+        },
+        {
+          "gkit_fancy_text": "Awesome",
+          "gkit_fancy_text_color": "",
+          "gkit_fancy_text_background_color": ""
+        },
+        {
+          "gkit_fancy_text": "Splendid",
+          "gkit_fancy_text_color": "",
+          "gkit_fancy_text_background_color": ""
+        }
+      ]
+    },
+    "gkitFancyHighlightedText": {
+      "type": "string",
+      "default": "Popular Addon"
+    },
+    "gkitFancySuffixText": {
+      "type": "string"
+    },
+    "gkitFancyTextTitleTag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "gkitFancyTextLink": {
+      "type": "object",
+      "default": {
+        "url": ""
+      }
+    },
+    "gkitFancyTextAlignmentDesktop": {
+      "type": "string",
+      "default": "left"
+    },
+    "gkitFancyTextAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitFancyTextAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitFancyTextAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "gkitFancyTextAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "gkitFancyTextAlignmentLaptop": {
+      "type": "string"
+    },
+    "gkitFancyTextAlignmentWideScreen": {
+      "type": "string"
+    },
+    "gkitFancyHeadingTypography": {
+      "type": "object"
+    },
+    "gkitFancyHeadingColor": {
+      "type": "string"
+    },
+    "gkitFancyHeadingColorHover": {
+      "type": "string"
+    },
+    "gkitFancyHeadingShadow": {
+      "type": "object"
+    },
+    "gkitFancyListsAlignmentDesktop": {
+      "type": "string"
+    },
+    "gkitFancyListsAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitFancyListsAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitFancyListsAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "gkitFancyListsAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "gkitFancyListsAlignmentLaptop": {
+      "type": "string"
+    },
+    "gkitFancyListsAlignmentWideScreen": {
+      "type": "string"
+    },
+    "gkitFancyListsTypography": {
+      "type": "object"
+    },
+    "gkitFancyListsColor": {
+      "type": "string"
+    },
+    "gkitFancyListsColorEffectColor": {
+      "type": "string"
+    },
+    "gkitFancyListsBackgroundColor": {
+      "type": "object"
+    },
+    "gkitFancyColorEffectOne": {
+      "type": "string"
+    },
+    "gkitFancyColorEffectTwo": {
+      "type": "string"
+    },
+    "gkitFancyColorEffectThree": {
+      "type": "string"
+    },
+    "gkitFancyColorEffectFour": {
+      "type": "string"
+    },
+    "gkitFancyListsPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitFancyListsPaddingTablet": {
+      "type": "object"
+    },
+    "gkitFancyListsPaddingMobile": {
+      "type": "object"
+    },
+    "gkitFancyListsPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitFancyListsPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitFancyListsPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitFancyListsPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitFancyListsMarginDesktop": {
+      "type": "object"
+    },
+    "gkitFancyListsMarginTablet": {
+      "type": "object"
+    },
+    "gkitFancyListsMarginMobile": {
+      "type": "object"
+    },
+    "gkitFancyListsMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitFancyListsMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitFancyListsMarginLaptop": {
+      "type": "object"
+    },
+    "gkitFancyListsMarginWideScreen": {
+      "type": "object"
+    },
+    "gkitFancyListsBorder": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedTypography": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedColor": {
+      "type": "string"
+    },
+    "gkitFancyListsBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitFancyListsBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitFancyListsBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitFancyListsBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "gkitFancyListsBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "gkitFancyListsBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "gkitFancyListsBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "5px",
+        "right": "5px",
+        "bottom": "5px",
+        "left": "5px"
+      }
+    },
+    "gkitFancyHighlightedPaddingTablet": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedPaddingMobile": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitFancyHighlightedSvgColor": {
+      "type": "string",
+      "default": "#F386B9"
+    },
+    "gkitFancyHighlightedWeight": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 5
+      }
+    },
+    "gkitFancyStrokePosition": {
+      "type": "object",
+      "default": {
+        "unit": "%",
+        "size": 50
+      }
+    },
+    "gkitFancyCursorColor": {
+      "type": "string",
+      "default": "#333333"
+    },
+    "gkitFancyCursorWidth": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 2
+      }
+    },
+    "gkitFancyCursorHeight": {
+      "type": "object",
+      "default": {
+        "unit": "%",
+        "size": 100
+      }
+    },
+    "gkitFancyLoadingBarHeight": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 2
+      }
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

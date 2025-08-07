@@ -1,0 +1,775 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/price-menu",
+  "version": "1.0.0",
+  "title": "Price Menu",
+  "category": "gutenkit",
+  "allowedBlocks": [
+    "gutenkit-pro/price-menu-item"
+  ],
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro",
+    "pricing",
+    "menu",
+    "list",
+    "image"
+  ],
+  "description": "Price Menu Block for Gutenkit Pro.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "style": {
+      "type": "string",
+      "default": "list"
+    },
+    "pricePosition": {
+      "type": "string",
+      "default": "right",
+      "excludeCopy": true
+    },
+    "media": {
+      "type": "string",
+      "default": "none",
+      "excludeCopy": true
+    },
+    "buttonSwitch": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "showPriceSeparator": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "showItemSeparator": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "ADD TO CART",
+      "excludeCopy": true
+    },
+    "buttonIconSwitch": {
+      "type": "boolean",
+      "default": false,
+      "excludeCopy": true
+    },
+    "buttonIconPosition": {
+      "type": "string",
+      "default": "right",
+      "excludeCopy": true
+    },
+    "buttonIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-right-1",
+        "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>arrow-right-1</title>\n<path d=\"M30.966 16.234l-9.6-9.6c-0.312-0.312-0.819-0.312-1.131 0s-0.312 0.819 0 1.131l8.234 8.234h-26.069c-0.442 0-0.8 0.358-0.8 0.8s0.358 0.8 0.8 0.8h26.069l-8.234 8.234c-0.312 0.312-0.312 0.819 0 1.131 0.156 0.156 0.361 0.234 0.566 0.234s0.409-0.078 0.566-0.234l9.6-9.6c0.312-0.312 0.312-0.819 0-1.131z\"></path>\n</svg>\n"
+      },
+      "excludeCopy": true
+    },
+    "enableSwiper": {
+      "type": "boolean",
+      "default": false,
+      "excludeCopy": true
+    },
+    "priceItems": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Chicken Masala Fries",
+          "description": "Cheese Kunafa (Arabian Dessert)",
+          "price": "$12.48",
+          "titleUrl": {
+            "url": "#"
+          },
+          "icon": {
+            "title": "burger",
+            "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>burger</title>\n<path d=\"M1.664 19.328c-0.992 1.184-0.8 2.56-0.8 2.624 0.032 0.192 0.192 0.352 0.384 0.352 0.48 0 0.8 0.064 1.088 0.16v2.688c-0.384 0.128-0.704 0.352-0.96 0.672-0.416 0.48-0.576 1.12-0.48 1.76l0.256 1.472c0.288 1.696 1.792 2.944 3.584 2.944h22.496c1.792 0 3.296-1.248 3.584-2.944l0.256-1.472c0.096-0.608-0.064-1.248-0.48-1.76-0.288-0.32-0.64-0.576-1.056-0.704v-2.624c0.288-0.128 0.64-0.192 1.184-0.192 0.192 0 0.352-0.128 0.384-0.288 0.16-0.608 0.128-1.76-0.768-2.688 0.96-0.352 1.632-1.248 1.632-2.272v-1.056c0-1.088-0.896-1.952-1.888-2.304 0.128-0.096 0.256-0.192 0.384-0.288 0.992-0.928 1.504-2.464 1.504-4.512 0-2.56-1.376-4.896-3.84-6.56-2.176-1.504-5.088-2.336-7.968-2.336h-8.32c-2.88 0-5.824 0.832-8 2.304-2.464 1.664-3.84 4-3.84 6.56 0 2.080 0.512 3.616 1.504 4.544 0.128 0.128 0.256 0.224 0.384 0.32-0.992 0.32-1.888 1.184-1.888 2.272v1.024c0 1.088 0.704 1.984 1.664 2.304zM16.96 25.056c-1.568 0-2.272 0.192-3.392 1.28l-1.568 1.504-1.568-1.536c-1.12-1.088-1.824-1.28-3.392-1.28h-3.808c-0.032 0-0.064-0.032-0.096-0.032v-2.208c0.416 0.192 0.928 0.384 1.792 0.384 1.024 0 1.536-0.256 2.016-0.512 0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512s1.536-0.256 2.016-0.512c0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512s1.536-0.256 2.016-0.512c0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512 0.8 0 1.312-0.16 1.696-0.352v2.176h-11.744zM30.304 27.456l-0.256 1.472c-0.224 1.312-1.408 2.272-2.816 2.272h-22.496c-1.408 0-2.592-0.96-2.816-2.272l-0.256-1.472c-0.064-0.384 0.032-0.8 0.288-1.088 0.288-0.288 0.608-0.48 0.96-0.512h4.096c1.376 0 1.888 0.128 2.848 1.056l1.856 1.792c0.064 0.064 0.192 0.128 0.288 0.128s0.192-0.032 0.288-0.128l1.856-1.792c0.96-0.928 1.472-1.056 2.848-1.056h12.128c0.352 0.064 0.704 0.224 0.928 0.512s0.32 0.672 0.256 1.088zM30.368 21.536c-0.8 0.064-1.248 0.288-1.664 0.48-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.416-0.192-0.864-0.416-1.632-0.48 0.032-0.48 0.16-1.344 0.992-2.048h26.592c1.056 0.608 1.152 1.568 1.12 2.048zM0.8 8.864c0-4.96 5.728-8.064 11.040-8.064h8.32c5.312 0 11.040 3.104 11.040 8.064 0 1.824-0.416 3.136-1.248 3.936s-1.792 0.736-1.856 0.736h-24.192c0 0-0.032 0-0.032 0s-0.032 0-0.032 0h-0.032c-0.224 0-1.056-0.064-1.76-0.736-0.832-0.768-1.248-2.112-1.248-3.936zM0.8 16c0-0.928 1.088-1.664 1.984-1.664h0.992c0.032 0 0.032 0 0.032 0h25.376c0.992 0 1.984 0.832 1.984 1.664v1.024c0 0.896-0.768 1.632-1.696 1.632h-26.976c-0.928 0-1.696-0.736-1.696-1.632v-1.024zM2.752 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.16-0.416 0.384v1.088c0 0.224 0.192 0.416 0.416 0.416zM5.152 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c-0.032 0.224 0.16 0.416 0.384 0.416zM7.552 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.192-0.416 0.384v1.088c0 0.224 0.192 0.416 0.416 0.416zM9.952 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM12.352 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM14.752 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384-0.224 0-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM17.152 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM19.552 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384-0.224 0-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM21.952 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM24.352 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM26.752 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM29.152 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416z\"></path>\n</svg>\n"
+          },
+          "image": {
+            "url": "placeholder"
+          },
+          "buttonUrl": {
+            "url": "#"
+          },
+          "background": {
+            "backgroundType": " "
+          }
+        },
+        {
+          "title": "Beef Belly Tacos",
+          "description": "Cheese Kunafa (Arabian Dessert)",
+          "price": "$12.48",
+          "titleUrl": {
+            "url": "#"
+          },
+          "icon": {
+            "title": "burger",
+            "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>burger</title>\n<path d=\"M1.664 19.328c-0.992 1.184-0.8 2.56-0.8 2.624 0.032 0.192 0.192 0.352 0.384 0.352 0.48 0 0.8 0.064 1.088 0.16v2.688c-0.384 0.128-0.704 0.352-0.96 0.672-0.416 0.48-0.576 1.12-0.48 1.76l0.256 1.472c0.288 1.696 1.792 2.944 3.584 2.944h22.496c1.792 0 3.296-1.248 3.584-2.944l0.256-1.472c0.096-0.608-0.064-1.248-0.48-1.76-0.288-0.32-0.64-0.576-1.056-0.704v-2.624c0.288-0.128 0.64-0.192 1.184-0.192 0.192 0 0.352-0.128 0.384-0.288 0.16-0.608 0.128-1.76-0.768-2.688 0.96-0.352 1.632-1.248 1.632-2.272v-1.056c0-1.088-0.896-1.952-1.888-2.304 0.128-0.096 0.256-0.192 0.384-0.288 0.992-0.928 1.504-2.464 1.504-4.512 0-2.56-1.376-4.896-3.84-6.56-2.176-1.504-5.088-2.336-7.968-2.336h-8.32c-2.88 0-5.824 0.832-8 2.304-2.464 1.664-3.84 4-3.84 6.56 0 2.080 0.512 3.616 1.504 4.544 0.128 0.128 0.256 0.224 0.384 0.32-0.992 0.32-1.888 1.184-1.888 2.272v1.024c0 1.088 0.704 1.984 1.664 2.304zM16.96 25.056c-1.568 0-2.272 0.192-3.392 1.28l-1.568 1.504-1.568-1.536c-1.12-1.088-1.824-1.28-3.392-1.28h-3.808c-0.032 0-0.064-0.032-0.096-0.032v-2.208c0.416 0.192 0.928 0.384 1.792 0.384 1.024 0 1.536-0.256 2.016-0.512 0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512s1.536-0.256 2.016-0.512c0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512s1.536-0.256 2.016-0.512c0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512 0.8 0 1.312-0.16 1.696-0.352v2.176h-11.744zM30.304 27.456l-0.256 1.472c-0.224 1.312-1.408 2.272-2.816 2.272h-22.496c-1.408 0-2.592-0.96-2.816-2.272l-0.256-1.472c-0.064-0.384 0.032-0.8 0.288-1.088 0.288-0.288 0.608-0.48 0.96-0.512h4.096c1.376 0 1.888 0.128 2.848 1.056l1.856 1.792c0.064 0.064 0.192 0.128 0.288 0.128s0.192-0.032 0.288-0.128l1.856-1.792c0.96-0.928 1.472-1.056 2.848-1.056h12.128c0.352 0.064 0.704 0.224 0.928 0.512s0.32 0.672 0.256 1.088zM30.368 21.536c-0.8 0.064-1.248 0.288-1.664 0.48-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.416-0.192-0.864-0.416-1.632-0.48 0.032-0.48 0.16-1.344 0.992-2.048h26.592c1.056 0.608 1.152 1.568 1.12 2.048zM0.8 8.864c0-4.96 5.728-8.064 11.040-8.064h8.32c5.312 0 11.040 3.104 11.040 8.064 0 1.824-0.416 3.136-1.248 3.936s-1.792 0.736-1.856 0.736h-24.192c0 0-0.032 0-0.032 0s-0.032 0-0.032 0h-0.032c-0.224 0-1.056-0.064-1.76-0.736-0.832-0.768-1.248-2.112-1.248-3.936zM0.8 16c0-0.928 1.088-1.664 1.984-1.664h0.992c0.032 0 0.032 0 0.032 0h25.376c0.992 0 1.984 0.832 1.984 1.664v1.024c0 0.896-0.768 1.632-1.696 1.632h-26.976c-0.928 0-1.696-0.736-1.696-1.632v-1.024zM2.752 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.16-0.416 0.384v1.088c0 0.224 0.192 0.416 0.416 0.416zM5.152 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c-0.032 0.224 0.16 0.416 0.384 0.416zM7.552 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.192-0.416 0.384v1.088c0 0.224 0.192 0.416 0.416 0.416zM9.952 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM12.352 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM14.752 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384-0.224 0-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM17.152 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM19.552 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384-0.224 0-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM21.952 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM24.352 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM26.752 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM29.152 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416z\"></path>\n</svg>\n"
+          },
+          "image": {
+            "url": "placeholder"
+          },
+          "buttonUrl": {
+            "url": "#"
+          },
+          "background": {
+            "backgroundType": " "
+          }
+        },
+        {
+          "title": "Signature BBQ Beef",
+          "description": "Cheese Kunafa (Arabian Dessert)",
+          "price": "$12.48",
+          "titleUrl": {
+            "url": "#"
+          },
+          "icon": {
+            "title": "burger",
+            "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>burger</title>\n<path d=\"M1.664 19.328c-0.992 1.184-0.8 2.56-0.8 2.624 0.032 0.192 0.192 0.352 0.384 0.352 0.48 0 0.8 0.064 1.088 0.16v2.688c-0.384 0.128-0.704 0.352-0.96 0.672-0.416 0.48-0.576 1.12-0.48 1.76l0.256 1.472c0.288 1.696 1.792 2.944 3.584 2.944h22.496c1.792 0 3.296-1.248 3.584-2.944l0.256-1.472c0.096-0.608-0.064-1.248-0.48-1.76-0.288-0.32-0.64-0.576-1.056-0.704v-2.624c0.288-0.128 0.64-0.192 1.184-0.192 0.192 0 0.352-0.128 0.384-0.288 0.16-0.608 0.128-1.76-0.768-2.688 0.96-0.352 1.632-1.248 1.632-2.272v-1.056c0-1.088-0.896-1.952-1.888-2.304 0.128-0.096 0.256-0.192 0.384-0.288 0.992-0.928 1.504-2.464 1.504-4.512 0-2.56-1.376-4.896-3.84-6.56-2.176-1.504-5.088-2.336-7.968-2.336h-8.32c-2.88 0-5.824 0.832-8 2.304-2.464 1.664-3.84 4-3.84 6.56 0 2.080 0.512 3.616 1.504 4.544 0.128 0.128 0.256 0.224 0.384 0.32-0.992 0.32-1.888 1.184-1.888 2.272v1.024c0 1.088 0.704 1.984 1.664 2.304zM16.96 25.056c-1.568 0-2.272 0.192-3.392 1.28l-1.568 1.504-1.568-1.536c-1.12-1.088-1.824-1.28-3.392-1.28h-3.808c-0.032 0-0.064-0.032-0.096-0.032v-2.208c0.416 0.192 0.928 0.384 1.792 0.384 1.024 0 1.536-0.256 2.016-0.512 0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512s1.536-0.256 2.016-0.512c0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512s1.536-0.256 2.016-0.512c0.448-0.224 0.832-0.416 1.664-0.416s1.216 0.192 1.664 0.416c0.48 0.224 0.992 0.512 2.016 0.512 0.8 0 1.312-0.16 1.696-0.352v2.176h-11.744zM30.304 27.456l-0.256 1.472c-0.224 1.312-1.408 2.272-2.816 2.272h-22.496c-1.408 0-2.592-0.96-2.816-2.272l-0.256-1.472c-0.064-0.384 0.032-0.8 0.288-1.088 0.288-0.288 0.608-0.48 0.96-0.512h4.096c1.376 0 1.888 0.128 2.848 1.056l1.856 1.792c0.064 0.064 0.192 0.128 0.288 0.128s0.192-0.032 0.288-0.128l1.856-1.792c0.96-0.928 1.472-1.056 2.848-1.056h12.128c0.352 0.064 0.704 0.224 0.928 0.512s0.32 0.672 0.256 1.088zM30.368 21.536c-0.8 0.064-1.248 0.288-1.664 0.48-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.48-0.224-0.992-0.512-2.016-0.512s-1.536 0.256-2.016 0.512c-0.448 0.224-0.832 0.416-1.664 0.416s-1.216-0.192-1.664-0.416c-0.416-0.192-0.864-0.416-1.632-0.48 0.032-0.48 0.16-1.344 0.992-2.048h26.592c1.056 0.608 1.152 1.568 1.12 2.048zM0.8 8.864c0-4.96 5.728-8.064 11.040-8.064h8.32c5.312 0 11.040 3.104 11.040 8.064 0 1.824-0.416 3.136-1.248 3.936s-1.792 0.736-1.856 0.736h-24.192c0 0-0.032 0-0.032 0s-0.032 0-0.032 0h-0.032c-0.224 0-1.056-0.064-1.76-0.736-0.832-0.768-1.248-2.112-1.248-3.936zM0.8 16c0-0.928 1.088-1.664 1.984-1.664h0.992c0.032 0 0.032 0 0.032 0h25.376c0.992 0 1.984 0.832 1.984 1.664v1.024c0 0.896-0.768 1.632-1.696 1.632h-26.976c-0.928 0-1.696-0.736-1.696-1.632v-1.024zM2.752 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.16-0.416 0.384v1.088c0 0.224 0.192 0.416 0.416 0.416zM5.152 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c-0.032 0.224 0.16 0.416 0.384 0.416zM7.552 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.192-0.416 0.384v1.088c0 0.224 0.192 0.416 0.416 0.416zM9.952 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM12.352 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM14.752 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384-0.224 0-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM17.152 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM19.552 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384-0.224 0-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM21.952 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM24.352 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.416 0.192-0.416 0.384v1.088c0.032 0.224 0.192 0.416 0.416 0.416zM26.752 17.504c0.224 0 0.416-0.192 0.416-0.384v-1.12c0-0.224-0.192-0.384-0.416-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416zM29.152 17.504c0.224 0 0.384-0.192 0.384-0.384v-1.12c0-0.224-0.192-0.384-0.384-0.384s-0.384 0.192-0.384 0.384v1.088c0 0.224 0.16 0.416 0.384 0.416z\"></path>\n</svg>\n"
+          },
+          "image": {
+            "url": "placeholder"
+          },
+          "buttonUrl": {
+            "url": "#"
+          },
+          "background": {
+            "backgroundType": " "
+          }
+        }
+      ],
+      "excludeCopy": true
+    },
+    "rowGap": {
+      "type": "object"
+    },
+    "columnGap": {
+      "type": "object"
+    },
+    "itemsPerRowDesktop": {
+      "type": "number",
+      "default": 2
+    },
+    "itemsPerRowTablet": {
+      "type": "number",
+      "default": 2
+    },
+    "itemsPerRowMobile": {
+      "type": "number",
+      "default": 1
+    },
+    "itemsPerRowTabletLandscape": {
+      "type": "number"
+    },
+    "itemsPerRowMobileLandscape": {
+      "type": "number"
+    },
+    "itemsPerRowLaptop": {
+      "type": "number"
+    },
+    "itemsPerRowWideScreen": {
+      "type": "number"
+    },
+    "itemBorderRadiusDesktop": {
+      "type": "number",
+      "default": 3
+    },
+    "itemBorderRadiusTablet": {
+      "type": "number",
+      "default": 2
+    },
+    "itemBorderRadiusMobile": {
+      "type": "number",
+      "default": 1
+    },
+    "itemBorderRadiusTabletLandscape": {
+      "type": "number"
+    },
+    "itemBorderRadiusMobileLandscape": {
+      "type": "number"
+    },
+    "itemBorderRadiusLaptop": {
+      "type": "number"
+    },
+    "itemBorderRadiusWideScreen": {
+      "type": "number"
+    },
+    "contentPaddingDesktop": {
+      "type": "object"
+    },
+    "contentPaddingTablet": {
+      "type": "object"
+    },
+    "contentPaddingMobile": {
+      "type": "object"
+    },
+    "contentPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "contentPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "contentPaddingLaptop": {
+      "type": "object"
+    },
+    "contentPaddingWideScreen": {
+      "type": "object"
+    },
+    "itemSeparator": {
+      "type": "object",
+      "default": {
+        "color": "#06212633",
+        "style": "dashed",
+        "width": "1px"
+      }
+    },
+    "verticalAlign": {
+      "type": "string"
+    },
+    "itemSpaceBetweenDesktop": {
+      "type": "object"
+    },
+    "itemSpaceBetweenTablet": {
+      "type": "object"
+    },
+    "itemSpaceBetweenMobile": {
+      "type": "object"
+    },
+    "itemSpaceBetweenTabletLandscape": {
+      "type": "object"
+    },
+    "itemSpaceBetweenMobileLandscape": {
+      "type": "object"
+    },
+    "itemSpaceBetweenLaptop": {
+      "type": "object"
+    },
+    "itemSpaceBetweenWideScreen": {
+      "type": "object"
+    },
+    "itemPaddingDesktop": {
+      "type": "object"
+    },
+    "itemPaddingTablet": {
+      "type": "object"
+    },
+    "itemPaddingMobile": {
+      "type": "object"
+    },
+    "itemPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "itemPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "itemPaddingLaptop": {
+      "type": "object"
+    },
+    "itemPaddingWideScreen": {
+      "type": "object"
+    },
+    "itemWrapperPaddingDesktop": {
+      "type": "object"
+    },
+    "itemWrapperPaddingTablet": {
+      "type": "object"
+    },
+    "itemWrapperPaddingMobile": {
+      "type": "object"
+    },
+    "itemWrapperPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "itemWrapperPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "itemWrapperPaddingLaptop": {
+      "type": "object"
+    },
+    "itemWrapperPaddingWideScreen": {
+      "type": "object"
+    },
+    "itemBgColor": {
+      "type": "object"
+    },
+    "itemShadow": {
+      "type": "object"
+    },
+    "itemHoverBgColor": {
+      "type": "object"
+    },
+    "itemHoverShadow": {
+      "type": "object"
+    },
+    "imageWidthDesktop": {
+      "type": "object"
+    },
+    "imageWidthTablet": {
+      "type": "object"
+    },
+    "imageWidthMobile": {
+      "type": "object"
+    },
+    "imageWidthTabletLandscape": {
+      "type": "object"
+    },
+    "imageWidthMobileLandscape": {
+      "type": "object"
+    },
+    "imageWidthLaptop": {
+      "type": "object"
+    },
+    "imageWidthWideScreen": {
+      "type": "object"
+    },
+    "imageBorderRadius": {
+      "type": "object"
+    },
+    "imageSpacing": {
+      "type": "object"
+    },
+    "iconSizeDesktop": {
+      "type": "object"
+    },
+    "iconSizeTablet": {
+      "type": "object"
+    },
+    "iconSizeMobile": {
+      "type": "object"
+    },
+    "iconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "iconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "iconSizeLaptop": {
+      "type": "object"
+    },
+    "iconSizeWideScreen": {
+      "type": "object"
+    },
+    "iconSpacingDesktop": {
+      "type": "object"
+    },
+    "iconSpacingTablet": {
+      "type": "object"
+    },
+    "iconSpacingMobile": {
+      "type": "object"
+    },
+    "iconSpacingTabletLandscape": {
+      "type": "object"
+    },
+    "iconSpacingMobileLandscape": {
+      "type": "object"
+    },
+    "iconSpacingLaptop": {
+      "type": "object"
+    },
+    "iconSpacingWideScreen": {
+      "type": "object"
+    },
+    "iconBgColor": {
+      "type": "object"
+    },
+    "iconColor": {
+      "type": "string"
+    },
+    "iconBorder": {
+      "type": "object"
+    },
+    "iconBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "iconBorderRadiusTablet": {
+      "type": "object"
+    },
+    "iconBorderRadiusMobile": {
+      "type": "object"
+    },
+    "iconBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "iconBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "iconBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "iconBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "iconPaddingDesktop": {
+      "type": "object"
+    },
+    "iconPaddingTablet": {
+      "type": "object"
+    },
+    "iconPaddingMobile": {
+      "type": "object"
+    },
+    "iconPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "iconPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "iconPaddingLaptop": {
+      "type": "object"
+    },
+    "iconPaddingWideScreen": {
+      "type": "object"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "titleColorHover": {
+      "type": "string"
+    },
+    "titleTypography": {
+      "type": "object"
+    },
+    "titlePaddingDesktop": {
+      "type": "object"
+    },
+    "titlePaddingTablet": {
+      "type": "object"
+    },
+    "titlePaddingMobile": {
+      "type": "object"
+    },
+    "titlePaddingTabletLandscape": {
+      "type": "object"
+    },
+    "titlePaddingMobileLandscape": {
+      "type": "object"
+    },
+    "titlePaddingLaptop": {
+      "type": "object"
+    },
+    "titlePaddingWideScreen": {
+      "type": "object"
+    },
+    "descriptionColor": {
+      "type": "string"
+    },
+    "descriptionTypography": {
+      "type": "object"
+    },
+    "descriptionPaddingDesktop": {
+      "type": "object"
+    },
+    "descriptionPaddingTablet": {
+      "type": "object"
+    },
+    "descriptionPaddingMobile": {
+      "type": "object"
+    },
+    "descriptionPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "descriptionPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "descriptionPaddingLaptop": {
+      "type": "object"
+    },
+    "descriptionPaddingWideScreen": {
+      "type": "object"
+    },
+    "priceColor": {
+      "type": "string"
+    },
+    "priceTypography": {
+      "type": "object"
+    },
+    "priceMarginDesktop": {
+      "type": "object"
+    },
+    "priceMarginTablet": {
+      "type": "object"
+    },
+    "priceMarginMobile": {
+      "type": "object"
+    },
+    "priceMarginTabletLandscape": {
+      "type": "object"
+    },
+    "priceMarginMobileLandscape": {
+      "type": "object"
+    },
+    "priceMarginLaptop": {
+      "type": "object"
+    },
+    "priceMarginWideScreen": {
+      "type": "object"
+    },
+    "lineHeightDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 1
+      }
+    },
+    "lineHeightTablet": {
+      "type": "object"
+    },
+    "lineHeightMobile": {
+      "type": "object"
+    },
+    "lineHeightTabletLandscape": {
+      "type": "object"
+    },
+    "lineHeightMobileLandscape": {
+      "type": "object"
+    },
+    "lineHeightLaptop": {
+      "type": "object"
+    },
+    "lineHeightWideScreen": {
+      "type": "object"
+    },
+    "lineMarginDesktop": {
+      "type": "object"
+    },
+    "lineMarginTablet": {
+      "type": "object"
+    },
+    "lineMarginMobile": {
+      "type": "object"
+    },
+    "lineMarginTabletLandscape": {
+      "type": "object"
+    },
+    "lineMarginMobileLandscape": {
+      "type": "object"
+    },
+    "lineMarginLaptop": {
+      "type": "object"
+    },
+    "lineMarginWideScreen": {
+      "type": "object"
+    },
+    "buttontypography": {
+      "type": "object"
+    },
+    "buttonBorder": {
+      "type": "object"
+    },
+    "buttonBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "buttonBorderRadiusTablet": {
+      "type": "object"
+    },
+    "buttonBorderRadiusMobile": {
+      "type": "object"
+    },
+    "buttonBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "buttonBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "buttonBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "buttonBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "buttonPaddingDesktop": {
+      "type": "object"
+    },
+    "buttonPaddingTablet": {
+      "type": "object"
+    },
+    "buttonPaddingMobile": {
+      "type": "object"
+    },
+    "buttonPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "buttonPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "buttonPaddingLaptop": {
+      "type": "object"
+    },
+    "buttonPaddingWideScreen": {
+      "type": "object"
+    },
+    "buttonShadow": {
+      "type": "object"
+    },
+    "buttonColor": {
+      "type": "string",
+      "default": "#062126"
+    },
+    "buttonBg": {
+      "type": "object"
+    },
+    "buttonHoverColor": {
+      "type": "string"
+    },
+    "buttonBgHover": {
+      "type": "object"
+    },
+    "buttonHoverBorderColor": {
+      "type": "string"
+    },
+    "buttonIconColor": {
+      "type": "string"
+    },
+    "buttonIconHoverColor": {
+      "type": "string"
+    },
+    "buttonIconSize": {
+      "type": "object"
+    },
+    "buttonIconSpace": {
+      "type": "object",
+      "default": {
+        "size": 5,
+        "unit": "px"
+      }
+    },
+    "swiperArrows": {
+      "type": "object"
+    },
+    "swiperDots": {
+      "type": "object"
+    },
+    "swiperSettings": {
+      "type": "object",
+      "default": {
+        "spaceBetweenDesktop": {
+          "size": 10
+        },
+        "spaceBetweenTablet": {
+          "size": 10
+        },
+        "spaceBetweenMobile": {
+          "size": 10
+        },
+        "spaceBetweenTabletLandscape": {
+          "size": 10
+        },
+        "spaceBetweenMobileLandscape": {
+          "size": 10
+        },
+        "spaceBetweenLaptop": {
+          "size": 10
+        },
+        "spaceBetweenWideScreen": {
+          "size": 10
+        },
+        "slidesPerGroupDesktop": {
+          "size": 1
+        },
+        "slidesPerGroupTablet": {
+          "size": 1
+        },
+        "slidesPerGroupMobile": {
+          "size": 1
+        },
+        "slidesPerGroupTabletLandscape": {
+          "size": 1
+        },
+        "slidesPerGroupMobileLandscape": {
+          "size": 1
+        },
+        "slidesPerGroupLaptop": {
+          "size": 1
+        },
+        "slidesPerGroupWideScreen": {
+          "size": 1
+        },
+        "slidesPerViewDesktop": {
+          "size": 2
+        },
+        "slidesPerViewTablet": {
+          "size": 2
+        },
+        "slidesPerViewMobile": {
+          "size": 1
+        },
+        "slidesPerViewTabletLandscape": {
+          "size": 1
+        },
+        "slidesPerViewMobileLandscape": {
+          "size": 1
+        },
+        "slidesPerViewLaptop": {
+          "size": 1
+        },
+        "slidesPerViewWideScreen": {
+          "size": 1
+        },
+        "speed": 1000,
+        "autoplay": true,
+        "loop": false,
+        "delay": 3000,
+        "pauseOnMouseEnter": false
+      }
+    },
+    "enableArrows": {
+      "type": "boolean",
+      "default": false
+    },
+    "leftArrowIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-left",
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 512\" className=\"gkit-icon\" aria-hidden=\"true\" focusable=\"false\"><path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z\"></path></svg>"
+      }
+    },
+    "rightArrowIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-right",
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 512\" className=\"gkit-icon\" aria-hidden=\"true\" focusable=\"false\"><path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z\"></path></svg>"
+      }
+    },
+    "enableDots": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": [
+    "file:./style-index.css",
+    "swiper"
+  ],
+  "viewScript": "file:./frontend.js",
+  "script": "swiper"
+}

@@ -1,0 +1,27 @@
+@import 'modal';
+@import 'buttons';
+@import 'themes';
+
+.dlp-multiple-download-error p {
+    margin: 5px 0;
+    padding: 0;
+    color: #e2401c;
+}
+
+.dlp-table-document-link-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    > *:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    > input[type="checkbox"] {
+        margin-left: auto; /* Pushes the checkbox to the far right */
+
+		&:focus {
+			outline: none;
+		}
+    }
+}

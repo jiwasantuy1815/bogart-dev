@@ -1,0 +1,488 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/advanced-masonry",
+  "version": "1.0.0",
+  "title": "Advanced Masonry",
+  "category": "gutenkit",
+  "allowedBlocks": [
+    "gutenkit-pro/advanced-masonry-item"
+  ],
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro",
+    "masonry",
+    "advanced masonry",
+    "masonry block",
+    "gutenkit masonry",
+    "gutenkit pro masonry",
+    "gutenkit advanced masonry",
+    "gutenkit pro advanced masonry",
+    "gutenkit masonry block",
+    "gutenkit pro masonry block",
+    "gutenkit advanced masonry block",
+    "gutenkit pro advanced masonry block"
+  ],
+  "description": "Advanced Masonry block for Gutenkit Pro.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "style": {
+      "type": "string",
+      "default": "masonry"
+    },
+    "columnsDesktop": {
+      "type": "number",
+      "default": 2
+    },
+    "columnsTablet": {
+      "type": "number"
+    },
+    "columnsMobile": {
+      "type": "number"
+    },
+    "columnsTabletLandscape": {
+      "type": "number"
+    },
+    "columnsMobileLandscape": {
+      "type": "number"
+    },
+    "columnsLaptop": {
+      "type": "number"
+    },
+    "columnsWideScreen": {
+      "type": "number"
+    },
+    "gapDesktop": {
+      "type": "object"
+    },
+    "gapTablet": {
+      "type": "object"
+    },
+    "gapMobile": {
+      "type": "object"
+    },
+    "gapTabletLandscape": {
+      "type": "object"
+    },
+    "gapMobileLandscape": {
+      "type": "object"
+    },
+    "gapLaptop": {
+      "type": "object"
+    },
+    "gapWideScreen": {
+      "type": "object"
+    },
+    "filterItemGapDesktop": {
+      "type": "object",
+      "default": {
+        "size": 10,
+        "unit": "px"
+      }
+    },
+    "filterItemGapTablet": {
+      "type": "object"
+    },
+    "filterItemGapMobile": {
+      "type": "object"
+    },
+    "filterItemGapTabletLandscape": {
+      "type": "object"
+    },
+    "filterItemGapMobileLandscape": {
+      "type": "object"
+    },
+    "filterItemGapLaptop": {
+      "type": "object"
+    },
+    "filterItemGapWideScreen": {
+      "type": "object"
+    },
+    "paddingDesktop": {
+      "type": "object"
+    },
+    "paddingTablet": {
+      "type": "object"
+    },
+    "paddingMobile": {
+      "type": "object"
+    },
+    "paddingTabletLandscape": {
+      "type": "object"
+    },
+    "paddingMobileLandscape": {
+      "type": "object"
+    },
+    "paddingLaptop": {
+      "type": "object"
+    },
+    "paddingWideScreen": {
+      "type": "object"
+    },
+    "borderRadiusDesktop": {
+      "type": "object"
+    },
+    "borderRadiusTablet": {
+      "type": "object"
+    },
+    "borderRadiusMobile": {
+      "type": "object"
+    },
+    "borderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "borderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "borderRadiusLaptop": {
+      "type": "object"
+    },
+    "borderRadiusWideScreen": {
+      "type": "object"
+    },
+    "background": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "#fff",
+        "backgroundType": "classic"
+      }
+    },
+    "backgroundHover": {
+      "type": "object"
+    },
+    "borderHoverColor": {
+      "type": "string"
+    },
+    "shadow": {
+      "type": "object"
+    },
+    "shadowHover": {
+      "type": "object"
+    },
+    "border": {
+      "type": "object"
+    },
+    "enableFilter": {
+      "type": "boolean",
+      "default": false
+    },
+    "allItemsText": {
+      "type": "string",
+      "default": "All",
+      "excludeCopy": true
+    },
+    "gkitTabDirectionDesktop": {
+      "type": "string",
+      "default": "column"
+    },
+    "gkitTabDirectionTablet": {
+      "type": "string"
+    },
+    "gkitTabDirectionMobile": {
+      "type": "string"
+    },
+    "gkitTabDirectionTabletLandscape": {
+      "type": "string"
+    },
+    "gkitTabDirectionMobileLandscape": {
+      "type": "string"
+    },
+    "gkitTabDirectionLaptop": {
+      "type": "string"
+    },
+    "gkitTabDirectionWideScreen": {
+      "type": "string"
+    },
+    "gkitTabWidthDesktop": {
+      "type": "object"
+    },
+    "gkitTabWidthTablet": {
+      "type": "object"
+    },
+    "gkitTabWidthMobile": {
+      "type": "object"
+    },
+    "gkitTabWidthTabletLandscape": {
+      "type": "object"
+    },
+    "gkitTabWidthMobileLandscape": {
+      "type": "object"
+    },
+    "gkitTabWidthLaptop": {
+      "type": "object"
+    },
+    "gkitTabWidthWideScreen": {
+      "type": "object"
+    },
+    "gkitTabSpacingDesktop": {
+      "type": "object"
+    },
+    "gkitTabSpacingTablet": {
+      "type": "object"
+    },
+    "gkitTabSpacingMobile": {
+      "type": "object"
+    },
+    "gkitTabSpacingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitTabSpacingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitTabSpacingLaptop": {
+      "type": "object"
+    },
+    "gkitTabSpacingWideScreen": {
+      "type": "object"
+    },
+    "categories": {
+      "type": "array",
+      "default": [
+        "All"
+      ]
+    },
+    "filterItemPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "5px",
+        "right": "10px",
+        "bottom": "5px",
+        "left": "10px"
+      }
+    },
+    "filterItemPaddingTablet": {
+      "type": "object"
+    },
+    "filterItemPaddingMobile": {
+      "type": "object"
+    },
+    "filterItemPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "filterItemPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "filterItemPaddingLaptop": {
+      "type": "object"
+    },
+    "filterItemPaddingWideScreen": {
+      "type": "object"
+    },
+    "filterItemBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "filterItemBorderRadiusTablet": {
+      "type": "object"
+    },
+    "filterItemBorderRadiusMobile": {
+      "type": "object"
+    },
+    "filterItemBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "filterItemBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "filterItemBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "filterItemBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "filterItemBackground": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "#e1e5e9",
+        "backgroundType": "classic"
+      }
+    },
+    "filterItemBackgroundHover": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "#2575fc",
+        "backgroundType": "classic"
+      }
+    },
+    "filterItemBorder": {
+      "type": "object"
+    },
+    "filterItemBorderHoverColor": {
+      "type": "object"
+    },
+    "filterItemColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "filterItemColorHover": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "filterItemActiveColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "filterItemActiveBorderColor": {
+      "type": "string"
+    },
+    "filterItemActiveBackground": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "#2575fc",
+        "backgroundType": "classic"
+      }
+    },
+    "filterItemShadow": {
+      "type": "object"
+    },
+    "filterItemShadowHover": {
+      "type": "object"
+    },
+    "filterItemShadowActive": {
+      "type": "object"
+    },
+    "filterItemAlignmentDesktop": {
+      "type": "string",
+      "default": "start"
+    },
+    "filterItemAlignmentTablet": {
+      "type": "string"
+    },
+    "filterItemAlignmentMobile": {
+      "type": "string"
+    },
+    "filterItemAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "filterItemAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "filterItemAlignmentLaptop": {
+      "type": "string"
+    },
+    "filterItemAlignmentWideScreen": {
+      "type": "string"
+    },
+    "filterItemTextAlignmentDesktop": {
+      "type": "string",
+      "default": "center"
+    },
+    "filterItemTextAlignmentTablet": {
+      "type": "string"
+    },
+    "filterItemTextAlignmentMobile": {
+      "type": "string"
+    },
+    "filterItemTextAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "filterItemTextAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "filterItemTextAlignmentLaptop": {
+      "type": "string"
+    },
+    "filterItemTextAlignmentWideScreen": {
+      "type": "string"
+    },
+    "filterItemTypography": {
+      "type": "object"
+    },
+    "filterSpaceBottomDesktop": {
+      "type": "object",
+      "default": {
+        "size": 16,
+        "unit": "px"
+      }
+    },
+    "filterSpaceBottomTablet": {
+      "type": "object"
+    },
+    "filterSpaceBottomMobile": {
+      "type": "object"
+    },
+    "filterSpaceBottomTabletLandscape": {
+      "type": "object"
+    },
+    "filterSpaceBottomMobileLandscape": {
+      "type": "object"
+    },
+    "filterSpaceBottomLaptop": {
+      "type": "object"
+    },
+    "filterSpaceBottomWideScreen": {
+      "type": "object"
+    },
+    "filterPaddingDesktop": {
+      "type": "object"
+    },
+    "filterPaddingTablet": {
+      "type": "object"
+    },
+    "filterPaddingMobile": {
+      "type": "object"
+    },
+    "filterPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "filterPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "filterPaddingLaptop": {
+      "type": "object"
+    },
+    "filterPaddingWideScreen": {
+      "type": "object"
+    },
+    "filterBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "filterBorderRadiusTablet": {
+      "type": "object"
+    },
+    "filterBorderRadiusMobile": {
+      "type": "object"
+    },
+    "filterBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "filterBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "filterBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "filterBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "filterBackground": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

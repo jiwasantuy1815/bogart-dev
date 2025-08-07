@@ -1,0 +1,326 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/chart",
+  "version": "1.0.0",
+  "title": "Chart",
+  "category": "gutenkit",
+  "keywords": [
+    "chart",
+    "grap",
+    "view"
+  ],
+  "description": "Chart block for gutenberg.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "bgHoverColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "borderHoverColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "borderWidth": {
+      "type": "number",
+      "default": 1
+    },
+    "chartItems": {
+      "type": "array",
+      "default": [
+        {
+          "label": "Item 1",
+          "dataValue": "10,30,20",
+          "bgColor": "#96CDF280",
+          "borderColor": "#97CDF2",
+          "bgHoverColor": "#96CDF2",
+          "borderHoverColor": "#96CDF290",
+          "borderWidth": 2,
+          "chosen": false,
+          "selected": false
+        },
+        {
+          "label": "Item 2",
+          "dataValue": "15,35,25",
+          "bgColor": "#FCAEBE80",
+          "borderColor": "#FCAEBE",
+          "bgHoverColor": "#FCAEBE",
+          "borderHoverColor": "#FCAEBE90",
+          "borderWidth": 2,
+          "chosen": false,
+          "selected": false
+        },
+        {
+          "label": "Item 3",
+          "dataValue": "25,50,15",
+          "bgColor": "#FCCC9C80",
+          "borderColor": "#FCCC9C",
+          "bgHoverColor": "#FCCC9C",
+          "borderHoverColor": "#FCCC9C90",
+          "borderWidth": 2,
+          "chosen": false,
+          "selected": false
+        }
+      ]
+    },
+    "categorieItems": {
+      "type": "array",
+      "default": [
+        {
+          "categorie": "Category 01"
+        },
+        {
+          "categorie": "Category 02"
+        },
+        {
+          "categorie": "Category 03"
+        }
+      ]
+    },
+    "chartStyle": {
+      "type": "string",
+      "default": "bar"
+    },
+    "enableCaption": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "chartCaption": {
+      "type": "string",
+      "default": "Gutenkit Chart Caption",
+      "excludeCopy": true
+    },
+    "enableGridLine": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "lineColor": {
+      "type": "string",
+      "default": "#00000021"
+    },
+    "enableLabel": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "enableLegends": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "chartPointStyle": {
+      "type": "string",
+      "default": "circle"
+    },
+    "legendFontColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "legendFontSize": {
+      "type": "number",
+      "default": 14
+    },
+    "legendFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "legendPadding": {
+      "type": "number",
+      "default": 10
+    },
+    "enablePointStyle": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "enableSteppedLine": {
+      "type": "boolean",
+      "default": true
+    },
+    "lineChartTension": {
+      "type": "number"
+    },
+    "enableFillStyle": {
+      "type": "boolean",
+      "default": false
+    },
+    "fillStyle": {
+      "type": "string",
+      "default": "start"
+    },
+    "boxWidth": {
+      "type": "number",
+      "default": 50
+    },
+    "showTooltip": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "tTipBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "catFontColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "catFontWeight": {
+      "type": "string",
+      "default": "normal"
+    },
+    "catPadding": {
+      "type": "number",
+      "default": 10
+    },
+    "catFontSize": {
+      "type": "number",
+      "default": 14
+    },
+    "tTipTitleColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "tTipTitleSize": {
+      "type": "number",
+      "default": 16
+    },
+    "tTipTitleWeight": {
+      "type": "string",
+      "default": "normal"
+    },
+    "tTipBodyColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "tTipBodySize": {
+      "type": "number",
+      "default": 14
+    },
+    "tTipBodyWeight": {
+      "type": "string",
+      "default": "normal"
+    },
+    "titleFontColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 16
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": "normal"
+    },
+    "titleLineHeight": {
+      "type": "number",
+      "default": 1.5
+    },
+    "titlePosition": {
+      "type": "string",
+      "default": "top"
+    },
+    "titlePadding": {
+      "type": "number",
+      "default": 10
+    },
+    "animationDuration": {
+      "type": "number",
+      "default": 1000
+    },
+    "animationStyle": {
+      "type": "string",
+      "default": "linear"
+    },
+    "enableTension": {
+      "type": "boolean",
+      "default": false
+    },
+    "chartWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 400,
+        "unit": "px"
+      }
+    },
+    "chartWidthTablet": {
+      "type": "object"
+    },
+    "chartWidthMobile": {
+      "type": "object"
+    },
+    "chartWidthTabletLandscape": {
+      "type": "object"
+    },
+    "chartWidthMobileLandscape": {
+      "type": "object"
+    },
+    "chartWidthLaptop": {
+      "type": "object"
+    },
+    "chartWidthWideScreen": {
+      "type": "object"
+    },
+    "chartHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 400,
+        "unit": "px"
+      }
+    },
+    "chartHeightTablet": {
+      "type": "object"
+    },
+    "chartHeightMobile": {
+      "type": "object"
+    },
+    "chartHeightTabletLandscape": {
+      "type": "object"
+    },
+    "chartHeightMobileLandscape": {
+      "type": "object"
+    },
+    "chartHeightLaptop": {
+      "type": "object"
+    },
+    "chartHeightWideScreen": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js",
+  "script": [
+    "chart"
+  ]
+}

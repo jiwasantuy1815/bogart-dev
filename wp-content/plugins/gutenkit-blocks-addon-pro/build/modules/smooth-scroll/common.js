@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const{gutenkitSmoothScroll:o}=window,e=new window.Lenis({smooth:!0,duration:o?.duration||1.2,lerp:o?.lerp||.1});e.on("scroll",ScrollTrigger.update),gsap.ticker.add((o=>{e.raf(1e3*o)})),gsap.ticker.lagSmoothing(0)}));

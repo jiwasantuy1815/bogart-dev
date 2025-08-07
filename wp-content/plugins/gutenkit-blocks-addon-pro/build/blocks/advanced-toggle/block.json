@@ -1,0 +1,255 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/advanced-toggle",
+  "version": "1.0.0",
+  "title": "Advanced Toggle",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "toggle",
+    "advanced",
+    "advanced-toggle",
+    "gutenkit-pro"
+  ],
+  "description": "Advanced Toggle for Gutenberg block.",
+  "allowedBlocks": [
+    "gutenkit-pro/advanced-toggle-item"
+  ],
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "style": {
+      "type": "string",
+      "default": "tab"
+    },
+    "gkitToggleItems": {
+      "type": "array",
+      "default": [
+        {
+          "toggleTitle": "Annual #1",
+          "toggleColor": "#fffff",
+          "toggleBackground": "#1868dd",
+          "toggleActive": true
+        },
+        {
+          "toggleTitle": "Monthly #2",
+          "toggleColor": "#fffff",
+          "toggleBackground": "#1868dd",
+          "toggleActive": false
+        }
+      ],
+      "excludeCopy": true
+    },
+    "togglePosition": {
+      "type": "string",
+      "default": "left"
+    },
+    "innerIndex": {
+      "type": "number",
+      "default": 0
+    },
+    "annualTitle": {
+      "type": "string",
+      "default": "Annual"
+    },
+    "monthlyTitle": {
+      "type": "string",
+      "default": "Monthly"
+    },
+    "tabsBackground": {
+      "type": "object"
+    },
+    "tabsPaddingDesktop": {
+      "type": "object"
+    },
+    "tabsPaddingTablet": {
+      "type": "object"
+    },
+    "tabsPaddingMobile": {
+      "type": "object"
+    },
+    "tabsPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "tabsPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "tabsPaddingLaptop": {
+      "type": "object"
+    },
+    "tabsPaddingWideScreen": {
+      "type": "object"
+    },
+    "tabsBoxShadow": {
+      "type": "object"
+    },
+    "tabsBorder": {
+      "type": "object"
+    },
+    "tabsBorderRadius": {
+      "type": "object"
+    },
+    "tabsTypography": {
+      "type": "object"
+    },
+    "tabsColor": {
+      "type": "string"
+    },
+    "tabsBackgroundColor": {
+      "type": "object"
+    },
+    "tabsItemBoxShadowActive": {
+      "type": "object"
+    },
+    "tabsActiveColor": {
+      "type": "string"
+    },
+    "tabsActiveBackgroundColor": {
+      "type": "object"
+    },
+    "tabsTitlePaddingDesktop": {
+      "type": "object"
+    },
+    "tabsTitlePaddingWideScreen": {
+      "type": "object"
+    },
+    "tabsTitlePaddingLaptop": {
+      "type": "object"
+    },
+    "tabsTitlePaddingTabletLandscape": {
+      "type": "object"
+    },
+    "tabsTitlePaddingTablet": {
+      "type": "object"
+    },
+    "tabsTitlePaddingMobileLandscape": {
+      "type": "object"
+    },
+    "tabsTitlePaddingMobile": {
+      "type": "object"
+    },
+    "tabsTitleBorder": {
+      "type": "object"
+    },
+    "tabsTitleBorderRadius": {
+      "type": "object"
+    },
+    "switchTypography": {
+      "type": "object"
+    },
+    "switchColor": {
+      "type": "string"
+    },
+    "switchActiveColor": {
+      "type": "string"
+    },
+    "indicatorColor": {
+      "type": "string"
+    },
+    "indicatorActiveColor": {
+      "type": "string"
+    },
+    "indicatorBorder": {
+      "type": "object"
+    },
+    "indicatorActiveBorder": {
+      "type": "object"
+    },
+    "indicatorWidth": {
+      "type": "object"
+    },
+    "indicatorHeight": {
+      "type": "object"
+    },
+    "indicatorBorderRadius": {
+      "type": "object"
+    },
+    "indicatorBoxShadow": {
+      "type": "object"
+    },
+    "dotColor": {
+      "type": "string"
+    },
+    "dotActiveColor": {
+      "type": "string"
+    },
+    "switcherDotPosition": {
+      "type": "object"
+    },
+    "dotSize": {
+      "type": "object"
+    },
+    "dotBorderRadius": {
+      "type": "object"
+    },
+    "paddingDesktop": {
+      "type": "object"
+    },
+    "paddingTablet": {
+      "type": "object"
+    },
+    "paddingMobile": {
+      "type": "object"
+    },
+    "paddingTabletLandscape": {
+      "type": "object"
+    },
+    "paddingMobileLandscape": {
+      "type": "object"
+    },
+    "paddingLaptop": {
+      "type": "object"
+    },
+    "paddingWideScreen": {
+      "type": "object"
+    },
+    "marginDesktop": {
+      "type": "object"
+    },
+    "marginTablet": {
+      "type": "object"
+    },
+    "marginMobile": {
+      "type": "object"
+    },
+    "marginTabletLandscape": {
+      "type": "object"
+    },
+    "marginMobileLandscape": {
+      "type": "object"
+    },
+    "marginLaptop": {
+      "type": "object"
+    },
+    "marginWideScreen": {
+      "type": "object"
+    }
+  },
+  "providesContext": {
+    "gutenkit/innerIndex": "innerIndex"
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

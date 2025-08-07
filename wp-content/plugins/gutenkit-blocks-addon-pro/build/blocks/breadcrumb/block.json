@@ -1,0 +1,638 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/breadcrumb",
+  "version": "1.0.0",
+  "title": "Breadcrumb",
+  "category": "gutenkit",
+  "icon": "menu-alt3",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro",
+    "breadcrumb"
+  ],
+  "description": "Breadcrumb block for gutenberg.",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeLabel": {
+      "type": "string",
+      "default": "Home",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumb404Label": {
+      "type": "string",
+      "default": "404 Not Found",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbSearchPageLabelPrefix": {
+      "type": "string",
+      "default": "Search Results for",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbSearchPageLabel": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbAuthorPageLabelPrefix": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbAuthorPageLabel": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveYearLabelPrefix": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveYearLabel": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveMonthLabelPrefix": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveMonthLabel": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveDayLabelPrefix": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveDayLabel": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveCategoryLabelPrefix": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveCategoryLabel": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveTagLabelPrefix": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbArchiveTagLabel": {
+      "type": "string",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbBlogPageLabel": {
+      "type": "string",
+      "default": "Blogs",
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbHomeIcon": {
+      "type": "object",
+      "excludeCopy": true
+    },
+    "gkitIsShowBreadcrumbSeparateIcon": {
+      "type": "boolean",
+      "default": true,
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbSeparateIcon": {
+      "type": "object",
+      "default": {
+        "title": "arrow-right-1",
+        "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>arrow-right-1</title>\n<path d=\"M30.966 16.234l-9.6-9.6c-0.312-0.312-0.819-0.312-1.131 0s-0.312 0.819 0 1.131l8.234 8.234h-26.069c-0.442 0-0.8 0.358-0.8 0.8s0.358 0.8 0.8 0.8h26.069l-8.234 8.234c-0.312 0.312-0.312 0.819 0 1.131 0.156 0.156 0.361 0.234 0.566 0.234s0.409-0.078 0.566-0.234l9.6-9.6c0.312-0.312 0.312-0.819 0-1.131z\"></path>\n</svg>\n"
+      },
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbLabelWordMaxLength": {
+      "type": "number",
+      "default": 20,
+      "excludeCopy": true
+    },
+    "gkitIsBreadcrumbShowTrail": {
+      "type": "boolean",
+      "default": false,
+      "excludeCopy": true
+    },
+    "gkitBreadcrumbAlignmentDesktop": {
+      "type": "string"
+    },
+    "gkitBreadcrumbAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitBreadcrumbAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitBreadcrumbAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "gkitBreadcrumbAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "gkitBreadcrumbAlignmentLaptop": {
+      "type": "string"
+    },
+    "gkitBreadcrumbAlignmentWideScreen": {
+      "type": "string"
+    },
+    "gkitBreadcrumbItemSpaceBetweenDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemSpaceBetweenTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemSpaceBetweenMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemSpaceBetweenTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemSpaceBetweenMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemSpaceBetweenLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemSpaceBetweenWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemLabelColorNormal": {
+      "type": "string"
+    },
+    "gkitBreadcrumbItemBackgroundNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBoxShadowNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusNormalDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusNormalTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusNormalMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusNormalTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusNormalMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusNormalLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusNormalWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemLabelHoverColor": {
+      "type": "string"
+    },
+    "gkitBreadcrumbItemBackgroundHover": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBoxShadowHover": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderColorHover": {
+      "type": "string"
+    },
+    "gkitBreadcrumbItemBorderRadiusHoverDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusHoverTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusHoverMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusHoverTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusHoverMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusHoverLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemBorderRadiusHoverWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemLabelTypography": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemPaddingTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemPaddingMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbItemPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemLabelColorNormal": {
+      "type": "string",
+      "default": "#00f"
+    },
+    "gkitBreadcrumbCurrentItemBackgroundNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBoxShadowNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusNormalDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusNormalTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusNormalMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusNormalTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusNormalMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusNormalLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusNormalWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemLabelHoverColor": {
+      "type": "string"
+    },
+    "gkitBreadcrumbCurrentItemBackgroundHover": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBoxShadowHover": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderColorHover": {
+      "type": "string"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusHoverDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusHoverTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusHoverMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusHoverTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusHoverMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusHoverLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemBorderRadiusHoverWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemLabelTypography": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemPaddingTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemPaddingMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbCurrentItemPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeLabelColorNormal": {
+      "type": "string"
+    },
+    "gkitBreadcrumbHomeIconColorNormal": {
+      "type": "string"
+    },
+    "gkitBreadcrumbHomeBackgroundNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBoxShadowNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusNormalDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusNormalTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusNormalMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusNormalTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusNormalMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusNormalLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusNormalWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeLabelHoverColor": {
+      "type": "string"
+    },
+    "gkitBreadcrumbHomeIconColorHover": {
+      "type": "string"
+    },
+    "gkitBreadcrumbHomeBackgroundHover": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBoxShadowHover": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderColorHover": {
+      "type": "string"
+    },
+    "gkitBreadcrumbHomeBorderRadiusHoverDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusHoverTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusHoverMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusHoverTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusHoverMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusHoverLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeBorderRadiusHoverWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSpaceBetweenDesktop": {
+      "type": "object",
+      "default": {
+        "unit": "px",
+        "size": 5
+      }
+    },
+    "gkitBreadcrumbHomeIconSpaceBetweenTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSpaceBetweenMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSpaceBetweenTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSpaceBetweenMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSpaceBetweenLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSpaceBetweenWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSizeDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSizeLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeIconSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomeLabelTypography": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomePaddingDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomePaddingTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomePaddingMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomePaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomePaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomePaddingLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbHomePaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconColorNormal": {
+      "type": "string"
+    },
+    "gkitBreadcrumbSeparatorBackgroundNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBoxShadowNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderNormal": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusNormalDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusNormalTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusNormalMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusNormalTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusNormalMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusNormalLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusNormalWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconColorHover": {
+      "type": "string"
+    },
+    "gkitBreadcrumbSeparatorBackgroundHover": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBoxShadowHover": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderColorHover": {
+      "type": "string"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusHoverDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusHoverTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusHoverMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusHoverTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusHoverMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusHoverLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorBorderRadiusHoverWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconSizeDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconSizeLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorIconSizeWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorPaddingTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorPaddingMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorPaddingLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorPaddingWideScreen": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorMarginDesktop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorMarginTablet": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorMarginMobile": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorMarginTabletLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorMarginMobileLandscape": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorMarginLaptop": {
+      "type": "object"
+    },
+    "gkitBreadcrumbSeparatorMarginWideScreen": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

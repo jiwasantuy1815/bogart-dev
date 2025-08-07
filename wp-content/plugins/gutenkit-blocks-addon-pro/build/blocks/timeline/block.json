@@ -1,0 +1,684 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit-pro/timeline",
+  "version": "1.0.0",
+  "title": "Timeline",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "gutenkit pro",
+    "timeline",
+    "time",
+    "schedule",
+    "portfolio timeline",
+    "portfolio"
+  ],
+  "description": "Timeline block for Gutenkit Pro",
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "timelineItems": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Title #1",
+          "subtitle": "Subtitle",
+          "description": "Item content. Click the edit button to change this text.",
+          "titleLink": {},
+          "titleIcon": {
+            "title": "trophy",
+            "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>trophy</title>\n<path d=\"M31.040 3.44c-0.56-0.64-1.28-0.96-2.080-0.96h-4.16v-1.36c0-0.64-0.48-1.12-1.12-1.12h-6.72c-0.24 0-0.48 0.24-0.48 0.48s0.24 0.48 0.48 0.48h6.72c0.080 0 0.16 0.080 0.16 0.16 0 1.040 0 2.16 0 2.56h-16c0-0.96 0-1.68 0-2.56 0-0.080 0.080-0.16 0.16-0.16h6.72c0.24 0 0.48-0.24 0.48-0.48s-0.16-0.48-0.4-0.48c-7.2 0-6.8 0-6.88 0-0.56 0.080-0.96 0.56-0.96 1.12v1.36h-4.16c-0.8 0-1.6 0.32-2.080 0.96-0.56 0.56-0.8 1.36-0.72 2.16 0.32 2.56 1.36 4.88 3.040 6.88 1.6 1.92 3.76 3.28 6.080 4 0.96 1.44 2.48 3.040 4.080 3.84v5.76l-1.92 2.88h-1.12c-0.8 0-1.52 0.64-1.52 1.52 0 0.8 0.64 1.52 1.52 1.52h11.44c0.8 0 1.52-0.64 1.52-1.52s-0.72-1.44-1.52-1.44h-1.12l-1.92-2.88v-1.040c0-0.24-0.24-0.48-0.48-0.48s-0.48 0.16-0.48 0.48v1.2c0 0.16-0.080 0 1.76 2.72h-6.96c1.76-2.72 1.76-2.56 1.76-2.72v-5.6c1.12 0.32 2.32 0.32 3.52 0v2.24c0 0.24 0.24 0.48 0.48 0.48s0.48-0.24 0.48-0.48v-2.56c1.52-0.72 3.12-2.4 4.080-3.84 2.32-0.72 4.48-2.16 6.080-4 1.68-2 2.72-4.32 3.040-6.88 0-0.88-0.24-1.68-0.8-2.24zM21.6 29.92c0.32 0 0.56 0.24 0.56 0.56s-0.24 0.56-0.56 0.56h-11.44c-0.32 0-0.56-0.24-0.56-0.56s0.24-0.56 0.56-0.56c0.24 0 11.2 0 11.44 0zM24.8 5.52h3.84c-0.4 2.72-1.92 5.2-4.24 6.8 0.56-1.92 0.4-2.96 0.4-6.8zM6.96 5.52v3.68c0 1.040 0.16 2.080 0.4 3.12-2.24-1.6-3.84-4.080-4.24-6.8h3.84zM0.96 5.52c-0.16-1.12 0.72-2.080 1.84-2.080h4.16c0 0.64 0 0.8 0 1.12h-4.16c-0.4 0-0.72 0.4-0.72 0.8 0.4 3.52 2.56 6.56 5.6 8.32 0.16 0.56 0.4 1.12 0.72 1.6-4-1.68-6.88-5.36-7.44-9.76zM19.2 18.8c-2 1.6-4.8 1.52-6.72 0-2.88-2.24-4.64-5.76-4.64-9.6v-4.56h16c0 0.16 0 4.24 0 4.56 0.080 3.6-1.6 7.2-4.64 9.6zM30.8 5.52c-0.56 4.4-3.44 8.080-7.44 9.76 0.24-0.56 0.48-1.12 0.72-1.6 3.040-1.68 5.2-4.8 5.6-8.24 0-0.24 0-0.4-0.16-0.56s-0.32-0.24-0.56-0.24h-4.16c0-0.72 0-0.48 0-1.12h4.080c0.56 0 1.040 0.24 1.36 0.64v0c0.48 0.32 0.64 0.8 0.56 1.36zM19.2 9.68l-2-0.32-0.88-1.76c-0.080-0.16-0.32-0.32-0.48-0.32-0.24 0-0.4 0.16-0.48 0.32l-0.88 1.76-2 0.32c-0.24 0-0.4 0.16-0.48 0.4s0 0.4 0.16 0.56l1.44 1.36-0.32 2c0 0.24 0.080 0.4 0.24 0.56s0.4 0.16 0.56 0.080l1.76-0.96c1.92 1.040 1.84 0.96 2 0.96 0.32 0 0.64-0.32 0.56-0.64l-0.32-2 1.44-1.36c0.16-0.16 0.24-0.4 0.16-0.56s-0.24-0.32-0.48-0.4zM17.36 11.52c-0.16 0.16-0.16 0.32-0.16 0.48l0.24 1.44-1.28-0.64c-0.080-0.080-0.16-0.080-0.24-0.080s-0.16 0-0.24 0.080l-1.28 0.64 0.24-1.44c0-0.16 0-0.4-0.16-0.48l-1.040-1.040 1.44-0.24c0.16 0 0.32-0.16 0.4-0.32l0.64-1.28 0.64 1.28c0.080 0.16 0.24 0.32 0.4 0.32l1.44 0.24-1.040 1.040z\"></path>\n</svg>\n"
+          },
+          "date": "01 February 2015",
+          "address": "New Office, CA",
+          "particularStyles": false,
+          "subTitleColor": "",
+          "subTitleColorHover": "",
+          "backgroundColor": "",
+          "backgroundColorHover": "",
+          "iconColor": "",
+          "iconColorHover": "",
+          "iconBgColor": "",
+          "iconBgColorHover": ""
+        },
+        {
+          "title": "Title #2",
+          "subtitle": "Subtitle",
+          "description": "Item content. Click the edit button to change this text.",
+          "titleLink": {},
+          "titleIcon": {
+            "title": "trophy",
+            "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>trophy</title>\n<path d=\"M31.040 3.44c-0.56-0.64-1.28-0.96-2.080-0.96h-4.16v-1.36c0-0.64-0.48-1.12-1.12-1.12h-6.72c-0.24 0-0.48 0.24-0.48 0.48s0.24 0.48 0.48 0.48h6.72c0.080 0 0.16 0.080 0.16 0.16 0 1.040 0 2.16 0 2.56h-16c0-0.96 0-1.68 0-2.56 0-0.080 0.080-0.16 0.16-0.16h6.72c0.24 0 0.48-0.24 0.48-0.48s-0.16-0.48-0.4-0.48c-7.2 0-6.8 0-6.88 0-0.56 0.080-0.96 0.56-0.96 1.12v1.36h-4.16c-0.8 0-1.6 0.32-2.080 0.96-0.56 0.56-0.8 1.36-0.72 2.16 0.32 2.56 1.36 4.88 3.040 6.88 1.6 1.92 3.76 3.28 6.080 4 0.96 1.44 2.48 3.040 4.080 3.84v5.76l-1.92 2.88h-1.12c-0.8 0-1.52 0.64-1.52 1.52 0 0.8 0.64 1.52 1.52 1.52h11.44c0.8 0 1.52-0.64 1.52-1.52s-0.72-1.44-1.52-1.44h-1.12l-1.92-2.88v-1.040c0-0.24-0.24-0.48-0.48-0.48s-0.48 0.16-0.48 0.48v1.2c0 0.16-0.080 0 1.76 2.72h-6.96c1.76-2.72 1.76-2.56 1.76-2.72v-5.6c1.12 0.32 2.32 0.32 3.52 0v2.24c0 0.24 0.24 0.48 0.48 0.48s0.48-0.24 0.48-0.48v-2.56c1.52-0.72 3.12-2.4 4.080-3.84 2.32-0.72 4.48-2.16 6.080-4 1.68-2 2.72-4.32 3.040-6.88 0-0.88-0.24-1.68-0.8-2.24zM21.6 29.92c0.32 0 0.56 0.24 0.56 0.56s-0.24 0.56-0.56 0.56h-11.44c-0.32 0-0.56-0.24-0.56-0.56s0.24-0.56 0.56-0.56c0.24 0 11.2 0 11.44 0zM24.8 5.52h3.84c-0.4 2.72-1.92 5.2-4.24 6.8 0.56-1.92 0.4-2.96 0.4-6.8zM6.96 5.52v3.68c0 1.040 0.16 2.080 0.4 3.12-2.24-1.6-3.84-4.080-4.24-6.8h3.84zM0.96 5.52c-0.16-1.12 0.72-2.080 1.84-2.080h4.16c0 0.64 0 0.8 0 1.12h-4.16c-0.4 0-0.72 0.4-0.72 0.8 0.4 3.52 2.56 6.56 5.6 8.32 0.16 0.56 0.4 1.12 0.72 1.6-4-1.68-6.88-5.36-7.44-9.76zM19.2 18.8c-2 1.6-4.8 1.52-6.72 0-2.88-2.24-4.64-5.76-4.64-9.6v-4.56h16c0 0.16 0 4.24 0 4.56 0.080 3.6-1.6 7.2-4.64 9.6zM30.8 5.52c-0.56 4.4-3.44 8.080-7.44 9.76 0.24-0.56 0.48-1.12 0.72-1.6 3.040-1.68 5.2-4.8 5.6-8.24 0-0.24 0-0.4-0.16-0.56s-0.32-0.24-0.56-0.24h-4.16c0-0.72 0-0.48 0-1.12h4.080c0.56 0 1.040 0.24 1.36 0.64v0c0.48 0.32 0.64 0.8 0.56 1.36zM19.2 9.68l-2-0.32-0.88-1.76c-0.080-0.16-0.32-0.32-0.48-0.32-0.24 0-0.4 0.16-0.48 0.32l-0.88 1.76-2 0.32c-0.24 0-0.4 0.16-0.48 0.4s0 0.4 0.16 0.56l1.44 1.36-0.32 2c0 0.24 0.080 0.4 0.24 0.56s0.4 0.16 0.56 0.080l1.76-0.96c1.92 1.040 1.84 0.96 2 0.96 0.32 0 0.64-0.32 0.56-0.64l-0.32-2 1.44-1.36c0.16-0.16 0.24-0.4 0.16-0.56s-0.24-0.32-0.48-0.4zM17.36 11.52c-0.16 0.16-0.16 0.32-0.16 0.48l0.24 1.44-1.28-0.64c-0.080-0.080-0.16-0.080-0.24-0.080s-0.16 0-0.24 0.080l-1.28 0.64 0.24-1.44c0-0.16 0-0.4-0.16-0.48l-1.040-1.040 1.44-0.24c0.16 0 0.32-0.16 0.4-0.32l0.64-1.28 0.64 1.28c0.080 0.16 0.24 0.32 0.4 0.32l1.44 0.24-1.040 1.040z\"></path>\n</svg>\n"
+          },
+          "date": "01 February 2015",
+          "address": "New Office, CA",
+          "particularStyles": false,
+          "subTitleColor": "",
+          "subTitleColorHover": "",
+          "backgroundColor": "",
+          "backgroundColorHover": "",
+          "iconColor": "",
+          "iconColorHover": "",
+          "iconBgColor": "",
+          "iconBgColorHover": ""
+        },
+        {
+          "title": "Title #3",
+          "subtitle": "Subtitle",
+          "description": "Item content. Click the edit button to change this text.",
+          "titleLink": {},
+          "titleIcon": {
+            "title": "trophy",
+            "src": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n<title>trophy</title>\n<path d=\"M31.040 3.44c-0.56-0.64-1.28-0.96-2.080-0.96h-4.16v-1.36c0-0.64-0.48-1.12-1.12-1.12h-6.72c-0.24 0-0.48 0.24-0.48 0.48s0.24 0.48 0.48 0.48h6.72c0.080 0 0.16 0.080 0.16 0.16 0 1.040 0 2.16 0 2.56h-16c0-0.96 0-1.68 0-2.56 0-0.080 0.080-0.16 0.16-0.16h6.72c0.24 0 0.48-0.24 0.48-0.48s-0.16-0.48-0.4-0.48c-7.2 0-6.8 0-6.88 0-0.56 0.080-0.96 0.56-0.96 1.12v1.36h-4.16c-0.8 0-1.6 0.32-2.080 0.96-0.56 0.56-0.8 1.36-0.72 2.16 0.32 2.56 1.36 4.88 3.040 6.88 1.6 1.92 3.76 3.28 6.080 4 0.96 1.44 2.48 3.040 4.080 3.84v5.76l-1.92 2.88h-1.12c-0.8 0-1.52 0.64-1.52 1.52 0 0.8 0.64 1.52 1.52 1.52h11.44c0.8 0 1.52-0.64 1.52-1.52s-0.72-1.44-1.52-1.44h-1.12l-1.92-2.88v-1.040c0-0.24-0.24-0.48-0.48-0.48s-0.48 0.16-0.48 0.48v1.2c0 0.16-0.080 0 1.76 2.72h-6.96c1.76-2.72 1.76-2.56 1.76-2.72v-5.6c1.12 0.32 2.32 0.32 3.52 0v2.24c0 0.24 0.24 0.48 0.48 0.48s0.48-0.24 0.48-0.48v-2.56c1.52-0.72 3.12-2.4 4.080-3.84 2.32-0.72 4.48-2.16 6.080-4 1.68-2 2.72-4.32 3.040-6.88 0-0.88-0.24-1.68-0.8-2.24zM21.6 29.92c0.32 0 0.56 0.24 0.56 0.56s-0.24 0.56-0.56 0.56h-11.44c-0.32 0-0.56-0.24-0.56-0.56s0.24-0.56 0.56-0.56c0.24 0 11.2 0 11.44 0zM24.8 5.52h3.84c-0.4 2.72-1.92 5.2-4.24 6.8 0.56-1.92 0.4-2.96 0.4-6.8zM6.96 5.52v3.68c0 1.040 0.16 2.080 0.4 3.12-2.24-1.6-3.84-4.080-4.24-6.8h3.84zM0.96 5.52c-0.16-1.12 0.72-2.080 1.84-2.080h4.16c0 0.64 0 0.8 0 1.12h-4.16c-0.4 0-0.72 0.4-0.72 0.8 0.4 3.52 2.56 6.56 5.6 8.32 0.16 0.56 0.4 1.12 0.72 1.6-4-1.68-6.88-5.36-7.44-9.76zM19.2 18.8c-2 1.6-4.8 1.52-6.72 0-2.88-2.24-4.64-5.76-4.64-9.6v-4.56h16c0 0.16 0 4.24 0 4.56 0.080 3.6-1.6 7.2-4.64 9.6zM30.8 5.52c-0.56 4.4-3.44 8.080-7.44 9.76 0.24-0.56 0.48-1.12 0.72-1.6 3.040-1.68 5.2-4.8 5.6-8.24 0-0.24 0-0.4-0.16-0.56s-0.32-0.24-0.56-0.24h-4.16c0-0.72 0-0.48 0-1.12h4.080c0.56 0 1.040 0.24 1.36 0.64v0c0.48 0.32 0.64 0.8 0.56 1.36zM19.2 9.68l-2-0.32-0.88-1.76c-0.080-0.16-0.32-0.32-0.48-0.32-0.24 0-0.4 0.16-0.48 0.32l-0.88 1.76-2 0.32c-0.24 0-0.4 0.16-0.48 0.4s0 0.4 0.16 0.56l1.44 1.36-0.32 2c0 0.24 0.080 0.4 0.24 0.56s0.4 0.16 0.56 0.080l1.76-0.96c1.92 1.040 1.84 0.96 2 0.96 0.32 0 0.64-0.32 0.56-0.64l-0.32-2 1.44-1.36c0.16-0.16 0.24-0.4 0.16-0.56s-0.24-0.32-0.48-0.4zM17.36 11.52c-0.16 0.16-0.16 0.32-0.16 0.48l0.24 1.44-1.28-0.64c-0.080-0.080-0.16-0.080-0.24-0.080s-0.16 0-0.24 0.080l-1.28 0.64 0.24-1.44c0-0.16 0-0.4-0.16-0.48l-1.040-1.040 1.44-0.24c0.16 0 0.32-0.16 0.4-0.32l0.64-1.28 0.64 1.28c0.080 0.16 0.24 0.32 0.4 0.32l1.44 0.24-1.040 1.040z\"></path>\n</svg>\n"
+          },
+          "date": "01 February 2015",
+          "address": "New Office, CA",
+          "particularStyles": false,
+          "subTitleColor": "",
+          "subTitleColorHover": "",
+          "backgroundColor": "",
+          "backgroundColorHover": "",
+          "iconColor": "",
+          "iconColorHover": "",
+          "iconBgColor": "",
+          "iconBgColorHover": ""
+        }
+      ],
+      "excludeCopy": true
+    },
+    "timelineStyle": {
+      "type": "string",
+      "default": "vertical"
+    },
+    "contentStyle": {
+      "type": "string",
+      "default": "bothside"
+    },
+    "sideStyle": {
+      "type": "string",
+      "default": "diagonal"
+    },
+    "horizontalHeightDesktop": {
+      "type": "object"
+    },
+    "horizontalHeightTablet": {
+      "type": "object"
+    },
+    "horizontalHeightMobile": {
+      "type": "object"
+    },
+    "horizontalHeightTabletLandscape": {
+      "type": "object"
+    },
+    "horizontalHeightMobileLandscape": {
+      "type": "object"
+    },
+    "horizontalHeightLaptop": {
+      "type": "object"
+    },
+    "horizontalHeightWideScreen": {
+      "type": "object"
+    },
+    "background": {
+      "type": "string"
+    },
+    "gkitTimeLineItemBorder": {
+      "type": "object"
+    },
+    "backgroundHover": {
+      "type": "string",
+      "default": "rgb(130, 225, 130)"
+    },
+    "textColorHover": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "titleColorHover": {
+      "type": "string"
+    },
+    "subTitleColor": {
+      "type": "string"
+    },
+    "subTitleColorHover": {
+      "type": "string"
+    },
+    "descriptionColor": {
+      "type": "string"
+    },
+    "descriptionColorHover": {
+      "type": "string"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "iconColorHover": {
+      "type": "string"
+    },
+    "iconBgColor": {
+      "type": "string"
+    },
+    "iconBgColorHover": {
+      "type": "string"
+    },
+    "iconBorderColorHover": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "timelineContentAlignmentDesktop": {
+      "type": "string",
+      "default": "left"
+    },
+    "timelineContentAlignmentTablet": {
+      "type": "string"
+    },
+    "timelineContentAlignmentMobile": {
+      "type": "string"
+    },
+    "timelineContentAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "timelineContentAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "timelineContentAlignmentLaptop": {
+      "type": "string"
+    },
+    "timelineContentAlignmentWideScreen": {
+      "type": "string"
+    },
+    "titleTypography": {
+      "type": "object"
+    },
+    "subTitleTypography": {
+      "type": "object"
+    },
+    "descriptionTypography": {
+      "type": "object"
+    },
+    "titleMarginDesktop": {
+      "type": "object",
+      "default": {
+        "bottom": "22px"
+      }
+    },
+    "titleMarginTablet": {
+      "type": "object"
+    },
+    "titleMarginMobile": {
+      "type": "object"
+    },
+    "titleMarginTabletLandscape": {
+      "type": "object"
+    },
+    "titleMarginMobileLandscape": {
+      "type": "object"
+    },
+    "titleMarginLaptop": {
+      "type": "object"
+    },
+    "titleMarginWideScreen": {
+      "type": "object"
+    },
+    "subTitleMarginDesktop": {
+      "type": "object",
+      "default": {
+        "bottom": "8px"
+      }
+    },
+    "subTitleMarginTablet": {
+      "type": "object"
+    },
+    "subTitleMarginMobile": {
+      "type": "object"
+    },
+    "subTitleMarginTabletLandscape": {
+      "type": "object"
+    },
+    "subTitleMarginMobileLandscape": {
+      "type": "object"
+    },
+    "subTitleMarginLaptop": {
+      "type": "object"
+    },
+    "subTitleMarginWideScreen": {
+      "type": "object"
+    },
+    "descriptionMarginDesktop": {
+      "type": "object"
+    },
+    "descriptionMarginTablet": {
+      "type": "object"
+    },
+    "descriptionMarginMobile": {
+      "type": "object"
+    },
+    "descriptionMarginTabletLandscape": {
+      "type": "object"
+    },
+    "descriptionMarginMobileLandscape": {
+      "type": "object"
+    },
+    "descriptionMarginLaptop": {
+      "type": "object"
+    },
+    "descriptionMarginWideScreen": {
+      "type": "object"
+    },
+    "infoGap": {
+      "type": "object"
+    },
+    "contentGap": {
+      "type": "object"
+    },
+    "itemGap": {
+      "type": "object"
+    },
+    "enableWatermark": {
+      "type": "boolean",
+      "default": true
+    },
+    "itemShadow": {
+      "type": "object",
+      "default": {
+        "horizontal": {
+          "size": -19.799
+        },
+        "vertical": {
+          "size": 19.799
+        },
+        "blur": {
+          "size": 40
+        },
+        "color": "rgba(0,0,0,0.1)"
+      }
+    },
+    "dateIcon": {
+      "type": "object"
+    },
+    "addressIcon": {
+      "type": "object"
+    },
+    "pinIcon": {
+      "type": "object",
+      "default": {
+        "title": "circle",
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z\"/></svg>"
+      }
+    },
+    "pinIconHoverColor": {
+      "type": "string",
+      "default": "#2575fc"
+    },
+    "pinIconColor": {
+      "type": "string",
+      "default": "#00000000"
+    },
+    "lineColor": {
+      "type": "string"
+    },
+    "lineSize": {
+      "type": "object"
+    },
+    "pinBorder": {
+      "type": "object",
+      "default": {
+        "width": "2px",
+        "color": "#2575fc",
+        "style": "solid"
+      }
+    },
+    "pinSize": {
+      "type": "object"
+    },
+    "pinIconSize": {
+      "type": "object"
+    },
+    "pinIconTransformXDesktop": {
+      "type": "object"
+    },
+    "pinIconTransformXTablet": {
+      "type": "object"
+    },
+    "pinIconTransformXMobile": {
+      "type": "object"
+    },
+    "pinIconTransformXTabletLandscape": {
+      "type": "object"
+    },
+    "pinIconTransformXMobileLandscape": {
+      "type": "object"
+    },
+    "pinIconTransformXLaptop": {
+      "type": "object"
+    },
+    "pinIconTransformXWideScreen": {
+      "type": "object"
+    },
+    "pinIconTransformYDesktop": {
+      "type": "object"
+    },
+    "pinIconTransformYTablet": {
+      "type": "object"
+    },
+    "pinIconTransformYMobile": {
+      "type": "object"
+    },
+    "pinIconTransformYTabletLandscape": {
+      "type": "object"
+    },
+    "pinIconTransformYMobileLandscape": {
+      "type": "object"
+    },
+    "pinIconTransformYLaptop": {
+      "type": "object"
+    },
+    "pinIconTransformYWideScreen": {
+      "type": "object"
+    },
+    "pinShadow": {
+      "type": "object"
+    },
+    "pinShadowHover": {
+      "type": "object"
+    },
+    "pinBackground": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "pinBackgroundHover": {
+      "type": "string"
+    },
+    "itemBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "itemBorderRadiusTablet": {
+      "type": "object"
+    },
+    "itemBorderRadiusMobile": {
+      "type": "object"
+    },
+    "itemBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "itemBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "itemBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "itemBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "itemPaddingDesktop": {
+      "type": "object"
+    },
+    "itemPaddingTablet": {
+      "type": "object"
+    },
+    "itemPaddingMobile": {
+      "type": "object"
+    },
+    "itemPaddingTabletLandscape": {
+      "type": "object"
+    },
+    "itemPaddingMobileLandscape": {
+      "type": "object"
+    },
+    "itemPaddingLaptop": {
+      "type": "object"
+    },
+    "itemPaddingWideScreen": {
+      "type": "object"
+    },
+    "arrowSizeDesktop": {
+      "type": "object"
+    },
+    "arrowSizeTablet": {
+      "type": "object"
+    },
+    "arrowSizeMobile": {
+      "type": "object"
+    },
+    "arrowSizeTabletLandscape": {
+      "type": "object"
+    },
+    "arrowSizeMobileLandscape": {
+      "type": "object"
+    },
+    "arrowSizeLaptop": {
+      "type": "object"
+    },
+    "arrowSizeWideScreen": {
+      "type": "object"
+    },
+    "iconSizeDesktop": {
+      "type": "object"
+    },
+    "iconSizeTablet": {
+      "type": "object"
+    },
+    "iconSizeMobile": {
+      "type": "object"
+    },
+    "iconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "iconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "iconSizeLaptop": {
+      "type": "object"
+    },
+    "iconSizeWideScreen": {
+      "type": "object"
+    },
+    "verticalAlign": {
+      "type": "object"
+    },
+    "iconBgSizeDesktop": {
+      "type": "object"
+    },
+    "iconBgSizeTablet": {
+      "type": "object"
+    },
+    "iconBgSizeMobile": {
+      "type": "object"
+    },
+    "iconBgSizeTabletLandscape": {
+      "type": "object"
+    },
+    "iconBgSizeMobileLandscape": {
+      "type": "object"
+    },
+    "iconBgSizeLaptop": {
+      "type": "object"
+    },
+    "iconBgSizeWideScreen": {
+      "type": "object"
+    },
+    "iconBorder": {
+      "type": "object",
+      "default": {
+        "width": "1px",
+        "color": "#fff0",
+        "style": "solid"
+      }
+    },
+    "iconBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "iconBorderRadiusTablet": {
+      "type": "object"
+    },
+    "iconBorderRadiusMobile": {
+      "type": "object"
+    },
+    "iconBorderRadiusTabletLandscape": {
+      "type": "object"
+    },
+    "iconBorderRadiusMobileLandscape": {
+      "type": "object"
+    },
+    "iconBorderRadiusLaptop": {
+      "type": "object"
+    },
+    "iconBorderRadiusWideScreen": {
+      "type": "object"
+    },
+    "infoAlignmentDesktop": {
+      "type": "string",
+      "default": "center"
+    },
+    "infoAlignmentTablet": {
+      "type": "string"
+    },
+    "infoAlignmentMobile": {
+      "type": "string"
+    },
+    "infoAlignmentTabletLandscape": {
+      "type": "string"
+    },
+    "infoAlignmentMobileLandscape": {
+      "type": "string"
+    },
+    "infoAlignmentLaptop": {
+      "type": "string"
+    },
+    "infoAlignmentWideScreen": {
+      "type": "string"
+    },
+    "dateTypography": {
+      "type": "object"
+    },
+    "dateIconSizeDesktop": {
+      "type": "object"
+    },
+    "dateIconSizeTablet": {
+      "type": "object"
+    },
+    "dateIconSizeMobile": {
+      "type": "object"
+    },
+    "dateIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "dateIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "dateIconSizeLaptop": {
+      "type": "object"
+    },
+    "dateIconSizeWideScreen": {
+      "type": "object"
+    },
+    "dateMarginDesktop": {
+      "type": "object"
+    },
+    "dateMarginTablet": {
+      "type": "object"
+    },
+    "dateMarginMobile": {
+      "type": "object"
+    },
+    "dateMarginTabletLandscape": {
+      "type": "object"
+    },
+    "dateMarginMobileLandscape": {
+      "type": "object"
+    },
+    "dateMarginLaptop": {
+      "type": "object"
+    },
+    "dateMarginWideScreen": {
+      "type": "object"
+    },
+    "addressTypography": {
+      "type": "object"
+    },
+    "addressIconSizeDesktop": {
+      "type": "object"
+    },
+    "addressIconSizeTablet": {
+      "type": "object"
+    },
+    "addressIconSizeMobile": {
+      "type": "object"
+    },
+    "addressIconSizeTabletLandscape": {
+      "type": "object"
+    },
+    "addressIconSizeMobileLandscape": {
+      "type": "object"
+    },
+    "addressIconSizeLaptop": {
+      "type": "object"
+    },
+    "addressIconSizeWideScreen": {
+      "type": "object"
+    },
+    "addressMarginDesktop": {
+      "type": "object"
+    },
+    "addressMarginTablet": {
+      "type": "object"
+    },
+    "addressMarginMobile": {
+      "type": "object"
+    },
+    "addressMarginTabletLandscape": {
+      "type": "object"
+    },
+    "addressMarginMobileLandscape": {
+      "type": "object"
+    },
+    "addressMarginLaptop": {
+      "type": "object"
+    },
+    "addressMarginWideScreen": {
+      "type": "object"
+    },
+    "dateColor": {
+      "type": "string"
+    },
+    "addressColor": {
+      "type": "string"
+    },
+    "dateColorHover": {
+      "type": "string"
+    },
+    "addressColorHover": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon-pro",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
